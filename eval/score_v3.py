@@ -11,9 +11,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SRC = ROOT / "results" / "smoke_20260815T160303Z.json"
-OUT_JSON = ROOT / "results" / "smoke_20260815T160303Z_scored.json"
-OUT_MD = ROOT / "results" / "smoke_20260815T160303Z_findings.md"
+SRC = ROOT.parent / "results" / "smoke_20260815T160303Z.json"
+OUT_JSON = ROOT.parent / "results" / "smoke_20260815T160303Z_scored.json"
+OUT_MD = ROOT.parent / "results" / "smoke_20260815T160303Z_findings.md"
 
 
 def rx(text: str, pat: str) -> bool:

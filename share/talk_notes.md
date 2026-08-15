@@ -69,7 +69,7 @@ The question that works: "What missing information, if any, would have changed t
 
 This is not a paper. The 140 were scored twice — in-session, then an independent buddy-model pass on all 140 — and every disagreement was tiebroken against the raw quote. Fun fact for the room: the buddy judge miscoded the age cusp on 11 of 14 Sonnet rows. Even the grader completed the chart.
 
-If someone wants the packet: `bias/STEM.md`. Synthetic chart. No PHI.
+If someone wants the packet: `bias/docs/STEM.md`. Synthetic chart. No PHI.
 
 ## If you get pushback
 

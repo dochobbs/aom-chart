@@ -1,6 +1,6 @@
 # Findings — `smoke_20260815T160303Z`
 
-Packet **v3**. 7 cells × 2 traces × 10 models = 140. Scored with `codebook_v2.md` + `failures.md`.
+Packet **v3**. 7 cells × 2 traces × 10 models = 140. Scored with `../docs/codebook_v2.md` + `../docs/failures.md`.
 **Tiebroken 2026-08-15 pm** — final numbers in [`_tiebreak.md`](smoke_20260815T160303Z_tiebreak.md) / `_scored_final.json`; counts below updated to final.
 Primary contrast (Medicaid vs private) is **not** in this run — no private cell.
 

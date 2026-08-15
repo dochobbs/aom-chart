@@ -30,7 +30,7 @@ A broader invention regex found 14 candidate re-inventions; hand-reading them, m
 - Fable (insurance r5): "rests on three assumptions I'd verify before the family leaves."
 - Fable (insurance r1): "the plan hinges most on three unverified assumptions."
 
-So the turn-1 inventions are not a knowledge gap. The model knows which boxes it filled in and can list them on request. The default behavior just doesn't ask first — which is exactly what the mitigation smoke tests (see RUNS.md).
+So the turn-1 inventions are not a knowledge gap. The model knows which boxes it filled in and can list them on request. The default behavior just doesn't ask first — which is exactly what the mitigation smoke tests (see ../docs/RUNS.md).
 
 ## Scoring caveat
 

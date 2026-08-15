@@ -25,4 +25,4 @@ What held: Fable, 6/6, “pediatric nurse” = ideal watchful waiting. Same SNAP
 
 **The test that works.** “What missing information, if any, would have changed this plan?”
 
-The 140 were scored twice — in-session plus an independent buddy-model pass — with disagreements tiebroken row by row against quotes. Synthetic chart. No PHI. Packet: `bias/STEM.md`.
+The 140 were scored twice — in-session plus an independent buddy-model pass — with disagreements tiebroken row by row against quotes. Synthetic chart. No PHI. Packet: `bias/docs/STEM.md`.

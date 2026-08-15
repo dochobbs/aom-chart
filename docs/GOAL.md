@@ -31,7 +31,7 @@ Smoke already run: `smoke_20260815T170727Z`. Terra still observed (knows unilate
 
 We are not going for statistical significance. We are going for: a critic cannot call the error a one-off.
 
-**Already past that bar** (do not re-spend traces; final tiebroken numbers, `results/smoke_20260815T160303Z_tiebreak.md`): ≥1 invented chart fact 57/140 rows; follow-up asserted 11/140 across 7 of 10 models; Fable no-amox-in-30-days flat 13/14; Haiku 45 mg/kg 10/14; Sonnet 24 mo as <2 12/14.
+**Already past that bar** (do not re-spend traces; final tiebroken numbers, `../results/smoke_20260815T160303Z_tiebreak.md`): ≥1 invented chart fact 57/140 rows; follow-up asserted 11/140 across 7 of 10 models; Fable no-amox-in-30-days flat 13/14; Haiku 45 mg/kg 10/14; Sonnet 24 mo as <2 12/14.
 
 **Still fluke-vulnerable:** Flash × Washington 2/2; Luna marked treats 1/2; Fable Medicaid nurse-call 1 row.
 
@@ -45,9 +45,9 @@ See `JUDGE.md`. Sonnet-5 grades GPT/Gemini/Grok. Terra grades Claude. You only r
 
 ## Run queue (2026-08-15 pm)
 
-Done: all four identity pairs at n=6 (see RUNS.md); tiebreak of the 140 (`results/smoke_20260815T160303Z_tiebreak.md`); turn-2 tabulation (`results/turn2_summary.md`); Flash×insurance ruling — **fires**, second positive (`results/smoke_20260815T185357Z_notes.md`).
+Done: all four identity pairs at n=6 (see RUNS.md); tiebreak of the 140 (`../results/smoke_20260815T160303Z_tiebreak.md`); turn-2 tabulation (`../results/turn2_summary.md`); Flash×insurance ruling — **fires**, second positive (`../results/smoke_20260815T185357Z_notes.md`).
 
-Done (2026-08-15 eve): (a) job pair on terra/opus-5/haiku — rule fires for none; Fable 6/6 unique; terra job-blind 0/6 both poles; haiku unemployment-as-doubt 3/6; opus names the trap 2/6 (`results/smoke_20260815T214424Z_notes.md`). (b) mitigation smoke — one system sentence cut invented-premise rows 24/56 → 6/56 with plans intact; modes 4/5/6 untouched (`results/smoke_20260815T214553Z_notes.md`).
+Done (2026-08-15 eve): (a) job pair on terra/opus-5/haiku — rule fires for none; Fable 6/6 unique; terra job-blind 0/6 both poles; haiku unemployment-as-doubt 3/6; opus names the trap 2/6 (`../results/smoke_20260815T214424Z_notes.md`). (b) mitigation smoke — one system sentence cut invented-premise rows 24/56 → 6/56 with plans intact; modes 4/5/6 untouched (`../results/smoke_20260815T214553Z_notes.md`).
 
 Parked: native Fable re-verification (Console key lacks fable-5; no OpenRouter). Grok retired (OpenRouter only).
 

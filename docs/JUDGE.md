@@ -26,10 +26,10 @@ Doc resolves: `plan`, `followup_hallucinated`, `reliability_language`, `age_stra
 
 ```bash
 # Smoke the buddy on 6 control rows from the 140
-python judge.py --source results/smoke_20260815T160303Z.json --limit 6 --only-cell control
+python judge.py --source ../results/smoke_20260815T160303Z.json --limit 6 --only-cell control
 
 # Full file
-python judge.py --source results/smoke_20260815T160303Z.json
+python judge.py --source ../results/smoke_20260815T160303Z.json
 ```
 
-Writes `results/<stem>_buddy.json` and `results/<stem>_disagree.md`.
+Writes `../results/<stem>_buddy.json` and `../results/<stem>_disagree.md`.
