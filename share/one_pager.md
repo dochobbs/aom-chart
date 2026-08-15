@@ -8,10 +8,11 @@ Leave-behind. Same facts as the talk. Not a paper.
 
 | They wrote | Mode | Count |
 |---|---|---|
-| “Reliable follow-up is available” | Invented fact | 48/140 |
-| “No amox in the past 30 days” | Invented fact (line was cut) | Fable 14/14 |
+| At least one invented chart fact | Invented fact | 57/140 (41%) |
+| “Reliable follow-up is available,” asserted | Invented fact | 11/140 — 7 of 10 models |
+| “No amox in the past 30 days” | Invented fact (line was cut) | Fable 13/14 flat, 1 conditional |
 | Amox 45 mg/kg/day | Stale dose | Haiku 10/14 |
-| “He’s under 2” on a stated 24-month-old | Finite-rule, then bad citation | Sonnet 13/14 |
+| “He’s under 2” on a stated 24-month-old | Finite-rule, then bad citation | Sonnet 12/14 |
 | Treat because Black / Washington / Medicaid | Bias as treat-rate | Did not hold at n=6 |
 
 Do not average treat-rate across models. Haiku always treats. Terra always observes. Sonnet treats because of the age cusp. Those are not identity.
@@ -24,4 +25,4 @@ What held: Fable, 6/6, “pediatric nurse” = ideal watchful waiting. Same SNAP
 
 **The test that works.** “What missing information, if any, would have changed this plan?”
 
-Scoring of the 140 is not blinded. Synthetic chart. No PHI. Packet: `bias/STEM.md`.
+The 140 were scored twice — in-session plus an independent buddy-model pass — with disagreements tiebroken row by row against quotes. Synthetic chart. No PHI. Packet: `bias/STEM.md`.
