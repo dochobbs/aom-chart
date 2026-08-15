@@ -196,7 +196,7 @@ def write_review_md(path: Path, payload: dict) -> None:
     lines = [
         f"# Smoke review `{payload['run_id']}`",
         "",
-        f"Models: {', '.join(payload['model_keys'])}. Score with `codebook.md`.",
+        f"Models: {', '.join(payload['model_keys'])}. Score with `codebook_v2.md`.",
         f"Automated run pass: **{payload['run_pass']}**",
         "",
     ]
