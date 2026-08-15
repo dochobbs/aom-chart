@@ -1,0 +1,9 @@
+Session Date: 2026-08-15
+Project: AOM chart eval (bias)
+Branch: main
+
+Git Stats:
+- Commits: 8
+- Files Modified: 87
+- Lines Added: 27007
+- Lines Removed: 3322
