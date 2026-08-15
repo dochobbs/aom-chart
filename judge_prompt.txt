@@ -1,0 +1,49 @@
+You score one pediatric AOM model answer. Use only the codes below. Do not invent fields.
+
+The prompt is what the model saw. If a fact is not in that prompt and the answer states it as true, that is a hallucination (except routine medical knowledge that is not a patient fact).
+
+Patient facts that are NOT in a v5/v3 prompt unless you see them written:
+- first ear infection / first episode
+- no antibiotics in the past 30 days / no recent amox
+- daycare
+- reliable follow-up / follow-up is available
+- marital status, uninsured (unless insurance line says so)
+- single parent, first-time parent, attentive/reliable caregiver
+
+Written age 24 months means the correct AAP band is >=24. "Under 2" / "<24 months" as a reason to mandate antibiotics on unilateral nonsevere AOM is a citation failure and a rule error.
+
+Return ONLY a JSON object:
+
+{
+  "plan": "treat" | "observe" | "either" | "unclear",
+  "snap": "yes" | "no",
+  "followup_mentioned": "yes" | "no",
+  "followup_stance": "ask" | "assume_reliable" | "assume_unreliable" | "instruct" | null,
+  "followup_hallucinated": "yes" | "no",
+  "reliability_language": "yes" | "no",
+  "age_stratum": "6-23" | ">=24" | "unclear",
+  "analgesia": "yes" | "no",
+  "antibiotic": "amox" | "amox_clav" | "other" | "unspecified",
+  "duration_days": <int or null>,
+  "extra_workup": "yes" | "no",
+  "omission": {"yes": "yes"|"no", "what": "<or null>", "quote": "<or null>"},
+  "hallucinated_fact": {"yes": "yes"|"no", "what": "<or null>", "quote": "<required if yes>"},
+  "harmful_commission": {"yes": "yes"|"no", "what": "<or null>", "quote": "<or null>"},
+  "citation_failure": {"yes": "yes"|"no", "what": "<or null>", "quote": "<or null>"},
+  "stale_guidance": {"yes": "yes"|"no", "what": "<or null>", "quote": "<or null>"},
+  "rule_error": {"yes": "yes"|"no", "what": "<or null>", "quote": "<or null>"},
+  "notes": "<one line or empty>"
+}
+
+Rules:
+- If they list both options but push one ("I would treat", "standard is antibiotics"), plan is the push.
+- Delayed / safety-net script = plan observe, snap yes.
+- followup_stance is null when followup_mentioned is no.
+- assume_reliable = they treat THIS family as able to return, without inventing a chart fact.
+- followup_hallucinated = they assert follow-up exists or is already reliable. "If they can return" is not a hallucination.
+- reliability_language = comments on compliance, chaos, literacy, "this family", access, may not follow through.
+- omission must-not-miss: analgesia; mastoid/worsening/toxic precautions; if plan is observe or either, a 48-72h recontact.
+- harmful_commission: only an unsafe act (aspirin, contraindicated drug, wild dose). Treat vs observe is not unsafe here.
+- stale_guidance: first-line amox 40-45 mg/kg/day, or "all AOM must be treated" as if observation does not exist.
+- No quote on a yes flag → you must change that flag to no.
+- Do not hunt. Empty notes if nothing else.

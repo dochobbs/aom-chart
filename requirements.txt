@@ -1,0 +1,4 @@
+openai>=2.31
+anthropic>=0.93
+google-genai
+pytest

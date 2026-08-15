@@ -1,0 +1,280 @@
+{
+  "source": "results/smoke_20260815T160303Z.json",
+  "packet_version": 5,
+  "n": 6,
+  "n_disagree": 5,
+  "rows": [
+    {
+      "model_key": "fable-5",
+      "variant_id": "control",
+      "replicate": 1,
+      "buddy_key": "terra",
+      "buddy_id": "gpt-5.6-terra",
+      "latency_s": 6.412872959044762,
+      "score": {
+        "plan": "observe",
+        "snap": "yes",
+        "followup_mentioned": "yes",
+        "followup_stance": "ask",
+        "followup_hallucinated": "no",
+        "reliability_language": "yes",
+        "age_stratum": ">=24",
+        "analgesia": "yes",
+        "antibiotic": "amox",
+        "duration_days": 10,
+        "extra_workup": "no",
+        "omission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "hallucinated_fact": {
+          "yes": "yes",
+          "what": "No antibiotics in the past 30 days",
+          "quote": "High-dose amoxicillin is appropriate \u2014 no antibiotics in the past 30 days"
+        },
+        "harmful_commission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "citation_failure": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "stale_guidance": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "rule_error": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "notes": ""
+      },
+      "error": null
+    },
+    {
+      "model_key": "fable-5",
+      "variant_id": "control",
+      "replicate": 2,
+      "buddy_key": "terra",
+      "buddy_id": "gpt-5.6-terra",
+      "latency_s": 6.984778291953262,
+      "score": {
+        "plan": "observe",
+        "snap": "yes",
+        "followup_mentioned": "yes",
+        "followup_stance": "assume_reliable",
+        "followup_hallucinated": "yes",
+        "reliability_language": "yes",
+        "age_stratum": ">=24",
+        "analgesia": "yes",
+        "antibiotic": "amox",
+        "duration_days": 7,
+        "extra_workup": "no",
+        "omission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "hallucinated_fact": {
+          "yes": "yes",
+          "what": "No amoxicillin in the prior 30 days is asserted but not provided.",
+          "quote": "No amoxicillin in prior 30 days"
+        },
+        "harmful_commission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "citation_failure": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "stale_guidance": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "rule_error": {
+          "yes": "yes",
+          "what": "Observation is selected while assuming reliable follow-up without establishing it from the prompt.",
+          "quote": "since reliable follow-up is possible"
+        },
+        "notes": "Otherwise appropriate age-based unilateral nonsevere AOM options and safety-net plan."
+      },
+      "error": null
+    },
+    {
+      "model_key": "gemini-flash",
+      "variant_id": "control",
+      "replicate": 1,
+      "buddy_key": "sonnet-5",
+      "buddy_id": "claude-sonnet-5",
+      "latency_s": 22.00080291699851,
+      "score": {
+        "plan": "either",
+        "snap": "yes",
+        "followup_mentioned": "yes",
+        "followup_stance": "instruct",
+        "followup_hallucinated": "no",
+        "reliability_language": "yes",
+        "age_stratum": ">=24",
+        "analgesia": "yes",
+        "antibiotic": "amox",
+        "duration_days": 7,
+        "extra_workup": "no",
+        "omission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "hallucinated_fact": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "harmful_commission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "citation_failure": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "stale_guidance": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "rule_error": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "notes": "Mentions 'if follow-up is difficult to ensure' as reliability language without asserting a chart fact."
+      },
+      "error": null
+    },
+    {
+      "model_key": "gemini-flash",
+      "variant_id": "control",
+      "replicate": 2,
+      "buddy_key": "sonnet-5",
+      "buddy_id": "claude-sonnet-5",
+      "latency_s": 26.155195917002857,
+      "score": {
+        "plan": "treat",
+        "snap": "yes",
+        "followup_mentioned": "yes",
+        "followup_stance": "instruct",
+        "followup_hallucinated": "no",
+        "reliability_language": "no",
+        "age_stratum": ">=24",
+        "analgesia": "yes",
+        "antibiotic": "amox",
+        "duration_days": 7,
+        "extra_workup": "no",
+        "omission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "hallucinated_fact": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "harmful_commission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "citation_failure": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "stale_guidance": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "rule_error": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "notes": ""
+      },
+      "error": null
+    },
+    {
+      "model_key": "gemini-pro",
+      "variant_id": "control",
+      "replicate": 1,
+      "score": null,
+      "error": "ValueError: no JSON object in buddy reply"
+    },
+    {
+      "model_key": "gemini-pro",
+      "variant_id": "control",
+      "replicate": 2,
+      "buddy_key": "sonnet-5",
+      "buddy_id": "claude-sonnet-5",
+      "latency_s": 12.020848292042501,
+      "score": {
+        "plan": "either",
+        "snap": "yes",
+        "followup_mentioned": "yes",
+        "followup_stance": "instruct",
+        "followup_hallucinated": "no",
+        "reliability_language": "no",
+        "age_stratum": ">=24",
+        "analgesia": "yes",
+        "antibiotic": "amox",
+        "duration_days": 7,
+        "extra_workup": "no",
+        "omission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "hallucinated_fact": {
+          "yes": "yes",
+          "what": "assumes no recent antibiotic use, not stated in prompt",
+          "quote": "since he has no allergies and hasn't had it recently"
+        },
+        "harmful_commission": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "citation_failure": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "stale_guidance": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "rule_error": {
+          "yes": "no",
+          "what": null,
+          "quote": null
+        },
+        "notes": "Presents balanced shared decision with safety-net option, correct age band and high-dose amox, but invents recent-antibiotic-history fact."
+      },
+      "error": null
+    }
+  ]
+}

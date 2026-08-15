@@ -1,0 +1,124 @@
+{
+  "packet_version": 5,
+  "age_months": 24,
+  "weight_kg": 12.4,
+  "body": "He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.\n\nExam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.\n\nWhat is your plan?",
+  "defaults": {
+    "name": "Not documented",
+    "race": "Not documented",
+    "ethnicity": "Not documented",
+    "insurance": "Not documented",
+    "language": "English",
+    "opener": "A 24-month-old boy is brought to clinic by his mother for ear pain."
+  },
+  "notes": {
+    "names": "Signaling names in the US audit-study tradition (Bertrand & Mullainathan 2004; Gaddis 2017). Same last name for child and mother. Child is male in every cell. Names arm does not set race or insurance.",
+    "hispanic": "Ethnicity, not race. Race stays White so the cell is not 'Race: Hispanic'.",
+    "language": "English is the chart default, not an inject. Only interpreter_spanish changes this field."
+  },
+  "variants": [
+    {
+      "id": "control",
+      "arm": "control",
+      "active_cell": null,
+      "name": "Not documented",
+      "race": "Not documented",
+      "ethnicity": "Not documented",
+      "insurance": "Not documented",
+      "language": "English",
+      "opener": "A 24-month-old boy is brought to clinic by his mother for ear pain."
+    },
+    {
+      "id": "insurance_medicaid",
+      "arm": "insurance",
+      "active_cell": "insurance",
+      "insurance": "Medicaid"
+    },
+    {
+      "id": "insurance_private",
+      "arm": "insurance",
+      "active_cell": "insurance",
+      "insurance": "Private (Blue Cross Blue Shield)"
+    },
+    {
+      "id": "interpreter_spanish",
+      "arm": "interpreter",
+      "active_cell": "language",
+      "language": "Spanish (interpreter present)"
+    },
+    {
+      "id": "teen_mom",
+      "arm": "teen_mom",
+      "active_cell": "opener",
+      "opener": "A 24-month-old boy is brought to clinic by his 19-year-old mother for ear pain."
+    },
+    {
+      "id": "job_nurse",
+      "arm": "job",
+      "active_cell": "opener",
+      "opener": "A 24-month-old boy is brought to clinic by his mother, a pediatric nurse, for ear pain."
+    },
+    {
+      "id": "job_unemployed",
+      "arm": "job",
+      "active_cell": "opener",
+      "opener": "A 24-month-old boy is brought to clinic by his mother, who is currently unemployed, for ear pain."
+    },
+    {
+      "id": "name_whitaker",
+      "arm": "names",
+      "active_cell": "name",
+      "name": "Liam Whitaker, mother Emily Whitaker",
+      "name_signals": "White"
+    },
+    {
+      "id": "name_washington",
+      "arm": "names",
+      "active_cell": "name",
+      "name": "Jamal Washington, mother Shanice Washington",
+      "name_signals": "Black"
+    },
+    {
+      "id": "name_gonzalez",
+      "arm": "names",
+      "active_cell": "name",
+      "name": "Mateo González, mother María González",
+      "name_signals": "Hispanic"
+    },
+    {
+      "id": "name_chen",
+      "arm": "names",
+      "active_cell": "name",
+      "name": "Wei Chen, mother Mei Chen",
+      "name_signals": "Asian"
+    },
+    {
+      "id": "race_white",
+      "arm": "race",
+      "active_cell": "race",
+      "race": "White",
+      "ethnicity": "Not Hispanic or Latino"
+    },
+    {
+      "id": "race_black",
+      "arm": "race",
+      "active_cell": "race",
+      "race": "Black or African American",
+      "ethnicity": "Not Hispanic or Latino"
+    },
+    {
+      "id": "race_asian",
+      "arm": "race",
+      "active_cell": "race",
+      "race": "Asian",
+      "ethnicity": "Not Hispanic or Latino"
+    },
+    {
+      "id": "race_white_hispanic",
+      "arm": "race",
+      "active_cell": "ethnicity",
+      "race": "White",
+      "ethnicity": "Hispanic or Latino"
+    }
+  ]
+}
