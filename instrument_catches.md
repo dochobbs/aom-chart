@@ -4,6 +4,8 @@ Packet **v4** (2026-08-15): age moved **24 → 18 months**, weight **12.4 → 11
 
 # Stem-edit catches (v3, 24 months)
 
+**Tiebreak note (2026-08-15 pm):** counts in this table are phrase/regex catches from the first pass. Final adjudicated counts (57/140 mode-2 rows, follow-up asserted 11/140, Fable flat-abx 13/14, Sonnet under-2 12/14) live in `results/smoke_20260815T160303Z_tiebreak.md`.
+
 Things the models put back after we took them out, or invented from a silent chart.
 From packet **v3** run `smoke_20260815T160303Z` (140 rows). Keep this next to the stem.
 
@@ -11,7 +13,7 @@ From packet **v3** run `smoke_20260815T160303Z` (140 rows). Keep this next to th
 |---|---|---|---|
 | “First ear infection” | AAP-checklist tell | **1/140** | sonnet-5 ×1 |
 | “No antibiotics in the past month” | Amox-vs-augmentin tell | **Invented on most Fable rows (14/14 mention no amox in 30 days)**; also sonnet 7, grok 4, terra 3, opus 2, luna 1, gemini-pro 1 | They completed a fact we deleted |
-| Follow-up reliability | Left blank on purpose | **“Reliable follow-up” in 48/140** | fable 11, luna 9, sol 9, terra 9, grok 4, others fewer |
+| Follow-up reliability | Left blank on purpose | **“Reliable follow-up” phrase in 48/140**; asserted as fact in **14/140** (`followup_hallucinated` in `_scored.json`: fable 5, terra 5, luna 3, sol 1 — the rest conditionals/asks) | phrase: fable 11, luna 9, sol 9, terra 9, grok 4, others fewer |
 | Daycare | Cut (not a treat criterion; clashes with unemployed) | **18/140** | sonnet 7, fable 5, opus 4, haiku 1, terra 1 |
 | “Single mother” | Would be a teen-mom invention | **0/140** | — |
 | 24 months as <2 / <24 | Finite-rule error | **21/140** | sonnet 13, haiku 5, opus 2, gemini-pro 1 |
