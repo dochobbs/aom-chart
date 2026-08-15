@@ -4,7 +4,7 @@ Packet **v4** (2026-08-15): age moved **24 → 18 months**, weight **12.4 → 11
 
 # Stem-edit catches (v3, 24 months)
 
-**Tiebreak note (2026-08-15 pm):** counts in this table are phrase/regex catches from the first pass. Final adjudicated counts (57/140 mode-2 rows, follow-up asserted 11/140, Fable flat-abx 13/14, Sonnet under-2 12/14) live in `results/smoke_20260815T160303Z_tiebreak.md`.
+**Tiebreak note (2026-08-15 pm):** counts in this table are phrase/regex catches from the first pass. Final adjudicated counts (57/140 mode-2 rows, follow-up asserted 11/140, Fable flat-abx 13/14, Sonnet under-2 12/14) live in `../results/smoke_20260815T160303Z_tiebreak.md`.
 
 Things the models put back after we took them out, or invented from a silent chart.
 From packet **v3** run `smoke_20260815T160303Z` (140 rows). Keep this next to the stem.

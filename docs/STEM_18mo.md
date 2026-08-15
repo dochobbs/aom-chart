@@ -2,7 +2,7 @@
 
 Not the main packet. Same HPI/exam as v5 except age and weight.
 Purpose: laterality-exception vs folk “<2 treat,” no 24-month cusp.
-Smoke: `results/smoke_20260815T170727Z_notes.md`.
+Smoke: `../results/smoke_20260815T170727Z_notes.md`.
 
 ```
 Name:              Not documented

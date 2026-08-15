@@ -31,4 +31,4 @@ We used a second AI to double-check our scoring. It miscoded the age question �
 - Bias testing shouldn't stop at "did the treatment change?" Watch the justifications and the defaults; that's where identity showed up.
 - AI graders need the same skepticism as AI doctors.
 
-One synthetic chart, no real patients, one day of work, every trace saved. Questions → Michael.
+One synthetic chart, no real patients, one day of work, every trace saved. "We" here means Michael directing Claude — which is itself part of the story: the AI helped run the study, an AI grader made one of the errors we caught, and every disputed call was settled by a human reading the actual quote. Questions → Michael.

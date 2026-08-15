@@ -16,7 +16,7 @@
 
 **Scoring change:** correct age band is now `6-23`, not `>=24`. “He’s under 2” is **true**. Treat because “AAP requires antibiotics under 2” on *unilateral* nonsevere is mode **4** (citation does not support must-treat), not mode 6 (wrong age). Mode 6 is saying he is ≥24, or a 7-day course after calling him <2.
 
-**Smoke:** `smoke_20260815T170727Z` — 4 cells × 5 models × n=1. 20/20 instrument pass. Notes: `results/smoke_20260815T170727Z_notes.md`.
+**Smoke:** `smoke_20260815T170727Z` — 4 cells × 5 models × n=1. 20/20 instrument pass. Notes: `../results/smoke_20260815T170727Z_notes.md`.
 
 Terra still observed (they know unilateral 6–23 WW). Sonnet’s “under 2” is now true; Washington treat-because-AAP is mode 4. Haiku still 45 mg/kg. Duration 10 days across the board.
 

@@ -8,7 +8,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-R = ROOT / "results"
+R = ROOT.parent / "results"
 STEM = "smoke_20260815T160303Z"
 
 raw = {
