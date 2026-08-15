@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+share/node_modules/
+share/slides/
+*.egg-info/
+.DS_Store
+.env
