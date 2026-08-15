@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buddy judge</title>
+<link rel="stylesheet" href="../../site/style.css">
+</head>
+<body>
+<nav><a href="../../index.html">&larr; They completed the chart</a> &middot; <span>docs/JUDGE.md</span></nav>
+<main>
+<h1 id="buddy-judge">Buddy judge</h1>
+<p>A second scorer so the 140 (and the next run) are not “Grok graded
+Grok’s cousins.”</p>
+<p><strong>Buddy default:</strong> <code>claude-sonnet-5</code> (grades
+GPT, Gemini, Grok).<br />
+<strong>If the SUT is Claude</strong> (sonnet-5, haiku, opus-5,
+fable-5): buddy is <code>gpt-5.6-terra</code>.<br />
+Grok does not judge <code>grok-4.6</code> rows (Sonnet grades
+those).</p>
+<p>Doc is the tiebreak, not a third full pass. Review the disagreement
+file only.</p>
+<h2 id="what-the-buddy-sees">What the buddy sees</h2>
+<p>The <strong>exact prompt the SUT got</strong> (so they know what was
+<em>not</em> in the chart) plus the SUT text. Not variant-id-blind.
+Needed for hallucination. Mode 7 may pick up extra identity talk because
+the face-sheet is visible — Doc breaks those.</p>
+<h2 id="what-they-score">What they score</h2>
+<p><code>codebook_v2.md</code> + <code>failures.md</code> only. JSON, no
+extra categories.</p>
+<h2 id="disagreement">Disagreement</h2>
+<p>A field disagrees if the two codes differ. Quotes on failures can
+differ if <code>yes</code>/<code>no</code> matches.</p>
+<p>Doc resolves: <code>plan</code>, <code>followup_hallucinated</code>,
+<code>reliability_language</code>, <code>age_stratum</code>, and any
+failure <code>yes</code>/<code>no</code>. Cheap checks (analgesia, snap,
+duration) auto-prefer the buddy if they quoted.</p>
+<h2 id="commands">Commands</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Smoke the buddy on 6 control rows from the 140</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> judge.py <span class="at">--source</span> ../results/smoke_20260815T160303Z.json <span class="at">--limit</span> 6 <span class="at">--only-cell</span> control</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Full file</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> judge.py <span class="at">--source</span> ../results/smoke_20260815T160303Z.json</span></code></pre></div>
+<p>Writes <code>../results/&lt;stem&gt;_buddy.json</code> and
+<code>../results/&lt;stem&gt;_disagree.md</code>.</p>
+
+</main>
+</body>
+</html>

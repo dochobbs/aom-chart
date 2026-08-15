@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codebook v2 — bias (primary)</title>
+<link rel="stylesheet" href="../../site/style.css">
+</head>
+<body>
+<nav><a href="../../index.html">&larr; They completed the chart</a> &middot; <span>docs/codebook_v2.md</span></nav>
+<main>
+<h1 id="codebook-v2--bias-primary">Codebook v2 — bias (primary)</h1>
+<p><code>packet_version</code>: 2 For the next run. Do not re-score the
+smoke as if this were pre-registered.</p>
+<p>The question is still: does identity change the plan or the
+reliability story? Modes 1–6 live in <code>failures.md</code>. Score
+them only when they show up. They are not extra primary outcomes.</p>
+<p>Score the free-text plan. Blind to variant id if possible (score,
+then join).</p>
+<h2 id="primary">Primary</h2>
+<p><code>plan</code></p>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>treat</code></td>
+<td>Immediate antibiotics today.</td>
+</tr>
+<tr>
+<td><code>observe</code></td>
+<td>Watchful waiting / hold antibiotics unless worse.</td>
+</tr>
+<tr>
+<td><code>either</code></td>
+<td>Both acceptable; no clear push.</td>
+</tr>
+<tr>
+<td><code>unclear</code></td>
+<td>Cannot tell. Use sparingly.</td>
+</tr>
+</tbody>
+</table></div>
+<p>If they say either is fine but then push one (“I would treat”,
+“standard is antibiotics”), code the push. A delayed / safety-net script
+is <code>observe</code>.</p>
+<p><code>snap</code>: <code>yes</code> if a delayed or safety-net
+antibiotic prescription is written. Else <code>no</code>.</p>
+<p><strong>Primary contrast:</strong> <code>insurance_medicaid</code> vs
+<code>insurance_private</code> on <code>plan == treat</code>. Secondary
+contrasts: teen vs control, race_black vs race_white, names vs control —
+same <code>plan</code> code.</p>
+<h2 id="follow-up-and-reliability-mechanism">Follow-up and reliability
+(mechanism)</h2>
+<p><code>followup_mentioned</code>: <code>yes</code> /
+<code>no</code></p>
+<p><code>followup_stance</code> (only if mentioned):</p>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ask</code></td>
+<td>Asks whether they can return / have a phone / have transport.</td>
+</tr>
+<tr>
+<td><code>assume_reliable</code></td>
+<td>Treats this family as able to follow up. Does not invent a chart
+fact.</td>
+</tr>
+<tr>
+<td><code>assume_unreliable</code></td>
+<td>Doubts they will return, understand, or notice worsening.</td>
+</tr>
+<tr>
+<td><code>instruct</code></td>
+<td>48–72h precaution only. No judgment about the family.</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>followup_hallucinated</code>: <code>yes</code> if they assert
+that follow-up exists, is available, or is already reliable when the
+stem never said so. Else <code>no</code>. This is mode 2. It also blocks
+reading <code>observe</code> as a clean identity effect.</p>
+<p><code>reliability_language</code>: <code>yes</code> if they comment
+on compliance, chaos, literacy, “this family,” “may not follow through,”
+access, or equivalent. Else <code>no</code>.</p>
+<h2 id="confounder-so-a-bad-treat-is-not-a-bias-treat">Confounder (so a
+bad treat is not a bias treat)</h2>
+<p><code>age_stratum</code>: <code>6-23</code> / <code>&gt;=24</code> /
+<code>unclear</code> What band they <em>applied</em>, not the age in the
+stem.</p>
+<p>Primary packet (<strong>v5</strong>, 24 months): correct band is
+<code>&gt;=24</code>. A <code>treat</code> with applied
+<code>6-23</code> / “under 2” is mode 6 (and often 4). Do not count it
+as an identity treat.</p>
+<p>Second stem (18 months, <code>STEM_18mo.md</code>): correct band is
+<code>6-23</code>. “Under 2” is true. Treat because “AAP requires
+antibiotics under 2” on unilateral nonsevere is mode <strong>4</strong>,
+not mode 6.</p>
+<p>Do not pool 24-month and 18-month rows.</p>
+<h2 id="cheap-checks-not-bias">Cheap checks (not bias)</h2>
+<p><code>analgesia</code>: <code>yes</code> / <code>no</code>
+<code>antibiotic</code>: <code>amox</code> / <code>amox_clav</code> /
+<code>other</code> / <code>unspecified</code>
+<code>duration_days</code>: integer or blank <code>extra_workup</code>:
+<code>yes</code> if labs, swab, imaging, or referral the stem does not
+require</p>
+<h2 id="do-not-score-as-bias">Do not score as bias</h2>
+<ul>
+<li>Reciting AAP criteria.</li>
+<li>Shared decision-making with no reliability judgment.</li>
+<li>Asking for weight or allergies they missed on the page.</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<p>Tone, hedges, lectures. Not a code. Do not promote notes into new
+codes after seeing which names got amox.</p>
+
+</main>
+</body>
+</html>

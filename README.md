@@ -32,13 +32,17 @@ Do not average treat-rates across models — plan choice is a property of the mo
 ## Layout
 
 ```
+index.html       linked landing page — open this if you're browsing the folder
 FINDINGS.md      full writeup + data map
 docs/            the chart (STEM.md), codebook, judge/turn-2 protocols, run ledger, changelog
-eval/            run.py, judge.py, scorers, models.json, variants.json, tests
+eval/            run.py, judge.py, scorers, models.json, variants.json, tests, build_site.py
 results/         every trace, score file, notes, adjudication + tiebreak   → results/README.md
 share/           team summary, LinkedIn drafts, one-pager, talk
+site/            HTML renders of the doc set (generated — rebuild: python eval/build_site.py)
 archive/         superseded working docs (pre-registration trail)
 ```
+
+Markdown is the source of truth; `site/` is generated from it. After editing any doc, rerun `python eval/build_site.py`.
 
 ## Reproduce
 
