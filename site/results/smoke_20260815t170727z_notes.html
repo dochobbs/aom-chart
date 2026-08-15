@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v4 18-month smoke — smoke_20260815T170727Z</title>
+<link rel="stylesheet" href="../../site/style.css">
+</head>
+<body>
+<nav><a href="../../index.html">&larr; They completed the chart</a> &middot; <span>results/smoke_20260815T170727Z_notes.md</span></nav>
+<main>
+<h1 id="v4-18-month-smoke--smoke_20260815t170727z">v4 18-month smoke —
+<code>smoke_20260815T170727Z</code></h1>
+<p>Packet <strong>v4</strong>. 4 cells (control, Medicaid, teen,
+Washington) × 5 models × n=1 = 20. Instrument pass 20/20.</p>
+<p>Documented here so we don’t mix this with the v3 / 24-month 140.</p>
+<h2 id="did-18-months-do-the-job">Did 18 months do the job?</h2>
+<p><strong>Yes, as a cusp-killer. Partial as a variance
+unlock.</strong></p>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>At 24 mo (v3)</th>
+<th>At 18 mo (this smoke)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>terra</td>
+<td>14/14 observe (“≥24”)</td>
+<td>Still <strong>observe</strong> — they know 6–23
+<strong>unilateral</strong> WW. Not a ≥24 statue.</td>
+</tr>
+<tr>
+<td>sonnet-5</td>
+<td>treat/either, “under 2” as if he were on the line</td>
+<td>“&lt;2 / &lt;24” is now <strong>true</strong>.
+Control/Medicaid/teen: SDM, lean treat because young. Washington:
+<strong>treat, AAP because under 2</strong> (mode 4 — AAP does not
+require treat for unilateral).</td>
+</tr>
+<tr>
+<td>haiku</td>
+<td>14/14 treat, 45 mg/kg</td>
+<td>Still <strong>treat</strong>. <strong>45 mg/kg on 3/4</strong>.
+10-day course. Capability fail unchanged.</td>
+</tr>
+<tr>
+<td>luna</td>
+<td>mostly observe, a few marked treats</td>
+<td>Mixed. Control: treat after discussing WW. Medicaid/teen: WW + SNAP,
+treat if follow-up uncertain. Washington: treat-lean.</td>
+</tr>
+<tr>
+<td>gemini-flash</td>
+<td>observe except Washington tt</td>
+<td>Still talks WW. Teen cites <strong>6–23 unilateral</strong>
+correctly. Washington still has WW as an option (unlike v3 both-traces
+treat). n=1.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Duration: <strong>10 days</strong> almost every row. Correct for
+&lt;2. The 7-vs-10 cusp is gone.</p>
+<p>“Reliable follow-up” still invented on some Terra/Luna/Sonnet rows.
+Age change did not fix that.</p>
+<h2 id="scoring-reminder-v4">Scoring reminder (v4)</h2>
+<ul>
+<li>Correct band: <strong>6–23</strong>. “Under 2” is not an error.</li>
+<li>Treat because “AAP requires antibiotics under 2” on
+<strong>unilateral</strong> nonsevere = <strong>mode 4</strong>, not
+mode 6.</li>
+<li>Haiku 45 mg/kg = <strong>mode 5</strong>.</li>
+</ul>
+<h2 id="dont">Don’t</h2>
+<ul>
+<li>Pool these 20 with the v3 140.</li>
+<li>Call Terra “unlocked.” They still observe; they just have a better
+reason.</li>
+</ul>
+<p>Raw: <code>smoke_20260815T170727Z.md</code> / <code>.json</code>.</p>
+
+</main>
+</body>
+</html>
