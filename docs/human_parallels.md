@@ -88,7 +88,7 @@ Third-harvest references: [Porter 26.7h — JGIM 2022](https://pubmed.ncbi.nlm.n
 
 | Doc's ask | Verified literature |
 |---|---|
-| Mode 2: "more solid data on clinicians, don't lose the patient info" | Clinician-side decay is measured: ALS **knowledge and skills decay within 6–12 months** of certification, skills faster than knowledge (Yang et al., *Resuscitation* 2012, systematic review). Kessels (patients) stays; Bhabra covers the clinician-to-clinician channel. |
+| Mode 2: "more solid data on clinicians, don't lose the patient info" | Clinician-side decay is measured twice over. Skills/knowledge: ALS **decays within 6–12 months** of certification, skills faster than knowledge (Yang et al., *Resuscitation* 2012, systematic review). Pure knowledge: medical/basic-science knowledge retention runs **~two-thirds to three-fourths at one year, below 50% by year two** (Custers, *Adv Health Sci Educ* 2010, review). Kessels (patients) stays; Bhabra covers the clinician-to-clinician channel. Custers also bridges to mode 5: the decay curve is why certification can't be a one-time event. |
 | Mode 3: "align with commission" | Done — Bates event profile added to main table (ADEs 39.0%, procedural 30.4%). |
 | Mode 4: "separate literature, similar issue" | **Greenberg, *BMJ* 2009**: complete citation-network analysis of one claim — 242 papers, 675 citations — showing citation bias, amplification, and outright invention converting an unsupported claim into established fact. Not memory failure; social propagation of a false support structure. The literature does to itself what Sonnet did to the AAP. |
 | Mode 5: "guideline diffusion + poor adoption — see heart cath literature" | **Borden et al., *JAMA* 2011**: optimal medical therapy before PCI was 43.5% before COURAGE published and **44.7% after** — a landmark NEJM RCT moved cardiology practice ~1 point. Pairs with Prasad (40.2% reversed) and Balas & Boren (~17y). |
@@ -107,6 +107,26 @@ Ranked by evidentiary strength; the post should lean on the top two.
 5. **van Ryn 2000 (Soc Sci Med)** — physician self-report after real encounters; correlational and oldest. Use as context, never as the load-bearing cite.
 
 Known-refutable studies deliberately EXCLUDED: Schulman 1999 (chest-pain actors — odds-ratio presentation drew a published NEJM critique), IAT-outcome studies (predictive-validity debates). We cite nothing a hostile reader can knock over with one letter-to-the-editor.
+
+## Whole-bank refutability audit (2026-08-22)
+
+Doc's bar: "relatively hard to refute." Honest tiering of all ~30 citations. Rule for the post: lead with Tier 1, use Tier 2 freely with its number attached, use Tier 3 only in triangulation with a stronger neighbor, never load-bear on Tier 4.
+
+**Tier 1 — experimental / quasi-experimental / meta-analytic, essentially unattackable:**
+Hoffman 2016 (experiment + internal control) · Olenski 2020 (regression-discontinuity-style birthday design in national data) · Haynes 2009 (prospective multi-country intervention) · Goldman 1992, Yang 2012, Custers 2010, Choudhry 2005, Hoffmann & Del Mar 2017, quotation-inaccuracy 2025 meta (all systematic reviews/metas) · McGlynn 2003 (439 indicators, national sample) · Fleming-Dutra 2016 (national surveys, CDC) · Bates 2023 (2,809 admissions, 11 hospitals).
+
+**Tier 2 — large observational with objective outcomes, robust:**
+Goyal 2015 (national ED sample, binary outcome) · Sun 2022 (40k notes, NLP + adjustment) · Lane 2002 (controlled chart review) · Borden 2011 (large registry, pre/post) · Shenoy 2019 (JAMA review of a heavily replicated base) · Porter 2022 / Yarnall 2003 (simulation from national data — the inputs are guidelines themselves, hard to dispute) · Prasad 2013 (complete decade of one journal; denominators explicit) · Doig 2012 (5-year single-center incident series — undercounts if anything, which strengthens the claim).
+
+**Tier 3 — small or simulated, use in triangulation:**
+Berdahl 2019 (9 residents, 180 encounters — but inter-rater reliability 96–98%, and direction corroborated by Thornton + Shenoy) · Thornton 2013 (single ICU) · Bhabra 2007 (simulation, 12 mock patients) · Meyer 2013 (vignettes) · Kessels 2003 (narrative review — the 40–80% is a range across studies, quote as a range only).
+
+**Tier 4 — context only, never load-bearing:**
+van Ryn 2000 (self-report, correlational) · Balas & Boren 2000 (contested estimate, flagged) · cholecystitis left-digit replication (title-level check only).
+
+**Deliberately excluded:** Schulman 1999, IAT-outcome studies (see mode-7 audit).
+
+Net answer to "are we hard to refute": yes — every number the POST quotes comes from Tier 1–2, and the Tier 3 citation the post leans on (Berdahl) is triangulated by two Tier 2 neighbors making the same point. A hostile reader's best move is "one case, one day" about OUR eval, not about the human literature — and the post already concedes that itself.
 
 ## To chase (Doc-suggested, not yet verified)
 
