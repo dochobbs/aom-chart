@@ -27,6 +27,7 @@ RENDER = [
     "docs/CHANGELOG.md",
     "docs/instrument_catches.md",
     "docs/human_parallels.md",
+    "docs/combination_lit.md",
     "results/README.md",
     "results/smoke_20260815T160303Z_tiebreak.md",
     "results/smoke_20260815T160303Z_adjudication.md",
