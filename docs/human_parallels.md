@@ -139,4 +139,4 @@ Net answer to "are we hard to refute": yes — every number the POST quotes come
 
 ## Considered and rejected
 
-- **Dresselhaus TR, Peabody JW, et al.** *JGIM* 2000 — almost cited for mode 2 (over-documentation); on verification it shows the **opposite**: chart abstraction *under*-estimated delivered preventive care by 16%. Charts omit real care as well as inventing absent care; this paper is the omission direction. Kept here as the reminder to verify before citing — which is also mode 4's whole point.
+- **Dresselhaus TR, Peabody JW, et al.** *JGIM* 2000 — almost cited for mode 2 (over-documentation); on verification it shows the **opposite**: chart abstraction *under*-estimated delivered preventive care by 16% against standardized-patient ground truth. Rejected for mode 2, then used *correctly* in the anchor essay for the claim it actually supports: the chart errs in both directions. Kept here as the reminder to verify before citing — which is also mode 4's whole point.
