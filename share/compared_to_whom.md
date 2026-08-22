@@ -1,6 +1,6 @@
 # Anchor essay draft — do not post without review
 
-The thesis piece. ~5,300 words of body. Register 6, long-form, curiosity-first; passed against personal-voice and no-ai-slop 2026-08-22. `blog_post.md` is the technical companion. Every AOM quote verbatim from the packet; every literature number Tier 1–2 per `docs/human_parallels.md` audit (Berdahl is Tier 3, triangulated, flagged small in-text). Alternate titles: "The Unfair Benchmark," "Graded on a Curve Nobody Checked."
+The thesis piece. ~4,400 words of body (larger than the ~4,100-word companion). Register 6, long-form, curiosity-first; passed against personal-voice and no-ai-slop 2026-08-22. `blog_post.md` is the technical companion. Every AOM quote verbatim from the packet; every literature number Tier 1–2 per `docs/human_parallels.md` audit (Berdahl is Tier 3, triangulated, flagged small in-text). Alternate titles: "The Unfair Benchmark," "Graded on a Curve Nobody Checked."
 
 ---
 
