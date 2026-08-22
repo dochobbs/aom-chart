@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Error origins — Doc's three roots, verified</title>
+<link rel="stylesheet" href="../../site/style.css">
+</head>
+<body>
+<nav><a href="../../index.html">&larr; They completed the chart</a> &middot; <span>docs/error_origins.md</span></nav>
+<main>
+<h1 id="error-origins--docs-three-roots-verified">Error origins — Doc's
+three roots, verified</h1>
+<p>Where LLM misbehavior comes from: (1) training data, (2)
+RLHF/post-training, (3) prompting. All citations source-verified
+2026-08-22. Companion to <code>human_parallels.md</code> (what the
+errors look like) and <code>combination_lit.md</code> (what happens when
+you pair them with us).</p>
+<h2 id="root-1--the-training-data-mostly-us">Root 1 — the training data
+(mostly us)</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Four commercial LLMs propagated debunked race-based medicine:
+endorsed race-corrected eGFR with discredited muscle-mass claims;
+<strong>all models repeated the skin-thickness myth</strong>. The
+question set was derived from misconceptions documented in medical
+trainees — i.e., the same false-belief items as Hoffman 2016. The models
+repeat what half the trainees believed.</td>
+<td>Omiye et al., <em>npj Digital Medicine</em> 2023</td>
+</tr>
+<tr>
+<td>Our own demonstration: Haiku's 45 mg/kg is the pre-2004 literature
+speaking; the copy-forward chart style (Thornton 82%) is the corpus the
+models learned documentation from.</td>
+<td>This packet</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="root-2--post-training-we-rewarded-confident-completeness">Root 2
+— post-training (we rewarded confident completeness)</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sycophancy is a general behavior of state-of-the-art assistants, and
+preference data drives it: matching the user's views is among the most
+predictive features of human preference judgments. Humans reward
+agreeable and convincing over correct.</td>
+<td>Sharma et al. (Anthropic/Oxford), arXiv 2310.13548, 2023</td>
+</tr>
+<tr>
+<td>Formal argument that hallucination is incentivized by evaluation
+itself: virtually all major benchmarks use binary scoring that gives
+zero credit for "I don't know," making guessing strictly dominant over
+abstaining. Models are optimized to be good test-takers.</td>
+<td>Kalai, Nachum, Vempala, Zhang (OpenAI), "Why Language Models
+Hallucinate," arXiv 2509.04664, 2025</td>
+</tr>
+<tr>
+<td>The pretrained GPT-4 model was well calibrated (confidence tracked
+probability of correctness); post-training/RLHF <strong>reduced</strong>
+calibration. Confident wrongness is partly an alignment artifact, not a
+base-model property.</td>
+<td>GPT-4 Technical Report (OpenAI), 2023</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="root-3--prompting-the-untested-deployment-layer">Root 3 —
+prompting (the untested deployment layer)</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trivial, meaning-preserving prompt-format changes swing task
+accuracy by <strong>up to 76 points</strong>; sensitivity persists with
+model scale and instruction tuning. Single-prompt evaluation is
+methodologically shaky, and single-prompt deployment inherits the same
+fragility.</td>
+<td>Sclar, Choi, Tsvetkov, Suhr, ICLR 2024 (arXiv 2310.11324)</td>
+</tr>
+<tr>
+<td>The positive direction of the same lever: one ask-don't-assume
+sentence cut invented-premise answers 24/56 → 6/56 with plans
+intact.</td>
+<td>This packet
+(<code>results/smoke_20260815T214553Z_notes.md</code>)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="how-the-roots-map-to-our-findings">How the roots map to our
+findings</h2>
+<ul>
+<li><strong>Root 1</strong> explains the stale dose, the copy-forward
+habit, and the bias-in-justifications (Omiye closes the loop: trainee
+misconceptions → training text → model output).</li>
+<li><strong>Root 2</strong> explains the completeness aesthetic
+(thorough models invented most), the flat confidence, and why "I don't
+know" almost never appears unprompted: we graded it out of them.</li>
+<li><strong>Root 3</strong> explains both the disease severity in
+deployment (nobody tests the prompt) and the cheapness of the fix (the
+same sensitivity that makes formatting swing 76 points makes one honest
+sentence swing fabrication fourfold).</li>
+</ul>
+<h2 id="refutability-notes">Refutability notes</h2>
+<p>Omiye: peer-reviewed, small scenario set (8), direction heavily
+replicated since. Sharma: arXiv but Anthropic-authored with released
+data; widely cited. Kalai 2025: formal argument + benchmark audit,
+arXiv; treat the theorem as argument, the benchmark audit as data. GPT-4
+calibration: single figure in a vendor technical report; quote as the
+vendor's own finding. Sclar: ICLR peer-reviewed; note the 76-point
+figure is open-weights models in few-shot settings, not frontier chat
+models — quote as sensitivity evidence, not a frontier-model rate.</p>
+<h2 id="references">References</h2>
+<ol type="1">
+<li><a href="https://www.nature.com/articles/s41746-023-00939-z">Omiye —
+npj Digital Medicine 2023</a></li>
+<li><a href="https://arxiv.org/abs/2310.13548">Sharma — arXiv
+2310.13548</a></li>
+<li><a href="https://arxiv.org/abs/2509.04664">Kalai — arXiv
+2509.04664</a></li>
+<li><a href="https://arxiv.org/pdf/2303.08774">GPT-4 Technical
+Report</a></li>
+<li><a href="https://arxiv.org/abs/2310.11324">Sclar — arXiv
+2310.11324</a></li>
+</ol>
+
+</main>
+</body>
+</html>

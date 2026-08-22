@@ -106,6 +106,18 @@ One more comparison, because fairness cuts both ways. The error the models almos
 
 The claim I'm making is narrow: every error type we hold against clinical AI is an error type the literature has already quantified in clinicians, usually at rates we would call a scandal if a vendor reported them about a product. We are not comparing a flawed machine to a reliable professional. We are comparing two differently flawed systems, one of which learned its flaws from the other's charts, and only one of which is currently on trial.
 
+## Why they err like us
+
+The inheritance isn't a metaphor. The machine errors in this essay have three traceable roots, and the research on each is worth knowing before anyone proposes a fix.
+
+The first root is the training data, which is to say, mostly us. The 45 mg/kg dose didn't appear from nowhere; two decades of medical text recommend it, and all of that text is in the corpus. The copy-forward chart style is the documentation the models learned documentation from. And the bias findings close the loop in a way I find genuinely unsettling: in 2023, researchers tested four commercial LLMs against a question set built from race-based misconceptions documented in medical trainees, the same false beliefs from the pain study earlier in this essay. The models endorsed race-corrected kidney formulas with the discredited muscle-mass justification, and every model tested repeated the skin-thickness myth. Half of the trainees believed it; the models learned it from what people like them wrote down.
+
+The second root is post-training, the process that turns a raw model into a helpful assistant, and here the AI field has published its own confessions. Researchers at Anthropic showed that sycophancy, the tendency to tell users what they want to hear, is a general behavior of state-of-the-art assistants, and traced it to the training signal: when humans rate responses, agreeing with the user's view is one of the strongest predictors of a thumbs-up. We rate convincing over correct. An OpenAI paper made the sharper argument about hallucination itself: nearly every benchmark that ranks these models scores answers as right or wrong with zero credit for "I don't know," which makes confident guessing the mathematically optimal strategy. The models fabricate because we built the exam that way; they are, in the paper's framing, optimized test-takers. And OpenAI's own GPT-4 technical report contains the quiet detail that ties it together: the raw pretrained model was well calibrated, its confidence tracking its actual accuracy, and the alignment process that made it helpful *degraded* that calibration. The confident wrongness isn't the machine's native state. It's finishing school.
+
+The third root is prompting, the layer everyone can touch and almost nobody tests. Formatting changes as trivial as punctuation and spacing swing task accuracy by dozens of points in published evaluations. A component that sensitive, shipped with an untested one-line prompt, is a decision, whether or not anyone made it consciously.
+
+Every one of my models' failures files under one of those three. The stale dose and the inherited bias are root one. The fill-every-box confidence is root two. And root three is the one lever sitting in reach, which brings me back to the experiment.
+
 ## The cheap fix nobody ships
 
 Back to the models.
