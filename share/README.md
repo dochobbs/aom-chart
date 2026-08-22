@@ -5,7 +5,8 @@ Do not post or present without his review.
 | File | What |
 |---|---|
 | `team_summary.md` | Plain-language summary for the team. Start here. |
-| `blog_post.md` | Long-form Substack/blog piece — the full arc, ~1,500 words. |
+| `compared_to_whom.md` | **The anchor essay** (~5,400 words) — the unfair-benchmark thesis: AI errors vs the human-error literature vs the combination trials, ending on the synergy hypothesis. |
+| `blog_post.md` | Technical companion (~4,100 words) — the full AOM experiment writeup. |
 | `linkedin_1_completed_chart.md` | Post 1 — the case, the inventions, the one-line fix. |
 | `linkedin_2_judge.md` | Post 2 — the judge that flunked its own exam. |
 | `linkedin_3_identity.md` | Post 3 — identity moved the reasoning, not the prescription. |
