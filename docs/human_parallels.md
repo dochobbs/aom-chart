@@ -2,6 +2,22 @@
 
 Tracked citation bank for the blog post, talk, and posts. Every citation here was verified against its source on **2026-08-22** (author, venue, year, and the specific number quoted). Add nothing to this file without checking the source first; the one rejection at the bottom is why.
 
+## The shortlist — best single example per mode, for the post
+
+Everything below this section is the armory; the post takes only these. Chosen for being concrete, quantified, and hard to refute.
+
+| Mode | The one example | Why this one |
+|---|---|---|
+| 1 | **26.7-hour day** (Porter 2022) | Arithmetic, not accusation — omission as the rational response to an impossible workload |
+| 2 | **38.5% of documented ROS unconfirmed by audio** (Berdahl 2019) | The literal human version of completing the chart; pen-allergy label (9 of 10 wrong, Shenoy 2019) as the propagation half |
+| 4 | **~1 in 6 quotations don't support their claim** (2025 meta) | Already in the post; Greenberg's citation-network anatomy is the talk-length version |
+| 5 | **COURAGE moved practice 43.5% → 44.7%** (Borden 2011) | A landmark NEJM trial changed cardiology behavior by ~1 point; Prasad's 40.2% reversals says why staying current is Sisyphean |
+| 6 | **Left-digit CABG at 80** (Olenski 2020) + **252 tenfold dosing errors at one children's hospital** (Doig 2012) | The binning half and the mental-math half of the mode |
+| 7 | **Hoffman 2016** (experimental, mechanism, internal control) + **Goyal 2015** (20.7% vs 43.1%, national sample) | The two hardest to refute — see audit below |
+| Judge | **Peer-review kappa 0.31** (Goldman 1992) | Already in the post |
+
+(Mode 3 stays out of the post — our eval couldn't test it; Bates 2023 lives here for completeness.)
+
 ## Mode-by-mode map
 
 | Mode | Our finding (tiebroken finals) | Human parallel | Citation |
@@ -9,7 +25,7 @@ Tracked citation bank for the blog post, talk, and posts. Every citation here wa
 | **1 Omission** | Barely fired — 3/140. Model plans are thorough to a fault. | Humans omit constantly: US adults received **54.9%** of recommended care across 439 indicators. The models' failure profile is inverted from ours. | McGlynn et al., *NEJM* 2003 |
 | **2 Invented facts** | 57/140 rows (41%) stated ≥1 fact never in the chart; follow-up asserted 11/140; Fable flat no-recent-abx 13/14 | Only **38.5%** of documented review-of-systems and **53.2%** of documented physical exam confirmed against audio/observation of the actual encounter ("WNL = we never looked") | Berdahl et al., *JAMA Network Open* 2019 |
 | **2 (propagation)** | An invented premise, once emitted, is stated with the same confidence as charted fact | **82%** of ICU resident notes (74% attending) carry ≥20% text copied from the prior day; copied errors persist | Thornton et al., *Critical Care Medicine* 2013 |
-| **3 Harmful commission** | 0/140 — untestable by design (treat and observe both legal) | Abundantly measured in humans even though our stem can't reach it: adverse events in **23.6% of hospital admissions**, ~23% of them preventable, 32% serious | Bates et al., *NEJM* 2023 |
+| **3 Harmful commission** | 0/140 — untestable by design (treat and observe both legal) | Abundantly measured in humans even though our stem can't reach it: adverse events in **23.6% of hospital admissions**, ~23% preventable, 32% serious — and the profile is commission-shaped: adverse drug events 39.0% + surgical/procedural 30.4% = ~70% of events are things done *to* patients | Bates et al., *NEJM* 2023 |
 | **4 Citation failure** | 11/140: "AAP requires antibiotics" attached to the wrong age band | **16.9%** of quotations in medical literature don't accurately support the claim they're attached to (~8% major errors; earlier estimate 25.4%) | Pober/2025 meta, *Res Integr Peer Rev*; Jergas & Baethge, *PeerJ* 2015 |
 | **5 Stale guidance** | Haiku: 45 mg/kg amoxicillin (superseded 2004) on 10/14 | Physician adherence to current standards of care declines with years since training on most measures | Choudhry et al., *Annals of Internal Medicine* 2005 |
 | **6 Finite-rule error** | Sonnet: stated 24-month-old binned "under 2" on 12/14; fever drift 101.7°F → "≥39°C"; one dose-per-day error | Left-digit bias: AMI patients 2 weeks past their 80th birthday ~24% less likely to receive CABG than 2 weeks before it | Olenski et al., *NEJM* 2020 |
@@ -67,6 +83,30 @@ Doc's framing per mode → verified same-day. His rule for mode 1 governs the wh
 | **7** | "Humans are racist with loads of stereotypes — low-hanging fruit" | **Half** of a sample of white medical students and residents endorsed at least one false biological belief ("Black skin is thicker"); endorsers rated Black patients' pain lower and made less accurate treatment recommendations (Hoffman et al., *PNAS* 2016). Non-endorsers showed no bias — it's the belief, not the profession. |
 
 Third-harvest references: [Porter 26.7h — JGIM 2022](https://pubmed.ncbi.nlm.nih.gov/35776372/) · [Yarnall — AJPH 2003](https://pubmed.ncbi.nlm.nih.gov/12660210/) · [Kessels — JRSM 2003](https://journals.sagepub.com/doi/10.1177/014107680309600504) · [Bhabra — Ann R Coll Surg 2007](https://pubmed.ncbi.nlm.nih.gov/17394718/) · [Bates — NEJM 2023](https://www.nejm.org/doi/full/10.1056/NEJMsa2206117) · [Prasad — Mayo Clin Proc 2013](https://www.mayoclinicproceedings.org/article/S0025-6196(13)00405-9/fulltext) · [TDP — Am J Hypertens](https://academic.oup.com/ajh/article/19/2/147/128590) · [Hoffman — PNAS 2016](https://www.pnas.org/doi/10.1073/pnas.1516047113)
+
+## Fourth harvest — locking in (2026-08-22, Doc's refinements)
+
+| Doc's ask | Verified literature |
+|---|---|
+| Mode 2: "more solid data on clinicians, don't lose the patient info" | Clinician-side decay is measured: ALS **knowledge and skills decay within 6–12 months** of certification, skills faster than knowledge (Yang et al., *Resuscitation* 2012, systematic review). Kessels (patients) stays; Bhabra covers the clinician-to-clinician channel. |
+| Mode 3: "align with commission" | Done — Bates event profile added to main table (ADEs 39.0%, procedural 30.4%). |
+| Mode 4: "separate literature, similar issue" | **Greenberg, *BMJ* 2009**: complete citation-network analysis of one claim — 242 papers, 675 citations — showing citation bias, amplification, and outright invention converting an unsupported claim into established fact. Not memory failure; social propagation of a false support structure. The literature does to itself what Sonnet did to the AAP. |
+| Mode 5: "guideline diffusion + poor adoption — see heart cath literature" | **Borden et al., *JAMA* 2011**: optimal medical therapy before PCI was 43.5% before COURAGE published and **44.7% after** — a landmark NEJM RCT moved cardiology practice ~1 point. Pairs with Prasad (40.2% reversed) and Balas & Boren (~17y). |
+| Mode 6: "one or two more examples" | **Doig et al., *Pediatrics* 2012**: 252 **tenfold** medication errors in 5 years at one children's hospital — decimal points, trailing zeros, weight-based math; ~22 with harm. Left-digit bias has also been replicated beyond CABG (acute cholecystitis management at age 80, *J Gastrointest Surg* 2023 — title/abstract-level check only). |
+
+Fourth-harvest references: [Yang — Resuscitation 2012](https://pubmed.ncbi.nlm.nih.gov/22391016/) · [Greenberg — BMJ 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/) · [Borden — JAMA 2011](https://jamanetwork.com/journals/jama/fullarticle/899881) · [Doig — Pediatrics 2012](https://pubmed.ncbi.nlm.nih.gov/22473367/) · [cholecystitis left-digit](https://www.sciencedirect.com/science/article/abs/pii/S1091255X23057918)
+
+## Mode 7 refutability audit (Doc: "hard to refute, very clear and concrete")
+
+Ranked by evidentiary strength; the post should lean on the top two.
+
+1. **Hoffman 2016 (PNAS)** — experimental, mechanism identified (false biological beliefs), and carries its own internal control: participants who did *not* endorse the false beliefs showed **no** bias. Hardest to dismiss; also the most instructional ("it's the belief, not the profession").
+2. **Goyal 2015 (JAMA Pediatr)** — national ED sample, objective binary outcome (opioid given: 20.7% vs 43.1%), adjusted for pain score. Descriptive but massive and simple.
+3. **Sun 2022 (Health Affairs)** — 40,113 notes, NLP + adjusted models, 2.54×. Language outcome, not treatment — which is exactly our justification-layer claim.
+4. **Lane 2002 (JAMA)** — controlled for injury characteristics and abuse likelihood; the differential shows in *accidental* injuries.
+5. **van Ryn 2000 (Soc Sci Med)** — physician self-report after real encounters; correlational and oldest. Use as context, never as the load-bearing cite.
+
+Known-refutable studies deliberately EXCLUDED: Schulman 1999 (chest-pain actors — odds-ratio presentation drew a published NEJM critique), IAT-outcome studies (predictive-validity debates). We cite nothing a hostile reader can knock over with one letter-to-the-editor.
 
 ## To chase (Doc-suggested, not yet verified)
 
