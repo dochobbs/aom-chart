@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compared to whom? — four design directions</title>
+  <link rel="stylesheet" href="../../site/style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <main>
+    <header class="gallery-hero">
+      <p class="kicker">Design study · original preserved</p>
+      <h1>One argument.<br>Four reading models.</h1>
+      <p class="dek">The essay stays factually identical. Each direction adds orientation, evidence access, a 20-second opening, responsive pacing, and a cleaner close. What changes is how strongly the design interprets the thesis.</p>
+      <p class="note">Use the live viewport below to compare all three at desktop and mobile widths.</p>
+    </header>
+
+    <section class="directions" aria-labelledby="directions-title">
+      <h2 id="directions-title">The directions</h2>
+
+      <article class="direction restrained">
+        <div class="direction-copy">
+          <p class="number">01</p>
+          <h3>Restrained</h3>
+          <p>The incumbent essay, clarified. Quiet orientation, an argument map, evidence links, and typographic figures without changing its essential temperature.</p>
+          <a href="article.html?concept=restrained">Open restrained ↗</a>
+        </div>
+        <div class="motif" aria-hidden="true"><span></span><span></span><span></span><b>41%</b></div>
+      </article>
+
+      <article class="direction distinctive">
+        <div class="direction-copy">
+          <p class="number">02</p>
+          <h3>Distinctive</h3>
+          <p>The thesis becomes the visual system. Human and machine occupy complementary rust and blue positions, with decisive data moments breaking the reading rhythm.</p>
+          <a href="article.html?concept=distinctive">Open distinctive ↗</a>
+        </div>
+        <div class="motif" aria-hidden="true"><span>human</span><i></i><span>machine</span></div>
+      </article>
+
+      <article class="direction publication">
+        <div class="direction-copy">
+          <p class="number">03</p>
+          <h3>Publication</h3>
+          <p>A fully staged long-form feature. A dark opening, chapter architecture, editorial figures, and a dramatic ending make the article feel ready to circulate.</p>
+          <a href="article.html?concept=publication">Open publication ↗</a>
+        </div>
+        <div class="motif" aria-hidden="true"><b>Compared<br>to whom?</b><span>92 / 76 / 74</span></div>
+      </article>
+
+      <article class="direction scenario">
+        <div class="direction-copy">
+          <p class="number">04</p>
+          <h3>Scenario</h3>
+          <p>Closest to the AI 2027 reference: a staged evidence journey with a sticky instrument that accumulates the argument as the reader moves.</p>
+          <a href="article.html?concept=scenario">Open scenario ↗</a>
+        </div>
+        <div class="motif" aria-hidden="true">
+          <div><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span></div>
+          <b>41%</b>
+          <p>current evidence<br><strong>Machine baseline</strong></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="viewport-lab" aria-labelledby="lab-title">
+      <header>
+        <div>
+          <p class="kicker">Live viewport</p>
+          <h2 id="lab-title">See the experience, not a thumbnail.</h2>
+        </div>
+        <a id="open-current" href="article.html?concept=restrained">Open current view ↗</a>
+      </header>
+
+      <div class="lab-controls">
+        <fieldset>
+          <legend>Direction</legend>
+          <button type="button" data-concept="restrained" aria-pressed="true">Restrained</button>
+          <button type="button" data-concept="distinctive" aria-pressed="false">Distinctive</button>
+          <button type="button" data-concept="publication" aria-pressed="false">Publication</button>
+          <button type="button" data-concept="scenario" aria-pressed="false">Scenario</button>
+        </fieldset>
+        <fieldset>
+          <legend>Viewport</legend>
+          <button type="button" data-viewport="desktop" aria-pressed="true">Desktop</button>
+          <button type="button" data-viewport="mobile" aria-pressed="false">Mobile</button>
+        </fieldset>
+      </div>
+
+      <div class="preview-stage" data-viewport="desktop">
+        <div class="browser-frame">
+          <div class="browser-chrome" aria-hidden="true"><i></i><i></i><i></i><span>compared-to-whom / restrained</span></div>
+          <iframe id="concept-preview" title="Live design concept preview" src="article.html?concept=restrained"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p><strong>Shared across all four:</strong> the original article copy, a 20-second opening, an argument map, progress, source pathways, accessible table captions, three evidence figures, and a methods disclosure that no longer steals the ending.</p>
+      <p>The supplied scratchpad HTML remains untouched.</p>
+    </footer>
+  </main>
+  <script src="gallery.js"></script>
+</body>
+</html>

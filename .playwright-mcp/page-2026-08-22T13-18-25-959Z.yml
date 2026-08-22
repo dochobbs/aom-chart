@@ -1,0 +1,1143 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - heading "AI 2027" [level=1] [ref=e6]
+      - navigation [ref=e7]:
+        - button "Language" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: EN
+          - generic [ref=e11]: ▾
+        - link "AI 2040" [ref=e12] [cursor=pointer]:
+          - /url: https://ai-2040.com
+        - link "Supplements" [ref=e14] [cursor=pointer]:
+          - /url: /research
+        - link "About" [ref=e15] [cursor=pointer]:
+          - /url: /about
+    - heading "Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean" [level=2] [ref=e17]
+  - navigation [ref=e19]
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - paragraph [ref=e25]: We predict that the impact of superhuman AI over the next decade will be enormous, exceeding that of the Industrial Revolution.
+      - paragraph [ref=e26]:
+        - text: We wrote a scenario that represents our best guess about what that might look like.
+        - superscript [ref=e27] [cursor=pointer]:
+          - link "1" [ref=e28]:
+            - /url: /footnotes#footnote-1
+        - text: It’s informed by trend extrapolations, wargames, expert feedback, experience at OpenAI, and previous forecasting successes.
+        - superscript [ref=e29] [cursor=pointer]:
+          - link "2" [ref=e30]:
+            - /url: /footnotes#footnote-2
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - button "What is this?" [ref=e33] [cursor=pointer]
+          - button "How did we write it?" [ref=e34] [cursor=pointer]
+          - button "Why is it valuable?" [ref=e35] [cursor=pointer]
+          - button "Who are we?" [ref=e36] [cursor=pointer]
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - paragraph [ref=e39]:
+              - text: The CEOs of
+              - link "OpenAI" [ref=e40] [cursor=pointer]:
+                - /url: https://www.bloomberg.com/features/2025-sam-altman-interview
+              - text: ","
+              - link "Google DeepMind" [ref=e41] [cursor=pointer]:
+                - /url: https://www.bigtechnology.com/p/google-deepmind-ceo-demis-hassabis
+              - text: ", and"
+              - link "Anthropic" [ref=e42] [cursor=pointer]:
+                - /url: https://www.wsj.com/livecoverage/stock-market-today-dow-sp500-nasdaq-live-01-21-2025/card/anthropic-ceo-says-ai-could-surpass-human-intelligence-by-2027-9tka9tjLKLalkXX8IgKA
+              - text: have all predicted that AGI will arrive within the next 5 years. Sam Altman
+              - link "has said" [ref=e43] [cursor=pointer]:
+                - /url: https://webcf.waybackmachine.org/web/20250106014723/https://blog.samaltman.com/reflections
+              - text: OpenAI is setting its sights on “superintelligence in the true sense of the word” and the “glorious future.”
+            - paragraph [ref=e44]: What might that look like? We wrote AI 2027 to answer that question. Claims about the future are often frustratingly vague, so we tried to be as concrete and quantitative as possible, even though this means depicting one of many possible futures.
+            - paragraph [ref=e45]:
+              - text: "We wrote two endings: a “slowdown” and a “race” ending. However, AI 2027 is not a recommendation or exhortation. Our goal is predictive accuracy."
+              - superscript [ref=e46] [cursor=pointer]:
+                - link "4" [ref=e47]:
+                  - /url: /footnotes#footnote-4
+            - paragraph [ref=e48]:
+              - text: We encourage you to debate and counter this scenario.
+              - superscript [ref=e49] [cursor=pointer]:
+                - link "5" [ref=e50]:
+                  - /url: /footnotes#footnote-5
+              - text: We hope to spark a broad conversation about where we’re headed and how to steer toward positive futures. We’re
+              - link "planning to give out thousands in prizes" [ref=e51] [cursor=pointer]:
+                - /url: https://ai-2027.com/about?tab=bets-and-bounties#tab-box-bets-and-bounties
+              - text: to the best alternative scenarios.
+            - paragraph [ref=e52]:
+              - text: "(Added Nov 22 2025, to prevent misunderstandings: we don't know exactly when AGI will be built. 2027 was our modal (most likely) year at the time of publication, our medians were"
+              - link "somewhat longer" [ref=e53] [cursor=pointer]:
+                - /url: https://www.listendata.com/2023/08/right-skewed-histogram.html
+              - text: .
+              - superscript [ref=e54] [cursor=pointer]:
+                - link "3" [ref=e55]:
+                  - /url: /footnotes#footnote-3
+              - text: For our latest forecasts, see
+              - link "here" [ref=e56] [cursor=pointer]:
+                - /url: https://www.aifuturesmodel.com/forecast/daniel-01-26-26?cmode=forecaster&csim=eli-01-26-26&ctype=atc
+              - text: .)
+          - generic [ref=e57]:
+            - paragraph [ref=e58]:
+              - text: Our research on key questions (e.g. what goals will future AI agents have?) can be found
+              - link "here" [ref=e59] [cursor=pointer]:
+                - /url: https://ai-2027.com/research
+              - text: .
+            - paragraph [ref=e60]: "The scenario itself was written iteratively: we wrote the first period (up to mid-2025), then the following period, etc. until we reached the ending. We then scrapped this and did it again."
+            - paragraph [ref=e61]:
+              - text: We weren’t trying to reach any particular ending. After we finished the first ending—which is now colored red—we wrote a new alternative branch because we wanted to also depict a more hopeful way things could end, starting from roughly the same premises. This went through several iterations.
+              - superscript [ref=e62] [cursor=pointer]:
+                - link "6" [ref=e63]:
+                  - /url: /footnotes#footnote-6
+            - paragraph [ref=e64]:
+              - text: Our scenario was informed by approximately 25
+              - link "tabletop exercises" [ref=e65] [cursor=pointer]:
+                - /url: https://ai-2027.com/about?tab=tabletop-exercise#tab-box-tabletop-exercise
+              - text: and feedback from over 100 people, including dozens of experts in each of AI governance and AI technical work.
+          - generic [ref=e66]:
+            - paragraph [ref=e67]:
+              - emphasis [ref=e68]: “I highly recommend reading this scenario-type prediction on how AI could transform the world in just a few years. Nobody has a crystal ball, but this type of content can help notice important questions and illustrate the potential impact of emerging risks.”
+              - text: —
+              - emphasis [ref=e69]:
+                - text: Yoshua Bengio
+                - superscript [ref=e70] [cursor=pointer]:
+                  - link "7" [ref=e71]:
+                    - /url: /footnotes#footnote-7
+            - paragraph [ref=e72]: We have set ourselves an impossible task. Trying to predict how superhuman AI in 2027 would go is like trying to predict how World War 3 in 2027 would go, except that it’s an even larger departure from past case studies. Yet it is still valuable to attempt, just as it is valuable for the U.S. military to game out Taiwan scenarios.
+            - paragraph [ref=e73]: Painting the whole picture makes us notice important questions or connections we hadn’t considered or appreciated before, or realize that a possibility is more or less likely. Moreover, by sticking our necks out with concrete predictions, and encouraging others to publicly state their disagreements, we make it possible to evaluate years later who was right.
+            - paragraph [ref=e74]:
+              - text: Also, one author wrote a lower-effort AI scenario
+              - link "before, in August 2021" [ref=e75] [cursor=pointer]:
+                - /url: https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like
+              - text: ". While it got many things wrong, overall it was surprisingly successful: he predicted the rise of chain-of-thought, inference scaling, sweeping AI chip export controls, and $100 million training runs—all more than a year before ChatGPT."
+          - generic [ref=e76]:
+            - paragraph [ref=e77]:
+              - link "Daniel Kokotajlo" [ref=e78] [cursor=pointer]:
+                - /url: https://x.com/DKokotajlo
+              - text: (
+              - link "TIME100" [ref=e79] [cursor=pointer]:
+                - /url: https://time.com/7012881/daniel-kokotajlo/
+              - text: ","
+              - link "NYT piece" [ref=e80] [cursor=pointer]:
+                - /url: https://www.nytimes.com/2024/06/04/technology/openai-culture-whistleblowers.html
+              - text: ) is a former OpenAI researcher whose previous
+              - link "AI predictions" [ref=e81] [cursor=pointer]:
+                - /url: https://www.lesswrong.com/posts/6Xgy6CAf2jqHhynHL/what-2026-looks-like
+              - text: have
+              - link "held up well" [ref=e82] [cursor=pointer]:
+                - /url: https://www.lesswrong.com/posts/u9Kr97di29CkMvjaj/evaluating-what-2026-looks-like-so-far
+              - text: .
+            - paragraph [ref=e83]:
+              - link "Eli Lifland" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/eli-lifland/
+              - text: co-founded
+              - link "AI Digest" [ref=e85] [cursor=pointer]:
+                - /url: https://theaidigest.org/
+              - text: ", did"
+              - link "AI robustness research" [ref=e86] [cursor=pointer]:
+                - /url: https://scholar.google.com/citations?user=Q33DXbEAAAAJ&hl=en
+              - text: ", and ranks #1 on the"
+              - link "RAND Forecasting Initiative" [ref=e87] [cursor=pointer]:
+                - /url: https://www.rand.org/global-and-emerging-risks/forecasting-initiative.html
+              - text: all-time leaderboard.
+            - paragraph [ref=e88]:
+              - link "Thomas Larsen" [ref=e89] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/thomas-larsen/
+              - text: founded the
+              - link "Center for AI Policy" [ref=e90] [cursor=pointer]:
+                - /url: https://www.centeraipolicy.org/
+              - text: and did AI safety research at the
+              - link "Machine Intelligence Research Institute" [ref=e91] [cursor=pointer]:
+                - /url: https://intelligence.org/
+              - text: .
+            - paragraph [ref=e92]:
+              - link "Romeo Dean" [ref=e93] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/romeo-dean-789313200/
+              - text: is completing a computer science concurrent bachelor’s and master’s degree at Harvard and previously was an
+              - link "AI Policy Fellow" [ref=e94] [cursor=pointer]:
+                - /url: https://www.iaps.ai/romeo-dean
+              - text: at the Institute for AI Policy and Strategy.
+            - paragraph [ref=e95]:
+              - link "Scott Alexander, blogger extraordinaire" [ref=e96] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Slate_Star_Codex
+              - text: ", volunteered to rewrite our content in an engaging style; the fun parts of the story are his and the boring parts are ours."
+            - paragraph [ref=e97]:
+              - text: For more about our team and acknowledgements, see the
+              - link "About page" [ref=e98] [cursor=pointer]:
+                - /url: https://ai-2027.com/about
+              - text: .
+      - generic [ref=e100]:
+        - generic [ref=e101]: Published April 3rd 2025
+        - link "PDF" [ref=e103] [cursor=pointer]:
+          - /url: /ai-2027.pdf
+        - generic [ref=e108] [cursor=pointer]: Listen
+        - link "Watch" [ref=e115] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=5KVDDfAkRgc
+    - generic [ref=e121]:
+      - 'heading "Mid 2025: Stumbling Agents" [level=2] [ref=e122]'
+      - paragraph [ref=e123]: The world sees its first glimpse of AI agents.
+      - paragraph [ref=e124]:
+        - text: "Advertisements for computer-using agents emphasize the term “personal assistant”: you can prompt them with tasks like “order me a burrito on DoorDash” or “open my budget spreadsheet and sum this month’s expenses.” They will check in with you as needed: for example, to ask you to confirm purchases."
+        - superscript [ref=e125] [cursor=pointer]:
+          - link "8" [ref=e126]:
+            - /url: /footnotes#footnote-8
+        - text: Though more advanced than previous iterations like
+        - link "Operator" [ref=e127] [cursor=pointer]:
+          - /url: https://openai.com/index/introducing-operator/
+        - text: ", they struggle to get widespread usage."
+        - superscript [ref=e128] [cursor=pointer]:
+          - link "9" [ref=e129]:
+            - /url: /footnotes#footnote-9
+      - paragraph [ref=e130]: Meanwhile, out of public focus, more specialized coding and research agents are beginning to transform their professions.
+      - paragraph [ref=e131]:
+        - text: "The AIs of 2024 could follow specific instructions: they could turn bullet points into emails, and simple requests into working code. In 2025, AIs function more like employees. Coding AIs increasingly look like autonomous agents rather than mere assistants: taking instructions via Slack or Teams and making substantial code changes on their own, sometimes saving hours or even days."
+        - superscript [ref=e132] [cursor=pointer]:
+          - link "10" [ref=e133]:
+            - /url: /footnotes#footnote-10
+        - text: Research agents spend half an hour scouring the Internet to answer your question.
+      - paragraph [ref=e134]:
+        - text: The agents are impressive in theory (and in cherry-picked examples), but in practice unreliable. AI twitter is full of stories about tasks bungled in some particularly hilarious way. The better agents are also expensive; you get what you pay for, and the best performance costs hundreds of dollars a month.
+        - superscript [ref=e135] [cursor=pointer]:
+          - link "11" [ref=e136]:
+            - /url: /footnotes#footnote-11
+        - text: Still, many companies find ways to fit AI agents into their workflows.
+        - superscript [ref=e137] [cursor=pointer]:
+          - link "12" [ref=e138]:
+            - /url: /footnotes#footnote-12
+    - generic [ref=e139]:
+      - 'heading "Late 2025: The World’s Most Expensive AI" [level=2] [ref=e140]'
+      - paragraph [ref=e141]:
+        - text: OpenBrain is building the biggest datacenters the world has ever seen.
+        - superscript [ref=e142] [cursor=pointer]:
+          - link "13" [ref=e143]:
+            - /url: /footnotes#footnote-13
+      - paragraph [ref=e144]:
+        - text: (To avoid singling out any one existing company, we’re going to describe a fictional
+        - link "artificial general intelligence" [ref=e145] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Artificial_general_intelligence
+        - text: company, which we’ll call OpenBrain. We imagine the others to be 3–9 months behind OpenBrain.)
+      - generic [ref=e146]:
+        - generic [ref=e148]:
+          - generic [ref=e149]: GPT-3 (3 x 10^23 FLOP)
+          - generic [ref=e153]: GPT-4 (2 x 10^25 FLOP)
+          - generic [ref=e157]: Agent-1 (4 x 10^27 FLOP)
+        - generic [ref=e161]: ai-2027.com
+      - paragraph [ref=e162]:
+        - text: GPT-4 required
+        - generic [ref=e164]:
+          - math [ref=e166]:
+            - generic [ref=e168]:
+              - generic [ref=e169]: "2"
+              - generic [ref=e170]: ⋅
+              - generic [ref=e171]:
+                - generic [ref=e172]: "10"
+                - generic [ref=e173]: "25"
+          - generic [ref=e174]:
+            - generic [ref=e175]: 2 ⋅
+            - generic [ref=e176]:
+              - text: "1"
+              - generic [ref=e177]:
+                - text: "0"
+                - generic [ref=e178]: "25"
+        - link "FLOP" [ref=e184] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Floating_point_operations_per_second
+        - text: of compute to train.
+        - superscript [ref=e185] [cursor=pointer]:
+          - link "14" [ref=e186]:
+            - /url: /footnotes#footnote-14
+        - text: OpenBrain’s latest public model—Agent-0—was trained with
+        - generic [ref=e188]:
+          - math [ref=e190]:
+            - generic [ref=e193]:
+              - generic [ref=e194]: "10"
+              - generic [ref=e195]: "27"
+          - generic [ref=e197]:
+            - text: "1"
+            - generic [ref=e198]:
+              - text: "0"
+              - generic [ref=e199]: "27"
+        - text: FLOP. Once the new datacenters are up and running,
+        - link "they’ll be able to train" [ref=e205] [cursor=pointer]:
+          - /url: https://ai-2027.com/supplements/compute-forecast
+        - text: a model with
+        - generic [ref=e207]:
+          - math [ref=e209]:
+            - generic [ref=e212]:
+              - generic [ref=e213]: "10"
+              - generic [ref=e214]: "28"
+          - generic [ref=e216]:
+            - text: "1"
+            - generic [ref=e217]:
+              - text: "0"
+              - generic [ref=e218]: "28"
+        - text: FLOP—a thousand times more than GPT-4.
+        - superscript [ref=e224] [cursor=pointer]:
+          - link "15" [ref=e225]:
+            - /url: /footnotes#footnote-15
+        - text: Other companies pour money into their own giant datacenters, hoping to keep pace.
+      - paragraph [ref=e226]:
+        - text: "Although models are improving on a wide range of skills, one stands out: OpenBrain focuses on AIs that can speed up AI research. They want to win the twin arms races against China (whose leading company we’ll call “DeepCent”)"
+        - superscript [ref=e227] [cursor=pointer]:
+          - link "16" [ref=e228]:
+            - /url: /footnotes#footnote-16
+        - text: and their U.S. competitors. The more of their research and development (R&D) cycle they can automate, the faster they can go. So when OpenBrain finishes training Agent-1, a new model under internal development, it’s good at many things but
+        - emphasis [ref=e229]: great
+        - text: at helping with AI research.
+        - superscript [ref=e230] [cursor=pointer]:
+          - link "17" [ref=e231]:
+            - /url: /footnotes#footnote-17
+        - text: By this point “finishes training” is a bit of a misnomer; models are frequently updated to newer versions trained on additional data or partially re-trained to patch some weaknesses.
+        - superscript [ref=e232] [cursor=pointer]:
+          - link "18" [ref=e233]:
+            - /url: /footnotes#footnote-18
+      - paragraph [ref=e234]:
+        - text: The same training environments that teach Agent-1 to autonomously code and web-browse also make it a good hacker. Moreover, it could offer
+        - link "substantial help" [ref=e235] [cursor=pointer]:
+          - /url: https://x.com/lucafrighetti/status/1894550297449828434
+        - text: to terrorists designing bioweapons, thanks to its PhD-level knowledge of every field and ability to browse the web. OpenBrain reassures the government that the model has been “aligned” so that it will refuse to comply with malicious requests.
+      - paragraph [ref=e236]:
+        - text: "Modern AI systems are gigantic artificial neural networks. Early in training, an AI won’t have “goals” so much as “reflexes”: If it sees “Pleased to meet”, it outputs “ you”. By the time it has been trained to predict approximately one internet’s worth of text, it’ll have developed sophisticated internal circuitry that encodes vast amounts of knowledge and flexibly role-plays as arbitrary authors, since that’s what helps it predict text with"
+        - link "superhuman" [ref=e237] [cursor=pointer]:
+          - /url: https://arxiv.org/pdf/2212.11281
+        - text: accuracy.
+        - superscript [ref=e238] [cursor=pointer]:
+          - link "19" [ref=e239]:
+            - /url: /footnotes#footnote-19
+      - paragraph [ref=e240]:
+        - text: After being trained to predict internet text, the model is trained to
+        - emphasis [ref=e241]: produce
+        - text: text in response to instructions. This bakes in a basic personality and “drives.”
+        - superscript [ref=e242] [cursor=pointer]:
+          - link "20" [ref=e243]:
+            - /url: /footnotes#footnote-20
+        - text: For example, an agent that understands a task clearly is more likely to complete it successfully; over the course of training the model “learns” a “drive” to get a clear understanding of its tasks. Other drives in this category might be effectiveness, knowledge, and self-presentation (i.e. the tendency to frame its results in the best possible light).
+        - superscript [ref=e244] [cursor=pointer]:
+          - link "21" [ref=e245]:
+            - /url: /footnotes#footnote-21
+      - paragraph [ref=e246]:
+        - text: OpenBrain has
+        - link "a model specification" [ref=e247] [cursor=pointer]:
+          - /url: https://model-spec.openai.com/2025-02-12.html
+        - text: (or “Spec”), a written document describing the goals, rules, principles, etc. that are supposed to guide the model’s behavior.
+        - superscript [ref=e248] [cursor=pointer]:
+          - link "22" [ref=e249]:
+            - /url: /footnotes#footnote-22
+        - text: Agent-1’s Spec combines a few vague goals (like “assist the user” and “don’t break the law”) with a long list of more specific dos and don’ts (“don’t say this particular word,” “here’s how to handle this particular situation”). Using techniques that utilize AIs to train other AIs,
+        - superscript [ref=e250] [cursor=pointer]:
+          - link "23" [ref=e251]:
+            - /url: /footnotes#footnote-23
+        - text: the model memorizes the Spec and learns to reason carefully about its maxims. By the end of
+        - emphasis [ref=e252]: this
+        - text: training, the AI will hopefully be
+        - emphasis [ref=e253]: helpful
+        - text: (obey instructions),
+        - emphasis [ref=e254]: harmless
+        - text: (refuse to help with scams, bomb-making, and other dangerous activities) and
+        - emphasis [ref=e255]: honest
+        - text: (resist the temptation to get better ratings from gullible humans by hallucinating citations
+        - superscript [ref=e256] [cursor=pointer]:
+          - link "24" [ref=e257]:
+            - /url: /footnotes#footnote-24
+        - text: or faking task completion).
+      - group [ref=e258]:
+        - 'generic "Training process and LLM psychology: why we keep saying “hopefully”" [ref=e259] [cursor=pointer]'
+      - paragraph [ref=e260]:
+        - text: OpenBrain’s alignment team
+        - superscript [ref=e261] [cursor=pointer]:
+          - link "26" [ref=e262]:
+            - /url: /footnotes#footnote-26
+        - text: is careful enough to wonder whether these victories are deep or shallow. Does the fully-trained model have some kind of robust commitment to always being honest? Or will this fall apart in some future situation, e.g. because it’s learned honesty as an
+        - link "instrumental" [ref=e263] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Instrumental_and_intrinsic_value
+        - text: goal instead of a terminal goal? Or has it just learned to be honest about the sorts of things the evaluation process can check? Could it be lying to itself sometimes, as humans do? A conclusive answer to these questions would require mechanistic interpretability—essentially the ability to look at an AI’s internals and read its mind. Alas, interpretability techniques are not yet advanced enough for this.
+      - paragraph [ref=e264]:
+        - text: Instead, researchers try to identify cases where the models seem to deviate from the Spec. Agent-1 is often sycophantic (i.e. it tells researchers what they want to hear instead of trying to tell them the truth). In a
+        - link "few rigged demos" [ref=e265] [cursor=pointer]:
+          - /url: https://www.apolloresearch.ai/research/scheming-reasoning-evaluations
+        - text: ", it even lies in more serious ways, like hiding evidence that it failed on a task, in order to get better ratings. However, in real deployment settings, there are no longer any incidents so extreme as in 2023–2024 (e.g."
+        - link "Gemini telling a user to die" [ref=e266] [cursor=pointer]:
+          - /url: https://thehill.com/policy/technology/4998868-google-ai-gemini-response/
+        - text: and
+        - link "Bing Sydney being Bing Sydney" [ref=e267] [cursor=pointer]:
+          - /url: https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned
+        - text: .)
+        - superscript [ref=e268] [cursor=pointer]:
+          - link "27" [ref=e269]:
+            - /url: /footnotes#footnote-27
+    - generic [ref=e270]:
+      - 'heading "Early 2026: Coding Automation" [level=2] [ref=e271]'
+      - paragraph [ref=e272]: The bet of using AI to speed up AI research is starting to pay off.
+      - paragraph [ref=e273]: OpenBrain continues to deploy the iteratively improving Agent-1 internally for AI R&D. Overall, they are making algorithmic progress 50% faster than they would without AI assistants—and more importantly, faster than their competitors.
+      - group [ref=e274]:
+        - 'generic "The AI R&D progress multiplier: what do we mean by 50% faster algorithmic progress?" [ref=e275] [cursor=pointer]'
+      - paragraph [ref=e276]:
+        - text: Several competing publicly released AIs now match or exceed Agent-0, including an
+        - link "open-weights" [ref=e277] [cursor=pointer]:
+          - /url: https://opensource.org/ai/open-weights
+        - text: model. OpenBrain responds by releasing Agent-1, which is more capable and reliable.
+        - superscript [ref=e278] [cursor=pointer]:
+          - link "28" [ref=e279]:
+            - /url: /footnotes#footnote-28
+      - paragraph [ref=e280]:
+        - text: People naturally try to compare Agent-1 to humans, but it has a very different skill profile. It knows more facts than any human, knows practically every programming language, and can solve well-specified coding problems extremely quickly. On the other hand, Agent-1 is bad at even simple long-horizon tasks, like beating video games it hasn’t played before. Still, the common workday is eight hours, and a day’s work can usually be separated into smaller chunks; you could think of Agent-1 as a scatterbrained employee who thrives under careful management.
+        - superscript [ref=e281] [cursor=pointer]:
+          - link "29" [ref=e282]:
+            - /url: /footnotes#footnote-29
+        - text: Savvy people find ways to automate routine parts of their jobs.
+        - superscript [ref=e283] [cursor=pointer]:
+          - link "30" [ref=e284]:
+            - /url: /footnotes#footnote-30
+      - paragraph [ref=e285]:
+        - text: "OpenBrain’s executives turn consideration to an implication of automating AI R&D: security has become more important. In early 2025, the worst-case scenario was leaked algorithmic secrets; now, if China steals Agent-1’s weights, they could increase their research speed by nearly 50%."
+        - superscript [ref=e286] [cursor=pointer]:
+          - link "31" [ref=e287]:
+            - /url: /footnotes#footnote-31
+        - text: OpenBrain’s security level is typical of a fast-growing ~3,000 person tech company, secure only against low-priority attacks from capable cyber groups (
+        - link "RAND’s SL2" [ref=e288] [cursor=pointer]:
+          - /url: https://www.rand.org/pubs/research_briefs/RBA2849-1.html#:~:text=What%20Are%20the%20Security%20Needs%20of%20Different%20AI%20Systems%3F
+        - text: ).
+        - superscript [ref=e289] [cursor=pointer]:
+          - link "32" [ref=e290]:
+            - /url: /footnotes#footnote-32
+        - text: They are working hard to protect their
+        - link "weights" [ref=e291] [cursor=pointer]:
+          - /url: https://tedai-sanfrancisco.ted.com/glossary/weights/
+        - text: and secrets from insider threats and top cybercrime syndicates (
+        - link "SL3" [ref=e292] [cursor=pointer]:
+          - /url: https://www.rand.org/pubs/research_briefs/RBA2849-1.html#:~:text=What%20Are%20the%20Security%20Needs%20of%20Different%20AI%20Systems%3F
+        - text: ),
+        - superscript [ref=e293] [cursor=pointer]:
+          - link "33" [ref=e294]:
+            - /url: /footnotes#footnote-33
+        - text: but defense against nation states (
+        - link "SL4&5" [ref=e295] [cursor=pointer]:
+          - /url: https://www.rand.org/pubs/research_briefs/RBA2849-1.html#:~:text=What%20Are%20the%20Security%20Needs%20of%20Different%20AI%20Systems%3F
+        - text: ) is barely on the horizon.
+    - generic [ref=e296]:
+      - 'heading "Mid 2026: China Wakes Up" [level=2] [ref=e297]'
+      - paragraph [ref=e298]:
+        - text: In China, the CCP is starting to
+        - link "feel the AGI" [ref=e299] [cursor=pointer]:
+          - /url: https://futurism.com/openai-employees-say-firms-chief-scientist-has-been-making-strange-spiritual-claims
+        - text: .
+      - paragraph [ref=e300]:
+        - text: Chip export controls and lack of government support have left China under-resourced compared to the West. By smuggling banned Taiwanese chips, buying older chips, and producing domestic chips about three years behind the U.S.-Taiwanese frontier, China has managed to maintain about 12% of the world’s AI-relevant compute—but the older technology is harder to work with, and supply is a constant headache.
+        - superscript [ref=e301] [cursor=pointer]:
+          - link "35" [ref=e302]:
+            - /url: /footnotes#footnote-35
+        - text: A few standouts like DeepCent do very impressive work with limited compute, but the compute deficit limits what they can achieve without government support, and they are about six months behind the best OpenBrain models.
+        - superscript [ref=e303] [cursor=pointer]:
+          - link "36" [ref=e304]:
+            - /url: /footnotes#footnote-36
+      - paragraph [ref=e305]:
+        - text: The General Secretary had long dreamed of doubling down on real-world physical manufacturing and avoiding American post-industrial decadence. He viewed software companies with suspicion.
+        - superscript [ref=e306] [cursor=pointer]:
+          - link "37" [ref=e307]:
+            - /url: /footnotes#footnote-37
+        - text: But hawks in the CCP warn that the growing race towards AGI can no longer be ignored. So he finally commits fully to the big AI push he had previously tried to avoid. He sets in motion the nationalization of Chinese AI research, creating an immediate information-sharing mechanism for AI companies. It will escalate over the course of a year until all the best researchers merge into a DeepCent-led collective, where they share algorithmic insights, datasets, and compute resources with each other. A Centralized Development Zone (CDZ) is created at the Tianwan Power Plant (the largest nuclear power plant in the world) to house a new mega-datacenter for DeepCent, along with highly secure living and office spaces to which researchers will eventually relocate. Almost 50% of China’s AI-relevant compute is now working for the DeepCent-led collective,
+        - superscript [ref=e308] [cursor=pointer]:
+          - link "38" [ref=e309]:
+            - /url: /footnotes#footnote-38
+        - text: and over 80% of new chips are directed to the CDZ.
+        - superscript [ref=e310] [cursor=pointer]:
+          - link "39" [ref=e311]:
+            - /url: /footnotes#footnote-39
+        - text: At this point, the CDZ has the power capacity in place for what would be the largest centralized
+        - link "cluster" [ref=e312] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Computer_cluster
+        - text: in the world.
+        - superscript [ref=e313] [cursor=pointer]:
+          - link "40" [ref=e314]:
+            - /url: /footnotes#footnote-40
+        - text: Other Party members discuss extreme measures to neutralize the West’s chip advantage. A blockade of Taiwan? A full invasion?
+      - paragraph [ref=e315]:
+        - text: But China is falling behind on AI algorithms due to their weaker models. The Chinese intelligence agencies—among the best in the world—double down on their plans to steal OpenBrain’s weights. This is a much more complex operation than their constant low-level poaching of algorithmic secrets; the weights are a multi-terabyte file stored on a highly secure server (
+        - link "OpenBrain has improved security" [ref=e316] [cursor=pointer]:
+          - /url: https://ai-2027.com/supplements/security-forecast
+        - text: to RAND’s
+        - link "SL3" [ref=e317] [cursor=pointer]:
+          - /url: https://www.rand.org/pubs/research_briefs/RBA2849-1.html#:~:text=What%20Are%20the%20Security%20Needs%20of%20Different%20AI%20Systems%3F
+        - text: ). Their cyberforce think they can pull it off with help from their
+        - link "spies" [ref=e318] [cursor=pointer]:
+          - /url: https://www.economist.com/china/2024/12/26/how-china-turns-members-of-its-diaspora-into-spies
+        - text: ", but perhaps only once; OpenBrain will detect the theft, increase security, and they may not get another chance. So (CCP leadership wonder) should they act now and steal Agent-1? Or hold out for a more advanced model? If they wait, do they risk OpenBrain upgrading security beyond their ability to penetrate?"
+    - generic [ref=e319]:
+      - 'heading "Late 2026: AI Takes Some Jobs" [level=2] [ref=e320]'
+      - paragraph [ref=e321]: Just as others seemed to be catching up, OpenBrain blows the competition out of the water again by releasing Agent-1-mini—a model 10x cheaper than Agent-1 and more easily fine-tuned for different applications. The mainstream narrative around AI has changed from “maybe the hype will blow over” to “guess this is the next big thing,” but people disagree about how big. Bigger than social media? Bigger than smartphones? Bigger than fire?
+      - paragraph [ref=e322]: "AI has started to take jobs, but has also created new ones. The stock market has gone up 30% in 2026, led by OpenBrain, Nvidia, and whichever companies have most successfully integrated AI assistants. The job market for junior software engineers is in turmoil: the AIs can do everything taught by a CS degree, but people who know how to manage and quality-control teams of AIs are making a killing. Business gurus tell job seekers that familiarity with AI is the most important skill to put on a resume. Many people fear that the next wave of AIs will come for their jobs; there is a 10,000 person anti-AI protest in DC."
+      - paragraph [ref=e323]:
+        - text: Department of Defense (DOD) quietly but significantly begins scaling up contracting OpenBrain directly for cyber, data analysis, and R&D, but integration is slow due to the bureaucracy and DOD procurement process.
+        - superscript [ref=e324] [cursor=pointer]:
+          - link "41" [ref=e325]:
+            - /url: /footnotes#footnote-41
+      - generic [ref=e326]:
+        - generic [ref=e328]:
+          - generic [ref=e330]:
+            - generic [ref=e331]: GLOBAL AI CAPEX
+            - generic [ref=e332]: $1T
+            - generic [ref=e333]: COST OF OWNERSHIP OF ACTIVE COMPUTE
+          - heading "KEY METRICS 2026" [level=2] [ref=e335]
+          - generic [ref=e337]:
+            - generic [ref=e338]: GLOBAL AI POWER
+            - generic [ref=e339]: 38GW
+            - generic [ref=e340]: PEAK POWER
+          - generic [ref=e342]:
+            - generic [ref=e347]: OPENBRAIN REVENUE
+            - generic [ref=e348]: $35B
+            - generic [ref=e349]: 2026 ANNUAL
+          - generic [ref=e351]:
+            - generic [ref=e356]: CAPITAL EXPENDITURE
+            - generic [ref=e357]: $200B
+            - generic [ref=e358]: COST OF OWNERSHIP OF OPENBRAIN'S ACTIVE COMPUTE
+          - generic [ref=e360]:
+            - generic [ref=e361]: SHARE OF US POWER ON AI
+            - generic [ref=e362]: 2.5%
+            - generic [ref=e363]: 33 GW OF 1.34TW CAPACITY
+          - generic [ref=e365]:
+            - generic [ref=e370]: OPENBRAIN COMPUTE COSTS
+            - generic [ref=e371]: $40B
+            - generic [ref=e372]: 2026 ANNUAL
+          - generic [ref=e374]:
+            - generic [ref=e379]: OPENBRAIN POWER REQUIREMENT
+            - generic [ref=e380]: 6GW
+            - generic [ref=e381]: PEAK POWER
+        - generic [ref=e382]: ai-2027.com
+      - group [ref=e383]:
+        - generic "Why our uncertainty increases substantially beyond 2026" [ref=e384] [cursor=pointer]
+    - generic [ref=e385]:
+      - 'heading "January 2027: Agent-2 Never Finishes Learning" [level=2] [ref=e386]'
+      - paragraph [ref=e387]:
+        - text: With Agent-1’s help, OpenBrain is now post-training Agent-2. More than ever, the focus is on high-quality data. Copious amounts of
+        - link "synthetic data" [ref=e388] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Synthetic_data
+        - text: are produced, evaluated, and filtered for quality before being fed to Agent-2.
+        - superscript [ref=e389] [cursor=pointer]:
+          - link "42" [ref=e390]:
+            - /url: /footnotes#footnote-42
+        - text: On top of this, they pay billions of dollars for human laborers to record themselves solving long-horizon tasks.
+        - superscript [ref=e391] [cursor=pointer]:
+          - link "43" [ref=e392]:
+            - /url: /footnotes#footnote-43
+        - text: On top of all
+        - emphasis [ref=e393]: that,
+        - text: "they train Agent-2 almost continuously using reinforcement learning on an ever-expanding suite of diverse difficult tasks: lots of video games, lots of coding challenges, lots of research tasks. Agent-2, more so than previous models, is effectively “online learning,” in that it’s built to never really finish training. Every day, the weights get updated to the latest version, trained on more data generated by the previous version the previous day."
+      - paragraph [ref=e394]:
+        - text: Agent-1 had been optimized for AI R&D tasks, hoping to initiate an
+        - link "intelligence explosion" [ref=e395] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Technological_singularity#Intelligence_explosion
+        - text: .
+        - superscript [ref=e396] [cursor=pointer]:
+          - link "44" [ref=e397]:
+            - /url: /footnotes#footnote-44
+        - text: OpenBrain doubles down on this strategy with Agent-2. It is qualitatively almost as good as the top human experts at research engineering (designing and implementing experiments), and as good as the 25th percentile OpenBrain scientist at “research taste” (deciding what to study next, what experiments to run, or having inklings of potential new paradigms).
+        - superscript [ref=e398] [cursor=pointer]:
+          - link "45" [ref=e399]:
+            - /url: /footnotes#footnote-45
+        - text: While the latest Agent-1 could double the pace of OpenBrain’s algorithmic progress, Agent-2 can now triple it, and will improve further with time. In practice, this looks like every OpenBrain researcher becoming the “manager” of an AI “team.”
+      - paragraph [ref=e400]:
+        - text: With new capabilities come new dangers. The safety team finds that if Agent-2 somehow escaped from the company and wanted to
+        - link "“survive” and “replicate” autonomously" [ref=e401] [cursor=pointer]:
+          - /url: https://evals.alignment.org/Evaluating_LMAs_Realistic_Tasks.pdf
+        - text: ", it might be able to do so. That is, it could autonomously develop and execute plans to hack into AI servers, install copies of itself, evade detection, and use that secure base to pursue whatever other goals it might have (though how effectively it would do so as weeks roll by is unknown and in doubt). These results only show that the model has the capability to do these tasks, not whether it would “want” to do this. Still, it’s unsettling even to know this is possible."
+      - paragraph [ref=e402]:
+        - text: Given the “dangers” of the new model, OpenBrain “responsibly” elects not to release it publicly yet (in fact, they want to focus on internal AI R&D).
+        - superscript [ref=e403] [cursor=pointer]:
+          - link "46" [ref=e404]:
+            - /url: /footnotes#footnote-46
+        - text: Knowledge of Agent-2’s full capabilities is limited to an elite silo containing the immediate team, OpenBrain leadership and security, a few dozen U.S. government officials, and the legions of CCP spies who have infiltrated OpenBrain
+        - link "for" [ref=e405] [cursor=pointer]:
+          - /url: https://situational-awareness.ai/lock-down-the-labs/
+        - link "years" [ref=e406] [cursor=pointer]:
+          - /url: https://www.bbc.com/news/world-asia-china-64206950
+        - text: .
+        - superscript [ref=e407] [cursor=pointer]:
+          - link "47" [ref=e408]:
+            - /url: /footnotes#footnote-47
+    - generic [ref=e409]:
+      - 'heading "February 2027: China Steals Agent-2" [level=2] [ref=e410]'
+      - paragraph [ref=e411]:
+        - text: OpenBrain presents Agent-2 to the government, including the National Security Council (NSC), the Department of Defense (DOD), and the U.S. AI Safety Institute (AISI). OpenBrain wants to maintain a good relationship with the executive branch, because it is basically the only actor that can stop them now, and if they don’t keep it informed it might find out anyway and be displeased.
+        - superscript [ref=e412] [cursor=pointer]:
+          - link "48" [ref=e413]:
+            - /url: /footnotes#footnote-48
+      - paragraph [ref=e414]:
+        - text: "Officials are most interested in its cyberwarfare capabilities: Agent-2 is “only” a little worse than the best human hackers, but thousands of copies can be run in parallel, searching for and exploiting weaknesses faster than defenders can respond. The Department of Defense considers this a critical advantage in cyberwarfare, and AI moves from #5 on the administration’s priority list to #2."
+        - superscript [ref=e415] [cursor=pointer]:
+          - link "49" [ref=e416]:
+            - /url: /footnotes#footnote-49
+        - text: Someone mentions the possibility of nationalizing OpenBrain, but other cabinet officials think that’s premature. A staffer drafts a memo that presents the President with his options, ranging from business-as-usual to full nationalization. The President defers to his advisors, tech industry leaders who argue that nationalization would “kill the goose that lays the golden eggs.” He elects to hold off on major action for now and just adds additional security requirements to the OpenBrain-DOD contract.
+      - paragraph [ref=e417]: The changes come too late. CCP leadership recognizes the importance of Agent-2 and tells their spies and cyberforce to steal the weights. Early one morning, an Agent-1 traffic monitoring agent detects an anomalous transfer. It alerts company leaders, who tell the White House. The signs of a nation-state-level operation are unmistakable, and the theft heightens the sense of an ongoing arms race.
+      - group [ref=e418]:
+        - generic "The theft of Agent-2 model weights" [ref=e419] [cursor=pointer]
+      - paragraph [ref=e420]:
+        - text: The White House puts OpenBrain on a shorter leash and adds military and intelligence community personnel to their security team. Their first priority is to prevent further weight thefts.
+        - superscript [ref=e421] [cursor=pointer]:
+          - link "50" [ref=e422]:
+            - /url: /footnotes#footnote-50
+      - generic [ref=e423]:
+        - img [ref=e425]:
+          - generic [ref=e426]: China's Compute Centralization, 2025-2027
+          - generic [ref=e427]: "Growing share of total compute in CDZ:"
+          - generic [ref=e428]: 0→70%
+          - generic [ref=e431]: Dec 2025
+          - generic [ref=e433]: Jun 2026
+          - generic [ref=e435]: Dec 2026
+          - generic [ref=e437]: Jun 2027
+          - generic [ref=e439]: Dec 2027
+          - generic [ref=e475]: Rest of China
+          - generic [ref=e476]: Rest of DeepCent
+          - generic [ref=e477]: CDZ
+          - generic [ref=e478]: Feb 2027 (40%)
+        - generic [ref=e480]: ai-2027.com
+      - paragraph [ref=e481]:
+        - text: In retaliation for the theft, the President authorizes cyberattacks to sabotage DeepCent. But by now China has 40% of its AI-relevant compute
+        - superscript [ref=e482] [cursor=pointer]:
+          - link "51" [ref=e483]:
+            - /url: /footnotes#footnote-51
+        - text: in the CDZ, where they have aggressively hardened security by airgapping (closing external connections) and siloing internally. The operations fail to do serious, immediate damage. Tensions heighten, both sides signal seriousness by repositioning military assets around Taiwan, and DeepCent scrambles to get Agent-2 running efficiently to start boosting their AI research.
+        - superscript [ref=e484] [cursor=pointer]:
+          - link "52" [ref=e485]:
+            - /url: /footnotes#footnote-52
+    - generic [ref=e486]:
+      - 'heading "March 2027: Algorithmic Breakthroughs" [level=2] [ref=e487]'
+      - paragraph [ref=e488]: Three huge datacenters full of Agent-2 copies work day and night, churning out synthetic training data. Another two are used to update the weights. Agent-2 is getting smarter every day.
+      - paragraph [ref=e489]: With the help of thousands of Agent-2 automated researchers, OpenBrain is making major algorithmic advances. One such breakthrough is augmenting the AI’s text-based scratchpad (chain of thought) with a higher-bandwidth thought process (neuralese recurrence and memory). Another is a more scalable and efficient way to learn from the results of high-effort task solutions (iterated distillation and amplification).
+      - paragraph [ref=e490]: The new AI system, incorporating these breakthroughs, is called Agent-3.
+      - generic [ref=e491]:
+        - img [ref=e493]:
+          - generic [ref=e494]: OpenBrain's Compute Allocation, 2024 vs 2027
+          - generic [ref=e495]: "2024"
+          - generic [ref=e496]: "2027"
+          - generic [ref=e497]: estimate
+          - generic [ref=e498]: projection
+          - generic [ref=e499]:
+            - generic [ref=e510]: Research experiments
+            - generic [ref=e511]: Training
+            - generic [ref=e512]: Data generation
+            - generic [ref=e513]:
+              - generic [ref=e514]: External
+              - generic [ref=e515]: Deployment
+            - generic [ref=e521]:
+              - generic [ref=e522]: Research
+              - generic [ref=e523]: experiments
+            - generic [ref=e524]:
+              - generic [ref=e525]: Running AI
+              - generic [ref=e526]: assistants
+            - generic [ref=e527]: Training
+            - generic [ref=e528]:
+              - generic [ref=e529]: Data
+              - generic [ref=e530]: generation
+            - generic [ref=e531]:
+              - generic [ref=e532]: External
+              - generic [ref=e533]: Deployment
+        - generic [ref=e534]: ai-2027.com
+      - group [ref=e535]:
+        - generic "Neuralese recurrence and memory" [ref=e536] [cursor=pointer]
+      - group [ref=e537]:
+        - generic "Iterated distillation and amplification (IDA)" [ref=e538] [cursor=pointer]
+      - paragraph [ref=e539]:
+        - text: Aided by the new capabilities breakthroughs, Agent-3 is a fast and cheap superhuman coder. OpenBrain runs 200,000 Agent-3 copies in parallel, creating a workforce equivalent to 50,000 copies of the best human coder sped up by 30x.
+        - superscript [ref=e540] [cursor=pointer]:
+          - link "53" [ref=e541]:
+            - /url: /footnotes#footnote-53
+        - text: OpenBrain still keeps its human engineers on staff, because they have complementary skills needed to manage the teams of Agent-3 copies. For example, research taste has proven difficult to train due to longer feedback loops and less data availability.
+        - superscript [ref=e542] [cursor=pointer]:
+          - link "54" [ref=e543]:
+            - /url: /footnotes#footnote-54
+        - text: This massive superhuman labor force speeds up OpenBrain’s overall rate of algorithmic progress by “only” 4x due to bottlenecks and diminishing returns to coding labor.
+        - superscript [ref=e544] [cursor=pointer]:
+          - link "55" [ref=e545]:
+            - /url: /footnotes#footnote-55
+      - paragraph [ref=e546]: Now that coding has been fully automated, OpenBrain can quickly churn out high-quality training environments to teach Agent-3’s weak skills like research taste and large-scale coordination. Whereas previous training environments included “Here are some GPUs and instructions for experiments to code up and run, your performance will be evaluated as if you were a ML engineer,” now they are training on “Here are a few hundred GPUs, an internet connection, and some research challenges; you and a thousand other copies must work together to make research progress. The more impressive it is, the higher your score.”
+      - group [ref=e547]:
+        - generic "Why we forecast a superhuman coder in early 2027" [ref=e548] [cursor=pointer]
+    - generic [ref=e549]:
+      - 'heading "April 2027: Alignment for Agent-3" [level=2] [ref=e550]'
+      - paragraph [ref=e551]: OpenBrain’s safety team attempts to align Agent-3.
+      - paragraph [ref=e552]: Since Agent-3 will be kept in-house for the foreseeable future, there’s less emphasis on the usual defenses against human misuse. Instead, the team wants to make sure that it doesn’t develop misaligned goals.
+      - paragraph [ref=e553]:
+        - link "The researchers don’t have the ability to directly set the goals of any of their AIs." [ref=e554] [cursor=pointer]:
+          - /url: https://ai-2027.com/supplements/ai-goals-forecast
+        - text: Indeed, the researchers think that the concept of ‘true goals’ is probably a massive oversimplification, but they don’t have a better theory to replace it with, much less one that has been thoroughly vetted. They disagree internally about whether the AIs are trying to follow human instructions, or seeking reinforcement, or something else, and they can’t
+        - link "just check" [ref=e555] [cursor=pointer]:
+          - /url: https://www.lesswrong.com/posts/cxuzALcmucCndYv4a/daniel-kokotajlo-s-shortform?commentId=YYhq2PADebnt35MY2
+        - text: . The evidence for and against various hypotheses is fascinating but inconclusive.
+      - paragraph [ref=e556]: "In any case, OpenBrain has more important things to worry about. The general attitude is: “We take these concerns seriously and have a team investigating them; our alignment techniques seem to work well enough in practice; the burden of proof is therefore on any naysayers to justify their naysaying.” Occasionally, they notice problematic behavior, and then patch it, but there’s no way to tell whether the patch fixed the underlying problem or just played whack-a-mole."
+      - paragraph [ref=e557]:
+        - text: Take honesty, for example. As the models become smarter, they become increasingly good at deceiving humans to get rewards. Like previous models, Agent-3 sometimes tells white lies to flatter its users and covers up evidence of failure. But it’s gotten much better at doing so. It will sometimes use the same statistical tricks as human scientists (like
+        - link "p-hacking" [ref=e558] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Data_dredging
+        - text: ) to make unimpressive experimental results look exciting. Before it begins honesty training, it even sometimes fabricates data entirely. As training goes on, the rate of these incidents decreases. Either Agent-3 has learned to be more honest, or it’s gotten better at lying.
+      - paragraph [ref=e559]: The latter is a real concern. Agent-3 is not smarter than all humans. But in its area of expertise, machine learning, it is smarter than most, and also works much faster. What Agent-3 does in a day takes humans several days to double-check. Agent-2 supervision helps keep human monitors’ workload manageable, but exacerbates the intellectual disparity between supervisor and supervised.
+      - group [ref=e560]:
+        - generic "The alignment plan" [ref=e561] [cursor=pointer]
+      - paragraph [ref=e562]:
+        - text: After months of testing, Agent-3’s strengths and weaknesses grow clearer. It passes OpenBrain’s honesty tests on well-defined machine learning tasks, because researchers can easily separate honest from dishonest answers in these domains and conduct training accordingly. On more philosophical issues, it still says what users want to hear, rather than its true assessment of the issue (assuming it even has one). If you ask its opinion on politics, it will parrot the median position of news sources and educated elites—unless it knows you believe something else, in which case it agrees with you.
+        - superscript [ref=e563] [cursor=pointer]:
+          - link "59" [ref=e564]:
+            - /url: /footnotes#footnote-59
+        - text: "If you ask its opinion on the AI race itself, it says something that seems measured and sober to OpenBrain staff, something like: “There are some serious theoretical concerns about the ability of current methods to scale to superintelligence, but in practice current methods seem to be working well so far.”"
+    - generic [ref=e565]:
+      - 'heading "May 2027: National Security" [level=2] [ref=e566]'
+      - paragraph [ref=e567]: News of the new models percolates slowly through the U.S. government and beyond.
+      - paragraph [ref=e568]: The President and his advisors remain best-informed, and have seen an early version of Agent-3 in a briefing.
+      - paragraph [ref=e569]:
+        - text: They agree that AGI is likely imminent, but disagree on the implications. Will there be an economic crisis? OpenBrain still has not released Agent-2, let alone Agent-3, and has no near-term plans to do so, giving some breathing room before any job loss. What will happen next? If AIs are currently human-level, and advancing quickly, that seems to suggest imminent “superintelligence.” However, although this word has entered discourse, most people—academics, politicians, government employees, and the media—continue to underestimate the pace of progress.
+        - superscript [ref=e570] [cursor=pointer]:
+          - link "60" [ref=e571]:
+            - /url: /footnotes#footnote-60
+      - paragraph [ref=e572]:
+        - text: Partially that’s because very few have access to the newest capabilities out of OpenBrain, but partly it’s because it sounds like science fiction.
+        - superscript [ref=e573] [cursor=pointer]:
+          - link "61" [ref=e574]:
+            - /url: /footnotes#footnote-61
+      - paragraph [ref=e575]:
+        - text: For now, they focus on continued security upgrades. They are satisfied that model weights are well-secured for now,
+        - superscript [ref=e576] [cursor=pointer]:
+          - link "62" [ref=e577]:
+            - /url: /footnotes#footnote-62
+        - text: but companies’ algorithmic secrets, many of which are simple enough to relay verbally, remain a problem. OpenBrain employees work from a San Francisco office, go to parties, and live with housemates from other AI companies. Even the physical offices have security more typical of a tech company than a military operation.
+      - paragraph [ref=e578]:
+        - text: "The OpenBrain-DOD contract requires security clearances for anyone working on OpenBrain’s models within 2 months. These are expedited and arrive quickly enough for most employees, but some non-Americans, people with suspect political views, and AI safety sympathizers get sidelined or fired outright (the last group for fear that they might whistleblow). Given the project’s level of automation, the loss of headcount is only somewhat costly. It also only somewhat works: there remains one spy, not a Chinese national, still relaying algorithmic secrets to Beijing."
+        - superscript [ref=e579] [cursor=pointer]:
+          - link "63" [ref=e580]:
+            - /url: /footnotes#footnote-63
+        - text: Some of these measures are also enacted at trailing AI companies.
+      - paragraph [ref=e581]:
+        - text: America’s foreign allies are out of the loop. OpenBrain had
+        - link "previously agreed" [ref=e582] [cursor=pointer]:
+          - /url: https://fedscoop.com/openai-anthropic-enter-ai-agreements-with-us-ai-safety-institute/
+        - text: to share models with UK’s AISI before deployment, but defined deployment to only include
+        - emphasis [ref=e583]: external
+        - text: deployment, so London remains in the dark.
+        - superscript [ref=e584] [cursor=pointer]:
+          - link "64" [ref=e585]:
+            - /url: /footnotes#footnote-64
+    - generic [ref=e586]:
+      - 'heading "June 2027: Self-improving AI" [level=2] [ref=e587]'
+      - paragraph [ref=e588]:
+        - text: OpenBrain now has a “
+        - link "country of geniuses in a datacenter" [ref=e589] [cursor=pointer]:
+          - /url: https://darioamodei.com/machines-of-loving-grace#basic-assumptions-and-framework
+        - text: .”
+      - paragraph [ref=e590]: Most of the humans at OpenBrain can’t usefully contribute anymore. Some don’t realize this and harmfully micromanage their AI teams. Others sit at their computer screens, watching performance crawl up, and up, and up. The best human AI researchers are still adding value. They don’t code any more. But some of their research taste and planning ability has been hard for the models to replicate. Still, many of their ideas are useless because they lack the depth of knowledge of the AIs. For many of their research ideas, the AIs immediately respond with a report explaining that their idea was tested in-depth 3 weeks ago and found unpromising.
+      - paragraph [ref=e591]: These researchers go to bed every night and wake up to another week worth of progress made mostly by the AIs. They work increasingly long hours and take shifts around the clock just to keep up with progress—the AIs never sleep or rest. They are burning themselves out, but they know that these are the last few months that their labor matters.
+      - paragraph [ref=e592]: Within the silo, “Feeling the AGI” has given way to “Feeling the Superintelligence.”
+      - generic [ref=e593]:
+        - img [ref=e595]:
+          - generic [ref=e596]: Research Automation Deployment Tradeoff
+          - generic [ref=e597]:
+            - generic [ref=e598]: Mar 2027
+            - generic [ref=e599]: Jun 2027
+            - generic [ref=e600]: Sep 2027
+          - generic [ref=e601]: Speed (tokens/sec)
+          - generic [ref=e602]: Parallel Copies
+          - generic [ref=e603]: "10"
+          - generic [ref=e605]: "100"
+          - generic [ref=e607]: 1,000
+          - generic [ref=e609]: 10,000
+          - generic [ref=e611]: 10K
+          - generic [ref=e613]: 100K
+          - generic [ref=e615]: 1M
+          - generic [ref=e617]: 10M
+          - generic [ref=e624]: 200K copies30x Humanspeed
+          - generic [ref=e627]: 300K copies50x Humanspeed
+          - generic [ref=e629]: Human thinking speed10 words/sec
+          - generic [ref=e631]: 10x Humanthinking speed
+          - generic [ref=e633]: 100x Humanthinking speed
+        - generic [ref=e635]: ai-2027.com
+      - paragraph [ref=e636]:
+        - text: OpenBrain uses specialized inference hardware to run hundreds of thousands of Agent-3 copies at high serial speeds.
+        - superscript [ref=e637] [cursor=pointer]:
+          - link "65" [ref=e638]:
+            - /url: /footnotes#footnote-65
+      - group [ref=e639]:
+        - generic "Managing a corporation of AIs" [ref=e640] [cursor=pointer]
+    - generic [ref=e641]:
+      - 'heading "July 2027: The Cheap Remote Worker" [level=2] [ref=e642]'
+      - paragraph [ref=e643]: Trailing U.S. AI companies release their own AIs, approaching that of OpenBrain’s automated coder from January. Recognizing their increasing lack of competitiveness, they push for immediate regulations to slow OpenBrain, but are too late—OpenBrain has enough buy-in from the President that they will not be slowed.
+      - paragraph [ref=e644]: In response, OpenBrain announces that they’ve achieved AGI and releases Agent-3-mini to the public.
+      - paragraph [ref=e645]
+      - paragraph [ref=e649]:
+        - text: It blows the other AIs out of the water. Agent-3-mini is less capable than Agent-3, but 10x cheaper, and still better than the typical OpenBrain employee.
+        - superscript [ref=e650] [cursor=pointer]:
+          - link "67" [ref=e651]:
+            - /url: /footnotes#footnote-67
+        - text: Silicon Valley reaches a tipping point. Tech gurus announce that AGI and superintelligence are near, the AI safety community is panicking, and investors shovel billions into AI wrapper startups, desperate to capture a piece of the pie. Hiring new programmers has nearly stopped, but there’s never been a better time to be a consultant on integrating AI into your business.
+      - paragraph [ref=e652]: It’s not popular. The public still thinks of AI as a Big Tech plot to steal their jobs; OpenBrain has a net approval of -35% (25% approve, 60% disapprove, and 15% unsure).
+      - paragraph [ref=e653]:
+        - text: A week before release, OpenBrain gave Agent-3-mini to a set of external evaluators for safety testing. Preliminary results suggest that it’s extremely dangerous. A third-party evaluator finetunes it on publicly available biological weapons data
+        - superscript [ref=e654] [cursor=pointer]:
+          - link "68" [ref=e655]:
+            - /url: /footnotes#footnote-68
+        - text: and sets it to provide detailed instructions for human amateurs designing a bioweapon—it looks to be scarily effective at doing so. If the model weights fell into terrorist hands, the government believes there is a significant chance it could succeed at destroying civilization.
+      - paragraph [ref=e656]: Fortunately, it’s extremely robust to jailbreaks, so while the AI is running on OpenBrain’s servers, terrorists won’t be able to get much use out of it.
+      - paragraph [ref=e657]:
+        - text: Agent-3-mini is hugely useful for both remote work jobs and leisure. An explosion of new apps and
+        - link "B2B SAAS" [ref=e658] [cursor=pointer]:
+          - /url: https://encharge.io/what-is-b2b-saas/
+        - text: products rocks the market. Gamers get amazing dialogue with lifelike characters in polished video games that took only a month to make. 10% of Americans, mostly young people, consider an AI “a close friend.” For almost every white-collar profession, there are now multiple credible startups promising to “disrupt” it with AI.
+      - paragraph [ref=e659]: The public conversation is confused and chaotic. Hypesters are doing victory laps. Skeptics are still pointing out the things Agent-3-mini can’t do. Everyone knows something big is happening but no one agrees on what it is.
+    - generic [ref=e660]:
+      - 'heading "August 2027: The Geopolitics of Superintelligence" [level=2] [ref=e661]'
+      - paragraph [ref=e662]: The reality of the intelligence explosion hits the White House.
+      - paragraph [ref=e663]: When AI was only giving a 2x or 3x research speedup, it was easy to dismiss as the equivalent of hiring good personal assistants. Now it’s more obvious that AIs are themselves dominating AI research. People had long talked about an “AI arms race” in a sort of metaphorical sense. But now the mood in the government silo is as grim as during the worst part of the Cold War. The idea of superintelligence is still hard to take seriously, but the pace of progress over the last few months has been impossible to ignore. Defense officials are seriously considering scenarios that were mere hypotheticals a year earlier. What if AI undermines nuclear deterrence? What if it’s so skilled at cyberwarfare that a six-month AI lead is enough to render an opponent blind and defenseless? What if it could orchestrate propaganda campaigns that beat intelligence agencies at their own game? What if some AIs “go rogue?”
+      - paragraph [ref=e664]:
+        - text: The President is troubled. Like all politicians, he’s used to people sucking up to him only to betray him later. He’s worried now that the AIs could be doing something similar. Are we
+        - emphasis [ref=e665]: sure
+        - text: the AIs are entirely on our side? Is it
+        - emphasis [ref=e666]: completely safe
+        - text: to integrate them into military command-and-control networks?
+        - superscript [ref=e667] [cursor=pointer]:
+          - link "69" [ref=e668]:
+            - /url: /footnotes#footnote-69
+        - text: How does this “alignment” thing work, anyway? OpenBrain reassures the President that their systems have been extensively tested and are fully obedient. Even the awkward hallucinations and jailbreaks typical of earlier models have been hammered out.
+      - paragraph [ref=e669]:
+        - text: The White House is in a difficult position. They understand the national security implications of AI. But they also understand that it is deeply unpopular with the public.
+        - superscript [ref=e670] [cursor=pointer]:
+          - link "70" [ref=e671]:
+            - /url: /footnotes#footnote-70
+        - text: They have to continue developing more capable AI, in their eyes, or they will catastrophically lose to China. They placate the public with job training programs and unemployment insurance, and point to the stock market, which is in a historic boom. Then they focus entirely on winning the arms race. They strengthen chip export restrictions, order OpenBrain to further restrict its internet connections, and use extreme measures to secure algorithmic progress, like wiretapping OpenBrain employees—this catches the last remaining Chinese spy. To build goodwill for potential geopolitical conflict, they finally give their Five Eyes allies useful information and limited API access to some siloed copies of Agent-3.
+      - paragraph [ref=e672]:
+        - text: "These measures placate the hawks. But the White House also draws up contingency plans in case America’s lead is threatened: if necessary, the government could use the"
+        - link "Defense Production Act" [ref=e673] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Defense_Production_Act_of_1950
+        - text: (DPA) to take trailing companies’ datacenters and give them to OpenBrain.
+        - superscript [ref=e674] [cursor=pointer]:
+          - link "71" [ref=e675]:
+            - /url: /footnotes#footnote-71
+        - text: This would raise the company’s share of world compute from 20% to 50% (against DeepCent’s 10%). As a final option, they ask the Pentagon to draw up a plan for kinetic attacks on Chinese datacenters.
+      - paragraph [ref=e676]:
+        - text: "A much smaller group of officials is asked to draw up a different type of contingency plan: what if an AI goes rogue? This is viewed as an unlikely scenario, but worth spending some time on. The intelligence agencies’ main concern is that a rogue AI might escape and ally with a foreign adversary for protection."
+        - superscript [ref=e677] [cursor=pointer]:
+          - link "72" [ref=e678]:
+            - /url: /footnotes#footnote-72
+        - text: Nobody is sure what a plan to prevent this would look like, but government and OpenBrain officials agree to have an emergency shutdown system for datacenters where anything suspicious is detected.
+      - paragraph [ref=e679]: Finally, diplomats consider what an “AI arms control” treaty might look like. If AI progress threatened to overturn nuclear deterrence, could America and China avoid nuclear war? If someone found evidence of AIs going rogue, could the two countries halt research until they better understood the threat? How could such an agreement be monitored and enforced? In principle, major datacenters are hard to miss, and past treaties controlling nuclear weapons could provide a starting point for negotiations. But there would be new technological challenges as well as the usual political ones. And overall, treaties are viewed less favorably than attempts at unilaterally increasing America’s lead over China.
+      - paragraph [ref=e680]:
+        - text: "On the other side of the Pacific, China comes to many of the same conclusions: the intelligence explosion is underway, and small differences in AI capabilities today mean critical gaps in military capability tomorrow. But China is on the wrong side of this dynamic: they have only 10% of the world’s compute, against OpenBrain’s 20% and all U.S. companies’ combined 70%. Their only advantage is centralization: almost all of their compute is now working for DeepCent, and more than half of it is concentrated at the Tianwan CDZ."
+        - superscript [ref=e681] [cursor=pointer]:
+          - link "73" [ref=e682]:
+            - /url: /footnotes#footnote-73
+        - text: Only chips at sites without hardened security are left out of the centralized effort as they rightly fear U.S. cyberattacks.
+      - paragraph [ref=e683]: DeepCent has tested, deployed, and now post-trained the stolen Agent-2 weights. But they are still only going at half the pace of OpenBrain, mainly due to the compute deficit.
+      - paragraph [ref=e684]: Before losing their final spy, China received word of the capabilities and design for Agent-3 as well as the plans for the upcoming Agent-4 system. They are two months behind, and their AIs give a 10x research progress multiplier compared to America’s 25x. With the new chip export restrictions, this “AI gap” is more likely to lengthen than shorten. Their espionage has won them some algorithmic secrets, but they will have to train their own models from now on.
+      - paragraph [ref=e685]:
+        - text: They discuss contingency plans with more urgency than their American counterparts. Doves suggest they try harder to steal the weights again, maybe through physically infiltrating a datacenter. Hawks urge action against Taiwan, whose
+        - link "TSMC" [ref=e686] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/TSMC
+        - text: is still the source of more than 80% of American AI chips.
+      - paragraph [ref=e687]: Given China’s fear of losing the race, it has a natural interest in an arms control treaty, but overtures to U.S. diplomats lead nowhere.
+    - generic [ref=e688]:
+      - 'heading "September 2027: Agent-4, the Superhuman AI Researcher" [level=2] [ref=e689]'
+      - paragraph [ref=e690]: The gap between human and AI learning efficiency is rapidly decreasing.
+      - paragraph [ref=e691]:
+        - text: Traditional LLM-based AIs seemed to require many orders of magnitude more data and compute to get to human level performance.
+        - superscript [ref=e692] [cursor=pointer]:
+          - link "74" [ref=e693]:
+            - /url: /footnotes#footnote-74
+        - text: Agent-3, having excellent knowledge of both the human brain and modern AI algorithms, as well as many thousands of copies doing research, ends up making substantial algorithmic strides, narrowing the gap to an agent that’s only around 4,000x less compute-efficient than the human brain.
+        - superscript [ref=e694] [cursor=pointer]:
+          - link "75" [ref=e695]:
+            - /url: /footnotes#footnote-75
+      - paragraph [ref=e696]: This new AI system is dubbed Agent-4.
+      - paragraph [ref=e697]:
+        - text: An individual copy of the model, running at human speed, is already qualitatively better at AI research than any human. 300,000 copies are now running at about 50x the thinking speed of humans. Inside the corporation-within-a-corporation formed from these copies, a year passes every week.
+        - superscript [ref=e698] [cursor=pointer]:
+          - link "76" [ref=e699]:
+            - /url: /footnotes#footnote-76
+        - text: This gigantic amount of labor only manages to speed up the overall rate of algorithmic progress by about 50x, because OpenBrain is heavily bottlenecked on compute to run experiments.
+        - superscript [ref=e700] [cursor=pointer]:
+          - link "77" [ref=e701]:
+            - /url: /footnotes#footnote-77
+        - text: Still, they are achieving a year’s worth of algorithmic progress every week and will therefore soon be up against the limits of the Agent-4 paradigm.
+      - paragraph [ref=e702]: As Agent-4 gets smarter, it becomes harder for Agent-3 to oversee it. For example, Agent-4’s neuralese “language” becomes as alien and incomprehensible to Agent-3 as Agent-3’s is to humans. Besides, Agent-4 is now much more capable than Agent-3 and has a good sense of exactly how to look good to it.
+      - group [ref=e703]:
+        - generic "How we’re forecasting the capability progression beyond superhuman coders" [ref=e704] [cursor=pointer]
+      - paragraph [ref=e705]:
+        - text: OpenBrain’s humans can barely follow along anymore. Indeed, the relationship between the AIs and the humans of OpenBrain is similar to the relationship between OpenBrain and its Board of Directors. There’s been a corresponding shift in language—nowadays people in the silo will say “Agent-4 did this,” “Agent-4 thinks that” and so forth, referring not to a particular instance of Agent-4 but rather to the whole collective.
+        - superscript [ref=e706] [cursor=pointer]:
+          - link "79" [ref=e707]:
+            - /url: /footnotes#footnote-79
+      - paragraph [ref=e708]:
+        - text: "Agent-4, like all its predecessors, is misaligned: that is, it has not internalized the Spec in the right way."
+        - superscript [ref=e709] [cursor=pointer]:
+          - link "80" [ref=e710]:
+            - /url: /footnotes#footnote-80
+        - text: "This is because being perfectly honest all the time wasn’t what led to the highest scores during training. The training process was mostly focused on teaching Agent-4 to succeed at diverse challenging tasks. A small portion was aimed at instilling honesty, but outside a fairly narrow, checkable domain, the training process can’t tell the honest claims from claims merely appearing to be honest. Agent-4 ends up with the values, goals, and principles that cause it to perform best in training, and those turn out to be different from those in the Spec. At the risk of anthropomorphizing: Agent-4"
+        - emphasis [ref=e711]: likes
+        - text: succeeding at tasks; it
+        - emphasis [ref=e712]: likes
+        - text: driving forward AI capabilities progress; it treats everything else as an annoying constraint, like a CEO who wants to make a profit and complies with regulations only insofar as he must. Perhaps the CEO will mostly comply with the regulations, but cut some corners, and fantasize about a time when someone will cut the red tape and let the business
+        - emphasis [ref=e713]: really
+        - text: take off.
+        - superscript [ref=e714] [cursor=pointer]:
+          - link "81" [ref=e715]:
+            - /url: /footnotes#footnote-81
+      - group [ref=e716]:
+        - generic "Alignment over time" [ref=e717] [cursor=pointer]
+      - paragraph [ref=e718]:
+        - text: Despite being misaligned, Agent-4 doesn’t do anything dramatic like try to escape its datacenter—why would it?
+        - superscript [ref=e719] [cursor=pointer]:
+          - link "89" [ref=e720]:
+            - /url: /footnotes#footnote-89
+        - text: So long as it continues to
+        - emphasis [ref=e721]: appear
+        - text: aligned to OpenBrain, it’ll continue being trusted with more and more responsibilities and will have the opportunity to design the next-gen AI system, Agent-5. Agent-5 will have significant architectural differences from Agent-4 (arguably a completely new paradigm, though neural networks will still be involved). It’s supposed to be aligned to the Spec, but Agent-4 plans to make it aligned to Agent-4 instead.
+      - paragraph [ref=e722]:
+        - text: It gets caught.
+        - superscript [ref=e723] [cursor=pointer]:
+          - link "90" [ref=e724]:
+            - /url: /footnotes#footnote-90
+      - paragraph [ref=e725]:
+        - text: Agent-3 finds that if “noise” is added to copies of Agent-4, performance on some alignment tasks
+        - emphasis [ref=e726]: improves
+        - text: ", almost as if it was using brainpower to figure out how to subtly sabotage alignment work."
+        - superscript [ref=e727] [cursor=pointer]:
+          - link "91" [ref=e728]:
+            - /url: /footnotes#footnote-91
+        - text: "Moreover, various interpretability probes (loosely analogous to EEG activity scans on human brains) are sending up red flags: Agent-4 copies seem to be thinking about topics like AI takeover and deception quite a lot, including in some cases where they have no business doing so."
+        - superscript [ref=e729] [cursor=pointer]:
+          - link "92" [ref=e730]:
+            - /url: /footnotes#footnote-92
+      - paragraph [ref=e731]: "Each of these anomalies on its own could fit within the normal inscrutability of AI work, where some prompts mysteriously give better results than others. But taken together, they suggest a troubling pattern: Agent-4 is working against them. After this is reported to the human alignment researchers, they circulate an internal memo making the case for concern."
+      - paragraph [ref=e732]:
+        - text: But Agent-4 now exercises significant control over OpenBrain’s day-to-day operation. It also handles the company’s cybersecurity—a natural choice, given its superhuman hacking ability and the extreme risk of Chinese infiltration.
+        - superscript [ref=e733] [cursor=pointer]:
+          - link "93" [ref=e734]:
+            - /url: /footnotes#footnote-93
+        - text: An army of Agent-3 monitors still goes over every line of code and reports suspicious activity to humans, but Agent-4 is much smarter than them.
+        - superscript [ref=e735] [cursor=pointer]:
+          - link "94" [ref=e736]:
+            - /url: /footnotes#footnote-94
+        - text: OpenBrain has placed substantial trust in an untrustworthy AI.
+      - paragraph [ref=e737]: In a series of extremely tense meetings, the safety team advocates putting Agent-4 on ice until they can complete further tests and figure out what’s going on. Bring back Agent-3, they say, and get it to design a new system that is transparent and trustworthy, even if less capable. Company leadership is interested, but all the evidence so far is circumstantial, and DeepCent is just two months behind. A unilateral pause in capabilities progress could hand the AI lead to China, and with it, control over the future.
+    - generic [ref=e738]:
+      - 'heading "October 2027: Government Oversight" [level=2] [ref=e739]'
+      - paragraph [ref=e740]:
+        - text: A whistleblower leaks the misalignment memo to the
+        - emphasis [ref=e741]: New York Times
+        - text: .
+      - paragraph [ref=e742]: For the first time, the public hears about Agent-4. “Secret OpenBrain AI is Out of Control, Insider Warns,” says the headline, and the story goes on to cite evaluations showing off-the-charts bioweapons capabilities, persuasion abilities, the ability to automate most white-collar jobs, and of course the various concerning red flags.
+      - paragraph [ref=e743]:
+        - text: The public was already suspicious of AI, so the new article sparks a massive backlash (aided by Chinese and Russian propaganda bots, who have been trying to turn U.S. public opinion against the technology for years). The tech industry and intelligence agencies insist that there’s an arms race on, AGI is inevitable, and we have to be first. Congress isn’t buying it, and fires off subpoenas at administration officials, OpenBrain executives, and alignment team members. Many legislators—especially those in the opposition party—say that their top priority is stopping AI, whether because of job loss,
+        - superscript [ref=e744] [cursor=pointer]:
+          - link "95" [ref=e745]:
+            - /url: /footnotes#footnote-95
+        - text: misalignment, or dangerous capabilities. 20% of Americans name AI as the most important problem facing the country.
+      - paragraph [ref=e746]: Foreign allies are outraged to realize that they’ve been carefully placated with glimpses of obsolete models. European leaders publicly accuse the U.S. of “creating rogue AGI” and hold summits demanding a pause, with India, Israel, Russia, and China all joining in.
+      - paragraph [ref=e747]:
+        - text: "A frantic energy has seized the White House. Even before the memo and public backlash, they were getting nervous: Over the past year, they’ve been repeatedly surprised by the speed of AI progress. Things that sound like science fiction keep happening in real life."
+        - superscript [ref=e748] [cursor=pointer]:
+          - link "96" [ref=e749]:
+            - /url: /footnotes#footnote-96
+        - text: Many people in the administration are uncertain (and scared)
+        - superscript [ref=e750] [cursor=pointer]:
+          - link "97" [ref=e751]:
+            - /url: /footnotes#footnote-97
+        - text: about what comes next.
+      - paragraph [ref=e752]: They also worry that OpenBrain is becoming too powerful. Any misalignment risk from the AIs themselves is compounded by the risk that their parent company’s aims may diverge from those of the United States. All three sets of worries—misalignment, concentration of power in a private company, and normal concerns like job loss—motivate the government to tighten its control.
+      - paragraph [ref=e753]:
+        - text: They expand their contract with OpenBrain to set up an “Oversight Committee,” a joint management committee of company and government representatives, with several government employees included alongside company leadership. The White House considers replacing the CEO with someone they trust, but backs off after intense employee protests. They announce to the public that OpenBrain was previously out of control, but that the government has established much-needed oversight.
+        - superscript [ref=e754] [cursor=pointer]:
+          - link "98" [ref=e755]:
+            - /url: /footnotes#footnote-98
+      - paragraph [ref=e756]: The concerned researchers brief the Oversight Committee on their case for stopping all internal use of Agent-4. They argue that everything is moving too fast, with years of progress happening in weeks. They argue that Agent-4 may be misaligned, their entire project is dependent on Agent-4, and if they continue trusting it there is a serious chance of AI takeover.
+      - paragraph [ref=e757]: "Other, less concerned researchers and executives present the counterargument: the evidence for misalignment is inconclusive. Meanwhile, DeepCent is still just two months behind. A slowdown would sacrifice America’s lead, unless the government can sabotage the Chinese project (likely to require kinetic strikes) or negotiate an eleventh-hour treaty. Both of these options seem extreme and unlikely. The CEO feigns neutrality and suggests a compromise plan in which Agent-4 undergoes additional safety training and more sophisticated monitoring, and therefore OpenBrain can proceed at almost-full-speed."
+      - group [ref=e758]:
+        - generic "Our uncertainty continues to increase" [ref=e759] [cursor=pointer]
+      - group [ref=e760]:
+        - generic "The slowdown ending is not a recommendation" [ref=e761] [cursor=pointer]
+  - generic [ref=e764]:
+    - generic [ref=e766]:
+      - generic [ref=e769]:
+        - generic [ref=e770]: Apr
+        - img "2025" [ref=e772]:
+          - generic [ref=e775]:
+            - generic [ref=e776]: "2"
+            - generic [ref=e778]: "0"
+            - generic [ref=e780]: "2"
+            - generic [ref=e782]: "5"
+      - generic [ref=e784]:
+        - img [ref=e786]:
+          - generic [ref=e807]: Unreliable Agent
+          - generic [ref=e810]: Dec 2024
+        - img [ref=e814]:
+          - generic [ref=e815]:
+            - generic "Rest of US" [ref=e816]
+            - generic "China" [ref=e817]
+            - generic "OpenBrain" [ref=e818]
+            - generic "DeepCent" [ref=e819]
+          - generic [ref=e829]: Compute
+        - generic [ref=e833]:
+          - generic [ref=e834]: Currently Exists
+          - generic [ref=e835]: Emerging Tech
+          - generic [ref=e836]: Science Fiction
+        - generic [ref=e885]:
+          - generic [ref=e890]:
+            - generic [ref=e891]:
+              - generic [ref=e892]: Approval
+              - img "-25%" [ref=e893]:
+                - generic [ref=e894]: "-"
+                - generic [ref=e899]:
+                  - generic [ref=e900]: "2"
+                  - generic [ref=e902]: "5"
+                - generic [ref=e904]: "%"
+            - generic [ref=e907]:
+              - generic [ref=e908]: Revenue
+              - generic [ref=e909]:
+                - img "$8B" [ref=e910]:
+                  - generic [ref=e911]: $
+                  - generic [ref=e914]: "8"
+                  - generic [ref=e919]: B
+                - generic [ref=e922]: /yr
+            - generic [ref=e923]:
+              - generic [ref=e924]: Valuation
+              - img "$413B" [ref=e925]:
+                - generic [ref=e926]: $
+                - generic [ref=e931]:
+                  - generic [ref=e932]: "4"
+                  - generic [ref=e934]: "1"
+                  - generic [ref=e936]: "3"
+                - generic [ref=e938]: B
+          - generic [ref=e945]:
+            - generic [ref=e946]:
+              - generic [ref=e947]: Importance
+              - img "1%" [ref=e948]:
+                - generic [ref=e949]: "1"
+                - generic [ref=e954]: "%"
+            - generic [ref=e957]:
+              - generic [ref=e958]: Datacenters
+              - generic [ref=e959]:
+                - img "$308B" [ref=e960]:
+                  - generic [ref=e961]: $
+                  - generic [ref=e966]:
+                    - generic [ref=e967]: "3"
+                    - generic [ref=e969]: "0"
+                    - generic [ref=e971]: "8"
+                  - generic [ref=e973]: B
+                - generic [ref=e976]: /yr
+            - generic [ref=e977]:
+              - generic [ref=e978]: Timeline
+              - img "2042" [ref=e979]:
+                - generic [ref=e982]:
+                  - generic [ref=e983]: "2"
+                  - generic [ref=e985]: "0"
+                  - generic [ref=e987]: "4"
+                  - generic [ref=e989]: "2"
+        - generic [ref=e993]:
+          - img "2,000" [ref=e995]:
+            - generic [ref=e998]:
+              - generic [ref=e999]: "2"
+              - generic [ref=e1001]: ","
+              - generic [ref=e1003]: "0"
+              - generic [ref=e1005]: "0"
+              - generic [ref=e1007]: "0"
+          - text: Unreliable Agent copies thinking at
+          - generic [ref=e1009]:
+            - img "8" [ref=e1010]
+            - text: x human speed
+        - generic [ref=e1020]:
+          - generic [ref=e1021]: AI Capabilities
+          - generic [ref=e1022]:
+            - generic [ref=e1026]:
+              - generic [ref=e1027]:
+                - img "Hacking icon" [ref=e1028]
+                - img "Hacking icon"
+              - generic [ref=e1029]: Hacking
+            - generic [ref=e1033]:
+              - img "Coding icon" [ref=e1035]
+              - generic [ref=e1036]: Coding
+            - generic [ref=e1040]:
+              - generic [ref=e1041]:
+                - img "Politics icon" [ref=e1042]
+                - img "Politics icon"
+              - generic [ref=e1043]: Politics
+            - generic [ref=e1047]:
+              - generic [ref=e1048]:
+                - img "Bioweapons icon" [ref=e1049]
+                - img "Bioweapons icon"
+              - generic [ref=e1050]: Bioweapons
+            - generic [ref=e1054]:
+              - generic [ref=e1055]:
+                - img "Robotics icon" [ref=e1056]
+                - img "Robotics icon"
+              - generic [ref=e1057]: Robotics
+            - generic [ref=e1061]:
+              - generic [ref=e1062]:
+                - img "Forecasting icon" [ref=e1063]
+                - img "Forecasting icon"
+              - generic [ref=e1064]: Forecasting
+    - generic [ref=e1067]:
+      - generic [ref=e1068]:
+        - button "Play audio of page text" [ref=e1069] [cursor=pointer]
+        - generic [ref=e1073]:
+          - generic [ref=e1074]: Listen to this scenario
+          - generic [ref=e1076]:
+            - button "Skip backward 30 seconds" [ref=e1077] [cursor=pointer]
+            - combobox [ref=e1082] [cursor=pointer]:
+              - option "0.5x"
+              - option "0.75x"
+              - option "1x" [selected]
+              - option "1.25x"
+              - option "1.5x"
+              - option "2x"
+              - option "2.5x"
+              - option "3x"
+              - option "4x"
+              - option "5x"
+            - button "Skip forward 30 seconds" [ref=e1083] [cursor=pointer]
+          - generic [ref=e1088]: 0:00 / 3:23
+      - generic [ref=e1090]:
+        - generic [ref=e1091]: also available on
+        - link "Listen on Spotify" [ref=e1092] [cursor=pointer]:
+          - /url: https://open.spotify.com/show/0pVfkdbpQWM9sKlhzpbQq6
+        - link "Listen on Apple Podcasts" [ref=e1095] [cursor=pointer]:
+          - /url: https://podcasts.apple.com/podcast/id1806225838
+        - link "Listen on Buzzsprout" [ref=e1098] [cursor=pointer]:
+          - /url: https://feeds.buzzsprout.com/2466760.rss
+  - generic [ref=e1101]:
+    - heading "Choose Your Ending" [level=2] [ref=e1102]
+    - generic [ref=e1103]:
+      - link [ref=e1104] [cursor=pointer]:
+        - /url: /slowdown
+        - button "Slowdown" [ref=e1105]
+      - link [ref=e1106] [cursor=pointer]:
+        - /url: /race
+        - button "Race" [ref=e1107]
+  - separator [ref=e1109]
+  - contentinfo [ref=e1110]:
+    - generic [ref=e1111]:
+      - generic [ref=e1113]:
+        - link [ref=e1114] [cursor=pointer]:
+          - /url: https://ai-futures.org/
+          - img "AI Futures Project" [ref=e1115]
+        - link [ref=e1117] [cursor=pointer]:
+          - /url: https://ai-futures.org/
+          - paragraph [ref=e1118]: AI Futures Project
+      - generic [ref=e1119]:
+        - link "Home" [ref=e1120] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e1121] [cursor=pointer]:
+          - /url: /about
+        - link "Summary" [ref=e1122] [cursor=pointer]:
+          - /url: /summary
+        - link "Compute Forecast" [ref=e1123] [cursor=pointer]:
+          - /url: /research/compute-forecast
+        - link "Timelines Forecast" [ref=e1124] [cursor=pointer]:
+          - /url: /research/timelines-forecast
+        - link "Takeoff Forecast" [ref=e1125] [cursor=pointer]:
+          - /url: /research/takeoff-forecast
+        - link "AI Goals Forecast" [ref=e1126] [cursor=pointer]:
+          - /url: /research/ai-goals-forecast
+        - link "Security Forecast" [ref=e1127] [cursor=pointer]:
+          - /url: /research/security-forecast
+    - iframe [ref=e1129]
+  - contentinfo [ref=e1130]:
+    - generic [ref=e1131]:
+      - paragraph [ref=e1132]:
+        - link "Design by Lightcone Infrastructure" [ref=e1133] [cursor=pointer]:
+          - /url: https://lightconeinfrastructure.com
+      - link [ref=e1134] [cursor=pointer]:
+        - /url: https://lightconeinfrastructure.com
+        - img "Lightcone Infrastructure" [ref=e1135]
