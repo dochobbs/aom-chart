@@ -39,6 +39,28 @@ Tracked citation bank for the blog post, talk, and posts. Every citation here wa
 11. **Graber ML, Franklin N, Gordon R.** Diagnostic Error in Internal Medicine. *Arch Intern Med* 2005;165(13):1493–9. Premature closure most common cognitive factor. [pubmed](https://pubmed.ncbi.nlm.nih.gov/16009864/)
 12. **Goldman RL.** The reliability of peer assessments of quality of care. *JAMA* 1992;267(7):958–60. Weighted mean kappa 0.31. [pubmed](https://pubmed.ncbi.nlm.nih.gov/1734109/)
 
+## Second harvest — from Doc's clinical examples (2026-08-22)
+
+Doc supplied the examples; each was then verified against sources same-day.
+
+| His example | Mode | Verified literature |
+|---|---|---|
+| "Chart lore": the penicillin-allergy label nobody verifies | **2** | ~10% of patients carry the label; **at least 9 of 10 are not truly allergic** when evaluated — and the label changes what gets prescribed, with worse outcomes (Shenoy, Macy, Rowe, Blumenthal, *JAMA* 2019) |
+| "Misremembering the finding, the journal, the year" — clinicians' recall of what studies showed | **2/4** | Across 48 studies and 13,011 clinicians, the majority correctly estimated treatment **benefits in 11%** of outcomes and **harms in 13%** — systematically overestimating benefit, underestimating harm (Hoffmann & Del Mar, *JAMA Intern Med* 2017). The internal copy of the literature is wrong most of the time. |
+| "How often do doctors use outdated guidance because they can't keep up" | **5** | **30% of outpatient antibiotic prescriptions unnecessary**, half of those for acute respiratory conditions — ~34M scripts/yr (Fleming-Dutra et al., *JAMA* 2016). The oft-cited **~17-year** research-to-practice lag (Balas & Boren, *Yearb Med Inform* 2000 — note: the estimate has published critiques; use as "the famous estimate," not a measurement) |
+| "The Black mom at the inner-city hospital gets her 'fussy baby' worked up; the white mom at the suburban hospital doesn't" | **7** | Both directions documented. Workup intensity: minority toddlers with *accidental* fractures more likely to get skeletal surveys and CPS reports than white toddlers with comparable injuries (Lane et al., *JAMA* 2002). Treatment intensity: **20.7% of Black vs 43.1% of white** children with appendicitis received opioid analgesia (Goyal et al., *JAMA Pediatr* 2015) |
+
+Second-harvest references: [Shenoy — JAMA 2019](https://jamanetwork.com/journals/jama/fullarticle/2720732) · [Hoffmann & Del Mar](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2596010) · [Fleming-Dutra](https://pubmed.ncbi.nlm.nih.gov/27139059/) · [Balas & Boren critique context](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12665728/) · [Lane — JAMA 2002](https://jamanetwork.com/journals/jama/fullarticle/195342) · [Goyal — JAMA Pediatrics 2015](https://jamanetwork.com/journals/jamapediatrics/fullarticle/2441797)
+
+## To chase (Doc-suggested, not yet verified)
+
+- **Otoscopy inter-rater/accuracy** — Doc: "there is lit on this." Chase Pichichero-era diagnostic-accuracy work; would upgrade the judge analog from generic chart review to the exact organ in our stem.
+- **Eponym confusion / misremembered disease names** — literature likely thin; qualitative mention only unless something real surfaces.
+- **Screening adherence rates** (his mode-1 picks): adolescent depression screening, fluoride varnish delivery, developmental-screening completion rates in primary care.
+- **"No swimming with tubes" / green-mucus myths** (mode 4): AAO-HNS tympanostomy guideline on water precautions; purulence-≠-bacterial literature.
+- **Order sets / required fields as forcing functions** (his picks for the fix row).
+- **Cusp texture** (mode 6): the 28-day febrile-infant boundary (AAP 2021 guideline bands), day-4-vs-5 Kawasaki criterion.
+
 ## Considered and rejected
 
 - **Dresselhaus TR, Peabody JW, et al.** *JGIM* 2000 — almost cited for mode 2 (over-documentation); on verification it shows the **opposite**: chart abstraction *under*-estimated delivered preventive care by 16%. Charts omit real care as well as inventing absent care; this paper is the omission direction. Kept here as the reminder to verify before citing — which is also mode 4's whole point.
