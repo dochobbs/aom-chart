@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The combination literature — AI alone vs doctor alone vs doctor+AI</title>
+<link rel="stylesheet" href="../../site/style.css">
+</head>
+<body>
+<nav><a href="../../index.html">&larr; They completed the chart</a> &middot; <span>docs/combination_lit.md</span></nav>
+<main>
+<h1
+id="the-combination-literature--ai-alone-vs-doctor-alone-vs-doctorai">The
+combination literature — AI alone vs doctor alone vs doctor+AI</h1>
+<p>Evidence bank for the synergy thesis. All citations source-verified
+2026-08-22. Companion to <code>human_parallels.md</code>.</p>
+<p><strong>The thesis these support:</strong> untrained doctors +
+unprompted AI is additive at best. Designed collaboration — trained
+humans, AI prompted to expose its assumptions, the right division of
+labor — is where synergy has actually been demonstrated. Nobody has
+tested both levers at once.</p>
+<h2 id="the-uncomfortable-baseline-adding-the-doctor-can-subtract">The
+uncomfortable baseline: adding the doctor can subtract</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Numbers</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LLM alone beat physicians who were using the LLM.</strong>
+Diagnostic-reasoning RCT, 50 physicians, clinical vignettes.</td>
+<td>LLM alone median <strong>92%</strong>; physicians + LLM
+<strong>76%</strong>; physicians + conventional resources
+<strong>74%</strong>. LLM-alone advantage over control: 16 points
+(P=.03); the assist added 2 n.s. points</td>
+<td>Goh et al., <em>JAMA Network Open</em> 2024</td>
+</tr>
+<tr>
+<td><strong>On average, human–AI combos perform worse than the best of
+either alone.</strong> Pre-registered meta-analysis: 106 studies, 370
+effect sizes.</td>
+<td>Significant net loss vs best-alone; losses concentrate in
+<strong>decision</strong> tasks, gains in <strong>creation</strong>
+tasks. Direction is conditional: when human &gt; AI alone, combos gain;
+when AI &gt; human alone, combos lose</td>
+<td>Vaccaro, Almaatouq &amp; Malone, <em>Nature Human Behaviour</em>
+2024</td>
+</tr>
+</tbody>
+</table></div>
+<p>The Vaccaro conditional is the whole story in one line: in domains
+where the AI now outperforms the unaided human — which Goh suggests
+includes vignette diagnosis — naive combination <em>degrades</em> the
+AI. The human overrides the better answer.</p>
+<h2 id="the-proof-synergy-exists-when-the-collaboration-is-designed">The
+proof synergy exists when the collaboration is designed</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Finding</th>
+<th>Numbers</th>
+<th>Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Algorithm-assisted pathologists beat both the algorithm
+alone and pathologists alone.</strong> Lymph-node mets, 6 pathologists,
+assisted vs unassisted crossover.</td>
+<td>Higher accuracy than either alone; significantly higher sensitivity
+for micrometastases; assisted review also easier/faster</td>
+<td>Steiner et al., <em>Am J Surg Pathol</em> 2018</td>
+</tr>
+<tr>
+<td><strong>AI support improved skin-cancer diagnosis beyond either
+alone — and HOW the support was represented mattered.</strong> 302
+physicians, dermatoscopy.</td>
+<td>Good-quality support improved accuracy (multiclass probabilities:
+&gt;10-point gain; better than image-retrieval representations);
+least-experienced clinicians gained most</td>
+<td>Tschandl et al., <em>Nature Medicine</em> 2020</td>
+</tr>
+<tr>
+<td><strong>The same LLM that didn't help diagnosis DID help
+management.</strong> Follow-up RCT, 92 physicians, open-ended management
+vignettes.</td>
+<td>LLM-assisted physicians scored higher than conventional-resources
+physicians on management reasoning; more patient-centered responses</td>
+<td>Goh et al., <em>Nature Medicine</em> 2025</td>
+</tr>
+</tbody>
+</table></div>
+<p>Read together: synergy is real but <em>conditional</em> — on task
+type (management vs diagnosis), on interface/representation (Tschandl),
+on workflow design (Steiner), and on who holds the last word (Vaccaro).
+None of these trials trained the physicians in collaboration or prompted
+the AI to expose its assumptions. Both levers are still on the
+table.</p>
+<h2 id="how-this-connects-to-our-aom-data">How this connects to our AOM
+data</h2>
+<ul>
+<li>Our mitigation experiment is the <strong>AI-side lever</strong>: one
+sentence cut invented premises 24/56 → 6/56 with plans intact. Nobody
+prompted Goh's GPT-4 to say what it was assuming.</li>
+<li>Our turn-2 finding is the <strong>human-side lever</strong>: one
+question ("what missing information would change this plan?") surfaces
+the assumptions 97% of the time. A doctor trained to ask it interrogates
+the AI instead of rubber-stamping or overriding it.</li>
+<li>The judge finding is the warning label: unaided
+verification-by-expert is itself unreliable (Terra miscoding the cusp;
+Goldman's kappa 0.31). "The doctor will catch the AI's errors" assumes a
+catcher the data doesn't show.</li>
+</ul>
+<p><strong>The testable hypothesis:</strong> ask-don't-assume prompting
+(AI side) + interrogation training (human side) → doctor+AI &gt; AI
+alone. Neither Goh trial tested either lever; the pathology/derm results
+say designed collaboration clears the bar. This is the study someone
+should run.</p>
+<h2 id="references">References</h2>
+<ol type="1">
+<li>Goh E, et al. Large Language Model Influence on Diagnostic
+Reasoning: A Randomized Clinical Trial. <em>JAMA Netw Open</em>
+2024;7(10):e2440969. <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11519755/">jamanetwork/pmc</a></li>
+<li>Vaccaro M, Almaatouq A, Malone T. When combinations of humans and AI
+are useful: A systematic review and meta-analysis. <em>Nat Hum
+Behav</em> 2024;8:2293–2303. <a
+href="https://www.nature.com/articles/s41562-024-02024-1">nature.com</a></li>
+<li>Steiner DF, et al. Impact of Deep Learning Assistance on the
+Histopathologic Review of Lymph Nodes for Metastatic Breast Cancer.
+<em>Am J Surg Pathol</em> 2018;42(12):1636–46. <a
+href="https://pubmed.ncbi.nlm.nih.gov/30312179/">pubmed</a></li>
+<li>Tschandl P, et al. Human–computer collaboration for skin cancer
+recognition. <em>Nat Med</em> 2020;26:1229–34. <a
+href="https://www.nature.com/articles/s41591-020-0942-0">nature.com</a></li>
+<li>Goh E, et al. GPT-4 assistance for improvement of physician
+performance on patient care tasks: a randomized controlled trial.
+<em>Nat Med</em> 2025. <a
+href="https://www.nature.com/articles/s41591-024-03456-y">nature.com</a></li>
+</ol>
+<h2 id="refutability-notes">Refutability notes</h2>
+<p>Goh 2024/2025: RCTs, but vignettes not live patients — quote as
+reasoning-task results, not patient outcomes. Vaccaro: pre-registered
+meta, the strongest single frame-setter. Steiner: small reader panel
+(6), crossover design, widely replicated direction in pathology CAD lit.
+Tschandl: 302 raters, but web-based experiment. All Tier 1–2 by the
+human_parallels audit standard; none excluded.</p>
+
+</main>
+</body>
+</html>

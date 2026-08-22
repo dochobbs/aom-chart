@@ -98,6 +98,7 @@ One case, one day, vendor-default sampling (no seeds/temperature pinning), n=2�
 | Variants / models / prompts | `eval/variants.json`, `eval/models.json`, `eval/render.py`, `eval/run.py` |
 | Scoring rules | `docs/codebook_v2.md`, `docs/failures.md`, `docs/JUDGE.md`, `docs/TURN2.md` |
 | Human-error literature mapped to the modes | `docs/human_parallels.md` (all citations source-verified) |
+| Doctor+AI combination literature (synergy thesis) | `docs/combination_lit.md` |
 | Run ledger | `docs/RUNS.md`; per-run index `results/README.md` |
 | Main catalog (140) | `results/smoke_20260815T160303Z*` — raw `.md`, scores `_scored_final.json`, tiebreak `_tiebreak.md` |
 | Identity runs (4 × n=6) | `results/smoke_20260815T18*` / `19*` + `_notes.md` each |
