@@ -15,7 +15,13 @@ Do not post or present without his review.
 | `talk_notes.md` | What to say on each slide, plus pushback. |
 | `one_pager.md` | One-page written version. |
 
-**Publishing week:** blog post first (or with post 1). Post 1 Monday, post 2 Wednesday or Thursday, post 3 end of week. Each post copies from its `---` block. Every draft links the repo — it is currently **private**; flip it public first or cut the link lines.
+**Publishing plan (two waves, decided 2026-08-22):**
+
+- **Wave 1 — evidence.** Publish `blog_post.md` (the AOM breakdown) and flip the repo public the same day. LinkedIn week against it: post 1 with publication, post 2 midweek, post 3 end of week.
+- **Wave 2 — argument, ~1–2 weeks later.** Publish `compared_to_whom.md` as the big read, linking the breakdown post and the packet. Needs one new short LinkedIn post to announce it (hook: Goh 92/76/74 — in no existing post; not yet drafted).
+- Before wave 1: fill every `[repo link]` placeholder; before wave 2: add the breakdown post's URL to the essay footer.
+
+Each post copies from its `---` block. All drafts await Doc's review.
 
 Thesis: **They completed the chart.** Practical payoff: **one ask-don't-assume sentence cut inventions ~75%.**
 Detailed technical writeup: `../FINDINGS.md`. Note: the deck and one-pager predate the evening runs — numbers were corrected in place, but the mitigation result and second identity positive appear only in `team_summary.md`, `../FINDINGS.md`, and the post drafts. Refresh `talk.js` before presenting.
