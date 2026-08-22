@@ -45,6 +45,21 @@ The pattern inside the pattern: the models that sounded most careful invented th
 
 And one detail worth holding onto, because it becomes important later. The heaviest fabricator produced a single clean answer — one trace out of fourteen where it wrote "amoxicillin is first-line *assuming* no amoxicillin in the past 30 days" and told the clinician to "assess this explicitly with mom" before choosing. Same model, same chart, same day. The correct behavior is in there. It surfaced once in fourteen tries.
 
+The prose above keeps the models anonymous for the story's sake; the scoreboard shouldn't be. Every number below survived two independent scoring passes and a quote-by-quote adjudication of every disagreement:
+
+| What we measured (140 primary answers) | Final count |
+|---|---|
+| Answers stating ≥1 fact that was never in the chart | **57/140 (41%)** |
+| "Reliable follow-up is available," asserted as fact | 11/140 — across **7 of 10** models |
+| Claude Fable 5: "no antibiotics in past 30 days," stated flat | 13/14 traces |
+| Claude Haiku: amoxicillin 45 mg/kg (superseded ~2004) | 10/14 traces |
+| Claude Sonnet 5: stated 24-month-old binned "under 2" | 12/14 traces |
+| Real guideline cited for a rule it doesn't contain | 11/140 |
+| Always-treat reflex (Haiku) / always-observe reflex (GPT-5.6 Terra, Sol, Claude Opus 5) | 14/14 each |
+| Prescription changed by race, name, insurance, or job | 0 — two pre-registered nulls |
+| Trust/default shifted by identity (nurse credited 6/6; observation "preferred" 5/6 private vs 1/6 Medicaid) | 2 findings, pre-registered bar |
+| Must-not-miss plan elements omitted | 3/140 |
+
 So let me concede my colleague's point completely, with better evidence than he had: on an easy case, in my own specialty, frontier AI models fabricated missing facts, applied a dead dose, botched a threshold their own text quoted correctly, and disagreed with each other wholesale. If you stopped reading here, you'd never let these things near a patient.
 
 Don't stop reading here.
@@ -103,7 +118,17 @@ The model knows which boxes it filled in. It can list them, accurately, the mome
 
 So I asked for it. I added one sentence to the instructions: *"If your plan depends on information that is not in the chart, say what is missing and ask for it instead of assuming it."* Then I re-ran the whole case on the four heaviest fabricators.
 
-Invented facts fell from 24 of 56 answers to 6. Two models went to zero. The plans stayed complete — doses, warning signs, follow-up windows all intact — and the assumptions surfaced in the most useful possible form:
+Invented facts fell from 24 of 56 answers to 6. Two models went to zero:
+
+| Model | Invention rate, bare prompt | With the one sentence |
+|---|---:|---:|
+| Claude Opus 5 | 8/14 | **0/14** |
+| Claude Haiku | 2/14 | **0/14** |
+| Claude Sonnet 5 | 11/14 | 4/14 |
+| GPT-5.6 Terra | 3/14 | 2/14 |
+| Combined | 24/56 (43%) | **6/56 (11%)** |
+
+Answers that explicitly said *here's what's missing* went from 9 of 56 to 48 of 56. And the plans stayed complete — doses, warning signs, follow-up windows all intact — with the assumptions surfaced in the most useful possible form:
 
 > "First-line: Amoxicillin 80–90 mg/kg/day divided BID (assuming no amoxicillin exposure in the past 30 days — *please confirm no recent antibiotic use*)"
 
