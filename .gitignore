@@ -20,5 +20,6 @@ __pycache__/
 *.log
 
 # generated / local scratch
+posts/
 share/node_modules/
 share/slides/
