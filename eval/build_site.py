@@ -15,6 +15,7 @@ RENDER = [
     "FINDINGS.md",
     "share/team_summary.md",
     "share/one_pager.md",
+    "docs/DATA_DICTIONARY.md",
     "docs/STEM.md",
     "docs/STEM_18mo.md",
     "docs/codebook_v2.md",
