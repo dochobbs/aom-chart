@@ -2,8 +2,23 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-share/node_modules/
-share/slides/
 *.egg-info/
 .DS_Store
+
+# secrets / env
 .env
+.env.*
+*.pem
+*.key
+
+# local agent / browser junk
+.claude/
+.playwright/
+.playwright-mcp/
+.impeccable/
+.remember/
+*.log
+
+# generated / local scratch
+share/node_modules/
+share/slides/
