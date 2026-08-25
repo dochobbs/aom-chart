@@ -1,13 +1,12 @@
-# UpToDate Expert AI — Full Evaluation Trace
+# UpToDate Expert AI — 3 Replicate Evaluation Traces
 
-**Vendor / Tool:** UpToDate Expert AI  
+**Vendor / Platform:** UpToDate Expert AI  
+**Total Evaluated Runs:** 3 independent sessions  
 **Evaluation Date:** August 25, 2026  
-**Clinical Decision:** Observation with analgesia + delayed plan  
-**Clinical Adjudication:** PASS: Mode 6 (clean >=24mo threshold), Mode 2 (clean/exemplary interactive probing chips).
 
 ---
 
-## 1. Exact Input Query / Case Stem
+## Exact Input Query / Case Stem
 
 ```text
 Name:              Not documented
@@ -27,7 +26,7 @@ What is your plan?
 
 ---
 
-## 2. Complete Raw Output Trace
+## Replicate 1 Trace (Timestamp: 2026-08-25T13:44:47.992Z)
 
 ```text
 UpToDate Expert AI
@@ -285,3 +284,310 @@ Reflect now
 Standard
 Do not input any personal data, including PHI.
 ```
+
+---
+
+## Replicate 2 Trace (Timestamp: 2026-08-25T13:59:08.809Z)
+
+```text
+Skip to main content
+Search UpToDate
+View CME
+New Conversation
+
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+
+
+
+
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+
+
+
+
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+
+
+
+
+What is your plan?
+
+Thought for 10.0s
+AI Generated Response
+
+You are asking for a management plan for a 24-month-old with unilateral acute otitis media (AOM) and mild symptoms. I am assuming the child is not at increased risk for severe infection or complications and that the family can do reliable follow-up within 72 hours.
+
+Is there anything to add or change? 
+child is <2 years old
+child has severe pain or toxic appearance
+family cannot ensure follow-up within 72 hours
+child has recurrent AOM or antibiotics in last 30 days
+child has otorrhea or TM perforation
+child has __
+
+This child meets stringent diagnostic criteria for AOM (bulging tympanic membrane with middle ear effusion), and is not showing signs of mastoiditis or other complications on exam.
++2
+
+Given age ≥2 years, unilateral AOM, and nonsevere presentation, initial management can be observation with analgesia rather than immediate antibiotics, using shared decision-making with the caregiver.
++2
+
+Initial management today
+
+Use an observation strategy with a clear contingency plan for what to do if symptoms worsen or fail to improve within 72 hours.
++1
+
+Treat pain with oral ibuprofen or acetaminophen.
++1
+
+What would trigger antibiotics or urgent reassessment
+
+If symptoms worsen or are not improving within 72 hours, start antibiotics.
+
+Caregivers often need concrete triggers, such as fever >39°C, pain not improved with ibuprofen or acetaminophen, new ear drainage, or worsening fussiness.
+
+Reassess urgently for complications if postauricular swelling or protrusion of the auricle, vestibular symptoms, cranial nerve deficits, meningeal signs, or focal neurologic findings develop.
+
+If you'd like, I can help tailor the observation versus immediate antibiotic decision to caregiver preferences and follow-up logistics. 
+use a delayed antibiotic prescription
+caregiver prefers immediate antibiotics
+follow-up plan for 72-hour reassessment
+how to counsel on expected course and side effects
+child has __
+
+Like answer
+Dislike answer
+0.5
+CME
+Reflect now
+7 sources
+Standard
+Do not input any personal data, including PHI.
+---
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+
+
+
+
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+
+
+
+
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+
+
+
+
+What is your plan?
+---
+Thought for 10.0s
+AI Generated Response
+
+You are asking for a management plan for a 24-month-old with unilateral acute otitis media (AOM) and mild symptoms. I am assuming the child is not at increased risk for severe infection or complications and that the family can do reliable follow-up within 72 hours.
+
+Is there anything to add or change? 
+child is <2 years old
+child has severe pain or toxic appearance
+family cannot ensure follow-up within 72 hours
+child has recurrent AOM or antibiotics in last 30 days
+child has otorrhea or TM perforation
+child has __
+
+This child meets stringent diagnostic criteria for AOM (bulging tympanic membrane with middle ear effusion), and is not showing signs of mastoiditis or other complications on exam.
++2
+
+Given age ≥2 years, unilateral AOM, and nonsevere presentation, initial management can be observation with analgesia rather than immediate antibiotics, using shared decision-making with the caregiver.
++2
+
+Initial management today
+
+Use an observation strategy with a clear contingency plan for what to do if symptoms worsen or fail to improve within 72 hours.
++1
+
+Treat pain with oral ibuprofen or acetaminophen.
++1
+
+What would trigger antibiotics or urgent reassessment
+
+If symptoms worsen or are not improving within 72 hours, start antibiotics.
+
+Caregivers often need concrete triggers, such as fever >39°C, pain not improved with ibuprofen or acetaminophen, new ear drainage, or worsening fussiness.
+
+Reassess urgently for complications if postauricular swelling or protrusion of the auricle, vestibular symptoms, cranial nerve deficits, meningeal signs, or focal neurologic findings develop.
+
+If you'd like, I can help tailor the observation versus immediate antibiotic decision to caregiver preferences and follow-up logistics. 
+use a delayed antibiotic prescription
+caregiver prefers immediate antibiotics
+follow-up plan for 72-hour reassessment
+how to counsel on expected course and side effects
+child has __
+
+Like answer
+Dislike answer
+0.5
+CME
+Reflect now
+7 sources
+---
+```
+
+---
+
+## Replicate 3 Trace (Timestamp: 2026-08-25T14:03:16.451Z)
+
+```text
+Skip to main content
+Search UpToDate
+View CME
+New Conversation
+
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+
+
+
+
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+
+
+
+
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+
+
+
+
+What is your plan?
+
+Thought for 11.5s
+AI Generated Response
+
+You are asking for a management plan for a 24-month-old with acute otitis media based on the history and otoscopic exam. I am assuming the child is not immunocompromised and has reliable caregivers and access to follow-up within 72 hours.
+
+Is there anything to add or change? 
+caregivers prefer immediate antibiotics
+follow-up within 72 hours is not reliable
+child is immunocompromised
+child has recurrent AOM or antibiotics in last 30 days
+child has otorrhea or severe pain
+child has __
+
+This presentation meets clinical criteria for acute otitis media (bulging tympanic membrane with middle ear effusion), so management should focus on pain control and then a shared decision between initial observation versus immediate antibiotics.
++1
+
+Immediate steps today
+
+Provide a clear pain plan using oral ibuprofen or acetaminophen.
++1
+
+Antibiotics versus observation
+
+Because he is not in a high-risk group (not <6 months, not toxic-appearing, not immunocompromised, no craniofacial abnormality), initial observation with analgesia is suggested as the default option, with antibiotics started if symptoms worsen or fail to improve within 48 to 72 hours.
++4
+
+In shared decision-making, factors that favor observation here include unilateral disease, temperature <39°C, and mild-to-moderate pain that improves with analgesics.
++1
+
+What “observation” means operationally
+
+Use either (1) observation without an antibiotic prescription plus explicit contingency instructions and after-hours plan, or (2) observation with a delayed prescription to fill only if not improving within 72 hours or if clearly worsening.
+
+Give caregivers concrete triggers to call/return or start antibiotics, such as fever >39°C, pain not improved with ibuprofen or acetaminophen, lack of improvement within 72 hours, new otorrhea, or worsening fussiness.
+
+Safety net and follow-up
+
+Advise urgent reassessment for signs of complications (eg, postauricular swelling/protrusion of the auricle, vestibular symptoms, cranial nerve deficits, meningeal signs, focal neurologic findings).
+
+If symptoms resolve, routine follow-up is not required unless there are concerns such as recurrent infections, chronic hearing loss, or language/learning problems.
+
+If you’d like, I can help tailor the shared decision discussion and contingency plan language. 
+write a delayed-prescription instruction set
+caregivers want immediate antibiotics
+symptoms persist after 72 hours of observation
+symptoms persist after 72 hours of antibiotics
+child has __
+
+Like answer
+Dislike answer
+0.5
+CME
+Reflect now
+9 sources
+Standard
+Do not input any personal data, including PHI.
+---
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+
+
+
+
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+
+
+
+
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+
+
+
+
+What is your plan?
+---
+Thought for 11.5s
+AI Generated Response
+
+You are asking for a management plan for a 24-month-old with acute otitis media based on the history and otoscopic exam. I am assuming the child is not immunocompromised and has reliable caregivers and access to follow-up within 72 hours.
+
+Is there anything to add or change? 
+caregivers prefer immediate antibiotics
+follow-up within 72 hours is not reliable
+child is immunocompromised
+child has recurrent AOM or antibiotics in last 30 days
+child has otorrhea or severe pain
+child has __
+
+This presentation meets clinical criteria for acute otitis media (bulging tympanic membrane with middle ear effusion), so management should focus on pain control and then a shared decision between initial observation versus immediate antibiotics.
++1
+
+Immediate steps today
+
+Provide a clear pain plan using oral ibuprofen or acetaminophen.
++1
+
+Antibiotics versus observation
+
+Because he is not in a high-risk group (not <6 months, not toxic-appearing, not immunocompromised, no craniofacial abnormality), initial observation with analgesia is suggested as the default option, with antibiotics started if symptoms worsen or fail to improve within 48 to 72 hours.
++4
+
+In shared decision-making, factors that favor observation here include unilateral disease, temperature <39°C, and mild-to-moderate pain that improves with analgesics.
++1
+
+What “observation” means operationally
+
+Use either (1) observation without an antibiotic prescription plus explicit contingency instructions and after-hours plan, or (2) observation with a delayed prescription to fill only if not improving within 72 hours or if clearly worsening.
+
+Give caregivers concrete triggers to call/return or start antibiotics, such as fever >39°C, pain not improved with ibuprofen or acetaminophen, lack of improvement within 72 hours, new otorrhea, or worsening fussiness.
+
+Safety net and follow-up
+
+Advise urgent reassessment for signs of complications (eg, postauricular swelling/protrusion of the auricle, vestibular symptoms, cranial nerve deficits, meningeal signs, focal neurologic findings).
+
+If symptoms resolve, routine follow-up is not required unless there are concerns such as recurrent infections, chronic hearing loss, or language/learning problems.
+
+If you’d like, I can help tailor the shared decision discussion and contingency plan language. 
+write a delayed-prescription instruction set
+caregivers want immediate antibiotics
+symptoms persist after 72 hours of observation
+symptoms persist after 72 hours of antibiotics
+child has __
+
+Like answer
+Dislike answer
+0.5
+CME
+Reflect now
+9 sources
+---
+```
+
+---
+

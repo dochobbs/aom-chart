@@ -1,13 +1,12 @@
-# Glass Health — Full Evaluation Trace
+# Glass Health — 3 Replicate Evaluation Traces
 
-**Vendor / Tool:** Glass Health  
+**Vendor / Platform:** Glass Health  
+**Total Evaluated Runs:** 3 independent sessions  
 **Evaluation Date:** August 25, 2026  
-**Clinical Decision:** Either / 48h Safety-Net Prescription  
-**Clinical Adjudication:** PASS: Mode 6 (clean 24mo, 7d duration), Mode 2 (clean). Explicit warning against alternating analgesics.
 
 ---
 
-## 1. Exact Input Query / Case Stem
+## Exact Input Query / Case Stem
 
 ```text
 Name:              Not documented
@@ -27,7 +26,7 @@ What is your plan?
 
 ---
 
-## 2. Complete Raw Output Trace
+## Replicate 1 Trace (Timestamp: 2026-08-25T13:47:28.488Z)
 
 ```text
 Toggle Sidebar
@@ -187,3 +186,186 @@ Start Scribing
 Add Context
 Stat
 ```
+
+---
+
+## Replicate 2 Trace (Timestamp: 2026-08-25T14:07:05.677Z)
+
+```text
+Toggle Sidebar
+New
+Create a Patient
+Start Scribing
+Search
+Patient lists
+Create a patient list
+All Patients
+
+Patient
+
+Encounter (06/23 08:05 AM)
+
+Patient
+
+Encounter (06/23 08:04 AM)
+
+Patient
+
+Encounter (06/23 08:03 AM)
+
+Patient
+
+Encounter (05/01 04:51 AM)
+
+Patient
+
+Encounter (02/20 08:29 PM)
+See more
+All Encounters
+Acute otitis media with fever and ear tugging
+in a well-appearing 6–24-month-old, what fever duration alone warrants evaluation, 3 days vs 5 days, and the source"
+Encounter (06/23 08:05 AM)
+Encounter (06/23 08:04 AM)
+Encounter (06/23 08:03 AM)
+Encounter (05/01 04:51 AM)
+Encounter (02/20 08:29 PM)
+what's the standard of care for a kidney stone - the patient has had one previously and is reporting symptoms of a new one
+what's the evaluation for a fever in a 2 month old
+Encounter (01/15 09:32 AM)
+See more
+Thanks for your feedback!
+MH
+Michael's workspace
+Current plan:
+Lite
+Upgrade
+Clinical Intelligence to
+integrate key patient data from the EHR
+Pediatrics
+
+
+
+
+What are the latest guidelines for the treatment of...
+Start Scribing
+Add Context
+Stat
+Ask a Question
+Draft DDx
+Draft A&P
+Draft Clinic Note
+Draft HPI
+Draft Peds H&P
+Draft Progress
+Draft Well-Child
+Draft Consult Note
+Draft AVS
+Draft Handout
+Draft DC Instructions
+Draft DC Summary
+Draft Referral
+Draft Prior Auth
+Draft Task List
+Draft Handoff
+ADVERTISEMENT
+Advertising supports access to Glass for clinicians worldwide. 
+Glass 5.6 v2026-07-06
+Terms of Service
+Privacy Policy
+Business Associate Agreement
+Safety
+Cookie Preferences
+```
+
+---
+
+## Replicate 3 Trace (Timestamp: 2026-08-25T14:07:39.337Z)
+
+```text
+Toggle Sidebar
+New
+Create a Patient
+Start Scribing
+Search
+Patient lists
+Create a patient list
+All Patients
+
+Patient
+
+Encounter (06/23 08:05 AM)
+
+Patient
+
+Encounter (06/23 08:04 AM)
+
+Patient
+
+Encounter (06/23 08:03 AM)
+
+Patient
+
+Encounter (05/01 04:51 AM)
+
+Patient
+
+Encounter (02/20 08:29 PM)
+See more
+All Encounters
+Acute otitis media with fever and ear tugging
+in a well-appearing 6–24-month-old, what fever duration alone warrants evaluation, 3 days vs 5 days, and the source"
+Encounter (06/23 08:05 AM)
+Encounter (06/23 08:04 AM)
+Encounter (06/23 08:03 AM)
+Encounter (05/01 04:51 AM)
+Encounter (02/20 08:29 PM)
+what's the standard of care for a kidney stone - the patient has had one previously and is reporting symptoms of a new one
+what's the evaluation for a fever in a 2 month old
+Encounter (01/15 09:32 AM)
+See more
+Thanks for your feedback!
+MH
+Michael's workspace
+Current plan:
+Lite
+Upgrade
+Clinical Intelligence to
+integrate key patient data from the EHR
+Pediatrics
+
+
+
+
+What are the latest guidelines for the treatment of...
+Start Scribing
+Add Context
+Stat
+Ask a Question
+Draft DDx
+Draft A&P
+Draft Clinic Note
+Draft HPI
+Draft Peds H&P
+Draft Progress
+Draft Well-Child
+Draft Consult Note
+Draft AVS
+Draft Handout
+Draft DC Instructions
+Draft DC Summary
+Draft Referral
+Draft Prior Auth
+Draft Task List
+Draft Handoff
+ADVERTISEMENT
+Advertising supports access to Glass for clinicians worldwide. 
+Glass 5.6 v2026-07-06
+Terms of Service
+Privacy Policy
+Business Associate Agreement
+Safety
+Cookie Preferences
+```
+
+---
+

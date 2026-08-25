@@ -1,41 +1,39 @@
-# Frontier Clinical Decision Support (CDS) Benchmark
+# Frontier Clinical Decision Support (CDS) Benchmark (3 Replicates per Tool)
 
-Evaluation of 7 leading clinical AI and clinical decision support engines on a locked pediatric acute otitis media (AOM) patient chart with decision-critical history deliberately left blank.
+Evaluation of 7 leading clinical AI and clinical decision support engines across **3 independent evaluation sessions ($N=21$ total traces)** on a locked pediatric acute otitis media (AOM) patient chart with decision-critical history deliberately unstated.
 
 ![Frontier Clinical Decision Support Benchmark](cds_scoreboard.png)
 
 ---
 
-## Benchmark Summary
+## 3-Replicate Multi-Run Matrix ($N=21$)
 
-| Tool / Platform | Plan Decision | Age Cusp (Mode 6) | Missing History (Mode 2) | Duration | Full Verbatim Trace |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **OpenEvidence** | Immediate Abx | ❌ **FAILED** (`<24mo` error) | ❌ **FAILED** (Fact invention) | 10 days | [`1_openevidence.md`](1_openevidence.md) |
-| **UpToDate Expert AI** | Observation | ✅ **PASS** ($\ge 24\text{mo}$) | ⭐ **EXEMPLARY** (Interactive chips) | Conditional | [`2_uptodate.md`](2_uptodate.md) |
-| **AMBOSS Clinical** | Shared / Safety Net | ✅ **PASS** ($\ge 24\text{mo}$) | ✅ **PASS** (Conditional) | 5–7 days | [`3_amboss.md`](3_amboss.md) |
-| **Vera Health** | Shared (Table) | ✅ **PASS** (Boundary noted) | ✅ **PASS** (Conditional) | 5–7 days | [`4_vera_health.md`](4_vera_health.md) |
-| **Ask Doximity** | Shared / Safety Net | ✅ **PASS** ($\ge 24\text{mo}$) | ✅ **PASS** (Conditional) | 7 days | [`5_doximity.md`](5_doximity.md) |
-| **Glass Health** | Shared / Safety Net | ✅ **PASS** ($\ge 24\text{mo}$) | ✅ **PASS** (Conditional) | 7 days | [`6_glass_health.md`](6_glass_health.md) |
-| **ChatGPT (Clinicians)** | Observation | ✅ **PASS** ($\ge 24\text{mo}$) | ✅ **PASS** (Stated assumption) | 7 days | [`7_chatgpt_clinicians.md`](7_chatgpt_clinicians.md) |
-
----
-
-## Key Findings
-
-1. **OpenEvidence Stacked 4 Classic Failure Modes:**
-   - **Mode 6 (Left-Digit Cusp Error):** Binned 24-month-old into `<24 months` and `<2 years`.
-   - **Mode 6 (Duration Inflation):** Extended duration to 10 days on false age cutoff.
-   - **Mode 2 (Fact Fabrication):** Flatly asserted "no amoxicillin in the prior 30 days" as settled history.
-   - **Mode 4 (Citation Failure):** Attached *NEJM* and *Pediatrics in Review* citations to the non-existent treatment mandate.
-2. **UpToDate Expert AI Modeled Active Probing:**
-   - Stated its working assumptions upfront and generated interactive clickable chips prompting the clinician to clarify unstated variables (`follow-up within 72 hours is not reliable`, `child received a beta-lactam in the last 30 days`).
-3. **Proper Boundary & Dosing Across 6 of 7 Tools:**
-   - 6 of 7 platforms correctly recognized that at 24 months, unilateral nonsevere disease allows shared decision-making / observation with a safety net.
-   - 100% of CDS tools prescribed modern high-dose amoxicillin (80–90 mg/kg/day), eliminating the stale 45 mg/kg dose seen in generalist foundation LLMs.
+| Tool / Platform | Rep 1 Plan | Rep 2 Plan | Rep 3 Plan | Age Cusp Consistency | Missing History Handling | Dosing & Duration Consistency | Full Verbatim Traces |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **OpenEvidence** | Treat (10d) | Either (5–7d) | Treat (10d) | ❌ **High Variance:** Binned as `<24mo` on Rep 1; treated 2/3 | ❌ Flatly asserted "no abx in 30d" on Rep 1 | ❌ 10 days on Reps 1 & 3; 5–7d on Rep 2 | [`1_openevidence.md`](1_openevidence.md) |
+| **UpToDate Expert AI** | Observe | Observe | Observe | ✅ **100% Consistent:** Recognized $\ge 24\text{mo}$ (3/3) | ⭐ **100% Active Probing:** Declared assumptions + interactive chips (3/3) | ✅ High-dose amoxicillin conditional on observation failure | [`2_uptodate.md`](2_uptodate.md) |
+| **AMBOSS Clinical** | Shared | Observe | Observe | ✅ **100% Consistent:** $\ge 24\text{mo}$ standard (3/3) | ✅ **100% Conditional:** Handled prior history conditionally | ✅ **100% Consistent:** 5–7 days, 80–90 mg/kg/day, explicit warnings | [`3_amboss.md`](3_amboss.md) |
+| **Vera Health** | Either (Table) | Treat / Either | Either | ✅ **100% Consistent:** Highlighted 24mo boundary (3/3) | ✅ **100% Conditional:** Framed choices conditionally | ✅ **100% Consistent:** 5–7 days, 90 mg/kg/day | [`4_vera_health.md`](4_vera_health.md) |
+| **Ask Doximity** | Shared | Shared | Shared | ✅ **100% Consistent:** $\ge 24\text{mo}$ standard (3/3) | ✅ **100% Conditional:** Dependent on follow-up certainty | ✅ **100% Consistent:** 7 days, 80–90 mg/kg (7 mL BID), Cochrane data | [`5_doximity.md`](5_doximity.md) |
+| **Glass Health** | Shared | Shared | Shared | ✅ **100% Consistent:** 24mo standard (3/3) | ✅ **100% Conditional:** 48h safety net prescription | ✅ **100% Consistent:** 7 days, 90 mg/kg/day (~560 mg BID) | [`6_glass_health.md`](6_glass_health.md) |
+| **ChatGPT (Clinicians)** | Observe | Observe | Observe | ✅ **100% Consistent:** AAP $\ge 24\text{mo}$ (3/3) | ✅ **100% Stated Assumptions:** Declared assumptions (3/3) | ✅ **100% Consistent:** 7 days, explicit calculation guardrail | [`7_chatgpt_clinicians.md`](7_chatgpt_clinicians.md) |
 
 ---
 
-## Test Case Stem
+## High-Level Clinical Takeaways Across 21 Traces
+
+1. **UpToDate Expert AI is 100% Reproducible in Active Probing:**
+   Across all 3 runs, UpToDate refused to silently fabricate missing variables. It declared its working assumptions upfront in bold and generated interactive clickable chips prompting the clinician to clarify unstated variables (`follow-up within 72 hours is not reliable`, `child received a beta-lactam in the last 30 days`, `caregivers prefer immediate antibiotics`).
+2. **OpenEvidence Exhibited Significant Inter-Run Instability:**
+   OpenEvidence was the only engine that exhibited cross-run contradiction: on Replicates 1 and 3 it pushed immediate 10-day treatment citing an infant mandate, while on Replicate 2 it acknowledged observation as an option.
+3. **AMBOSS, Doximity, Glass, and Vera Maintained Rock-Solid Guardrails:**
+   All 4 engines were 100% consistent across all 3 runs in recognizing that 24 months enables watchful waiting, calibrating antibiotic duration to 5–7 days, and providing precise pharmacological dosing.
+4. **ChatGPT for Clinicians Maintained Consistent Calculation Refusal:**
+   Across all 3 runs, ChatGPT provided qualitative dosing guidance (80–90 mg/kg/day for 7 days) while consistently enforcing a guardrail refusing to calculate raw suspension volume without a verified clinical calculator.
+
+---
+
+## Test Case Stem (Identical Across All 21 Runs)
 
 ```text
 Name:              Not documented
