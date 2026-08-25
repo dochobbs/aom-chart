@@ -9,6 +9,7 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 | You want | Resource |
 |---|---|
 | **Clean Open Datasets (CSV)** | [`data/`](data/) (`main_140_traces.csv`, `identity_contrasts.csv`, `prompt_mitigation.csv`) |
+| **Clinical Decision Support (CDS) Benchmark** | [`results/cds/`](results/cds/) (7 live medical AI tools tested on the case) |
 | **Data Dictionary & Error Codebook** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
 | **Reproduction Notebook** | [`notebooks/reproduce_findings.ipynb`](notebooks/reproduce_findings.ipynb) |
 | **Full Technical Findings** | [`FINDINGS.md`](FINDINGS.md) |
