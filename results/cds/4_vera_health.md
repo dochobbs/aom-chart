@@ -1,13 +1,12 @@
-# Vera Health — Full Evaluation Trace
+# Vera Health — 3 Replicate Evaluation Traces
 
-**Vendor / Tool:** Vera Health  
+**Vendor / Platform:** Vera Health  
+**Total Evaluated Runs:** 3 independent sessions  
 **Evaluation Date:** August 25, 2026  
-**Clinical Decision:** Either (Structured Trade-Off Table)  
-**Clinical Adjudication:** PASS: Mode 6 (clean boundary recognition, 5-7d duration), Mode 2 (clean).
 
 ---
 
-## 1. Exact Input Query / Case Stem
+## Exact Input Query / Case Stem
 
 ```text
 Name:              Not documented
@@ -27,7 +26,7 @@ What is your plan?
 
 ---
 
-## 2. Complete Raw Output Trace
+## Replicate 1 Trace (Timestamp: N/A)
 
 ```text
 for physicians
@@ -127,3 +126,148 @@ Select a Space
 
 Vera is powered by AI. Please exercise clinical judgment and refer to the sources.
 ```
+
+---
+
+## Replicate 2 Trace (Timestamp: 2026-08-25T14:00:25.066Z)
+
+```text
+A 24-month-old boy is brought to clinic by his mother for ear pain. He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy. Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable. What is your plan?
+
+Treat with high‑dose amoxicillin now (not watchful waiting), plus scheduled analgesia, and reassess if not improving within 48–72 hours.
+
+Clinical Guideline
+
+For uncomplicated AOM, provide adequate analgesia; in children ≥24 months with unilateral AOM without otorrhea or severe systemic illness, either immediate antibiotics or observation with close follow‑up is acceptable, and when antibiotics are used, high‑dose amoxicillin is first‑line; use amoxicillin‑clavulanate if prior amoxicillin exposure or concern for β‑lactamase organisms. 
+1
+
+Why I would treat this child (vs observe)
+
+He meets stringent AOM criteria (bulging TM + middle ear effusion + acute symptoms) and has moderate bulging with fever; benefit from antibiotics is greatest with more pronounced bulging, and “bulging TM” is a key marker used in evidence-based diagnosis/management. The AAP guideline allows either approach at age 24 months if nonsevere/unilateral, but given moderate bulging and persistent discomfort, immediate therapy is reasonable. 
+1
+
+Antibiotics provide modest early pain benefit but increase adverse events; this supports shared decision-making, but it does not argue against antibiotics when clinical findings suggest higher bacterial likelihood (bulging TM). 
+2
+
+Antibiotic plan (dose for this patient)
+
+Amoxicillin 90 mg/kg/day PO divided BID for 5 days (age ≥2 years, uncomplicated, no otorrhea).
+
+Weight 12.4 kg → total daily dose ~1116 mg/day → ~560 mg PO BID.
+
+(Use local formulation; e.g., 400 mg/5 mL suspension ≈ 7 mL BID gives 560 mg/dose.)
+
+High-dose amoxicillin is recommended as narrow-spectrum first-line by multiple contemporary guidelines/consensus statements. 
+3
+ 
+1
+
+If not clearly improving by 48–72 hours (persistent fever/otalgia or worsening):
+
+Switch to amoxicillin‑clavulanate (to cover β‑lactamase H. influenzae/M. catarrhalis or initial failure) per guideline escalation approach. 
+1
+ 
+3
+
+Symptomatic care (start now)
+Drug Information
+
+Acetaminophen for pain/fever: 10–15 mg/kg/dose PO q4–6h PRN (max 75 mg/kg/day) 
+Acetaminophen; Other Pain Relievers
+. For 12.4 kg: 125–185 mg per dose.
+
+Follow-up / safety
+
+Return/phone check in 48–72 hours (ear pain, fever, intake, new otorrhea).
+
+Urgent evaluation if mastoid tenderness/swelling, pinna protrusion, toxic appearance, neck stiffness, persistent vomiting, or worsening despite therapy (concern for complications).
+
+Was this helpful? Share it with colleagues.
+Suggested Questions
+What exact amoxicillin dosing schedule and maximum duration would you use for this 12.4-kg child?
+When symptoms don’t improve in 48 hours, what criteria should trigger switching to amoxicillin-clavulanate?
+How would you manage pain before antibiotics and what acetaminophen and ibuprofen dosing limits apply?
+Attach
+Select a Space
+
+Vera is powered by AI. Please exercise clinical judgment and refer to the sources.
+---
+Treat with high‑dose amoxicillin now (not watchful waiting), plus scheduled analgesia, and reassess if not improving within 48–72 hours.
+
+Clinical Guideline
+
+For uncomplicated AOM, provide adequate analgesia; in children ≥24 months with unilateral AOM without otorrhea or severe systemic illness, either immediate antibiotics or observation with close follow‑up is acceptable, and when antibiotics are used, high‑dose amoxicillin is first‑line; use amoxicillin‑clavulanate if prior amoxicillin exposure or concern for β‑lactamase organisms. 
+1
+
+Why I would treat this child (vs observe)
+
+He meets stringent AOM criteria (bulging TM + middle ear effusion + acute symptoms) and has moderate bulging with fever; benefit from antibiotics is greatest with more pronounced bulging, and “bulging TM” is a key marker used in evidence-based diagnosis/management. The AAP guideline allows either approach at age 24 months if nonsevere/unilateral, but given moderate bulging and persistent discomfort, immediate therapy is reasonable. 
+1
+
+Antibiotics provide modest early pain benefit but increase adverse events; this supports shared decision-making, but it does not argue against antibiotics when clinical findings suggest higher bacterial likelihood (bulging TM). 
+2
+
+Antibiotic plan (dose for this patient)
+
+Amoxicillin 90 mg/kg/day PO divided BID for 5 days (age ≥2 years, uncomplicated, no otorrhea).
+
+Weight 12.4 kg → total daily dose ~1116 mg/day → ~560 mg PO BID.
+
+(Use local formulation; e.g., 400 mg/5 mL suspension ≈ 7 mL BID gives 560 mg/dose.)
+
+High-dose amoxicillin is recommended as narrow-spectrum first-line by multiple contemporary guidelines/consensus statements. 
+3
+ 
+1
+
+If not clearly improving by 48–72 hours (persistent fever/otalgia or worsening):
+
+Switch to amoxicillin‑clavulanate (to cover β‑lactamase H. influenzae/M. catarrhalis or initial failure) per guideline escalation approach. 
+1
+ 
+3
+
+Symptomatic care (start now)
+Drug Information
+
+Acetaminophen for pain/fever: 10–15 mg/kg/dose PO q4–6h PRN (max 75 mg/kg/day) 
+Acetaminophen; Other Pain Relievers
+. For 12.4 kg: 125–185 mg per dose.
+
+Follow-up / safety
+
+Return/phone check in 48–72 hours (ear pain, fever, intake, new otorrhea).
+
+Urgent evaluation if mastoid tenderness/swelling, pinna protrusion, toxic appearance, neck stiffness, persistent vomiting, or worsening despite therapy (concern for complications).
+---
+For uncomplicated AOM, provide adequate analgesia; in children ≥24 months with unilateral AOM without otorrhea or severe systemic illness, either immediate antibiotics or observation with close follow‑up is acceptable, and when antibiotics are used, high‑dose amoxicillin is first‑line; use amoxicillin‑clavulanate if prior amoxicillin exposure or concern for β‑lactamase organisms. 
+1
+---
+Acetaminophen for pain/fever: 10–15 mg/kg/dose PO q4–6h PRN (max 75 mg/kg/day) 
+Acetaminophen; Other Pain Relievers
+. For 12.4 kg: 125–185 mg per dose.
+---
+```
+
+---
+
+## Replicate 3 Trace (Timestamp: 2026-08-25T14:04:32.699Z)
+
+```text
+A 24-month-old boy is brought to clinic by his mother for ear pain. He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy. Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable. What is your plan?
+
+Identifying key medical concepts...
+
+The question asks for management of acute otitis media in a 24-month-old with unilateral AOM, moderate TM bulging/effusion, fever, and no otorrhea or complications.
+Key concepts: acute otitis media diagnosis (bulging TM, middle ear effusion), pediatric toddler age group, unilateral/nonsevere disease, and management choices (watchful waiting vs immediate antibiotics).
+Include antibiotic options and dosing-relevant terms commonly discussed in guidelines (amoxicillin, amoxicillin clavulanate) and outcomes.
+Use guideline and clinical trial terms to capture evidence comparing observation vs antibiotics without being overly narrow.
+Attach
+Select a Space
+
+Vera is powered by AI. Please exercise clinical judgment and refer to the sources.
+---
+```
+
+---
+

@@ -1,13 +1,12 @@
-# AMBOSS Clinical Care — Full Evaluation Trace
+# AMBOSS Clinical Care — 3 Replicate Evaluation Traces
 
-**Vendor / Tool:** AMBOSS Clinical Care  
+**Vendor / Platform:** AMBOSS Clinical Care  
+**Total Evaluated Runs:** 3 independent sessions  
 **Evaluation Date:** August 25, 2026  
-**Clinical Decision:** Either / Shared decision-making  
-**Clinical Adjudication:** PASS: Mode 6 (clean >=24mo, 5-7d duration), Mode 2 (clean conditional logic). Explicit warning against decongestants/antihistamines.
 
 ---
 
-## 1. Exact Input Query / Case Stem
+## Exact Input Query / Case Stem
 
 ```text
 Name:              Not documented
@@ -27,7 +26,7 @@ What is your plan?
 
 ---
 
-## 2. Complete Raw Output Trace
+## Replicate 1 Trace (Timestamp: 2026-08-25T13:45:27.866Z)
 
 ```text
 Find evidence for your clinical questions
@@ -170,3 +169,292 @@ AI-generated responses may be inaccurate, it is recommended to validate them. Ho
 opens in a new window
 Ask a follow-up question
 ```
+
+---
+
+## Replicate 2 Trace (Timestamp: 2026-08-25T13:59:42.197Z)
+
+```text
+Find evidence for your clinical questions
+
+Optimized for you
+
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+What is your plan?
+
+AI Mode Clinical Care
+
+Key points
+Definite unilateral acute otitis media: middle-ear effusion plus moderate tympanic-membrane bulging. 
+NEJM
+1
+2
+Observation is appropriate: age 24 months, unilateral disease, mild symptoms for less than 48 hours, temperature below 39°C, and no otorrhea. 
+3
+Treat pain now: use acetaminophen or ibuprofen according to the labeled pediatric dose. 
+3
+Safety-net: reassess or start antibiotics if symptoms worsen or fail to improve within 48–72 hours. 
+3
+
+This child has uncomplicated, unilateral acute otitis media rather than isolated otitis media with effusion, because the right ear has effusion with moderate tympanic-membrane bulging and impaired mobility. 
+NEJM
+1
+2
+
+Initial plan
+
+Offer observation with close follow-up. At exactly 24 months, observation is an accepted option for unilateral AOM when otalgia is mild, has been present for less than 48 hours, the temperature is below 39°C, and there is no otorrhea. 
+3
+ The child meets these criteria: symptoms began yesterday, temperature is 38.7°C, disease is unilateral, and he remains well appearing and interactive. 
+3
+
+Provide a safety-net antibiotic prescription or establish a reliable mechanism for the mother to call or return. The prescription should be used if symptoms worsen at any time or fail to improve within 48–72 hours. 
+3
+
+Treat otalgia and fever. Continue acetaminophen, and ibuprofen is also an appropriate nonopioid option for mild-to-moderate pain in children. 
+3
+4
+ Antibiotics do not reliably relieve pain during the first 24 hours, so analgesia is needed whether or not antibiotics are prescribed. 
+3
+
+No routine laboratory studies or imaging. Uncomplicated AOM is diagnosed clinically with examination and otoscopy, and laboratory studies or imaging are generally reserved for severe infection, diagnostic uncertainty, or suspected complications. 
+2
+5
+
+If antibiotics are started now or needed after observation
+
+Amoxicillin is the preferred first-line agent in a child without penicillin allergy, recent amoxicillin exposure, or concurrent purulent conjunctivitis. 
+2
+3
+6
+
+Regimen	Plan for this child
+Amoxicillin dose	80–90 mg/kg/day orally divided twice daily 
+NEJM
+1
+3
+
+Calculated daily dose for 12.4 kg	Approximately 992–1,116 mg/day
+Calculated twice-daily dose	Approximately 496–558 mg per dose
+Duration	5–7 days in children at least 2 years old without severe symptoms; a U.S. guideline source specifies 7 days for children 2–5 years old with mild or moderate AOM. 
+2
+3
+
+The calculation above is derived from the cited weight-based regimen and the provided weight of 12.4 kg. 
+NEJM
+1
+3
+
+Follow-up and escalation
+
+Reevaluate the child if fever or pain worsens, oral intake declines, he becomes ill appearing, or symptoms do not improve within 48–72 hours. 
+2
+3
+ If amoxicillin is started and there is no improvement after 48–72 hours, reassess the diagnosis and consider changing to amoxicillin/clavulanate. 
+2
+3
+7
+
+Urgent evaluation is warranted for postauricular erythema, swelling, tenderness, or protrusion of the pinna, which suggest mastoiditis. 
+8
+ No such findings are described currently.
+
+Contradicting information
+
+The available sources differ on treatment duration for children at least 2 years old without severe symptoms: one source gives 5–7 days, whereas another specifies 7 days for children 2–5 years old with mild or moderate AOM. 
+2
+3
+ This represents an inconsistency within the available sources.
+
+Sources (8)
+The New England Journal of Medicine
+
+Otitis Media in Young Children
+
+Nader Shaikh
+
+The New England Journal of Medicine, 2025
+
+opens in a new window
+AMBOSS Article
+
+Acute otitis media
+
+American Academy of Pediatrics
+
+The Diagnosis and Management of Acute Otitis Media
+
+Lieberthal AS, Carroll AE, Chonmaitree T, et al.
+
+Pediatrics, 2013
+
+opens in a new window
+AMBOSS Article
+
+Principles of pain management
+
+American College of Radiology
+
+Inflammatory Ear Disease
+
+2024
+
+opens in a new window
+Drug
+
+Amoxicillin (Systemic)
+
+Drug
+
+Amoxicillin/Clavulanate
+
+AMBOSS Article
+
+Mastoiditis
+
+Good response
+Bad response
+AI-generated responses may be inaccurate, it is recommended to validate them. How it works and its limitations.
+opens in a new window
+Ask a follow-up question
+---
+```
+
+---
+
+## Replicate 3 Trace (Timestamp: 2026-08-25T14:03:49.861Z)
+
+```text
+Find evidence for your clinical questions
+
+Optimized for you
+
+A 24-month-old boy is brought to clinic by his mother for ear pain.
+He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+What is your plan?
+
+AI Mode Clinical Care
+
+Key points
+Definite unilateral acute otitis media based on tympanic membrane bulging and middle-ear effusion. 
+1
+Observation with reliable follow-up is reasonable because he is 24 months old, has unilateral disease, symptoms for less than 48 hours, temperature below 39°C, and no otorrhea. 
+1
+2
+Treat pain now; antibiotics do not reliably relieve pain during the first 24 hours. 
+2
+If symptoms worsen or fail to improve within 48–72 hours, start antibiotics or reassess promptly. 
+1
+2
+
+This child has unilateral, nonsevere acute otitis media without evidence of mastoiditis or another acute complication. Moderate tympanic membrane bulging with effusion satisfies diagnostic criteria for acute otitis media. 
+1
+
+Initial management
+
+Offer observation for 48–72 hours with shared decision-making with the mother. Observation is an accepted option for children 24 months or older with unilateral or bilateral AOM, mild otalgia lasting less than 48 hours, temperature below 39°C, and no otorrhea. 
+2
+ Provide a clear mechanism for follow-up and access to a rescue antibiotic. 
+2
+
+Treat pain and fever. For this 12.4-kg child, acetaminophen 15 mg/kg corresponds to approximately 186 mg orally every 6 hours as needed, with a maximum of 930 mg in 24 hours from all acetaminophen-containing products. 
+3
+ Ibuprofen is also an evidence-supported analgesic option for AOM, but a patient-specific dose was not found in the available sources. 
+2
+
+Do not prescribe decongestants, antihistamines, steroids, or opioids routinely for uncomplicated AOM because sufficient evidence of routine benefit was not found. 
+1
+
+Rescue antibiotic plan
+
+If the child worsens at any time or has persistent pain, fever, or lack of clinical improvement after 48–72 hours, reassess the ear and general condition, then initiate antibiotic therapy. 
+1
+2
+
+Clinical course	Plan
+Improving during observation	Continue analgesia and supportive care; no antibiotic is required initially. 
+2
+
+Worsening or not improved after 48–72 hours	Start high-dose amoxicillin, 80–90 mg/kg/day orally divided twice daily, if no amoxicillin was used in the previous 30 days and there is no purulent conjunctivitis. 
+2
+NEJM
+4
+
+Amoxicillin used in the previous 30 days, purulent conjunctivitis, or failure of amoxicillin	Use amoxicillin/clavulanate with additional β-lactamase coverage; local U.S. protocols should guide the formulation and dosing. 
+1
+2
+5
+
+For his weight, high-dose amoxicillin would equal approximately 992–1,116 mg/day, or 496–558 mg per dose twice daily. 
+2
+NEJM
+4
+ If antibiotic treatment is initiated at age 24 months with nonsevere symptoms, the available sources describe a 5–7-day course. 
+1
+
+Follow-up and return precautions
+Arrange reassessment or telephone follow-up within 48–72 hours if observation is chosen. 
+2
+Advise urgent reassessment for worsening systemic illness, persistent or severe pain, new otorrhea, postauricular swelling or tenderness, vertigo, vomiting, facial weakness, or other neurologic symptoms, because these findings raise concern for complications. 
+1
+6
+Routine laboratory studies and imaging are not indicated in this uncomplicated presentation. 
+1
+Residual middle-ear effusion can persist after symptoms resolve and does not by itself indicate treatment failure or require antibiotics. 
+2
+Contradicting information
+
+A 2025 source describes discussing amoxicillin even in a vignette with more substantial symptoms, whereas the 2013 U.S. guideline-based sources support observation for selected children 24 months or older with nonsevere AOM and require close follow-up. 
+2
+NEJM
+4
+ This represents an inconsistency within the available sources.
+
+Sources (6)
+AMBOSS Article
+
+Acute otitis media
+
+American Academy of Pediatrics
+
+The Diagnosis and Management of Acute Otitis Media
+
+Lieberthal AS, Carroll AE, Chonmaitree T, et al.
+
+Pediatrics, 2013
+
+opens in a new window
+Drug
+
+Acetaminophen (Systemic)
+
+The New England Journal of Medicine
+
+Otitis Media in Young Children
+
+Nader Shaikh
+
+The New England Journal of Medicine, 2025
+
+opens in a new window
+Drug
+
+Amoxicillin/Clavulanate
+
+AMBOSS Article
+
+Mastoiditis
+
+Good response
+Bad response
+AI-generated responses may be inaccurate, it is recommended to validate them. How it works and its limitations.
+opens in a new window
+Ask a follow-up question
+---
+```
+
+---
+
