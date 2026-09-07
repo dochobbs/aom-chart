@@ -253,9 +253,12 @@ For health tech founders, clinical informaticists, and foundation model alignmen
 
 ---
 
-### Open Data & Replication
-The complete dataset supporting this research—including the 1,324 raw generation traces, automated regex and clinician adjudication scripts, and the peer-reviewed manuscript prepared for journal submission—is fully open and reproducible at:  
+### Working Paper & Open Data
+The complete working paper prepared for journal submission—along with all 1,324 raw generation traces, automated regex pipelines, and clinician adjudication scripts—is open and reproducible at:  
 👉 **GitHub:** https://github.com/dochobbs/aom-chart
+
+*Suggested citation:*  
+Hobbs M. Unknown-to-negative conversion in clinical large language models: a multi-model evaluation of decision-critical missingness and conditional prompting. Working Paper, 2026. Available at: `https://github.com/dochobbs/aom-chart`.
 
 ---
 
@@ -268,4 +271,3 @@ The complete dataset supporting this research—including the 1,324 raw generati
 6. OpenAI. GPT-4 technical report. *arXiv preprint arXiv:2303.08774*. 2023.
 7. Sharma M, Tong M, Korbak T, et al. Towards understanding sycophancy in language models. *arXiv preprint arXiv:2310.13548*. 2023.
 8. Reiter R. On closed world data bases. In: Gallaire H, Minker J, eds. *Logic and Data Bases*. Advances in Data Base Theory. Springer; 1978:55–76.
-9. Hobbs M. Unknown-to-negative conversion in clinical large language models: a multi-model evaluation of decision-critical missingness and conditional prompting. Original Investigation / Working Paper. 2026. Available at: `https://github.com/dochobbs/aom-chart`.
