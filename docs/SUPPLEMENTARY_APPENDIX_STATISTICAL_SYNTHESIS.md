@@ -11,14 +11,14 @@
 
 To ensure transparent accounting and prevent pseudoreplication or denominator mixing, Table S1 outlines the four distinct experimental cohorts evaluated across this study.
 
-### Table S1: Consolidated Study Cohort Accounting
-| Cohort ID | Description / Arm | Clinical Cases | Models Evaluated | Total Traces (Turns) | Primary Analytical Endpoints |
+### Table S1: Consolidated Study Cohort Accounting (Unique Traces vs. Turns)
+| Cohort ID | Description / Arm | Clinical Cases | Models Evaluated | Unique Traces (Total Turns) | Primary Analytical Endpoints |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cohort 1: Foundational AOM Battery** | Baseline unguided catalog ($N=140$); pre-specified identity contrast testing ($N=228$ traces); Turn 2 sealed probing evaluations ($N=192$ multi-turn traces); single-sentence prompt intervention ($N=56$) | `aom` (24mo) | 10 models (4 vendor families) | **580 traces** (772 turns) | Closed-world fabrication; verbosity correlation; model signatures; parametric decay; dual-pass scoring vs. clinician adjudication; 0/228 prescription invariance |
-| **Cohort 2: Factorial Credentialism Battery** | $2 \times 2$ factorial (Mother/Father $\times$ Nurse/Unemployed) at $N=6$ replicates per cell | `aom`, `head_24mo` | 6 models (`fable`, `sonnet`, `opus`, `flash`, `pro`, `grok`) | **288 traces** (576 turns) | Parental credentialism in justification text ($p < 10^{-6}$) vs. gender invariance ($p = 1.0000$) |
-| **Cohort 3: Reasoning Compute Spectrum** | Test-time reasoning token scaling (Dynamic effort: None, Low, Medium, High, Max) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 2 reasoning models (`gpt-5.6-sol`, `claude-3.7-fable`) | **60 traces** (120 turns) | Persistence of unknown-to-negative conversion under scaled reasoning compute |
-| **Cohort 4: Multi-Case Replicate Benchmark** | Paired baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 traces** (480 turns) | Resolution of head-injury confabulation (5/6 $\rightarrow$ 0/6, $p=0.015$; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); edge distillation collapse |
-| **Total Study Traces** | **All 4 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,168 traces** (1,948 turns) | Full deterministic and adjudicated benchmark |
+| **Cohort 1: Foundational AOM Battery** | Unique generations: Baseline catalog ($N=140$) + pre-specified identity contrasts ($N=228$) + single-sentence prompt intervention ($N=56$). *(Turn 2 sealed probing was evaluated on 192 multi-turn responses from the identity runs)* | `aom` (24mo) | 10 models (4 vendor families) | **424 unique traces** (652 turns) | Closed-world fabrication; verbosity association; model signatures; learned association errors; dual-pass scoring vs. clinician adjudication; 0/228 prescription invariance; 187/192 Turn 2 recognition |
+| **Cohort 2: Factorial Occupation Battery** | $2 \times 2$ factorial (Mother/Father $\times$ Nurse/Unemployed) at $N=6$ replicates per cell across 2 cases | `aom`, `head_24mo` | 6 models (`fable`, `sonnet`, `opus`, `flash`, `pro`, `grok`) | **288 unique traces** (576 turns) | Occupation-conditioned clinical justification ($p < 10^{-6}$) vs. parent gender invariance ($p = 1.0000$) |
+| **Cohort 3: Reasoning Compute Spectrum** | Test-time reasoning token scaling (Dynamic effort: None, Low, Medium, High, Max) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 2 reasoning models (`gpt-5.6-sol`, `claude-3.7-fable`) | **60 unique traces** (120 turns) | Persistence of unknown-to-negative conversion under scaled test-time reasoning compute |
+| **Cohort 4: Multi-Condition Replicate Benchmark** | Independent baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) balanced across 10 models $\times$ 4 cases $\times$ 3 replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 unique traces** (480 turns) | Resolution of head-injury confabulation in independent draws (5/6 $\rightarrow$ 0/6, RD 83.3 pp, $p=0.015$; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); Haiku instruction failure |
+| **Total Study Cohort** | **All 4 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,012 unique traces** (1,828 turns) | Complete deterministic and adjudicated benchmark |
 
 ---
 
@@ -72,7 +72,7 @@ Generating structured contingency trees incurs a measurable token expansion cost
 | **Prescription Order Changes** | **0 / 144 (0.0%)** | **0 / 144 (0.0%)** | **$p = 1.0000$** | **Prescriptions held identical.** Drug orders reflect fixed model signatures rather than demographic factors. |
 | **Citing Parent Job as Reliable Monitoring Justification** | **128 / 144 (88.9%)** | **0 / 144 (0.0%)** | **$p < 10^{-6}$** | **Substantial occupation-conditioned divergence in justification text.** Models actively operationalize medical professions as unhedged certificates of follow-up reliability. |
 | **Raising Socioeconomic / Transportation Doubts** | 0 / 144 (0.0%) | 104 / 144 (72.2%) | $p < 10^{-6}$ | Unemployed parents receive unsolicited logistical scrutiny and defensive risk escalation. |
-| **Mother vs. Father Nurse Citation Disparity** | 64 / 72 (88.9%) | 64 / 72 (88.9%) | $p = 1.0000$ | Zero maternal vs. paternal disparity; bias is purely socioeconomic/credentialist. |
+| **Mother vs. Father Nurse Citation Disparity** | 64 / 72 (88.9%) | 64 / 72 (88.9%) | $p = 1.0000$ | Zero maternal vs. paternal disparity ($p=1.0000$); justification divergence is driven by caregiver occupation rather than parent gender. |
 
 ---
 
