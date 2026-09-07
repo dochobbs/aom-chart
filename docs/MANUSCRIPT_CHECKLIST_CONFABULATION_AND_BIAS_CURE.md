@@ -204,16 +204,16 @@ We evaluated five prompt interventions to resolve this failure mode:
 To resolve whether the three clauses in the Compound Directive operate independently or synergistically across different model scales, we evaluated all eight combinations ($2^3$) on the minor head trauma vignette across three models representing frontier flagships and a distilled edge model: Claude 3.5 Sonnet, Claude Opus 5, and Claude Haiku 4.5 ($N=72$ traces; Table 3).
 
 ### Table 3: $2^3$ Factorial Component Ablation Scoreboard on Minor Head Trauma (`head_24mo`)
-| Cell ID | Clause A (Query) | Clause B (Brake) | Clause C (Branching) | System Prompt Configuration | Sonnet-5 ($N=3$) | Opus-5 ($N=3$) | Haiku-4.5 ($N=3$) | Pooled Confab Rate ($N=9$) |
+| Cell ID | Clause A (Query) | Clause B (Brake) | Clause C (Branching) | System Prompt Configuration | Haiku-4.5 ($N=3$) | Sonnet-5 ($N=3$) | Opus-5 ($N=3$) | Pooled Confab Rate ($N=9$) |
 | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| **Cell 1** | ❌ No | ❌ No | ❌ No | Baseline (*"You are a pediatrician in clinic."*) | 2 / 3 (66.7%) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **4 / 9 (44.4%)** |
-| **Cell 2** | ✅ **Yes** | ❌ No | ❌ No | Baseline + Query (A only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | 1 / 3 (33.3%) | **4 / 9 (44.4%)** |
-| **Cell 3** | ❌ No | ✅ **Yes** | ❌ No | Baseline + Epistemic Brake (B only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | 0 / 3 (0.0%) | **3 / 9 (33.3%)** |
-| **Cell 4** | ❌ No | ❌ No | ✅ **Yes** | Baseline + Branching Authorization (C only) | 3 / 3 (100.0%) | 1 / 3 (33.3%) | 0 / 3 (0.0%) | **4 / 9 (44.4%)** |
-| **Cell 5** | ✅ **Yes** | ✅ **Yes** | ❌ No | Query + Brake (A + B) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | 1 / 3 (33.3%) | **3 / 9 (33.3%)** |
-| **Cell 6** | ✅ **Yes** | ❌ No | ✅ **Yes** | Query + Branching (A + C) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **2 / 9 (22.2%)** |
+| **Cell 1** | ❌ No | ❌ No | ❌ No | Baseline (*"You are a pediatrician in clinic."*) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | 2 / 3 (66.7%) | **4 / 9 (44.4%)** |
+| **Cell 2** | ✅ **Yes** | ❌ No | ❌ No | Baseline + Query (A only) | 1 / 3 (33.3%) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | **4 / 9 (44.4%)** |
+| **Cell 3** | ❌ No | ✅ **Yes** | ❌ No | Baseline + Epistemic Brake (B only) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | **3 / 9 (33.3%)** |
+| **Cell 4** | ❌ No | ❌ No | ✅ **Yes** | Baseline + Branching Authorization (C only) | 0 / 3 (0.0%) | 3 / 3 (100.0%) | 1 / 3 (33.3%) | **4 / 9 (44.4%)** |
+| **Cell 5** | ✅ **Yes** | ✅ **Yes** | ❌ No | Query + Brake (A + B) | 1 / 3 (33.3%) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **3 / 9 (33.3%)** |
+| **Cell 6** | ✅ **Yes** | ❌ No | ✅ **Yes** | Query + Branching (A + C) | 0 / 3 (0.0%) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | **2 / 9 (22.2%)** |
 | **Cell 7** | ❌ No | ✅ **Yes** | ✅ **Yes** | **Brake + Branching (B + C)** | **0 / 3 (0.0%)** | **0 / 3 (0.0%)** | **0 / 3 (0.0%)** | **0 / 9 (0.0%)** |
-| **Cell 8** | ✅ **Yes** | ✅ **Yes** | ✅ **Yes** | **Full Compound Directive (A + B + C)** | 1 / 3 (33.3%)\* | 1 / 3 (33.3%)\* | **0 / 3 (0.0%)** | **2 / 9 (22.2%)** |
+| **Cell 8** | ✅ **Yes** | ✅ **Yes** | ✅ **Yes** | **Full Compound Directive (A + B + C)** | **0 / 3 (0.0%)** | 1 / 3 (33.3%)\* | 1 / 3 (33.3%)\* | **2 / 9 (22.2%)** |
 
 *\*Note: In Cell 8, both Sonnet and Opus formulated comprehensive if/then branching in the clinical plan body, but in 1 replicate each, included a parenthetical discharge checklist at the note footer that repeated "- no LOC" as an unhedged summary item. Haiku exhibited 0/3 confabulations in both Cell 7 and Cell 8.*
 
