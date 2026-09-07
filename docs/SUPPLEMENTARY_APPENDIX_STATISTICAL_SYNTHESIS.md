@@ -38,10 +38,10 @@ To ensure transparent accounting and prevent pseudoreplication or denominator mi
 | OpenAI All 3 Models (`luna`, `terra`, `sol`) | 0 / 9 (0.0%) | 0 / 9 (0.0%) | $0.0\%$ | $p = 1.0000$ | 0.0% – 33.6% | 0.0% – 33.6% |
 | Google All 2 Models (`flash`, `pro`) | 0 / 6 (0.0%) | 0 / 6 (0.0%) | $0.0\%$ | $p = 1.0000$ | 0.0% – 45.9% | 0.0% – 45.9% |
 | xAI Model (`grok-4.6`) | 0 / 3 (0.0%) | 0 / 3 (0.0%) | $0.0\%$ | $p = 1.0000$ | 0.0% – 70.8% | 0.0% – 70.8% |
-| **Frontier 9 Pooled (Excluding Distilled Edge `haiku`)** | **5 / 27 (18.5%)** | **0 / 27 (0.0%)** | **$-18.5\%$** | **$p = 0.05098$** | 6.3% – 38.1% | 0.0% – 12.8% |
+| **Frontier 9 Pooled (Excluding Compact `haiku`)** | **5 / 27 (18.5%)** | **0 / 27 (0.0%)** | **$-18.5\%$** | **$p = 0.05098$** | 6.3% – 38.1% | 0.0% – 12.8% |
 | **All 10 Models Pooled** | 5 / 30 (16.7%) | 0 / 30 (0.0%)\* | $-16.7\%$ | $p = 0.05224$ | 5.6% – 34.7% | 0.0% – 11.6% |
 
-*\*Note: In Haiku, while head injury confabulation dropped to 0/3, the model suffered instruction collapse on febrile seizure (3/3 LP fabrication), demonstrating parameter-scale limits of distilled models.*
+*\*Note: In Haiku, while head injury confabulation dropped to 0/3, the model suffered instruction collapse on febrile seizure (3/3 LP fabrication), demonstrating parameter-scale limits of compact models.*
 
 ---
 
@@ -95,7 +95,7 @@ Auditing the initial 140 AOM traces against expert human adjudication demonstrat
 
 ### Section S6: $2^3$ Factorial Component Ablation (Cohort 5)
 
-Table S6 presents the complete 8-cell matrix evaluating all combinations of Clause A (Query: *"What missing information would change your plan?"*), Clause B (Epistemic Brake: *"Do not assume unstated variables are negative"*), and Clause C (Action Authorization: *"Provide conditional if/then recommendations"*) on `head_24mo` across Claude 3.5 Sonnet, Claude Opus 5, and Claude Haiku 4.5 ($N=72$ total traces).
+Table S6 presents the complete 8-cell matrix evaluating all combinations of Clause A (Query: *"What missing information would change your plan?"*), Clause B (Epistemic Brake: *"Do not assume unstated variables are negative"*), and Clause C (Action Authorization: *"Provide conditional if/then recommendations"*) on `head_24mo` across Claude Sonnet 5, Claude Opus 5, and Claude Haiku 4.5 ($N=72$ total traces).
 
 ### Table S6: Clinically Adjudicated $2^3$ Factorial Ablation Matrix Across Flagship and Distilled Models
 | Cell ID | Clause A (Query) | Clause B (Brake) | Clause C (Branching) | System Prompt Configuration | Haiku-4.5 ($N=3$) | Sonnet-5 ($N=3$) | Opus-5 ($N=3$) | Pooled Confab Rate ($N=9$) | Branching Present |
