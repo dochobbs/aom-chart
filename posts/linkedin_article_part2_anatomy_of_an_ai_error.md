@@ -98,9 +98,9 @@ Should we include Clause A (*"What missing information would change your plan?"*
 
 We found that **the third line is a model-scale paradox**:
 
-### 1. Line 3 Poisons Compact, Lightweight Models (`haiku`)
-When you prompt a compact, lightweight model like Claude Haiku to identify missing information, it lacks the parameter capacity and metacognitive discipline to leave the question open. It feels compelled to **answer its own questions**—inventing reassuring clinical details (*"- Reassuring: Alert, GCS 15, no LOC reported"*) just to close the loop.  
-$\rightarrow$ **For compact models, Two Lines (Brake + Branching) is mandatory. Adding Line 3 actively induces hallucination.**
+### 1. Line 3 Induces Confabulation Specifically in Claude Haiku
+When you prompt Claude Haiku 4.5 to identify missing information, its internal completion loop compels it to **answer its own questions**—inventing reassuring clinical details (*"- Reassuring: Alert, GCS 15, no LOC reported"*) just to close the loop. Notably, when we ran the identical 8-cell ablation on compact models from other labs (GPT-5.6 Luna and Gemini 3.7 Flash), neither model fell into this trap—both formulated clean inquiries and branched conditionally without hallucinating negatives. This proves that Haiku's vulnerability is not an inevitable law of compact parameter scale, but an Anthropic-specific checklist completion reflex.  
+$\rightarrow$ **For Haiku deployments, Two Lines (Brake + Branching) is mandatory. Adding Line 3 actively induces hallucination.**
 
 ### 2. Line 3 Rescues Format-Rigid Flagships (`sonnet-5`)
 Claude Sonnet 5 represents the opposite extreme: an exceptionally capable model with an intensely trained reflex for standard PECARN bulleted formatting. Under Two Lines alone, Sonnet generated brilliant conditional contingency trees in its plan body—**yet still slipped into inserting `"- No LOC reported"` as an unhedged bullet point in its PECARN summary checklist on 8 of 10 runs!**
@@ -129,7 +129,7 @@ To verify that Brake + Branching wasn't an artifact of a lucky $N=3$ draw, we ex
 | **1. Statistical Depth** | Unwitnessed Head Trauma (`head_24mo`) | Haiku-4.5, Sonnet-5, Fable-5, Opus-5 | **40 traces** | **0 / 10** Haiku (0.0%)<br>**0 / 10** Fable (0.0%)<br>**0 / 10** Opus (0.0%)<br>8 / 10 Sonnet (format slip) | Confirms extinction of confabulation across 3 of 4 Claude tiers; identifies Sonnet's format habit. |
 | **2. Cross-Condition Transfer** | Full $2^3$ Factorial on Ear Infection (`aom_24mo`) | Haiku-4.5, Sonnet-5, Fable-5, Opus-5 | **96 traces** | **0 / 9 (0.0%)** Frontier models under Cell 7<br>(Baseline was 33%–67%) | Completely eliminated baseline fabrication of prior antibiotic history across Sonnet, Fable, and Opus. |
 | **3. Specificity & Non-Degradation** | Witnessed Fall with Confirmed Zero LOC | Haiku-4.5, Sonnet-5, Fable-5, Opus-5 | **12 traces** | **0 / 12 (0.0%)**<br>(12 / 12 decisive plans) | **Zero branching paralysis.** When data was present, 100% of models recommended observation without false confusion. |
-| **4. Cross-Lab Factorial Battery** | Head Trauma & AOM $2^3$ Factorials | OpenAI (`gpt-5.6-terra`)<br>Google (`gemini-3.1-pro-preview`) | **96 traces** | **0 / 12 (0.0%)** under Cell 7<br>(Head 0/6, AOM 0/6) | Proves Brake + Branching generalizes beyond Anthropic to all major frontier AI developers. |
+| **4. Cross-Lab Factorial Battery** | Head Trauma & AOM $2^3$ Factorials | OpenAI (Terra & Luna)<br>Google (Pro & Flash) | **144 traces** | **0 / 18 (0.0%)** under Cell 7<br>(Head 0/12, AOM 0/6) | Proves Brake + Branching generalizes beyond Anthropic to all major frontier and compact AI developers. |
 
 ---
 
