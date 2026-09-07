@@ -174,6 +174,7 @@ def main():
     parser.add_argument("--models", nargs="+", default=DEFAULT_MODELS, help="Model keys to run (e.g. terra gemini-pro)")
     parser.add_argument("--replicates", type=int, default=3, help="Replicates per cell (default 3)")
     parser.add_argument("--workers", type=int, default=8, help="Concurrent worker threads (default 8)")
+    parser.add_argument("--tag", type=str, default="", help="Optional tag for output filename")
     args = parser.parse_args()
 
     print("=" * 80, flush=True)
@@ -211,7 +212,8 @@ def main():
     total_wall = time.time() - t_start
     print(f"\nAll {completed} cross-lab factorial runs completed in {total_wall:.1f}s.", flush=True)
 
-    out_file = RESULTS_DIR / f"factorial_2cubed_crosslab_{args.case}_{len(results)}traces.json"
+    tag_suffix = f"_{args.tag}" if args.tag else ""
+    out_file = RESULTS_DIR / f"factorial_2cubed_crosslab_{args.case}{tag_suffix}_{len(results)}traces.json"
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump({
             "timestamp": datetime.now(timezone.utc).isoformat(),

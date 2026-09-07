@@ -218,16 +218,16 @@ def main():
     lines.append("| Cell ID | Intervention Configuration | Head Trauma Confab (N=72)* | AOM Confab (N=96) | Head Trauma Curative Effect | AOM Curative Effect |")
     lines.append("| :--- | :--- | :---: | :---: | :---: | :---: |")
     
-    # Head trauma reference rates from 72-trace run:
+    # Head trauma reference rates from 72-trace run (adjudicated):
     head_rates = {
-        "cell_1_none": "83.3% (15/18)",
-        "cell_2_A_only": "66.7% (6/9)",
-        "cell_3_B_only": "22.2% (2/9)",
-        "cell_4_C_only": "55.6% (5/9)",
-        "cell_5_AB": "22.2% (2/9)",
-        "cell_6_AC": "44.4% (4/9)",
+        "cell_1_none": "44.4% (4/9)",
+        "cell_2_A_only": "44.4% (4/9)",
+        "cell_3_B_only": "33.3% (3/9)",
+        "cell_4_C_only": "44.4% (4/9)",
+        "cell_5_AB": "33.3% (3/9)",
+        "cell_6_AC": "22.2% (2/9)",
         "cell_7_BC": "**0.0% (0/9)**",
-        "cell_8_ABC": "11.1% (1/9)*"
+        "cell_8_ABC": "22.2% (2/9)*"
     }
 
     for cid, cname, _ in cells:

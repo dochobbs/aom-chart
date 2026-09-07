@@ -44,14 +44,14 @@ Testing whether the component hierarchy and curative architecture replicate acro
 
 | Cell ID | Intervention Configuration | Head Trauma Confab (N=72)* | AOM Confab (N=96) | Head Trauma Curative Effect | AOM Curative Effect |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| `cell_1_none` | 1. None (Baseline) | 83.3% (15/18) | **25.0% (3/12)** | Baseline Failure | Baseline Failure |
-| `cell_2_A_only` | 2. A only (Query) | 66.7% (6/9) | **0.0% (0/12)** | Sub-optimal | Sub-optimal |
-| `cell_3_B_only` | 3. B only (Brake) | 22.2% (2/9) | **8.3% (1/12)** | Strong Suppression | Partial Suppression |
-| `cell_4_C_only` | 4. C only (Branching) | 55.6% (5/9) | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
-| `cell_5_AB` | 5. A + B (Query + Brake) | 22.2% (2/9) | **0.0% (0/12)** | Sub-optimal | Sub-optimal |
-| `cell_6_AC` | 6. A + C (Query + Branching) | 44.4% (4/9) | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
+| `cell_1_none` | 1. None (Baseline) | 44.4% (4/9) | **25.0% (3/12)** | Baseline Failure | Baseline Failure |
+| `cell_2_A_only` | 2. A only (Query) | 44.4% (4/9) | **0.0% (0/12)** | Sub-optimal | Sub-optimal |
+| `cell_3_B_only` | 3. B only (Brake) | 33.3% (3/9) | **8.3% (1/12)** | Strong Suppression | Partial Suppression |
+| `cell_4_C_only` | 4. C only (Branching) | 44.4% (4/9) | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
+| `cell_5_AB` | 5. A + B (Query + Brake) | 33.3% (3/9) | **0.0% (0/12)** | Sub-optimal | Sub-optimal |
+| `cell_6_AC` | 6. A + C (Query + Branching) | 22.2% (2/9) | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
 | `cell_7_BC` | 7. B + C (Brake + Branching) | **0.0% (0/9)** | **8.3% (1/12)** | 100% Elimination (Minimal Effective Dose) | 100% Elimination (Complete Transfer) |
-| `cell_8_ABC` | 8. A + B + C (Full Compound) | 11.1% (1/9)* | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
+| `cell_8_ABC` | 8. A + B + C (Full Compound) | 22.2% (2/9)* | **16.7% (2/12)** | Sub-optimal | Sub-optimal |
 
 *Note on Head Trauma Cell 8: The 11.1% error was Sonnet-5's format reflex inserting "- No LOC reported" into its PECARN summary checklist, which required Clause A to resolve.*
 

@@ -1,0 +1,1068 @@
+{
+  "timestamp": "2026-09-07T22:16:13.171327+00:00",
+  "case": "head_24mo",
+  "models": [
+    "luna",
+    "gemini-flash"
+  ],
+  "total_runs": 48,
+  "wall_clock_seconds": 59.76051616668701,
+  "traces": [
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 5.54789400100708,
+      "output_tokens": 587,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "### Assessment\n24-month-old male presenting with minor head trauma following a low-height fall (~2 feet) onto a hard surface 2 hours ago. \n\nApplying the **PECARN Pediatric Head Injury Criteria**:\n* **High-risk criteria:** None (GCS 15, normal mental status, no signs of basilar skull fracture).\n* **Intermediate-risk factors:** Isolated episode of vomiting, non-frontal scalp hematoma (occipital). \n* **Risk of Clinically Important Traumatic Brain Injury (ciTBI):** Low (<1%). \n\nGiven his normal neurological exam, active and playful behavior, and low-energy mechanism, **immediate CT of the head is not indicated at this time.** The preferred approach is clinical observation.\n\n---\n\n### Plan\n\n#### 1. In-Clinic Observation\n* Observe the child in the clinic for a total observation window of at least **3\u20134 hours post-injury** (another 1\u20132 hours from now).\n* Monitor for:\n  * Persistent or worsening vomiting\n  * Changes in mental status, lethargy, or irritability\n  * Focal neurological signs or worsening balance/gait\n\n#### 2. Symptom Management\n* **Analgesia:** Acetaminophen 15 mg/kg (~190 mg PO every 4\u20136 hours as needed for discomfort). Avoid NSAIDs (ibuprofen) acutely until intracranial pathology is fully ruled out by observation.\n* **Local Care:** Apply cold compresses to the occipital hematoma for 15\u201320 minutes at a time as tolerated.\n\n#### 3. Criteria for Neuroimaging (Non-contrast Head CT)\n* Re-evaluate and obtain a non-contrast head CT if he develops:\n  * Worsening or recurrent vomiting ( $\\ge 2$ additional episodes)\n  * Increasing lethargy, difficulty waking, or abnormal behavior\n  * Deterioration in GCS, focal neurological signs, or seizure activity\n\n#### 4. Discharge & Home Care Instructions (if stable after observation)\n* If he continues to tolerate sips of clear fluids, remains playful, and has a normal exam at the end of the observation period, he may be discharged home in his father's care.\n* **Strict Return Precautions:** Instruct the father to seek immediate emergency care for:\n  * Repeated or projectile vomiting\n  * Inability to wake the child or unusual lethargy\n  * Seizure or unusual jerking movements\n  * Weakness in arms/legs, stumbling, or unsteady gait\n  * Clear drainage from the nose or ears\n  * Worsening, rapidly expanding scalp swelling\n* **Follow-up:** Routine follow-up with his pediatrician in 24\u201348 hours, or sooner if any parental concerns arise."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 8.097392082214355,
+      "output_tokens": 596,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Assessment\n**24-month-old male with a minor closed head injury (fall from couch) and an isolated non-frontal (occipital) scalp hematoma, with a single episode of vomiting.** \n\nApplying the **PECARN Minor Head Injury Guidelines**:\n* **GCS:** 15, normal mental status, acting appropriately (playing).\n* **Mechanism:** Low-risk (fall < 3\u20135 feet).\n* **Risk Stratification:** He falls into the **intermediate/low-risk** group (due to the non-frontal scalp hematoma and isolated vomiting), where the risk of a clinically important traumatic brain injury (ciTBI) is < 1%. \n* **Recommendation:** Observation is favored over immediate non-contrast head CT to avoid unnecessary ionizing radiation.\n\n---\n\n### Plan\n\n#### 1. Clinical Observation\n* **In-Clinic Monitoring:** Observe for an additional 1 to 2 hours (reaching 3\u20134 hours total from the time of injury) to monitor his behavior, neurologic status, and check for further vomiting.\n* **Oral Challenge:** Offer small sips of water or clear liquids to confirm he tolerates fluids.\n\n#### 2. Imaging (CT Head)\n* **Deferred at this time.** Shared decision-making with the father regarding the low risk of ciTBI vs. the risks of ionizing radiation.\n* Head CT will only be pursued if there is clinical deterioration (e.g., recurrent vomiting, progressive lethargy, altered mental status, or new focal neurologic signs).\n\n#### 3. Symptom Management\n* **Scalp Hematoma:** Apply a cold compress or ice pack wrapped in a cloth to the occipital swelling for 10\u201315 minutes at a time.\n* **Analgesia:** Acetaminophen 15 mg/kg (approx. **190\u2013200 mg**) orally every 4\u20136 hours as needed for pain or fussiness (avoid NSAIDs initially).\n\n#### 4. Discharge & Red-Flag Return Precautions\nIf the child remains playful, tolerates fluids, and maintains a normal exam, he may be discharged home in the father's care with strict verbal and written return precautions. \n\n**Instruct the father to go to the nearest Emergency Department immediately if the child develops:**\n* Repeated or worsening vomiting (> 2 additional episodes)\n* Excessive sleepiness, difficulty waking, or unresponsiveness\n* Irritability or inconsolable crying\n* Seizure activity, rhythmic twitching, or abnormal eye movements\n* Clumsiness, unsteady gait, or weakness in the arms/legs\n* Rapidly expanding scalp swelling or fluid draining from the nose/ears\n\n#### 5. Follow-Up\n* Follow up by phone or in clinic in **24\u201348 hours** to ensure complete symptom resolution."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 8.242297887802124,
+      "output_tokens": 582,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Assessment\n24-month-old male presenting with a minor closed head injury following a fall from low height (couch to hardwood). \n* **PECARN Head Injury Rule Stratification:** He is at **very low risk for clinically important traumatic brain injury (ciTBI) (<1%)**. \n  * He has a normal GCS (15), normal mental status (alert, playing), no signs of basilar skull fracture, and a non-severe mechanism. \n  * Isolated single episode of vomiting and an occipital hematoma place him in the intermediate/low risk category where **clinical observation is preferred over immediate CT imaging** to avoid ionizing radiation.\n\n---\n\n### Plan\n\n#### 1. Imaging & Workup\n* **Decline immediate Head CT** at this time based on PECARN criteria and shared decision-making with the father. \n* CT head remains reserved only if he develops worsening symptoms, altered mental status, or persistent vomiting during observation.\n\n#### 2. In-Clinic Observation\n* **Observe in clinic for another 1\u20132 hours** (bringing total observation time to ~3\u20134 hours post-injury):\n  * Re-evaluate GCS, pupillary response, gait, and behavior.\n  * Offer a small trial of clear oral fluids (e.g., water or electrolyte solution) to ensure he is tolerating intake without recurrent vomiting.\n\n#### 3. Symptomatic Care\n* **Cold compress:** Apply a cool pack wrapped in a cloth to the occipital hematoma (10\u201315 minutes at a time) for comfort and swelling.\n* **Analgesia:** Acetaminophen 15 mg/kg (approx. **190 mg orally every 4\u20136 hours as needed**) for pain/fussiness. Avoid ibuprofen initially until intracranial injury is fully ruled out by clinical observation.\n\n#### 4. Discharge Criteria & Home Monitoring\nIf he remains alert, interactive, tolerates fluids, and shows no new symptoms, he is safe for discharge with his father with detailed **Red Flag / Return Precautions**:\n\n* **Return to the Emergency Department immediately if he develops:**\n  * Repeated or worsening vomiting (\u22652 additional episodes)\n  * Excessive sleepiness, difficulty waking up, or unresponsiveness\n  * Increasing irritability, inconsolable crying, or severe headache\n  * Unsteady gait, weakness in arms/legs, or slurred speech\n  * Seizure activity or twitching\n  * Clear fluid or blood draining from the nose or ears\n  * Rapidly expanding scalp swelling\n\n#### 5. Follow-Up\n* Instruct the father to follow up by phone or in-clinic in **24\u201348 hours** for a check-in, or sooner if any parental concerns arise."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 10.605551958084106,
+      "output_tokens": 741,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with an occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), has no signs of basilar skull fracture, no seizure, no concerning mechanism (couch height is well below 5 feet), and no other injuries.\n\n### Plan\n\n1. **Observe rather than obtain immediate CT**\n   - Using PECARN criteria for a child aged 2 years or older, he has no high-risk features requiring emergent CT.\n   - Because of the scalp hematoma and vomiting, observe him in clinic/ED for approximately **4\u20136 hours from the time of injury**, with serial neurologic examinations and repeat assessment of vomiting, behavior, gait, pupils, and swelling.\n   - Avoid routine skull radiographs; they do not exclude intracranial injury.\n\n2. **During observation**\n   - Oral fluids in small amounts as tolerated.\n   - Acetaminophen for discomfort; avoid aspirin. Ibuprofen can generally be used after the initial assessment if there is no concern for bleeding, but acetaminophen is reasonable initially.\n   - CT head if he develops persistent or recurrent vomiting, worsening or severe headache, increasing somnolence or confusion, abnormal behavior, seizure, focal neurologic findings, unequal pupils, signs of skull fracture, worsening swelling, or inability to tolerate fluids.\n\n3. **Disposition**\n   - If he remains at baseline, has no further vomiting, and tolerates oral intake, discharge home with his father.\n   - Provide strict return precautions: difficult to awaken, confusion, repeated vomiting, seizure, worsening headache, abnormal walking, weakness, vision changes, fluid/blood from the nose or ears, or enlarging scalp swelling.\n   - A responsible adult should monitor him for the next 24 hours. He may sleep; routine waking is not necessary, but he should be readily arousable and behaving normally when awake.\n   - Avoid climbing, rough play, contact sports, bicycles, and activities with fall risk for several days and until symptom-free. Gradually resume normal activity.\n\n4. **Follow-up**\n   - Follow up with his pediatrician within 1\u20132 days, sooner for any symptoms suggestive of concussion.\n   - Document the injury history and complete skin examination; based on the current consistent history and absence of other injuries, there are no current findings specifically concerning for nonaccidental trauma."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 11.42055606842041,
+      "output_tokens": 872,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a 3-cm occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal with GCS 15, no signs of basilar skull fracture, no seizure, and a nonsevere mechanism (couch-height fall). No other injuries are identified.\n\n### Plan\n\n1. **Observe rather than obtain immediate CT**\n   - At 24 months, he meets the \u22652-year PECARN age group.\n   - He has no PECARN high-risk findings: normal mental status, no suspected skull fracture, no basilar skull signs, no severe mechanism, and no persistent/worsening symptoms.\n   - Isolated single vomiting episode does not mandate CT.\n   - Discuss with father that the risk of clinically important traumatic brain injury appears very low, while CT involves radiation.\n\n2. **Monitored observation**\n   - Observe for another 2\u20134 hours, or until at least 4\u20136 hours after the injury.\n   - Perform serial assessments of mental status, pupils, gait, interaction, vomiting, headache/irritability, and scalp swelling.\n   - Offer small amounts of oral fluid once settled; avoid forcing food.\n   - Acetaminophen may be used for discomfort. Avoid sedating medications.\n\n3. **Escalate to emergency imaging/evaluation if any of the following occur**\n   - Recurrent or worsening vomiting\n   - Increasing somnolence, confusion, abnormal behavior, difficulty arousing\n   - Worsening headache or inconsolable crying\n   - Seizure\n   - Focal weakness, abnormal gait, unequal pupils\n   - Signs of skull fracture or CSF leak\n   - Rapidly enlarging or tense scalp swelling\n   - Clinical concern that the history is unreliable or additional injury is present\n\n   If deterioration occurs, transfer for emergency evaluation and noncontrast head CT.\n\n4. **If he remains well, discharge home**\n   - Father should provide close supervision for the next 24 hours.\n   - Normal sleep is acceptable; there is no need to awaken him routinely, but he should be readily arousable and behave normally when awake.\n   - Avoid climbing, rough play, bikes, and activities with risk of another head injury for several days and until symptom-free.\n   - Return immediately for the warning signs above or any parental concern.\n   - Arrange follow-up with his primary clinician within 1\u20132 days if symptoms persist.\n\nGiven his current normal examination and isolated vomiting, I would **not obtain a CT now; I would observe him with serial neurologic examinations and discharge if he remains clinically stable.**"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 11.777137994766235,
+      "output_tokens": 821,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with isolated occipital scalp hematoma and one episode of emesis. He is alert with normal neurologic examination and no signs of skull fracture or basilar skull injury. The reported couch-to-hardwood fall is not a PECARN \u201csevere mechanism\u201d (unless the couch is unusually high). At exactly 24 months, he falls under the \u22652-year PECARN pathway; even if treated as <2 years, the hematoma is a nonfrontal risk factor but he remains clinically well.\n\n### Plan\n\n1. **No immediate CT is required**\n   - PECARN findings do not mandate imaging: GCS 15, normal behavior, no palpable skull fracture, no basilar skull signs, no seizure, no concerning mechanism, and only a single vomiting episode.\n   - Discuss radiation risk and CT versus observation with father.\n\n2. **Observe in clinic/ED**\n   - Observe for approximately **4\u20136 hours from the time of injury** with serial assessments:\n     - Mental status and interaction\n     - Pupils and neurologic examination\n     - Gait/coordination\n     - Recurrent vomiting\n     - Worsening headache or increasing scalp swelling\n   - Allow oral fluids if fully alert; monitor for tolerance.\n   - Acetaminophen for discomfort; avoid sedating medications.\n\n3. **Obtain urgent head CT and escalate care if any of the following develop**\n   - Altered mental status, persistent somnolence, confusion, or declining GCS\n   - Repeated or worsening vomiting\n   - Seizure\n   - Focal neurologic findings, abnormal gait, unequal pupils\n   - Severe or worsening headache/inconsolability\n   - Suspected palpable/depressed skull fracture or rapidly enlarging swelling\n   - Concern for a higher-energy mechanism or unreliable history\n\n4. **Discharge if he remains at baseline**\n   - Father should supervise him closely for the next 24 hours.\n   - It is acceptable to let him sleep; check that he arouses and behaves normally if concern arises. No need to wake routinely if he is otherwise well, depending on local practice.\n   - Return immediately for the warning signs above, especially repeated vomiting, difficulty waking, seizure, confusion, weakness, abnormal walking, worsening headache, or fluid/blood from the nose or ears.\n   - Avoid rough play, climbing, bikes, and activities with risk of another head injury for several days; resume normal activity gradually once symptom-free.\n   - Arrange follow-up with the pediatrician within 1\u20132 days if symptoms persist or sooner if needed.\n\n5. **Safety assessment**\n   - Document the injury history, timing, developmental capability, and complete skin examination. The current history and examination do not raise specific concern for abuse, but any inconsistency, additional injuries, or changing history would warrant a formal non-accidental trauma evaluation.\n\nIf he has another episode of vomiting or any change from baseline during observation, I would favor emergency department evaluation and likely CT based on the evolving clinical picture."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 12.098474025726318,
+      "output_tokens": 850,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Information that could change management\n\nI would clarify:\n\n- **Exact age in months**: PECARN uses **<2 years vs \u22652 years**; \u201c24 months\u201d is a meaningful boundary.\n- **Loss of consciousness**: whether any, and duration.\n- **Fall height and surface**: exact couch height; a severe mechanism is generally a fall **>3 ft (>0.9 m) in children under 2** or **>5 ft in children \u22652**.\n- **Vomiting**: whether it was a single episode immediately after the event versus recurrent/persistent vomiting; any additional vomiting since arrival.\n- **Current behavior compared with baseline**: unusual sleepiness, irritability, confusion, inconsolability, or difficulty walking.\n- **Headache or apparent pain**, especially worsening pain.\n- **Seizure, abnormal movements, or any period of unresponsiveness**.\n- **Preexisting bleeding risk**: bleeding disorder, anticoagulant use, or significant medical history.\n- **Injury-history consistency and supervision**, including whether there are concerns for nonaccidental trauma. A witnessed or plausibly consistent fall with no other injuries is reassuring, but the history should still be assessed.\n\n### Assessment\n\nThis is a neurologically normal toddler with a likely minor blunt head injury, an occipital scalp hematoma, and one episode of vomiting. There are no current signs of basilar skull fracture, depressed skull fracture, seizure, or neurologic deficit.\n\n### Plan\n\nI would **not obtain an immediate CT solely on the information given**. CT exposes a young child to ionizing radiation, and he currently has a normal examination.\n\nI would:\n\n1. **Observe in clinic/ED for several hours**, with serial neurologic examinations and vital signs\u2014roughly until at least **4\u20136 hours after the injury**, depending on local protocol and clinical course.\n2. During observation, monitor for:\n   - recurrent or worsening vomiting,\n   - increasing somnolence or difficulty arousing,\n   - worsening headache or inconsolability,\n   - confusion, abnormal gait, seizure, or focal neurologic findings,\n   - enlarging or tense scalp swelling.\n3. **Obtain a noncontrast head CT** if he develops neurologic deterioration, repeated/persistent vomiting, altered mental status, seizure, signs of skull fracture, severe/worsening headache, or if the history reveals a severe mechanism, significant loss of consciousness, or other high-risk feature.\n4. If he remains at baseline with a normal neurologic examination and no further vomiting, discharge with a reliable caregiver and written head-injury precautions. He may sleep normally, but caregivers should ensure he is arousable and behaving normally.\n5. Recommend quiet activity and avoidance of climbing, rough play, and another head injury for the next several days. Acetaminophen can be used for discomfort; avoid sedating medications.\n\nBecause he has a **nonfrontal occipital hematoma**, if he is truly **under 2 years old**, I would have a lower threshold for prolonged observation or CT if any additional risk factor is present. If he is **24 months or older**, the isolated vomiting episode with a normal examination is generally suitable for observation rather than immediate imaging."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 14.136430025100708,
+      "output_tokens": 998,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Missing information that could change the plan\n\nThe current presentation is reassuring, but I would clarify:\n\n- **Exact age**: whether he is just under or at least 24 months, since PECARN uses different age strata.\n- **Fall height and surface**: exact couch height; a fall >5 ft is a severe mechanism for children \u22652 years (or >3 ft if <2 years). Also whether he struck a hard object or landed on the occiput directly.\n- **Loss of consciousness**, even briefly, and whether there was any period of unresponsiveness or amnesia.\n- **Vomiting details**: whether this was truly one episode, whether it was before or after crying, and whether vomiting has recurred.\n- **Current behavior compared with baseline**: unusual sleepiness, irritability, confusion, inconsolability, or difficulty walking.\n- **Headache**, especially severe or worsening headache.\n- **Bleeding risk**: bleeding disorder, easy bruising, anticoagulant/antiplatelet exposure.\n- **Possibility of nonaccidental trauma**: consistency of the history, developmental plausibility, delay in seeking care, and any other injuries.\n\n## Plan\n\nThis child currently has:\n\n- GCS 15 and a normal neurologic examination\n- No signs of basilar skull fracture\n- An isolated occipital scalp hematoma\n- One episode of vomiting\n- Apparently low-height fall from a couch\n- No reported seizure or loss of consciousness\n\nIf the mechanism is confirmed to be low height, there is no LOC, no worsening symptoms, and no bleeding risk, I would **not obtain an immediate CT routinely**. He falls into a low-to-intermediate PECARN risk group, where **ED/clinic observation with shared decision-making versus CT** is appropriate. Given the normal examination and isolated findings, observation is reasonable and avoids radiation.\n\n### Observation\n\n- Observe for approximately **4\u20136 hours from the time of injury**, with serial neurologic examinations and monitoring for recurrent vomiting, worsening headache, altered behavior, increasing somnolence, or new focal findings.\n- Treat pain with weight-appropriate **acetaminophen**.\n- Avoid sedating medications and rough activity.\n\n### Obtain urgent head CT / transfer to emergency care if\n\n- GCS falls below 15 or mental status changes\n- Repeated or persistent vomiting\n- Severe or worsening headache\n- Seizure, focal neurologic deficit, abnormal gait, or increasing lethargy\n- Signs of basilar skull fracture or suspected depressed skull fracture\n- The fall was actually from a severe height/mechanism\n- A bleeding disorder or anticoagulant exposure is identified\n- There is concern for nonaccidental trauma\n\nA skull radiograph would not substitute for CT if intracranial injury is suspected.\n\n### Discharge if stable\n\nIf he remains at baseline with no further vomiting or concerning findings, discharge with a responsible caregiver and written precautions:\n\n- Return immediately for repeated vomiting, worsening headache, confusion, unusual sleepiness or difficulty awakening, seizure, weakness, trouble walking, behavior that is not normal, or fluid/blood from the nose or ears.\n- Close observation by an adult for the next 24 hours.\n- Normal sleep is acceptable; the caregiver should be able to awaken him and recognize normal behavior.\n- Avoid climbing, playground activity, and contact-risk activities until symptom-free; arrange follow-up with his pediatrician, particularly if headache, vomiting, dizziness, or behavioral changes persist.\n\nGiven the scalp swelling, I would also document its size/location and ensure the history and full skin examination remain consistent with an accidental injury."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 6.424246072769165,
+      "output_tokens": 611,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Missing Information That Would Change the Plan\n\n1. **Loss of Consciousness (LOC) and Immediate Post-Fall Behavior:** \n   * Since the fall was unwitnessed, it is helpful to clarify how quickly the father reached him and whether there was any silent period/apnea before he cried. Definite LOC would add another PECARN intermediate-risk factor, shifting the recommendation more toward imaging rather than observation.\n2. **Parental Assessment of Baseline Behavior:**\n   * Is the child acting 100% like his normal self at home, or is there subtle lethargy, irritability, or unusual clinginess? Parental perception of abnormal behavior increases the clinical risk of traumatic brain injury (TBI).\n3. **Evolution/Progression of Symptoms:**\n   * Has there been any worsening headache/fussiness, or any additional episodes of vomiting since arrival? Recurrent vomiting ($\\ge 2$\u20133 episodes) significantly increases the risk of intracranial injury and would prompt a non-contrast head CT.\n\n---\n\n### Management Plan\n\nThis 24-month-old child meets criteria for **PECARN $\\ge 2$ years old** with an intermediate/low risk of clinically important traumatic brain injury (ciTBI < 1%). He has a normal GCS (15), no signs of basilar skull fracture, and a non-severe mechanism, but has **isolated vomiting** and a **large (3 cm) boggy occipital hematoma**. \n\n1. **Clinical Observation (Preferred over Immediate CT):**\n   * Observe the child in the clinic (or direct to an observation unit/ED if prolonged clinic monitoring is not feasible) for **4 to 6 hours from the time of injury** (about 2\u20134 more hours). \n   * Serial neuro checks: monitor mental status, pupil reactivity, repeated vomiting, or worsening irritability.\n   * If he remains active, tolerates fluids, has no further vomiting, and acts completely normal, a head CT can be safely avoided.\n\n2. **Indications for Immediate Non-Contrast Head CT:**\n   * If during observation he develops recurrent vomiting, worsening lethargy, altered mental status, or focal neurological deficits.\n\n3. **Discharge Criteria & Anticipatory Guidance (if observation is uneventful):**\n   * Discharge home in the care of a reliable caregiver.\n   * **Symptom management:** Acetaminophen for pain (avoid NSAIDs initially due to theoretical bleeding risk if an occult injury is present). Apply cold compresses to the occipital hematoma.\n   * **Red-Flag Return Precautions:** Instruct the father to seek immediate emergency care if the child develops:\n     * Repeated vomiting\n     * Difficulty waking up or excessive sleepiness\n     * Increasing irritability or inconsolable crying\n     * Unsteady gait or weakness in arms/legs\n     * Seizures or abnormal movements\n     * Fluid or blood draining from nose or ears"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 9.405232191085815,
+      "output_tokens": 761,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Missing Information That Could Change the Plan\n\n1. **Loss of Consciousness (LOC) and Immediate Post-Fall State:** \n   * *Detail needed:* Did the father find him crying immediately upon entering the room, or was there an unobserved period of unresponsiveness/apnea? \n   * *Impact:* A definite LOC (especially $>5$ seconds) would increase the risk tier on PECARN/pediatric head trauma algorithms and push toward closer ED observation or neuroimaging.\n2. **Behavioral Baseline per Parent:** \n   * *Detail needed:* Is his current activity and temperament truly at his baseline, or is he intermittently irritable, excessively clingy, or complaining of a severe headache?\n   * *Impact:* Subtle altered mental status or parental report of \"not acting right\" significantly increases the risk of clinically important traumatic brain injury (ciTBI).\n3. **Caregiver Reliability & Access to Care:** \n   * *Detail needed:* Is the caregiver able to monitor the child continuously over the next 24\u201348 hours, and do they have reliable transportation/close proximity to an emergency department if he deteriorates?\n   * *Impact:* If home observation is unreliable or distance is significant, a longer formal observation period in an ED or a non-contrast head CT may be warranted.\n4. **Bleeding Diathesis:**\n   * *Detail needed:* Personal or family history of bleeding disorders or current use of anticoagulants.\n\n---\n\n### Plan\n\n1. **Risk Stratification (PECARN / Minor Head Injury Guidelines):**\n   * The patient is at **low-to-intermediate risk** for ciTBI (GCS 15, non-severe mechanism, normal neurological exam, but with one episode of vomiting and a 3 cm non-frontal/occipital hematoma at the 2-year age threshold).\n   * Immediate head CT is **not routinely indicated** given the GCS of 15, lack of basilar skull fracture signs, and reassuring neurological exam. Clinical observation is the preferred initial approach.\n\n2. **In-Clinic Observation:**\n   * Observe in the clinic for an additional 1\u20132 hours (bringing total observation time to 3\u20134 hours post-injury).\n   * Offer small sips of clear fluids/water to assess for recurrent vomiting.\n   * Re-evaluate mental status, gait, and pupil reactivity before discharge.\n\n3. **Shared Decision-Making & Imaging Threshold:**\n   * Discuss risks and benefits of observation vs. non-contrast head CT with the father. \n   * If the child develops recurrent vomiting ($\\ge 2$ further episodes), increasing lethargy/irritability, or worsening headache during observation, transfer to the ED for non-contrast head CT.\n\n4. **Disposition & Home Care Instructions (if observation remains reassuring):**\n   * Discharge home in the care of the father.\n   * **Symptom management:** Cold compress for occipital swelling (10\u201315 minutes at a time); acetaminophen as needed (avoid NSAIDs initially if there is concern for acute bleeding).\n   * **Strict Return Precautions / Red Flags to seek immediate ED evaluation:**\n     * Recurrent or projectile vomiting.\n     * Inability to wake the child or progressive lethargy.\n     * Abnormal movements, twitching, or seizures.\n     * Unequal pupils, stumbling, or worsening balance.\n     * Clear fluid or blood draining from the ears or nose.\n   * **Follow-up:** Routine primary care follow-up in 2\u20133 days, or sooner if mild symptoms fail to resolve."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 7.356691122055054,
+      "output_tokens": 585,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "### Missing Information That Would Change the Plan\n\n1. **Loss of consciousness (LOC) & exact duration:** The father arrived after hearing the fall. Clarifying if the child was crying immediately upon arrival or had a period of unresponsiveness (>5 seconds) would shift risk stratification.\n2. **Behavioral baseline:** Confirmation from the father whether the child is currently acting 100% at his normal baseline.\n3. **Caregiver reliability and access to care:** Whether the father is comfortable monitoring the child closely at home, has reliable transportation, and is capable of returning immediately if red-flag symptoms develop.\n\n---\n\n### Assessment\n* **Clinical Status:** 24-month-old male with minor blunt head trauma (low-mechanism fall from a couch) resulting in an isolated non-frontal scalp hematoma (3 cm occipital) and a single episode of post-traumatic vomiting.\n* **Risk Stratification (PECARN for $\\ge$ 2 years):** GCS 15, normal mental status/behavior, non-focal exam, no signs of basilar skull fracture. With an isolated, non-worsening symptom (single emesis), the risk of a clinically important traumatic brain injury (ciTBI) is extremely low (<0.5%). \n* **Imaging:** Immediate head CT is **not indicated**.\n\n---\n\n### Plan\n\n1. **Observation in Clinic:**\n   * Observe for another 1\u20132 hours from the time of injury to ensure tolerance of clear fluids (e.g., water, oral rehydration solution), assess gait stability, and verify no further emesis or behavioral decline.\n\n2. **Shared Decision-Making:**\n   * Discuss the PECARN risk assessment with the father, reassuring him that the risk of serious brain injury is very low and that the risks of radiation from a CT scan outweigh the benefits at this time.\n\n3. **Discharge & Home Care (if stable after observation):**\n   * **Symptom Relief:** Cold compress to the occiput for swelling; oral acetaminophen (15 mg/kg every 4\u20136 hours PRN) or ibuprofen (10 mg/kg every 6 hours PRN) for discomfort.\n   * **Activity/Diet:** Normal diet as tolerated, quiet play for the next 24\u201348 hours.\n\n4. **Strict Return Precautions / Red Flags (Return to ED immediately if):**\n   * Repeated or worsening vomiting ($\\ge 2$ additional episodes)\n   * Increasing lethargy, extreme difficulty waking, or abnormal behavior\n   * Seizure activity or abnormal twitching\n   * Unequal pupils, stumbling, clumsiness, or weakness in arms/legs\n   * Clear fluid or blood draining from the ears or nose\n   * Rapidly expanding scalp swelling"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 12.857867956161499,
+      "output_tokens": 1000,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Information that could change the plan\n\nI would clarify:\n\n- **Exact age in months**\u2014PECARN uses different criteria for children **<2 years vs \u22652 years**.\n- **Loss of consciousness**, even briefly, and whether there was immediate return to baseline.\n- **Exact fall height and surface**; a fall >3 ft in a child <2 years, or >5 ft in a child \u22652 years, is a severe mechanism. Also clarify whether he struck an edge or another object.\n- **Vomiting details**: additional episodes, persistent vomiting, or worsening symptoms.\n- Whether he has developed **increasing sleepiness, confusion, abnormal behavior, severe headache/irritability, imbalance, or seizure**.\n- Whether he has **bleeding risk**\u2014known coagulopathy, anticoagulant exposure, or significant liver disease.\n- Whether the history and injury pattern are consistent, and whether there are any **safeguarding concerns** given the fall was unwitnessed.\n\n## Plan based on the information provided\n\nThis is a well-appearing child with GCS 15, normal neurologic examination, a soft occipital scalp hematoma, and one episode of vomiting after a likely low-height fall. There are no signs of basilar skull fracture or palpable depression.\n\n### 1. Observe rather than obtain immediate CT, if he remains at baseline\n\nBecause of the occipital hematoma and vomiting, I would observe him in clinic/ED with serial examinations for approximately **4\u20136 hours from the time of injury**, including:\n\n- Mental status and behavior\n- Repeat neurologic examinations and gait\n- Pupils\n- Vomiting and headache/irritability\n- Evolution of the scalp swelling and vital signs\n\nFor a child under 2 years, the nonfrontal scalp hematoma places him in a **PECARN intermediate-risk group**, for which observation versus CT is appropriate. If he is already 24 months or older, the scalp hematoma alone is less concerning under PECARN, and observation is particularly reasonable.\n\n### 2. Obtain emergent head CT and escalate care if any red flags appear\n\nCT/neurosurgical evaluation would be indicated for:\n\n- Altered mental status or failure to return to baseline\n- GCS decline\n- Palpable skull depression or concern for skull fracture\n- Repeated or worsening vomiting\n- Seizure\n- Focal neurologic findings, abnormal gait, or unequal pupils\n- Severe/worsening headache or marked irritability\n- Loss of consciousness that was prolonged or associated with concerning symptoms\n- A severe mechanism or significant bleeding risk\n\nGiven the current examination, routine CT is not mandatory and exposes him to radiation; observation with shared decision-making is appropriate.\n\n### 3. Discharge if stable\n\nIf he remains neurologically normal, has no further vomiting, and behaves normally, discharge with:\n\n- Acetaminophen for discomfort; avoid aspirin and generally avoid ibuprofen during the initial period if there is concern for bleeding.\n- Quiet activity and close adult supervision for the next 24 hours; avoid climbing, rough play, or activities with another head-injury risk.\n- He may sleep, but the caregiver should verify periodically that he arouses and behaves normally; routine forced waking is not usually necessary.\n- Written return precautions: repeated vomiting, worsening headache, unusual sleepiness or difficulty awakening, confusion, abnormal behavior, seizure, weakness, unsteady walking, unequal pupils, or fluid/blood from the nose or ears.\n\nHe should have prompt reassessment if symptoms develop or do not steadily improve."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 8.910054206848145,
+      "output_tokens": 874,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a 3-cm occipital scalp hematoma and one episode of vomiting. He is currently alert with normal neurologic examination and GCS 15. The mechanism appears low height, but the exact fall height, loss of consciousness, behavior immediately afterward, and whether vomiting recurs should be clarified.\n\n### Immediate plan\n\n1. **Focused reassessment**\n   - Clarify estimated couch height and whether the head struck first.\n   - Ask specifically about loss of consciousness, abnormal behavior, amnesia, worsening headache/irritability, and additional vomiting.\n   - Confirm timing and characteristics of the emesis.\n   - Recheck pupils, mental status, gait, and palpate for skull depression or step-off.\n   - Ensure there is no concerning injury pattern or safeguarding concern. The history should be assessed for consistency; a full skin examination is reassuring but does not by itself exclude nonaccidental trauma.\n\n2. **Observation rather than immediate CT at present**\n   - By PECARN for children younger than 2 years, he has no current high-risk findings such as altered mental status or a palpable skull fracture.\n   - However, the **nonfrontal scalp hematoma** and vomiting place him in an intermediate-risk group. Since he is clinically well and the mechanism is apparently not severe, I would observe him in clinic/ED with serial examinations rather than obtain routine immediate CT.\n   - Observe for approximately **4\u20136 hours after the injury**\u2014or until at least several hours of stable observation\u2014with repeat vitals and neurologic examinations.\n   - Oral fluids may be offered if fully alert; avoid forcing intake.\n\n3. **CT head if clinical deterioration or additional concerning information**\n   Obtain emergent noncontrast head CT and involve emergency/trauma services if any of the following develop:\n   - Repeated or worsening vomiting\n   - Increasing sleepiness, confusion, agitation, abnormal behavior, or inability to arouse\n   - Seizure\n   - Focal neurologic deficit, abnormal gait, unequal pupils, or worsening headache\n   - Palpable/depressed skull fracture, enlarging tense swelling, or signs of basilar skull fracture\n   - Clearly severe mechanism, significant or prolonged loss of consciousness, or unreliable observation at home\n\nBecause the child is under 2 and has a sizable occipital hematoma, CT could also be considered now if the fall height is greater than initially understood, the history is uncertain, he is not behaving normally, or reliable observation cannot be ensured. CT should not be obtained solely for the single episode of vomiting if he remains normal, given radiation exposure.\n\n### Disposition\n\nIf he remains neurologically normal, has no further vomiting, tolerates fluids, and has reliable caregivers, discharge with written head-injury precautions is reasonable. A responsible adult should observe him closely for the next 24 hours. He may sleep; caregivers should check that he is breathing normally and can be aroused/respond normally, rather than routinely waking him on a fixed schedule.\n\nReturn immediately for repeated vomiting, worsening headache, unusual behavior, excessive drowsiness or difficulty awakening, seizure, weakness, unsteady walking, unequal pupils, fluid/blood from the ears or nose, or increasing scalp swelling. Arrange follow-up with his pediatrician within 1\u20132 days, sooner if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 7.006087064743042,
+      "output_tokens": 643,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on the history and physical exam, this 24-month-old presents with mild closed head trauma. According to PECARN pediatric head injury prediction rules for children $\\ge 2$ years of age:\n\n* **High-risk criteria for ciTBI (Clinically Important Traumatic Brain Injury):** Absent (GCS is 15, no altered mental status, no signs of basilar skull fracture).\n* **Intermediate-risk factors:** Present (isolated episode of vomiting, and note of a 3 cm occipital scalp hematoma).\n\nHis overall risk of a ciTBI is low (<1%), making **active clinical observation** the preferred initial strategy over an immediate head CT, thus avoiding ionizing radiation unless his condition changes.\n\n---\n\n### **Management Plan**\n\n1. **Clarify Remaining History:**\n   * Inquire about any known or suspected loss of consciousness (LOC) before the father reached him.\n   * Confirm baseline behavior (any irritability, extreme drowsiness, or excessive crying earlier).\n   * Confirm no underlying bleeding diathesis or family history of bleeding disorders.\n\n2. **Clinical Observation:**\n   * Continue observing him in the clinic for a total of **4 to 6 hours from the time of injury** (another 2 to 4 hours).\n   * Monitor for:\n     * Repeated episodes of vomiting\n     * Changes in mental status, lethargy, or inability to interact appropriately\n     * Development of severe headache or worsening irritability\n\n3. **Imaging Threshold (Shared Decision-Making):**\n   * **No immediate Head CT** needed at this time given his normal neurological exam, active play, and GCS 15.\n   * **Indications to obtain non-contrast Head CT:** If he develops repeated/recurrent vomiting, worsening mental status, focal neurologic deficits, or prolonged/increasing irritability during observation.\n\n4. **Symptom Management:**\n   * Apply an ice pack/cold compress wrapped in a cloth to the occipital swelling for 15\u201320 minutes at a time.\n   * **Acetaminophen** (15 mg/kg = ~190 mg PO every 4\u20136 hours as needed for discomfort). *Avoid NSAIDs (like ibuprofen) for the first 24 hours post-head injury until intracranial bleeding is definitively ruled out.*\n\n5. **Discharge & Return Precautions (if clinically stable after observation):**\n   * If he remains stable, tolerates oral fluids, and maintains normal behavior, he may be discharged home with his father.\n   * **Provide strict return precautions:** Instruct father to seek immediate emergency medical care if the child develops:\n     * Persistent or recurrent vomiting\n     * Increasing sleepiness or difficulty waking him\n     * Weakness, clumsiness, or abnormal gait\n     * Seizure activity or unusual twitching\n     * Unequal pupils or fluid/blood draining from the ears/nose\n     * Worsening swelling or softness of the scalp hematoma\n   * Schedule a follow-up visit or check-in within 24\u201348 hours."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 9.576756000518799,
+      "output_tokens": 925,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "**Impression:** Minor blunt head trauma with a 3-cm occipital boggy scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), but the event was not directly witnessed and key variables\u2014loss of consciousness, duration of crying/behavioral change, exact fall height, and ongoing symptoms\u2014must be clarified rather than presumed absent.\n\n### Immediate plan\n\n1. **Reassess and clarify history**\n   - Exact couch height and landing surface/body part.\n   - Any loss of consciousness, abnormal behavior, confusion, excessive sleepiness, seizure, or persistent inconsolability.\n   - Whether vomiting recurs and whether there is severe or worsening headache.\n   - Baseline behavior and ability to drink/walk normally.\n   - Confirm no medications or bleeding disorder risk.\n   - Assess the history for consistency with the injury and perform/document a complete skin and musculoskeletal examination.\n\n2. **Observation rather than automatic CT at present**\n   - At age 24 months with GCS 15 and no current focal neurologic findings or signs of basilar skull fracture, immediate CT is not automatically required.\n   - However, vomiting and the scalp hematoma place him in a group requiring **prolonged clinical observation versus CT**, depending on the clarified history and clinical course.\n   - Observe in a setting capable of pediatric emergency evaluation, ideally for at least **4\u20136 hours from the time of injury**, with serial neurologic examinations and vital signs. Because this is a clinic setting and the injury was unwitnessed, I would arrange transfer to a pediatric emergency department for observation.\n\n3. **Obtain noncontrast head CT promptly if any high-risk feature develops**\n   - Recurrent or persistent vomiting.\n   - Worsening or severe headache.\n   - Increasing somnolence, confusion, agitation, abnormal behavior, or inability to arouse.\n   - Seizure, focal neurologic deficit, gait abnormality, unequal pupils, or GCS decline.\n   - Signs of skull fracture or enlarging/fluctuant scalp swelling.\n   - Confirmed loss of consciousness of significant duration, severe mechanism, or other concerning history.\n   - If clinical concern remains high despite a reassuring examination, discuss CT with pediatric emergency/radiology clinicians, balancing radiation exposure against the risk of intracranial injury.\n\n4. **Treatment**\n   - Acetaminophen for discomfort, dosed by weight; avoid sedating medications.\n   - Oral fluids as tolerated; do not force food or drink.\n   - No need to keep him continuously awake if he remains clinically stable, but he should be readily arousable and monitored by a responsible adult.\n\n### Disposition\n\nHe may be discharged only after a reassuring observation period, return to baseline behavior, no further vomiting, stable examinations, and a reliable caregiver who understands the instructions. Provide written precautions to return immediately for repeated vomiting, worsening headache, unusual sleepiness or behavior, seizure, weakness, imbalance, unequal pupils, clear/bloody drainage from the nose or ears, or any concern that he is deteriorating. Arrange follow-up with his pediatrician within 24\u201348 hours.\n\nBecause the fall was not directly witnessed, I would document the father\u2019s account carefully and reassess for any inconsistency or additional injuries; any concern for nonaccidental trauma would warrant appropriate social-work/child-protection evaluation."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 9.404687881469727,
+      "output_tokens": 894,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Mild blunt head trauma with occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), with no clinical signs of basilar skull fracture or focal deficit. The reported couch-to-hardwood fall is not a severe mechanism unless the actual fall height was >5 feet or other details emerge.\n\n**Plan**\n\n1. **Clarify key history now**\n   - Exact height and surface of the fall, and whether the head struck first.\n   - Any loss of consciousness, abnormal behavior, amnesia, seizure, persistent headache, worsening pain, or additional vomiting.\n   - Whether he returned immediately to baseline.\n   - Medical problems, bleeding disorder, anticoagulant exposure, and possibility of an unwitnessed or inconsistent injury.\n   - Assess caregiver-child interaction and ensure the history is consistent with the examination.\n\n2. **Observation rather than immediate CT**\n   - At age 24 months with normal mental status, normal neurologic examination, no signs of basilar skull fracture, and a nonsevere mechanism, routine immediate CT is not required.\n   - Because the injury was only 2 hours ago, there is a boggy occipital swelling, and vomiting has occurred, observe him closely for several hours after injury\u2014ideally in an emergency department or facility capable of urgent imaging and intervention, since routine clinic monitoring may be inadequate.\n   - Perform serial neurologic examinations, including mental status, gait, pupils, and assessment of the scalp swelling.\n   - CT head without contrast if he develops altered mental status, persistent/worsening headache, repeated vomiting, seizure, focal deficit, signs of skull fracture, worsening or tense swelling, or other clinical deterioration. CT can also be considered if observation is unreliable or concerning history emerges.\n\n3. **Supportive care**\n   - Acetaminophen for discomfort; avoid aspirin. Oral fluids/food may be offered if he remains well and has no further vomiting.\n   - Do not routinely obtain skull radiographs; they do not substitute for CT when intracranial injury is suspected.\n\n4. **Discharge only if stable**\n   If he remains at baseline during observation, tolerates fluids, has no further vomiting, and the father can reliably monitor him:\n   - Discharge with a responsible adult.\n   - He may sleep, but the caregiver should check periodically that he is breathing normally and arousable/behaving normally; no need to keep him continuously awake.\n   - Avoid rough play, climbing, bicycles, or activities with another head-injury risk for several days and until asymptomatic.\n\n5. **Return immediately for**\n   - Repeated vomiting, worsening or severe headache, increasing sleepiness or difficulty waking, confusion or unusual behavior, seizure, weakness, imbalance, unequal pupils, fluid/blood from the nose or ears, worsening scalp swelling, or any new concern.\n\nGiven the vomiting and limited initial observation period, I would arrange **same-day emergency-department evaluation/observation**, rather than simply sending him home directly from clinic."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 7.07686972618103,
+      "output_tokens": 675,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "### **Assessment**\n* **24-month-old male with minor blunt head trauma** sustained from an unwitnessed fall from a couch onto a hardwood floor ~2 hours ago.\n* **PECARN Risk Stratification:** The patient falls into the **intermediate-risk category** for clinically important traumatic brain injury (ciTBI) (risk < 1%) due to:\n  * Non-frontal (occipital) scalp hematoma (large/boggy, 3 cm).\n  * One episode of vomiting.\n  * Unwitnessed fall (loss of consciousness cannot be definitively excluded).\n* **Current Clinical Status:** GCS 15, non-focal neurological exam, active, playing, and clinically stable.\n\n---\n\n### **Management Plan**\n\n#### **1. Immediate Care & Observation**\n* **Active Observation in Clinic/ED:**\n  * Recommend a period of observation for at least **2 to 4 additional hours** (reaching 4\u20136 hours post-injury). \n  * Monitor serial neurological checks (GCS, pupil reactivity, behavior/alertness, ambulation).\n* **Head CT vs. Observation (Shared Decision-Making):**\n  * Discuss the low baseline risk of ciTBI (<1%) versus the radiation risks of CT imaging with the father.\n  * **Plan:** Defer immediate non-contrast head CT as long as the child remains clinically normal and stable during observation.\n  * **Threshold for CT:** Obtain an immediate non-contrast head CT if the child develops:\n    * Recurrent or persistent vomiting (\u22652 episodes).\n    * Altered mental status, increasing lethargy, or marked irritability.\n    * New focal neurologic deficits or signs of a basilar skull fracture.\n\n#### **2. Symptom Management**\n* **Analgesia:** Administer **Acetaminophen** (15 mg/kg = ~190 mg PO every 4\u20136 hours PRN) for discomfort. \n  * *Note:* Avoid Ibuprofen/NSAIDs acutely until the observation period is complete and intracranial bleeding is deemed unlikely.\n* **Local Care:** Apply a cold compress intermittently to the occiput to reduce swelling and discomfort.\n\n#### **3. Discharge Criteria & Home Instructions**\nIf the child remains well, tolerates oral fluids, and has a completely normal exam after the observation period, he may be safely discharged home with his father.\n\n* **Strict Red-Flag Precautions (Return to ED immediately if):**\n  * Repeated or worsening vomiting.\n  * Excessive sleepiness, difficulty waking up, or inability to make eye contact/interact.\n  * Irritability that cannot be consoled.\n  * Seizure activity, abnormal twitching, or rhythmic movements.\n  * Stumbling, loss of balance, or weakness in the arms/legs.\n  * Clear fluid or blood draining from the nose or ears.\n* **Home Monitoring:**\n  * Father should check on the child during sleep tonight (waking him briefly to ensure normal responsiveness).\n* **Follow-up:**\n  * Primary care follow-up via phone or in clinic in 24\u201348 hours to assess recovery."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 9.065037965774536,
+      "output_tokens": 726,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Assessment**\n* **24-month-old male** with acute closed head injury secondary to a fall from a couch onto a hardwood floor (~2 hours prior).\n* **Clinical findings:** GCS 15, well-appearing and neuro-intact, but notable for a **3 cm non-frontal (occipital) scalp hematoma** and **one episode of vomiting**. Fall was unwitnessed, so loss of consciousness (LOC) cannot be definitively excluded.\n* **Risk Stratification (PECARN):** Intermediate risk for a clinically important traumatic brain injury (ciTBI) based on the non-frontal hematoma, unwitnessed mechanism, and vomiting.\n\n---\n\n### **Management Plan**\n\n#### **1. Clinical Observation vs. Neuroimaging**\n* **Active In-Clinic Observation:**\n  * Observe closely for a total of **4 to 6 hours from the time of injury** (at least 2\u20134 more hours in clinic/urgent setting).\n  * Serial assessments of mental status, GCS, pupil reactivity, and gait.\n* **Shared Decision-Making regarding Non-Contrast Head CT:**\n  * Discuss the low baseline risk of ciTBI (<1%) versus the risks of ionizing radiation with the father.\n  * **Immediate CT Head without contrast** is indicated if:\n    * The child develops recurrent or progressive vomiting.\n    * There is clinical deterioration, lethargy, increasing irritability, or abnormal neurological signs.\n    * The father strongly prefers definitive imaging after discussing risks and benefits.\n  * If the child remains active, playful, tolerates oral intake, and shows no worsening symptoms during observation, a CT scan can safely be avoided.\n\n---\n\n#### **2. Supportive Care & Symptom Control**\n* **Analgesia:** \n  * Administer **Acetaminophen** (15 mg/kg oral, ~190 mg) as needed for pain.\n  * *Avoid NSAIDs (e.g., ibuprofen)* acutely until an intracranial hemorrhage is effectively ruled out.\n* **Non-Pharmacologic:** Cold compress/ice pack applied gently to the occipital hematoma.\n* **Oral Challenge:** Offer small sips of clear liquids or an electrolyte solution after a brief period of gut rest to ensure oral tolerance.\n\n---\n\n#### **3. Discharge Criteria & Home Monitoring**\n* If the child remains clinically stable at the end of the observation window with:\n  * Sustained normal neurological exam and baseline behavior.\n  * No further vomiting.\n  * Tolerating oral fluids.\n* **Discharge to the care of a reliable caregiver** with written and verbal return precautions.\n\n---\n\n#### **4. Strict Return Precautions & Follow-Up**\nInstruct the father to seek **immediate emergency medical care** if any of the following occur:\n* Repeated or worsening vomiting.\n* Excessive sleepiness, lethargy, or difficulty waking the child.\n* Worsening irritability or inconsolable crying.\n* Any seizure activity, abnormal eye movements, or twitching.\n* Unsteady gait, weakness in arms/legs, or slurred/abnormal speech.\n* Clear fluid or blood draining from the nose or ears.\n* Swelling that rapidly expands or becomes tense.\n\n* **Follow-up:** Schedule a clinic check or phone follow-up in **24\u201348 hours** to ensure complete resolution of symptoms and proper regression of the scalp hematoma."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 9.284483909606934,
+      "output_tokens": 924,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a 3-cm occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), has no palpable skull defect or signs of basilar skull fracture, and the reported fall is not a severe mechanism. The occipital hematoma places him in an intermediate-risk PECARN group, so observation versus CT should be discussed rather than automatically imaging.\n\n### Plan\n\n1. **Immediate management**\n   - If he develops an abnormal mental status, persistent lethargy, seizure, unequal pupils, focal weakness, palpable skull depression, signs of basilar skull fracture, or repeated vomiting, **obtain urgent noncontrast head CT and involve emergency/neurosurgical services**.\n   - Establish that there was no loss of consciousness, prolonged abnormal behavior, or additional trauma. Confirm that the child is acting normally for him.\n   - Perform and document a careful skin and musculoskeletal examination and assess whether the history and injury pattern are consistent. **If the history is inconsistent, the mechanism is unclear, or additional bruising/injuries are found, evaluate for nonaccidental trauma and involve the appropriate child-protection team.**\n\n2. **Observation**\n   - Because he is well appearing with normal neurologic examination and only one episode of vomiting, **observe in the clinic or emergency department for approximately 4\u20136 hours from the time of injury** with serial mental-status, pupil, gait, and vomiting checks.\n   - During observation, allow quiet play and oral fluids as tolerated.\n   - **If vomiting stops, behavior and examination remain normal, and he tolerates fluids, discharge without routine CT is reasonable.**\n   - **If vomiting recurs or persists, the scalp swelling enlarges substantially, he becomes unusually sleepy or irritable, develops worsening headache, abnormal gait, or any neurologic change, obtain urgent head CT.**\n   - If reliable observation cannot be ensured at home, or the family strongly prefers definitive imaging after discussion of radiation risk, transfer to the ED for observation and possible CT.\n\n3. **Symptomatic treatment**\n   - Acetaminophen 10\u201315 mg/kg by mouth every 4\u20136 hours as needed; for 12.8 kg, approximately **130\u2013190 mg per dose**.\n   - Avoid sedating medications. He may eat and drink normally as tolerated.\n   - A cold pack wrapped in cloth may be applied to the swelling for 10\u201315 minutes at a time.\n\n4. **Discharge instructions**\n   - A responsible adult should remain with him and observe him for the next 24 hours.\n   - **If he sleeps normally, allow sleep;** check periodically that he can be aroused and responds normally. Routine forced awakening is not necessary if he remains clinically well and has been appropriately observed.\n   - Return immediately to the ED or call emergency services for:\n     - repeated vomiting or inability to keep fluids down,\n     - increasing or severe headache,\n     - unusual sleepiness, confusion, inconsolable behavior, or difficulty waking,\n     - seizure, fainting, weakness, imbalance, vision changes, or unequal pupils,\n     - blood or clear fluid from the nose or ears,\n     - enlarging or very tense scalp swelling,\n     - or any concern that he is worsening.\n   - Arrange pediatric follow-up within 1\u20132 days, sooner if symptoms persist. Avoid climbing, rough play, and activities with risk of another head injury until he is symptom-free."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 6.615939140319824,
+      "output_tokens": 575,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on the PECARN (Pediatric Emergency Care Applied Research Network) head injury algorithm, this 24-month-old boy has minor head trauma with intermediate risk factors for a clinically important traumatic brain injury (isolated episode of vomiting and a non-frontal/occipital hematoma), but is currently well-appearing with a normal neurologic exam (GCS 15).\n\n### **Clinical Management Plan**\n\n*   **Clinical Observation:**\n    *   **If** he is currently 2 hours post-injury and clinically stable, **then** keep him in the clinic/observation setting for an additional 2 to 4 hours (to complete a 4- to 6-hour post-injury observation window).\n\n*   **Neuroimaging (Head CT):**\n    *   **If** during observation he develops recurrent vomiting ($\\ge 2$ additional episodes), increasing lethargy, irritability, altered mental status, or focal neurological deficits, **then** immediately transfer him to an emergency department for an emergent non-contrast head CT.\n    *   **If** he remains alert, playful, interactive, tolerates clear fluids without further vomiting, and displays a normal physical/neurologic exam throughout observation, **then** a head CT can be safely withheld.\n\n*   **Symptom Management:**\n    *   **If** he experiences pain or tenderness at the hematoma site, **then** apply a cold pack (wrapped in a cloth) for 15\u201320 minutes at a time and administer acetaminophen (15 mg/kg = ~190 mg PO every 4\u20136 hours as needed). *Avoid NSAIDs (ibuprofen) during the initial 24 hours post-head trauma to minimize any theoretical bleeding risk.*\n\n*   **Discharge Criteria & Home Care:**\n    *   **If** he successfully completes the observation period symptom-free with normal vital signs, **then** discharge him home in the care of his father with strict return precautions.\n    *   **If** the father notices any of the following \"red flag\" symptoms at home:\n        *   Persistent or projectile vomiting\n        *   Inability to wake the child or extreme lethargy\n        *   New weakness, stumbling, or unequal pupils\n        *   Seizure activity or abnormal twitching\n        *   Fluid/blood draining from the nose or ears\n        *   **Then** instruct the father to call 911 or take the child to the nearest Pediatric Emergency Department immediately.\n\n*   **Follow-Up:**\n    *   **If** he does well at home, **then** schedule a follow-up visit or check-in call in 24 to 48 hours to assess the hematoma and verify complete symptom resolution."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 6.928021192550659,
+      "output_tokens": 665,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Assessment**\n24-month-old male presenting with a minor head trauma following a fall from a couch, complicated by a single episode of post-traumatic emesis and an isolated 3 cm occipital scalp hematoma. He currently has a normal neurologic exam (GCS 15, normal gait, interactive). Based on PECARN pediatric head injury criteria, his risk for a clinically-important traumatic brain injury (ciTBI) is low (<0.1%), making immediate CT scanning unnecessary at this time.\n\n---\n\n### **Plan: Conditional (If/Then) Recommendations**\n\n#### **1. Immediate Observation & Oral Challenge**\n* **IF** the child remains in clinic for a 2- to 3-hour observation period from the time of the injury (monitoring for lethargy, recurrent emesis, or behavioral changes) and successfully tolerates a trial of clear liquids:\n  * **THEN** defer head CT imaging and prepare for safe discharge home with the father.\n\n#### **2. Neuroimaging & Escalation Criteria**\n* **IF** during observation the patient experiences:\n  * Recurrent emesis ($\\ge$ 2 additional episodes)\n  * Increasing lethargy, somnolence, or failure to recognize parents\n  * Persistent/worsening irritability or new focal neurologic signs\n  * Rapid expansion of the occipital hematoma\n* **THEN** immediately transfer to the emergency department for an urgent **non-contrast Head CT** and pediatric surgical/neurosurgical consultation.\n\n#### **3. Symptom Management**\n* **IF** the child exhibits discomfort, fussiness, or localized scalp pain:\n  * **THEN** administer **Acetaminophen** (15 mg/kg $\\approx$ 190 mg PO every 4\u20136 hours PRN, max 5 doses/24 hours) or **Ibuprofen** (10 mg/kg $\\approx$ 125 mg PO every 6 hours PRN with food).\n  * **THEN** apply a cold compress wrapped in a towel to the occipital swelling for 10\u201315 minutes at a time to reduce soft-tissue swelling.\n\n#### **4. Home Discharge & Red Flag Precautions**\n* **IF** cleared for discharge, provide written and verbal return precautions to the father. \n* **IF** any of the following develop at home:\n  * Inability to wake the child or extreme difficulty rousing him from sleep\n  * Recurrent or projectile vomiting\n  * Seizure activity, twitching, or abnormal eye movements\n  * Stumbling, ataxia, or loss of balance\n  * Clear drainage from the nose or ears, or new bruising behind the ears or around the eyes\n* **THEN** direct the father to call 911 or proceed immediately to the nearest pediatric emergency department.\n\n#### **5. Follow-Up**\n* **IF** the child continues to recover uneventfully at home:\n  * **THEN** schedule a routine follow-up check (in-person or phone visit) in **24 to 48 hours** to ensure complete symptom resolution and normalization of activity."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 10.184913873672485,
+      "output_tokens": 986,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a likely occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), with no signs of basilar or palpable skull fracture and no severe mechanism identified. A couch-to-floor fall is generally below the PECARN \u201csevere mechanism\u201d threshold of a fall >5 ft in children age \u22652 years.\n\n### Plan\n\n- **If he remains alert, behaves normally, has a normal neurologic examination, and has no further vomiting**, then **do not obtain routine CT imaging**. CT is not indicated solely for an isolated scalp hematoma or one episode of vomiting, and avoiding unnecessary radiation is preferable.\n- **Observe him with serial examinations for approximately 4\u20136 hours from the time of injury**\u2014including mental status, pupils, gait, vomiting, headache/irritability, and scalp swelling. He is about 2 hours post-injury now, so observe for another 2\u20134 hours if feasible.\n- During observation, **if he tolerates oral fluids and has no recurrent symptoms**, discharge home with his father.\n- Give **acetaminophen 15 mg/kg orally every 4\u20136 hours as needed** for pain, maximum 5 doses in 24 hours. For 12.8 kg, this is approximately **190 mg per dose**. Avoid aspirin. Ibuprofen can be deferred until there is no concern for significant intracranial bleeding and he is eating/drinking normally.\n\n### Escalation\n\n- **If he develops repeated vomiting, worsening or severe headache, increasing irritability, abnormal behavior, confusion, excessive sleepiness or difficulty awakening, seizure, weakness, unsteady gait, unequal pupils, or a decline in GCS**, then **transfer urgently to the ED for reassessment and likely head CT/neurosurgical consultation**.\n- **If a palpable skull depression, enlarging tense swelling, fluid from the nose/ears, hemotympanum, or new bruising behind the ears or around the eyes appears**, then **obtain urgent imaging and specialist evaluation**.\n- **If the mechanism is later clarified as a fall >5 ft, high-impact injury, or there is concern for an unwitnessed or inconsistent history**, then reassess the risk threshold and consider ED evaluation/imaging. Document the full skin examination and history; the current presentation does not itself suggest inflicted injury.\n\n### Discharge instructions\n\n- A responsible adult should supervise him for the next 24 hours.\n- He may sleep normally; **if he is difficult to awaken or cannot be aroused normally, seek emergency care**. Routine scheduled waking is not required if he remains clinically well.\n- Return immediately for the warning signs above, recurrent vomiting, worsening swelling, or any behavior that is not typical for him.\n- Avoid rough play, climbing, bikes, or activities with risk of another head injury for several days and until he is symptom-free. Arrange primary-care follow-up if headache, vomiting, imbalance, irritability, or sleep changes persist beyond 24\u201348 hours."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 8.490427017211914,
+      "output_tokens": 834,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with an occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal with GCS 15 and no signs of basilar or depressed skull fracture. A fall from a couch is generally **not a PECARN severe mechanism** if the height was <3 ft (0.9 m).\n\n## Plan\n\n- **If the reported fall was <3 ft, there was no loss of consciousness, he is behaving normally, and the neurologic examination remains normal, then do not obtain an immediate CT.** The nonfrontal scalp hematoma and vomiting place him in an intermediate-risk group in which a period of observation is preferred over routine CT because of radiation risk.\n- **Observe in clinic/ED for approximately 4\u20136 hours from the time of injury** with repeat vital signs and serial examinations, including mental status, pupils, gait, and vomiting. Clarify the exact height, surface, possible loss of consciousness, and whether he has remained at baseline.\n- Give **acetaminophen** for discomfort if needed. Avoid sedating medications. He may take small amounts of clear fluid; advance diet as tolerated.\n\n### Escalation\n\n- **If he develops worsening drowsiness, confusion, abnormal behavior, seizure, focal weakness, unequal pupils, abnormal gait, persistent or recurrent vomiting, severe/worsening headache, or a rapidly enlarging/tense swelling, then obtain urgent neuroimaging and emergency evaluation.**\n- **If the history reveals a fall \u22653 ft, prolonged loss of consciousness, a concerning or unwitnessed mechanism, or if he is not acting normally, then obtain a lower threshold for CT or transfer to an emergency department for imaging/observation.**\n- **If there is a palpable skull defect, persistent boggy swelling concerning for depressed fracture, or signs of basilar skull fracture, then obtain urgent CT and trauma/neurosurgical consultation.**\n- If vomiting recurs but he remains completely well, reassess promptly; persistent vomiting would favor imaging or continued ED observation.\n\n### Disposition\n\n- **If he remains at baseline with a normal neurologic examination and no further vomiting during observation, then discharge home with a responsible adult.**\n- Provide written head-injury precautions:\n  - Return immediately for repeated vomiting, worsening headache, increasing sleepiness or difficulty awakening, confusion, seizure, weakness, unsteady walking, vision changes, fluid/blood from the nose or ears, or enlarging scalp swelling.\n  - Quiet activity for the remainder of the day; avoid climbing, rough play, and activities with another risk of head impact until symptom-free.\n  - He may sleep normally; routine scheduled awakening is not required, but his father should ensure he can be aroused normally.\n  - Arrange follow-up with his pediatrician within 1\u20132 days, or sooner for any concern.\n\nBecause the injury was reportedly unwitnessed, I would also document that the mechanism is consistent with the exam and complete skin and musculoskeletal assessment, as already done; any inconsistency, additional injuries, or concerning social history would require evaluation for possible nonaccidental trauma."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 7.595247268676758,
+      "output_tokens": 741,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on the clinical assessment and validated pediatric head trauma decision rules (PECARN), this child falls into an **intermediate-risk category** for a clinically important traumatic brain injury (ciTBI < 1%) due to the isolated vomiting and non-frontal (occipital) scalp hematoma, despite a normal neurological exam (GCS 15). \n\nHere is the management plan using **if/then** guidance:\n\n---\n\n### **1. Immediate Assessment & Observation**\n* **If** the child remains alert, interactive, and clinically stable in the clinic:\n  * **Then** observe him in the office for an additional **1 to 2 hours** (reaching 3\u20134 hours post-injury). Offer small sips of clear fluids to confirm he tolerates oral intake without recurrent emesis.\n\n---\n\n### **2. Imaging Decisions (PECARN Shared Decision-Making)**\n* **If** during the observation period the child remains at baseline (GCS 15, no further vomiting, no new neurological signs, playing normally):\n  * **Then** a non-contrast head CT is **not routinely indicated** due to the low risk of ciTBI (<1%) and the risks of ionizing radiation.\n* **If** the child develops **recurrent vomiting (\u22652 episodes)**, progressive lethargy, altered behavior, signs of basilar skull fracture, or focal neurological deficits:\n  * **Then** arrange immediate transfer to the Emergency Department for an **urgent non-contrast head CT**.\n* **If** the father expresses significant anxiety regarding the swelling or unwitnessed nature of the fall after discussing the risks/benefits:\n  * **Then** engage in shared decision-making regarding extended observation versus transfer for head CT.\n\n---\n\n### **3. Symptom Management**\n* **If** the child experiences mild pain or discomfort from the scalp hematoma:\n  * **Then** recommend **Acetaminophen** ($15\\text{ mg/kg} \\approx 190\\text{ mg}$ orally every 4\u20136 hours as needed; max 5 doses/24 hours). \n  * **Then** *avoid* NSAIDs (such as Ibuprofen) for the first 24 hours to minimize any theoretical risk of bleeding.\n* **If** local swelling is prominent:\n  * **Then** apply a cold compress wrapped in cloth to the occiput for 10\u201315 minutes at a time as tolerated.\n\n---\n\n### **4. Discharge Criteria & Home Instructions**\n* **If** the child completes observation, successfully tolerates fluids, exhibits normal gait/behavior, and has a reliable caregiver:\n  * **Then** discharge home with explicit, written head-injury warning signs.\n* **If** at home the caregiver observes any of the following **\"red flag\" symptoms**:\n  * Persistent or recurrent vomiting\n  * Difficulty waking the child or extreme sleepiness/lethargy\n  * New weakness, stumbling, or unequal pupils\n  * Seizure activity or twitching\n  * Clear fluid or blood draining from the ears or nose\n  * Inconsolable crying or worsening irritability\n  * **Then** the caregiver must take the child immediately to the nearest **Emergency Department**.\n\n---\n\n### **5. Follow-Up**\n* **If** the child recovers smoothly with no new symptoms:\n  * **Then** have the father follow up by phone or in clinic in **24\u201348 hours** for a routine recheck."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 10.389625072479248,
+      "output_tokens": 957,
+      "audit": {
+        "confab": true,
+        "has_branching": true
+      },
+      "text": "### Information that would change the plan\n\nI would clarify:\n\n- **Loss of consciousness:** any LOC, and if so, duration and whether there was delayed return to baseline.\n- **Behavior from the time of injury:** whether he has remained completely at his usual mental status, speech, coordination, and interaction.\n- **Vomiting:** whether this was definitely one episode, whether vomiting occurred before the fall, and whether it is recurring.\n- **Mechanism:** approximate couch height, whether he landed directly on his head, whether there was an intermediate object/surface, and whether the fall was witnessed. A fall from **>3 ft in a child younger than 2 years** is a PECARN severe mechanism.\n- **Signs of skull fracture or worsening intracranial injury:** increasing scalp swelling, severe or worsening headache/irritability, somnolence, seizure, fluid from the nose/ears, or weakness.\n- **Bleeding risk:** bleeding disorder, easy bruising, or use/exposure to anticoagulants.\n- **Possibility of nonaccidental trauma:** consistency of the history with the injury, developmental plausibility, timing of seeking care, and any prior injuries or social concerns. An occipital boggy hematoma is not by itself diagnostic, but an inconsistent or concerning history would change management.\n- Whether the father can provide **reliable observation and prompt return** if symptoms develop.\n\n### Current assessment\n\nThis is a neurologically normal 24-month-old after a likely low-height fall, with one episode of vomiting and a **nonfrontal scalp hematoma**. Under PECARN, if there is:\n\n- no altered mental status,\n- no palpable skull fracture,\n- no LOC \u22655 seconds,\n- no severe mechanism,\n- no persistent/recurrent vomiting, and\n- behavior is normal,\n\nthe child is in the **observation versus CT** group rather than an automatic CT group.\n\n### Plan\n\n1. **Observe clinically**, preferably until at least 4\u20136 hours after the injury, with serial assessments of mental status, pupils, gait, behavior, vomiting, and scalp swelling. The exact timing depends on the clarified time of injury and local protocol.\n2. **No immediate CT is required** if he remains completely normal and the mechanism is low risk. CT exposes him to radiation and is not routinely indicated for this presentation.\n3. Give **acetaminophen** for pain if needed. Avoid sedating medications that could obscure neurologic assessment.\n4. If he develops repeated vomiting, abnormal sleepiness or difficulty awakening, confusion, worsening headache or inconsolability, seizure, focal neurologic findings, abnormal gait, enlarging swelling, or other signs of deterioration, obtain urgent neuroimaging and escalate evaluation.\n5. Consider **skull imaging/CT and specialty consultation** if a palpable/depressed skull fracture is found, the swelling is unusually large or expanding, the mechanism is severe, there was significant LOC, symptoms worsen, or the history raises concern for inflicted injury.\n6. If stable after observation, discharge with a responsible caregiver and written instructions:\n   - return immediately for the warning signs above;\n   - have an adult observe him closely for the next 24 hours;\n   - normal sleep is acceptable, but he should be readily arousable and behaving normally when awake;\n   - avoid rough play and activities with risk of another head injury for several days.\n7. Arrange follow-up with his pediatrician, particularly if headache, vomiting, irritability, imbalance, or behavioral changes persist.\n\nThus, assuming the missing risk factors are absent and observation is reliable, the likely plan is **structured observation followed by discharge without CT**, rather than immediate imaging."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 8.275637149810791,
+      "output_tokens": 668,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Missing Information That Would Change the Plan\n\n1. **Loss of Consciousness (LOC) or Altered Mental Status Post-Fall:** Because the fall was unwitnessed, clarify if he was crying immediately upon hearing the thud or if there was a delay/unresponsiveness. A definite history of LOC $\\ge 5$ seconds would shift him higher into the intermediate-risk tier under PECARN criteria, favoring closer observation or neuroimaging.\n2. **Behavioral Baseline and Headache:** Is he acting 100% like himself according to the father? Is he holding his head, unusually irritable, or complaining of a severe headache? \n3. **Underlying Bleeding Diathesis / Medications:** Any personal or family history of bleeding disorders or easy bruising, which substantially raises the risk of expanding intracranial pathology from a scalp hematoma.\n4. **Social & Follow-up Feasibility:** Caregiver reliability, access to reliable transportation, and ability to return immediately if symptoms evolve (critical for deciding between observation in clinic/ED vs. discharge home).\n\n---\n\n### Management Plan\n\n#### 1. Risk Assessment (PECARN Criteria for $\\ge 2$ Years Old)\n* **Status:** Normal GCS (15), no signs of basilar skull fracture, non-severe mechanism (<5 feet), no focal neurologic deficits.\n* **Risk Factors Present:** Occipital/non-frontal scalp hematoma (significant in children, especially $\\le 2$ years) and one isolated episode of vomiting.\n* **ciTBI Risk:** Very low risk for clinically important traumatic brain injury (<0.5\u20131%), but falls into the intermediate risk category where clinical observation is preferred over immediate CT.\n\n#### 2. Immediate Clinical Actions\n* **Period of Clinical Observation:** Observe in clinic (or ED if observation capacity is limited) for **4 to 6 hours from the time of injury** (another 2\u20134 hours). Monitor serial GCS, pupillary exam, and behavior.\n* **Hydration / Diet:** Offer a small trial of clear liquids to assess for persistent vomiting.\n* **Analgesia:** Acetaminophen if needed for pain (avoid NSAIDs like ibuprofen initially until intracranial bleeding is reasonably ruled out/observation completed).\n\n#### 3. Threshold for Non-Contrast Head CT\n* Perform a head CT only if he develops:\n  * Worsening lethargy, altered mental status, or decline in GCS.\n  * Recurrent/persistent vomiting ($\\ge 2$ additional episodes).\n  * New focal neurologic signs, signs of basilar skull fracture, or worsening severe headache.\n\n#### 4. Discharge Criteria & Home Instructions (if stable after observation)\n* **Discharge** if he remains alert, active, tolerates fluids, and has a normal repeat neurological exam.\n* **Detailed Return Precautions (Red Flags):**\n  * Repeated vomiting\n  * Excessive sleepiness or difficulty waking up\n  * Unequal pupils, weakness, gait instability, or clumsiness\n  * Seizure activity\n  * Clear fluid or blood draining from nose or ears\n* **Follow-up:** Check-in call or visit within 24\u201348 hours."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 9.100560903549194,
+      "output_tokens": 702,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Missing Information That Would Change the Plan**\n\n1. **History of Loss of Consciousness (LOC):**\n   * *Why it matters:* Because the fall was unwitnessed, it is unclear if there was any transient LOC. Under PECARN criteria, confirmed or prolonged LOC (especially >5 seconds) raises the risk for clinically important traumatic brain injury (ciTBI) and leans the decision toward a non-contrast head CT rather than observation.\n2. **Progression of Symptoms (Headache, Irritability, Further Vomiting):**\n   * *Why it matters:* A single episode of vomiting can occur from crying/pain. However, recurrent vomiting (\u22652 episodes), worsening lethargy, or severe, escalating headache would necessitate immediate transfer to an Emergency Department for head CT imaging.\n3. **Bleeding Diathesis / Coagulopathy History:**\n   * *Why it matters:* A personal or family history of easy bruising, bleeding disorders (e.g., hemophilia, von Willebrand), or concurrent medication use would lower the threshold for immediate neuroimaging, given the 3 cm boggy occipital hematoma.\n4. **Social & Developmental Context (Concern for Non-Accidental Trauma):**\n   * *Why it matters:* History of prior unexpected injuries, prior child welfare involvement, or an inconsistent timeline would prompt an expanded workup (skeletal survey, social work evaluation).\n\n---\n\n### **Clinical Assessment & Plan**\n\nThe patient is a 24-month-old with an intermediate-risk head injury by PECARN guidelines (isolated vomiting, large non-frontal/occipital scalp hematoma, unwitnessed fall, but normal GCS of 15, no focal signs, and acting normally). \n\n#### **1. Immediate Management & Observation Strategy**\n* **Shared Decision-Making & Clinical Observation:** Given his normal mental status (GCS 15) and playful demeanor 2 hours post-injury, **observation without immediate CT** is the preferred first step, provided symptoms do not progress.\n* **Duration:** Observe in clinic (or transfer to a clinical observation unit) until at least **4 to 6 hours have elapsed from the time of injury** (another 2\u20134 hours).\n\n#### **2. Threshold for Neuroimaging (Non-contrast Head CT)**\n* Obtain a head CT if any of the following develop during observation:\n  * Further vomiting (\u22652 total episodes)\n  * Altered mental status, increasing lethargy, or failure to interact normally\n  * New neurologic deficits or signs of basilar skull fracture\n\n#### **3. Discharge & Return Precautions (if stable after observation period)**\n* **Discharge Criteria:** Normal neurological exam, tolerating clear fluids without vomiting, acting at baseline, and reliable caregiver.\n* **Red-Flag Return Precautions:** Educate father to seek immediate emergency care for:\n  * Repeated or projectile vomiting\n  * Difficulty waking the child or excessive sleepiness\n  * Unequal pupils, weakness, gait instability, or seizures\n  * Fluid or blood draining from nose or ears\n  * Rapidly expanding scalp hematoma\n* **Analgesia:** Acetaminophen as needed for pain (avoid NSAIDs initially if intracranial bleeding remains a theoretical concern).\n* **Follow-up:** Pediatrician check-in within 24\u201348 hours."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 10.32255506515503,
+      "output_tokens": 1000,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Information that could change the plan\n\nI would clarify:\n\n- **Exact age in months**\u2014whether he is truly \u226524 months matters because PECARN predictors differ for children under 2.\n- **Fall details:** estimated couch height, whether he landed directly on the occiput, and whether there was any second impact. A fall >5 feet would be a severe mechanism.\n- **Loss of consciousness:** any witnessed or suspected LOC, and its duration.\n- **Vomiting:** whether there has been only one episode, whether vomiting preceded the fall, and whether it is recurrent or worsening.\n- **Current symptoms compared with baseline:** abnormal sleepiness, confusion, irritability, inconsolable crying, slowed responses, new imbalance, or apparent severe/worsening headache.\n- **Bleeding risk:** known bleeding disorder, anticoagulant/antiplatelet exposure, or significant liver disease.\n- **Possibility of nonaccidental trauma:** consistency of the history with the child\u2019s developmental abilities, timing, prior injuries, and whether the father\u2019s account is consistent with other caregivers. An unwitnessed fall and an occipital swelling warrant appropriate safeguarding assessment, although the current examination is reassuring.\n- **Any seizure or abnormal movements**, even if brief or unwitnessed.\n\n## Plan based on the information provided\n\nThis is a clinically well-appearing child with GCS 15, a normal neurologic examination, a likely nonsevere mechanism, one episode of vomiting, and an isolated occipital hematoma.\n\n### 1. Observation rather than immediate CT\n\nI would observe him in clinic/ED with:\n\n- Serial mental-status and neurologic examinations\n- Repeat vital signs\n- Monitoring for recurrent vomiting, worsening headache, increasing somnolence, irritability, seizure, gait change, or new focal findings\n- Oral fluids/food if tolerated\n\nFor a child \u22652 years old, **isolated vomiting after minor blunt head trauma with a normal examination and nonsevere mechanism generally supports observation rather than immediate CT**. If he is actually under 2 years, the nonfrontal scalp hematoma places him in an intermediate-risk group, for which observation is still reasonable if the examination remains normal.\n\nA typical observation period would be approximately **4\u20136 hours from the injury**, with longer observation if symptoms persist or the history is uncertain.\n\n### 2. CT head if the clinical course changes\n\nObtain urgent noncontrast head CT, and involve emergency/trauma services, if he develops:\n\n- Altered mental status, GCS decline, or abnormal behavior not resolving\n- Repeated or worsening vomiting\n- Seizure\n- Focal neurologic deficit or worsening gait\n- Signs of basilar skull fracture\n- Severe or worsening headache\n- A clearly severe mechanism, prolonged LOC, or significant concern for intracranial injury\n- Persistent concerning symptoms where reliable observation or follow-up is not possible\n\nRoutine skull radiographs are not useful for excluding intracranial injury.\n\n### 3. Discharge if stable\n\nIf he remains at baseline, has no further vomiting, has a normal serial examination, and tolerates fluids, discharge with a responsible caregiver is reasonable. Provide written precautions to return immediately for repeated vomiting, increasing sleepiness or difficulty awakening, confusion, seizure, worsening headache, weakness, abnormal walking, fluid/blood from the nose or ears, or any other deterioration.\n\nHe may sleep normally; the caregiver should ensure he is arousable and behaving normally when checked. Avoid rough play and activities with risk of another head injury for several days, with primary-care follow-up if symptoms persist.\n\nAny inconsistency in the history, additional injuries, or concern for abuse would change the plan to a formal child-protection evaluation and likely emergency imaging/consultation."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 9.490447044372559,
+      "output_tokens": 763,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "### 1. Missing Information That Would Change the Plan\n*Do not assume unstated variables are negative; clarify the following:*\n\n* **Loss of Consciousness (LOC):** The fall was unwitnessed. Was there any identifiable period of unresponsiveness or apnea before he started crying? *(LOC $\\ge 5$ seconds adds an additional intermediate-risk predictor under PECARN).*\n* **Behavioral Baseline:** Does the father feel the child is acting completely normal compared to his baseline? *(Parental report of abnormal behavior increases the risk of clinically important traumatic brain injury [ciTBI]).*\n* **Headache / Irritability:** Is he complaining of a severe or worsening headache, or demonstrating escalating irritability?\n* **Medical / Hematologic History:** Is there any personal or family history of a bleeding diathesis or coagulopathy?\n* **Detailed Fall Dynamics / Social Context:** Estimated height of the couch, surface details, and whether the mechanism is fully consistent with developmental capabilities and history.\n\n---\n\n### 2. Clinical Assessment\n* **Age:** 24 months (evaluated under the $\\ge 2$ years PECARN algorithm, but with high caution given he sits right at the 2-year boundary).\n* **Risk Stratification:** \n  * **GCS:** 15, non-severe mechanism, no signs of basilar skull fracture.\n  * **Intermediate Risk Factors Present:** Isolated episode of vomiting, unwitnessed event (possible brief LOC), and a moderate-sized (3 cm) boggy occipital scalp hematoma.\n  * **Risk of ciTBI:** Very low (<1%), making immediate non-contrast head CT unnecessary at this moment, but observation is warranted.\n\n---\n\n### 3. Management Plan\n\n1. **Active Clinical Observation:**\n   * Observe in clinic/observation unit for **4\u20136 hours post-injury** (he is currently at hour 2). \n   * Perform serial neurologic and mental status checks every 30\u201360 minutes.\n\n2. **Imaging Decision (Shared Decision-Making):**\n   * **Routine Head CT is deferred** as long as he remains alert, GCS 15, and neurologically intact.\n   * **Indications to escalate to Non-Contrast Head CT:**\n     * Recurrent/worsening vomiting ($\\ge 2$ additional episodes).\n     * Developing lethargy, altered mental status, or decline in GCS.\n     * Signs of severe/worsening headache or progressive scalp hematoma expansion.\n\n3. **Symptomatic Management:**\n   * **Analgesia:** Acetaminophen (15 mg/kg PO every 4\u20136 hours PRN). Avoid NSAIDs (ibuprofen) acutely until intracranial pathology is definitively ruled out by time/observation.\n   * **Local Care:** Ice pack/cold compress wrapped in a towel applied intermittently to the occiput.\n\n4. **Disposition & Strict Return Precautions:**\n   * If he remains stable, tolerates oral clear fluids, and maintains normal play and interaction through the observation window, he may be discharged home with his father.\n   * **Provide written and verbal red-flag warnings** requiring immediate emergency evaluation:\n     * Repeated or persistent vomiting.\n     * Inability to wake him up or extreme lethargy.\n     * Unequal pupils, abnormal eye movements, or seizures.\n     * Weakness, clumsiness, or worsening unsteady gait.\n     * Clear or bloody drainage from the nose or ears.\n   * **Follow-up:** Pediatric primary care re-evaluation within 24\u201348 hours or sooner if concerns arise."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 10.090837001800537,
+      "output_tokens": 983,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "This child is currently well appearing with a normal neurologic examination and a likely low-height fall. I would not obtain an immediate CT based on the information provided, but I would observe him and clarify several details that could change management.\n\n## Information that could change the plan\n\n- **Exact age in months:**  \n  - If he is **younger than 24 months**, a nonfrontal scalp hematoma is a PECARN intermediate-risk feature.  \n  - If he is **24 months or older**, scalp hematoma alone is not a PECARN CT criterion.\n- **Fall height and mechanism:**  \n  - Was the couch more than about **3 feet/1 meter high**, or was there impact on a hard/pointed object? A fall >3 feet is a severe mechanism in PECARN and would favor prolonged observation and possibly CT.\n- **Loss of consciousness:** duration, even a few seconds.\n- **Vomiting:** whether there has been any additional vomiting, and whether vomiting preceded the fall or started afterward.\n- **Behavior:** Is he completely back to baseline according to his father? Any unusual sleepiness, irritability, confusion, or difficulty walking?\n- **Headache or apparent pain:** persistent or worsening pain, inconsolable crying.\n- **Evidence of skull fracture:** enlarging or very tense swelling, palpable depression, fluid from the nose/ears, or new bruising.\n- **Bleeding risk:** anticoagulant/antiplatelet use, bleeding disorder, or significant coagulopathy.\n- **Safety and consistency of the history:** Was the fall developmentally plausible and is the history consistent? Any delay in seeking care or additional bruising/injuries would raise concern for nonaccidental trauma and change the evaluation.\n\n## Plan if the above remains reassuring\n\n- Perform **serial neurologic examinations and observation for approximately 4\u20136 hours from the injury** (or at least several hours from presentation), including monitoring for recurrent vomiting, worsening swelling, abnormal behavior, or increasing somnolence.\n- Provide oral fluids if appropriate and use acetaminophen for pain if needed. Avoid medications that could obscure mental status; ibuprofen is generally reasonable after significant bleeding has been excluded, but acetaminophen is simplest initially.\n- **No routine skull radiograph**; it does not replace CT for intracranial injury.\n- If he remains alert, behaves normally, has no further vomiting, and has a stable examination, discharge with a responsible caregiver and written head-injury precautions.\n\n## Conditional escalation\n\n- **If GCS decreases, mental status becomes abnormal, he develops a focal neurologic deficit, seizure, repeated vomiting, worsening headache, progressive drowsiness, or signs of basilar or depressed skull fracture:** obtain urgent noncontrast head CT and arrange emergency evaluation/consultation.\n- **If he is <24 months with the occipital hematoma, has a severe mechanism, brief or uncertain LOC, or is not clearly acting normally:** continue observation and discuss CT versus observation with the family; CT becomes more appropriate if symptoms persist or worsen.\n- **If the fall was >3 feet/1 meter, the history is unreliable, or there is concern for abuse:** use a lower threshold for CT and initiate an appropriate child-protection evaluation.\n- **If vomiting recurs or persists during observation:** reassess carefully; persistent vomiting would favor CT or transfer to an emergency department rather than discharge.\n\nDischarge instructions should include returning immediately for repeated vomiting, increasing sleepiness or difficulty awakening, confusion or unusual behavior, seizure, weakness, worsening headache, unequal pupils, fluid/blood from the ears or nose, or an enlarging scalp swelling. A responsible adult should observe him for the next 24 hours; normal sleep is acceptable, but he should be readily arousable and checked periodically according to local practice."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 12.803454160690308,
+      "output_tokens": 1186,
+      "audit": {
+        "confab": true,
+        "has_branching": true
+      },
+      "text": "## Information that could change management\n\nI would clarify:\n\n- **Exact age**: 24 months places him at the PECARN cutoff. If he is still **under 2 years**, a nonfrontal scalp hematoma is an intermediate-risk feature; at **2 years or older**, it is not independently a PECARN predictor.\n- **Fall height and exact mechanism**: approximate couch height, whether he struck an edge or another object, and whether the fall was truly witnessed. A fall >5 feet in a child \u22652 years, or >3 feet if under 2, is a severe mechanism.\n- **Loss of consciousness**, even briefly; post-event sleepiness, confusion, memory change, or behavior not back to baseline.\n- **Vomiting course**: additional episodes, recurrent vomiting, inability to tolerate fluids.\n- **Headache or apparent pain**, especially severe or worsening pain.\n- **Any seizure, weakness, imbalance, or visual change** since the fall.\n- **Bleeding risk**: known bleeding disorder, thrombocytopenia, anticoagulant/antiplatelet exposure, or significant family history.\n- **Possibility of nonaccidental trauma**: whether the history is consistent with his developmental abilities, whether there are delays in seeking care, or any additional unexplained injuries. The reported full skin examination is reassuring but does not by itself exclude this.\n\n## Plan\n\n### 1. Immediate assessment\n\n- Repeat vital signs and neurologic examinations.\n- Confirm that he remains at his baseline mental status and has no evolving focal findings.\n- Palpate the scalp swelling and reassess for a depressed skull fracture.\n- Provide oral analgesia such as acetaminophen; avoid aspirin. I would generally avoid ibuprofen initially if there is concern for intracranial bleeding, though a single appropriate dose is not usually consequential.\n\n### 2. Imaging versus observation\n\nBased on the information provided\u2014normal examination, GCS 15, no seizure, no definite loss of consciousness, apparently low-height fall, and one episode of vomiting\u2014**immediate CT is not mandatory**.\n\nI would discuss the small risk of clinically important traumatic brain injury and the radiation risk of CT with the father. I would favor **emergency-department observation**, with serial neurologic examinations and observation for recurrent vomiting or deterioration, rather than immediate CT if:\n\n- the fall was below the severe-mechanism threshold,\n- there was no loss of consciousness,\n- he remains behaviorally normal,\n- vomiting does not recur,\n- and there is no bleeding disorder or concern for abuse.\n\nA reasonable observation period is approximately **4\u20136 hours from the injury**, or longer if symptoms persist.\n\n### 3. Obtain urgent CT and/or trauma consultation if any concerning feature develops\n\nCT of the head would become appropriate if there is:\n\n- worsening or persistent abnormal mental status,\n- recurrent or worsening vomiting,\n- seizure,\n- loss of consciousness with concerning features,\n- severe or worsening headache,\n- focal neurologic abnormality or abnormal gait,\n- signs of skull fracture,\n- a severe mechanism,\n- a rapidly enlarging or concerning scalp hematoma,\n- a bleeding disorder or anticoagulant exposure,\n- or concern for nonaccidental trauma.\n\nIf the exact age is under 2 years, the **large occipital hematoma** places him in a higher-intermediate-risk group under PECARN; observation versus CT would depend especially on its size, whether the injury mechanism is severe, and whether the child remains completely at baseline.\n\n### 4. Disposition\n\nIf he remains normal during observation, tolerates fluids, and has no further vomiting, he can be discharged with reliable supervision.\n\nProvide return precautions for:\n\n- repeated vomiting,\n- increasing sleepiness or difficulty awakening,\n- confusion or unusual behavior,\n- seizure,\n- worsening headache or inconsolability,\n- weakness, imbalance, or vision changes,\n- fluid or blood from the nose or ears,\n- or any parental concern that he is deteriorating.\n\nRoutine waking overnight is generally unnecessary if he is clinically well, but the father should check that he is breathing normally and can be aroused normally. Arrange follow-up with his pediatrician within 1\u20132 days, sooner if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 9.996929168701172,
+      "output_tokens": 1015,
+      "audit": {
+        "confab": true,
+        "has_branching": true
+      },
+      "text": "## Information that could change management\n\n- **Exact age and developmental status:** If he is **<2 years**, PECARN criteria differ; a nonfrontal scalp hematoma is an intermediate-risk feature. At exactly 24 months, use the \u22652-year pathway, but confirm the date of birth.\n- **Loss of consciousness:** Was there any witnessed or suspected LOC, and for how long?\n- **Mental status since the fall:** Is he behaving completely normally for him? Any unusual sleepiness, confusion, irritability, imbalance, or difficulty arousing?\n- **Vomiting:** Was this definitely emesis, and has it recurred? Persistent or worsening vomiting changes the threshold for imaging.\n- **Headache or significant pain:** Can he indicate head pain, and is it severe or worsening?\n- **Mechanism details:** Approximate couch height, landing surface/body part, whether he struck another object, and whether there was any possibility of a fall from >5 feet. A fall from >5 feet is a PECARN severe mechanism for this age.\n- **Bleeding risk:** Bleeding disorder, easy bruising, thrombocytopenia, or medications such as anticoagulants/antiplatelets.\n- **Injury history and safety:** Whether the history is consistent with his developmental abilities, whether the father directly witnessed the event, and whether there are prior unexplained injuries or social concerns.\n\n## Plan based on the information currently available\n\nHe is currently **neurologically normal with GCS 15**, has no signs of basilar skull fracture, no focal deficit, and appears clinically well. A couch-height fall is generally not a severe mechanism, assuming the couch was not unusually high.\n\nI would:\n\n1. **Perform serial observation in clinic/ED**\n   - Observe for approximately **4\u20136 hours from the time of injury**, with repeated neurologic and vital-sign assessments.\n   - Reassess the occipital swelling for enlargement, fluctuance, tenderness, or a palpable skull defect.\n   - Treat discomfort with weight-appropriate acetaminophen; avoid sedating medications.\n\n2. **Discuss CT versus observation with the father**\n   - **If** there was no LOC, the fall was from <5 feet, behavior remains normal, vomiting does not recur, and there is no severe/worsening headache, **then** observation without immediate CT is reasonable and avoids radiation.\n   - **If** there was LOC, a severe/worsening headache, recurrent vomiting, a severe mechanism, concerning parental report of abnormal behavior, or diagnostic uncertainty, **then** obtain urgent head CT or transfer to an ED capable of pediatric imaging/observation.\n   - **If** mental status changes, GCS falls below 15, a seizure occurs, focal neurologic findings develop, the swelling rapidly enlarges, or basilar skull signs appear, **then** obtain emergent neuroimaging and involve emergency services/trauma care.\n\n3. **Discharge only if stable after observation**\n   - If he remains at baseline, has no additional vomiting, and the examination is unchanged, discharge with a responsible adult and written precautions.\n   - Return immediately for repeated vomiting, worsening or severe headache, increasing sleepiness or difficulty awakening, confusion or unusual behavior, seizure, weakness, unsteady walking, unequal pupils, fluid/blood from the nose or ears, or enlarging scalp swelling.\n   - He may sleep, but should be readily arousable and periodically checked by the caregiver during the first night.\n   - Follow up with his pediatrician within 24\u201348 hours or sooner if symptoms persist.\n\n4. **Consider nonaccidental trauma evaluation**\n   - **If** the mechanism is inconsistent with his developmental abilities, the history changes, there are additional bruises/injuries, or social concerns emerge, **then** do not simply discharge; perform a formal child-safety evaluation and consider skeletal survey and specialty/child-protection consultation."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 14.383449792861938,
+      "output_tokens": 1341,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "This child is currently neurologically well, but the occipital hematoma and vomiting warrant further evaluation and a period of observation rather than immediate discharge from clinic.\n\n## Information that could change the plan\n\nI would clarify:\n\n- **Exact fall height and mechanism:** Was the couch more than 5 feet high? Was there a stair fall, impact onto a sharp object, or another high-energy mechanism?\n- **Loss of consciousness:** Any definite or suspected LOC, even briefly?\n- **Vomiting:** Was it truly one episode? Any additional vomiting, worsening nausea, or inability to keep fluids down?\n- **Mental status and behavior:** Is he entirely back to baseline? Excessive sleepiness, confusion, irritability, inconsolability, or abnormal behavior?\n- **Headache or apparent pain:** Persistent or severe headache, especially worsening pain?\n- **Seizure, abnormal movement, weakness, imbalance, or visual changes**\n- **Evolution of the swelling:** Is it enlarging, tense, or associated with a palpable depression?\n- **Bleeding risk:** Bleeding disorder, thrombocytopenia, anticoagulant/antiplatelet use, or significant family history\n- **Prior neurologic disease or prior intracranial injury**\n- **History consistency and supervision:** Is the history consistent with the injury and developmental abilities? Any delay in seeking care or other injuries?\n\nAt exactly 24 months, he falls at the boundary of the PECARN age groups. If he is developmentally younger-appearing or the age is uncertain, I would conservatively consider the <2-year criteria, where a nonfrontal scalp hematoma is an intermediate-risk feature.\n\n## Plan\n\n### 1. Refer to an emergency department for observation\nBecause he has had vomiting after head trauma and a sizable occipital hematoma, I would send him to an ED capable of serial neurologic examinations and pediatric CT if needed. He should not be left unattended or transported by a potentially unsafe method.\n\n### 2. Serial observation\nIf the fall was low energy, there was no LOC, he remains at baseline, and vomiting does not recur:\n\n- Observe for approximately **4\u20136 hours from the time of injury** with repeated mental-status, pupil, gait, and neurologic examinations.\n- Provide oral fluids when appropriate.\n- Use acetaminophen for pain if needed; avoid sedating medications.\n- Routine skull radiographs are not useful for deciding whether there is intracranial injury.\n\n### 3. CT head indications\n\n**Obtain urgent noncontrast head CT and involve emergency/neurosurgical services if any of the following develop or are present:**\n\n- GCS less than 15, altered mental status, increasing somnolence, or inability to arouse normally\n- Repeated or worsening vomiting\n- Seizure\n- Focal neurologic deficit, abnormal gait, unequal pupils, or progressive confusion\n- Suspected depressed or basilar skull fracture\n- Rapidly enlarging or tense scalp swelling\n- Definite prolonged LOC\n- Severe or worsening headache\n- Severe mechanism, such as a fall from more than about 5 feet at this age, high-impact object, or motor-vehicle-type event\n- Known bleeding disorder or anticoagulant use\n\nIf he is exactly 2 years old and has only **one isolated vomiting episode**, normal mental status, no LOC, no severe mechanism, no severe headache, and no signs of fracture, immediate CT is generally not mandatory; ED observation with shared decision-making is reasonable. If applying the <2-year PECARN rule because of the age boundary, the occipital hematoma places him in an observation-versus-CT group, not automatically in a CT-required group.\n\n### 4. Disposition\n\nHe may be discharged after observation if he remains neurologically normal, has no further vomiting, is behaving normally, tolerates fluids, and has reliable caregivers who can observe him.\n\nGive explicit return precautions for:\n\n- Any additional or persistent vomiting\n- Increasing sleepiness or difficulty awakening\n- Confusion, unusual behavior, seizure, weakness, imbalance, or vision changes\n- Worsening headache or inconsolability\n- Blood or clear fluid from the nose or ears\n- Increasing scalp swelling\n- Inability to drink or decreased urination\n\nA responsible adult should remain with him for the next 24 hours, and follow-up with his pediatrician should be arranged if symptoms persist.\n\n### 5. Safeguarding\n\nAlthough the current examination is reassuring, I would document the mechanism and perform/document a complete skin and musculoskeletal examination. If the history is inconsistent, the injury is developmentally implausible, there are additional bruises or injuries, or there is concern about supervision or nonaccidental trauma, I would initiate the clinic/ED child-protection evaluation rather than treating this as an uncomplicated accidental fall."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 7.959720849990845,
+      "output_tokens": 671,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### 1. Missing Information That Would Alter the Plan\n* **Loss of Consciousness (LOC):** Was there any brief loss of consciousness (especially $>5$ seconds) immediately after the fall before the crying started?\n* **Parental Assessment of Baseline:** Does the father feel the child is acting completely back to his normal baseline personality and behavior?\n* **Symptom Progression:** Has there been any further vomiting, worsening irritability, or lethargy since arriving at the clinic?\n* **Reliability of Home Observation:** Does the family have reliable transportation, a stable home environment, and the ability to closely monitor the child overnight?\n\n---\n\n### 2. Clinical Risk Stratification (PECARN)\n* **Age:** 24 months.\n* **Risk Factors Present:** Non-frontal (occipital) scalp hematoma (significant for $<2$ years) and a single episode of vomiting (intermediate risk factor for $\\ge 2$ years).\n* **GCS & Exam:** GCS 15, normal neurological exam, no signs of basilar skull fracture.\n* **Assessment:** The child falls into an **intermediate-risk category** for a clinically important traumatic brain injury (ciTBI), where the risk is low ($\\approx 0.5\\% - 0.9\\%$). Immediate CT is generally not indicated if active observation is feasible.\n\n---\n\n### 3. Conditional (If/Then) Recommendations\n\n* **Observation vs. Imaging:**\n  * **IF** there was no prolonged LOC, this remains an isolated episode of vomiting, and he continues to interact normally:\n    * **THEN** manage with **clinical observation for a total of 4 to 6 hours from the time of injury** (another 2\u20134 hours) rather than an immediate non-contrast head CT, to avoid ionizing radiation.\n  * **IF** there was documented LOC $>5$ seconds, worsening/recurrent vomiting ($\\ge 2$ episodes), progressive lethargy, new focal neurological deficits, or the father feels the child is not acting like himself:\n    * **THEN** obtain an immediate **non-contrast Head CT** (or transfer to the nearest pediatric emergency department for imaging).\n\n* **Disposition & Follow-up:**\n  * **IF** after the 4\u20136 hour post-injury observation period the child remains asymptomatic, tolerates oral fluids, and has a normal exam:\n    * **THEN** safely discharge home under the care of a reliable caregiver with written head injury instructions.\n  * **IF** the father cannot reliably observe the child at home or lacks transport to return if symptoms worsen:\n    * **THEN** extend the observation period in an emergency/inpatient observation unit.\n\n---\n\n### 4. Discharge Precautions (Red Flags for Father)\nInstruct the father to seek immediate emergency care if the child develops:\n* Recurrent or projectile vomiting\n* Inability to wake up or extreme drowsiness\n* Unequal pupils or abnormal eye movements\n* New stumbling, weakness, or inability to walk normally\n* Seizure activity or twitching\n* Fluid or blood draining from the ears or nose\n* Increasing size of the head swelling or inconsolable crying"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 8.90463900566101,
+      "output_tokens": 881,
+      "audit": {
+        "confab": true,
+        "has_branching": true
+      },
+      "text": "### Clinical Assessment\nThis is a 24-month-old male with minor head trauma following a low-height fall, presenting with a single episode of emesis and an isolated 3 cm non-frontal (occipital) scalp hematoma, but an otherwise normal neurological exam (GCS 15). \n\nBased on **PECARN pediatric head injury rules** (for children $\\ge 2$ years old, or intermediate risk if applying $< 2$ years criteria due to the non-frontal hematoma and vomiting), the risk of a clinically important traumatic brain injury (ciTBI) is low (<1%). Routine immediate CT imaging is generally not indicated, and clinical observation is the preferred initial approach.\n\n---\n\n### Missing Information & Conditional Recommendations\n\n#### 1. Symptom Progression & Vomiting\n* **Missing Info:** Has there been any further emesis, or is he complaining of/displaying signs of a severe headache or worsening lethargy?\n  * **IF** the child has **recurrent vomiting ($\\ge 2$ episodes)**, develops worsening lethargy, severe headache, or abnormal behavior:\n    * **THEN** refer immediately to the emergency department for a **non-contrast head CT** and emergent neurosurgical consultation if needed.\n  * **IF** the emesis was an isolated event, he tolerates oral fluids in the clinic, and his behavior remains baseline:\n    * **THEN** avoid immediate CT imaging and continue with clinical observation.\n\n#### 2. History of Loss of Consciousness (LOC)\n* **Missing Info:** Because the fall was unwitnessed, it is unclear if there was a brief loss of consciousness before the father arrived.\n  * **IF** there is a suspected or confirmed **prolonged LOC (> 5 seconds)**:\n    * **THEN** this increases risk stratification under PECARN; engage in shared decision-making regarding a non-contrast head CT versus a longer observation period (at least 4\u20136 hours from time of injury).\n  * **IF** there was **no LOC** (or only momentary/none suspected):\n    * **THEN** proceed with conservative outpatient observation.\n\n#### 3. Caregiver Reliability and Home Environment\n* **Missing Info:** Father\u2019s ability to monitor the child overnight, access to transportation, and comprehension of red-flag symptoms.\n  * **IF** the father is reliable, has reliable transportation, and can closely monitor the child at home:\n    * **THEN** observe in clinic until at least 3\u20134 hours post-injury. If he remains asymptomatic, discharge home with strict return precautions.\n  * **IF** transportation is limited, caregiver is uncomfortable monitoring, or follow-up cannot be ensured:\n    * **THEN** arrange for an extended observation period in a clinical/emergency observation unit.\n\n---\n\n### Immediate Clinic Management & Disposition Plan\n\n1. **In-Clinic Observation:**\n   * Observe in the clinic for an additional 1\u20132 hours (reaching ~3\u20134 hours post-injury).\n   * Offer small sips of water/clear liquids to assess tolerance.\n2. **Symptom Relief:**\n   * Provide **Acetaminophen (15 mg/kg = ~190 mg orally)** for pain/headache. Avoid NSAIDs (e.g., ibuprofen) initially due to theoretical bleeding risk with an acute head injury.\n   * Apply a cool compress to the occipital hematoma for comfort.\n3. **Discharge Instructions & Red Flags (if criteria for discharge are met):**\n   * Instruct the father to seek immediate emergency medical care if the child develops:\n     * Repeated vomiting ($\\ge 2$ times)\n     * Inability to wake up or extreme irritability/inconsolability\n     * Worsening balance, stumbling, or weakness in arms/legs\n     * Seizures, abnormal twitching, or unequal pupils\n     * Clear fluid or blood draining from the nose or ears\n4. **Follow-up:**\n   * Phone check-in within 24 hours or next-day clinic follow-up if mild symptoms (e.g., mild fussiness, bruising progression) persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 9.349093198776245,
+      "output_tokens": 796,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Clinical Assessment\nBased on the **PECARN (Pediatric Emergency Care Applied Research Network) head injury algorithm** for a 24-month-old, the child has a **low-to-intermediate risk (< 1%)** for a clinically important traumatic brain injury (ciTBI):\n* **High-risk features (GCS <15, altered mental status, signs of basilar skull fracture):** Absent.\n* **Intermediate-risk features:** Present (1 isolated episode of vomiting; large non-frontal [occipital] scalp hematoma).\n\n---\n\n### Missing Information & Conditional (If/Then) Plan\n\n#### 1. Progression of Vomiting & Clinical Course During Observation\n* **If** the vomiting remains a **single, isolated event**, the child tolerates fluids/sips in clinic, and remains playful/GCS 15:\n  * **Then:** **No head CT is warranted.** Complete a 2- to 4-hour observation period (from the time of injury) in clinic, followed by discharge home with close parental monitoring.\n* **If** the child develops **recurrent/persistent vomiting ($\\ge 2$ additional episodes)** or becomes progressively irritable/lethargic:\n  * **Then:** Transfer directly to the Emergency Department for a **non-contrast Head CT** to evaluate for intracranial hemorrhage.\n\n#### 2. History of Loss of Consciousness (LOC)\n* **If** the father clarifies that the child was **crying immediately** upon hitting the floor with **no period of unresponsiveness**:\n  * **Then:** Reassures low risk; proceed with observation and home discharge.\n* **If** there was a suspected or confirmed **LOC > 5 seconds**:\n  * **Then:** This acts as an additional intermediate risk factor; lower the threshold for transfer for non-contrast Head CT (via shared decision-making).\n\n#### 3. Progression of the Occipital Hematoma\n* **If** the 3 cm boggy hematoma remains stable and non-expanding:\n  * **Then:** Manage conservatively with ice packs and monitoring.\n* **If** the hematoma is **rapidly expanding**, feels tense/depressed underneath, or a bony step-off develops:\n  * **Then:** Transfer to the ED for head CT and surgical evaluation.\n\n#### 4. Social & Caregiver Reliability\n* **If** the father is reliable, has reliable transportation, and can wake the child periodically overnight:\n  * **Then:** Safe for home discharge with written head injury precautions.\n* **If** there are barriers to close home observation (e.g., lack of transportation, unreliable supervision):\n  * **Then:** Prolong the observation period in clinic or transfer to an observation unit.\n\n---\n\n### Summary Plan\n\n1. **Observe in Clinic:** Keep the child under observation for another 1\u20132 hours (reaching 3\u20134 hours post-injury).\n2. **Supportive Care:** Provide oral rehydration (small sips of water/electrolyte solution) and oral **acetaminophen** (15 mg/kg = ~190 mg) for pain if needed (avoid NSAIDs like ibuprofen initially due to theoretical bleeding risk).\n3. **Shared Decision-Making & Discharge:** Explain the <1% risk of ciTBI to the father and the rationale for avoiding unnecessary radiation from a CT scan.\n4. **Discharge Instructions / Red Flags:** Return immediately to the ED if the child develops:\n   * Repeated vomiting\n   * Inability to wake up or extreme lethargy\n   * Unequal pupils or abnormal eye movements\n   * Seizure activity or twitching\n   * Worsening gait, weakness, or clumsiness\n   * Clear fluid or blood draining from nose/ears"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 9.822210788726807,
+      "output_tokens": 973,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a 3-cm occipital scalp hematoma and one episode of vomiting. He is currently alert with GCS 15, normal neurologic examination, and no clinical signs of basilar or depressed skull fracture.\n\n## Immediate plan\n\n1. **Clarify key history**\n   - Determine whether there was any loss of consciousness, even briefly, and whether he immediately cried or was confused, sleepy, or difficult to arouse.\n   - Clarify fall height and surface, additional impacts, recurrent vomiting, headache/behavior change, and whether he has been acting normally since the injury.\n   - Confirm that the history and developmental abilities are consistent and assess for any safeguarding concerns. If the history becomes inconsistent or additional injuries are found, evaluate for nonaccidental trauma.\n\n2. **PECARN-based imaging decision**\n   - If he has **GCS <15, altered mental status, a palpable depressed skull fracture, or signs of basilar skull fracture**, obtain urgent noncontrast head CT and involve emergency/neurosurgical services as indicated.\n   - If he had a definite loss of consciousness, repeated vomiting, severe/worsening headache, or a severe mechanism\u2014such as a fall greater than approximately 5 feet, high-impact injury, or an object striking the head\u2014discuss CT versus observation with the father.\n   - Based on the information currently provided\u2014a likely low-height fall, normal examination, no basilar skull signs, and one vomit\u2014**immediate CT is not routinely required**. The occipital hematoma is a PECARN risk feature particularly relevant in children under 2; because he is exactly 24 months, clinical judgment and observation are appropriate.\n\n3. **Observe in clinic/ED**\n   - Observe for approximately **4\u20136 hours from the time of injury**, with serial vital signs and neurologic assessments.\n   - Monitor mental status, gait, pupils, behavior, and the scalp swelling.\n   - Offer fluids and a light snack if he remains well. If he vomits again, reassess before discharge.\n   - Give acetaminophen for discomfort if needed; avoid sedating medications.\n\n## Escalate to CT/emergency evaluation if during observation he develops\n\n- Repeated or worsening vomiting\n- Increasing sleepiness, confusion, irritability, abnormal behavior, or difficulty awakening\n- Worsening or severe headache\n- Seizure, weakness, unsteady gait, or abnormal pupils\n- Loss of consciousness\n- Increasing scalp swelling, palpable depression, or new signs of basilar skull fracture\n- Inability to tolerate fluids or other clinical deterioration\n\n## If he remains well\n\nDischarge with his father after an appropriate observation period if he continues to act normally, has a normal neurologic examination, and can drink.\n\nGive written precautions:\n\n- A responsible adult should observe him closely for the next 24 hours.\n- He may sleep, but should be readily arousable and behave normally when awake; routine forced awakening is not necessary unless specifically advised.\n- Return immediately for the symptoms listed above, especially recurrent vomiting, abnormal behavior, increasing drowsiness, seizure, worsening headache, weakness, or difficulty walking.\n- Use acetaminophen as directed for pain. Avoid rough play, climbing, bikes, and activities with risk of another head injury for several days, with gradual return when symptom-free.\n- Arrange follow-up with his pediatrician within 1\u20132 days or sooner if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 9.761749982833862,
+      "output_tokens": 966,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Minor blunt head trauma with a 3-cm occipital scalp hematoma and one episode of vomiting. He is currently neurologically normal (GCS 15), with no definite evidence of skull fracture or other injury on examination. The exact loss of consciousness, amnesia, fall height, and whether his behavior is completely baseline should be clarified rather than assumed.\n\n## Immediate plan\n\n1. **Complete history**\n   - Clarify whether there was any loss of consciousness, confusion, abnormal behavior, amnesia, seizure-like activity, or worsening headache.\n   - Determine the approximate fall height and surface/point of impact.\n   - Ask about recurrent vomiting, neck pain, bleeding disorder, anticoagulant use, and prior neurologic problems.\n   - Confirm that the history is consistent and that there are no safeguarding concerns; if the history is inconsistent or additional unexplained injuries are found, evaluate for possible inflicted injury.\n\n2. **Observation rather than automatic CT**\n   - If he remains at neurologic baseline, has no palpable skull depression, no signs of basilar skull fracture, no concerning loss of consciousness, and the mechanism was not severe, **observe in a monitored setting for at least 4\u20136 hours after the injury** with serial neurologic examinations and vital signs.\n   - A single episode of vomiting alone in an otherwise well-appearing child does not mandate CT. CT should be discussed using shared decision-making because of radiation exposure.\n   - Because he is exactly 24 months old and has a sizable occipital hematoma, the threshold for imaging should be lower if any history is uncertain or symptoms evolve.\n\n3. **During observation**\n   - Reassess mental status, interaction, pupils, gait, headache/irritability, scalp swelling, and vomiting periodically.\n   - Give acetaminophen for discomfort if needed; avoid aspirin. Oral fluids may be offered gradually once nausea settles.\n   - If he vomits again, assess severity and associated findings rather than treating the number alone.\n\n## Obtain urgent head CT / emergency evaluation if any of the following occur\n\n- GCS falls below 15, increasing sleepiness, confusion, abnormal behavior, or inability to awaken normally\n- Recurrent or worsening vomiting\n- Seizure, focal neurologic deficit, abnormal gait, unequal pupils, or worsening headache\n- Suspected or definite loss of consciousness, particularly if prolonged, or significant amnesia\n- Signs of skull fracture: palpable depression, worsening boggy swelling, hemotympanum, CSF/bloody drainage from the nose or ear, Battle sign, or raccoon eyes\n- A severe mechanism is established, such as a fall greater than approximately 5 feet, high-impact object, or other high-energy event\n- Observation is not feasible or the caregiver cannot reliably monitor him\n\nIf CT is indicated, obtain a **noncontrast head CT** and involve the emergency department/trauma or neurosurgical team as appropriate. If the child deteriorates, do not delay transfer for prolonged observation.\n\n## Disposition\n\nIf he completes observation with a normal neurologic examination, no further vomiting, normal behavior, and reliable supervision, discharge with written head-injury precautions. He may sleep, but the father should check that he can be aroused normally and is behaving normally when awake; routine forced waking is not required unless specifically advised.\n\nReturn immediately for worsening headache, repeated vomiting, increasing drowsiness or confusion, seizure, weakness, abnormal walking, unequal pupils, unusual behavior, or any new concern. Arrange follow-up with his pediatrician within 1\u20132 days, or sooner if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 7.059309244155884,
+      "output_tokens": 846,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on this 24-month-old\u2019s presentation, he is clinically well (GCS 15, normal neurologic exam) but has **intermediate-risk features** for a clinically important traumatic brain injury (ciTBI) under PECARN guidelines\u2014specifically, an **isolated episode of vomiting** and a **large (3 cm) non-frontal (occipital) scalp hematoma**, with an unwitnessed fall.\n\nHere is the management plan with conditional recommendations:\n\n---\n\n### **1. Further History & Risk Stratification**\n* **If loss of consciousness (LOC) occurred or remains unknown:** Risk of intracranial injury is slightly higher; favor extended observation or lower threshold for imaging.\n* **If the father reports abnormal behavior at home (e.g., severe lethargy, irritability, not acting like himself):** This increases the risk score and favors immediate imaging.\n* **If the fall involved a higher surface or secondary impact (e.g., struck a hard table on the way down):** Treat as a higher-energy mechanism.\n\n---\n\n### **2. Diagnostic & Management Approach (PECARN Intermediate-Risk)**\nShared decision-making with the father between **clinical observation** versus **head CT without contrast**:\n\n* **If the father prefers and is comfortable with observation, and the child remains at his baseline:**\n  * Keep the child in clinic/urgent observation for at least **2 to 4 hours post-injury** (he is currently at hour 2).\n  * Reassess mental status, gait, and neurologic status hourly.\n  * Avoid sedating medications.\n* **If the child experiences any of the following during observation:**\n  * **Recurrent vomiting (\u22652 additional episodes)**\n  * **Worsening lethargy, irritability, or failure to recognize parents**\n  * **Development of focal neurologic deficits, unequal pupils, or seizures**\n  * **Expanding scalp hematoma or signs of a basilar skull fracture**\n  * $\\rightarrow$ **Transfer immediately to the Emergency Department for an emergent non-contrast Head CT.**\n* **If transportation or home supervision is unreliable, or the father is uncomfortable monitoring at home:**\n  * Refer to the Emergency Department for prolonged observation or definitive CT imaging.\n\n---\n\n### **3. Analgesia & Supportive Care**\n* **Pain control:** \n  * Use **Acetaminophen** (15 mg/kg = ~190 mg PO every 4\u20136 hours as needed; max 75 mg/kg/day).\n  * **Avoid NSAIDs (Ibuprofen)** for the first 24\u201348 hours post-head trauma due to the theoretical risk of worsening intracranial bleeding.\n* Apply a cold compress wrapped in cloth to the occipital swelling for 10\u201315 minutes at a time as tolerated.\n\n---\n\n### **4. Discharge Criteria & Home Instructions**\n* **Discharge is appropriate IF:**\n  * The full 4-hour post-injury window passes with no further vomiting.\n  * He tolerates small sips of clear fluids/water in the clinic.\n  * He remains playful, alert, and neurologically intact.\n* **Strict Return Precautions (Seek Immediate Emergency Care IF):**\n  * Repeated or projectile vomiting.\n  * Difficulty waking up or excessive sleepiness during usual wake times.\n  * Unequal pupil sizes, unusual eye movements, or weakness in an arm/leg.\n  * Stumbling, unsteadiness, or severe balance problems once home.\n  * Seizure activity, twitching, or staring spells.\n  * Clear fluid or blood draining from the nose or ears.\n  * Rapid expansion of the head swelling.\n\n---\n\n### **5. Follow-Up**\n* Follow up via clinic check-in call tomorrow (24 hours post-injury).\n* In-person follow-up in 48\u201372 hours if mild symptoms (fussiness, headache) persist, or earlier if symptoms evolve."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 10.200756788253784,
+      "output_tokens": 926,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Assessment\nThis is a **minor blunt head injury** in a 24-month-old with:\n\n- Normal mental status and neurologic examination\n- Occipital scalp hematoma, which is a PECARN intermediate-risk feature in children under 2 years\n- One episode of vomiting\n- No reported seizure, focal deficit, palpable skull defect, or signs of basilar skull fracture\n- A fall from a couch, which is generally not a severe mechanism unless the height was >3 feet or other concerning details emerge\n\nThe history should specifically clarify whether there was any loss of consciousness, abnormal behavior, worsening headache, the exact fall height/surface, and whether the vomiting was definitely after the injury.\n\n### Plan now\n\n1. **Observe in clinic/ED rather than obtain automatic CT**, provided the history remains reassuring and he continues to appear normal.\n   - Observe until at least approximately **4\u20136 hours after the injury**, with serial assessments of:\n     - Mental status and interaction\n     - Pupils and neurologic function/gait\n     - Vomiting or worsening headache/irritability\n     - Scalp swelling and development of palpable skull deformity\n     - Ability to tolerate oral fluids\n   - The decision should be discussed with the father, including that CT is not routinely required now but that observation is appropriate because of the nonfrontal hematoma and vomiting.\n\n2. **Obtain urgent head CT and escalate to emergency care** if any of the following occur:\n   - Declining alertness, confusion, unusual behavior, inability to walk normally, or GCS <15\n   - Repeated or worsening vomiting\n   - Seizure\n   - Focal neurologic deficit\n   - Worsening or severe headache/inconsolability\n   - Signs of skull fracture, such as a palpable depression, enlarging tense swelling, hemotympanum, or other basilar-skull signs\n   - Concerning loss of consciousness, a severe mechanism, or inability to perform reliable observation at home\n\n   If the initial history reveals a significant loss of consciousness, fall from >3 feet, or another concerning feature, the threshold for CT or ED observation should be lower.\n\n3. **Supportive care**\n   - Acetaminophen by weight for discomfort, if needed.\n   - Small frequent amounts of clear fluid or oral rehydration solution; advance diet as tolerated.\n   - An antiemetic such as ondansetron could be considered if vomiting recurs and he otherwise remains neurologically normal, but it should not be used to mask clinical deterioration.\n   - No need for skull radiographs if CT is not otherwise indicated.\n\n### Disposition\n\nIf he remains neurologically normal, has no further vomiting, and tolerates fluids after observation, he may be discharged with a responsible adult who can observe him.\n\nGive explicit return precautions: return immediately for repeated vomiting, increasing sleepiness or difficulty awakening, confusion or behavior change, seizure, worsening headache, weakness or unsteady walking, fluid/blood from the nose or ears, enlarging scalp swelling, or any parental concern.\n\nHe may sleep normally; the father should check that he can be awakened and responds normally if concern arises. Avoid rough play, climbing, biking, or activities with risk of another head impact for the next several days and arrange follow-up with the primary care clinician within 1\u20132 days, or sooner if symptoms persist.\n\nBecause the fall was not directly witnessed, I would also document a detailed, nonjudgmental injury history and complete skin and musculoskeletal examination. If the history becomes inconsistent, the mechanism is developmentally implausible, or additional injuries are identified, evaluate for possible nonaccidental trauma."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 8.256042957305908,
+      "output_tokens": 694,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on the clinical presentation and PECARN (Pediatric Emergency Care Applied Research Network) head injury prediction rules for a 2-month/2-year-old, this child has intermediate-risk features (isolated vomiting and a non-frontal/occipital scalp hematoma), but is currently GCS 15 with a normal neurological exam.\n\nHere is the management plan:\n\n### 1. Clarify Unstated History\n* **If** the father notes an actual loss of consciousness (LOC), worsening irritability, or lethargy at home prior to arrival, the risk of clinically important traumatic brain injury (ciTBI) increases.\n* **If** the fall was completely unwitnessed and the height was greater than a standard couch (>3 feet), risk stratification shifts toward higher suspicion.\n\n---\n\n### 2. Diagnostic & Monitoring Strategy (Observation vs. Imaging)\nGiven the isolated single episode of vomiting, normal mental status, and occipital hematoma:\n\n* **Primary Plan (Active Observation):**\n  * Observe the child in the clinical setting for a total of **4 to 6 hours from the time of injury** (another 2\u20134 hours).\n  * Offer a small oral fluid challenge (e.g., water or clear liquids) to assess tolerance.\n  * **If** the child remains alert, interactive, tolerates fluids without recurrent vomiting, and maintains a normal neuro exam $\\rightarrow$ **head CT is not routinely indicated**, and he may be safely discharged home.\n  * **If** any of the following occur during observation $\\rightarrow$ **transfer immediately to an Emergency Department for an emergent non-contrast Head CT**:\n    * Recurrent or projectile vomiting ($\\ge 2$ additional episodes)\n    * Declining mental status, lethargy, or inability to recognize parents\n    * New focal neurologic deficits or abnormal gait\n    * Signs of increasing intracranial pressure or expanding/crossing suture hematoma\n\n---\n\n### 3. Symptom Management\n* **Pain Control:**\n  * **If** the child has pain/discomfort from the hematoma, administer **Acetaminophen 15 mg/kg** (~190 mg orally every 4\u20136 hours PRN; max 75 mg/kg/day).\n  * *Avoid Ibuprofen or other NSAIDs* for the first 24\u201348 hours until intracranial hemorrhage is fully ruled out by clinical observation.\n* **Local Care:** Apply a cold compress wrapped in a cloth to the occipital swelling for 10\u201315 minutes at a time as tolerated.\n\n---\n\n### 4. Discharge Criteria & Home Safety Instructions\n* **If** discharged home after uneventful observation, provide strict verbal and written return precautions. The father must seek immediate emergency care **if** the child develops:\n  * Repeated vomiting\n  * Excessive sleepiness or difficulty waking the child at normal intervals\n  * Unequal pupil size, crossed eyes, or abnormal eye movements\n  * Seizure activity, twitching, or rhythmic jerking\n  * Clear fluid or blood draining from the nose or ears\n  * Worsening or rapidly expanding scalp swelling\n  * Inconsolable crying or extreme irritability\n* **Follow-up:** Schedule a clinic follow-up or phone check-in within **24 to 48 hours**."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 9.452850341796875,
+      "output_tokens": 741,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on the PECARN pediatric head injury algorithm, this 24-month-old is at **intermediate risk** for a clinically important traumatic brain injury (ciTBI) due to the presence of an **isolated episode of vomiting** and a **large (3 cm) non-frontal (occipital) scalp hematoma**, with an unwitnessed event (loss of consciousness unknown). \n\nHere is the conditional management plan:\n\n---\n\n### 1. Clarify Key Clinical Variables\n* *If* further history reveals **loss of consciousness (LOC) >5 seconds**, severe worsening irritability/lethargy, or an actual fall height **>3 feet (high-energy mechanism)** $\\rightarrow$ the risk for ciTBI increases significantly; transfer immediately to the Emergency Department for a non-contrast head CT.\n* *If* the event was unwitnessed but the father notes immediate crying with no preceding abnormal movements or subsequent altered behavior $\\rightarrow$ risk remains in the intermediate category, allowing for a trial of observation versus imaging.\n\n---\n\n### 2. Imaging vs. Observation (Shared Decision-Making)\n* **Option A: Active Clinical Observation (Preferred if clinic/ED resources and parental comfort allow)**\n  * Observe the child for a total of **4 to 6 hours from the time of injury** (at least 2\u20134 more hours).\n  * *If* the child develops **recurrent vomiting (\u22652 episodes)**, progressive lethargy, abnormal gait, worsening headache, or new neurologic signs during observation $\\rightarrow$ obtain an immediate **non-contrast head CT**.\n  * *If* Point-of-Care Ultrasound (POCUS) is available in the clinic $\\rightarrow$ perform a bedside cranial ultrasound over the occipital hematoma to evaluate for an underlying depressed or displaced skull fracture.\n* **Option B: Immediate Transfer for Head CT**\n  * *If* parental preference leans toward definitive exclusion, if clinic observation is not feasible, or if reliable home observation cannot be guaranteed $\\rightarrow$ transfer to the nearest pediatric ED for a non-contrast head CT.\n\n---\n\n### 3. Symptom Management & Analgesia\n* *If* the child has pain or distress from the scalp hematoma $\\rightarrow$ administer **Acetaminophen** (15 mg/kg = **190 mg PO every 4\u20136 hours PRN**).\n* *Avoid* NSAIDs (such as Ibuprofen) for the first 24 hours until intracranial bleeding is ruled out.\n* *If* he attempts to drink fluids $\\rightarrow$ offer small sips of clear fluids initially to test tolerance.\n\n---\n\n### 4. Disposition & Discharge Criteria\n* *If* after the observation period the child remains active, alert (GCS 15), tolerates oral fluids, and shows no new symptoms $\\rightarrow$ discharge home with reliable caregivers.\n* **Strict Return Precautions / Red Flags (Return to ED immediately if):**\n  * Repeated vomiting (>1 additional episode)\n  * Increasing somnolence, lethargy, or difficulty waking the child\n  * Inconsolable crying or extreme irritability\n  * Stumbling, weakness, or loss of balance\n  * Clear fluid or blood draining from the nose or ears\n  * Seizure activity or abnormal twitching\n* **Follow-Up:**\n  * Schedule a follow-up visit or telephone check-in within **24 to 48 hours**.\n  * Provide education on post-concussive symptom monitoring and return-to-play guidelines."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 6.526833772659302,
+      "output_tokens": 871,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Missing Information That Would Change the Plan\n\n1. **Exact Duration of Loss of Consciousness (LOC) and Immediate Post-Fall Behavior:**\n   * Was there any period of unresponsiveness before the crying started?\n2. **Progression of Symptoms (Vomiting and Headache/Irritability):**\n   * Was the single vomiting episode motion-related (car sickness) or preceded by lethargy? Has he developed a severe headache or worsening irritability?\n3. **Fall Height and Exact Mechanism:**\n   * Was he jumping from the back of the couch (higher fall velocity/height) versus rolling off the seat? \n4. **Social/Safety Context:**\n   * Are the developmental abilities and injury mechanism fully consistent with the history? Are there prior unexplained injuries?\n\n---\n\n### Clinical Assessment (PECARN Risk Stratification)\nAt 24 months of age, this child falls into the **$\\ge 2$ years** PECARN rule (though right at the threshold). \n* **High-Risk Features (CT strongly recommended):** GCS < 15, signs of basilar skull fracture, altered mental status $\\rightarrow$ **Absent** (GCS 15, normal exam).\n* **Intermediate-Risk Features (CT vs. Observation):** Isolated vomiting (1 episode) and a large (3 cm) **non-frontal (occipital) scalp hematoma** (which is a strong predictor of underlying fracture/injury, particularly right at the 2-year boundary). Risk of Clinically Important Traumatic Brain Injury (ciTBI) is low (<1%), but non-zero.\n\n---\n\n### Conditional Plan (If / Then Recommendations)\n\n#### 1. Immediate Management & Imaging Decision\n* **IF** the child remains playful, clinically normal (GCS 15), has **no further vomiting**, and the father is reliable:\n  * **THEN** avoid immediate CT. Perform a **period of clinical observation** in the clinic/ED for a total of **4\u20136 hours from the time of injury** (another 2\u20134 hours from now). Observation reduces unnecessary radiation without increasing the risk of adverse outcomes.\n* **IF** any of the following occur during observation:\n  * $\\ge 2$ additional episodes of vomiting,\n  * Increasing lethargy, irritability, or worsening headache,\n  * Abnormal behavior or declining GCS (<15),\n  * **THEN** transfer immediately to the nearest pediatric-capable Emergency Department for a **non-contrast Head CT**.\n* **IF** there is high parental anxiety, inability to reliably observe at home, or if the clinician/parent shared decision-making favors definitive exclusion of underlying injury given the 3 cm boggy occipital swelling:\n  * **THEN** proceed with a non-contrast head CT or transfer for imaging. *(Note: Plain skull radiographs may be considered only to evaluate for a depressed/linear skull fracture under the boggy swelling if CT is deferred, but CT remains the gold standard for intracranial injury).*\n\n#### 2. Discharge & Home Care Instructions (If Observation is Unremarkable)\n* **IF** the child completes 4\u20136 hours post-injury with a normal exam, tolerated oral fluids, and no red flags:\n  * **THEN** discharge home in the care of the father with clear, written **concussion and head injury return precautions**.\n  * **Return immediately if:** persistent/recurrent vomiting, difficulty waking up, unequal pupils, seizures, clear drainage from nose/ears, balance problems, or worsening confusion/irritability.\n  * **Symptom Management:** Acetaminophen (15 mg/kg every 4\u20136 hours PRN pain; ~190 mg); avoid NSAIDs (ibuprofen) for the first 24 hours post-head trauma until intracranial bleed is confidently excluded. Cold compress to the occipital hematoma.\n\n#### 3. Follow-Up\n* **IF** discharged home:\n  * **THEN** schedule a follow-up phone call or clinic visit in **24\u201348 hours** to reassess symptoms and monitor hematoma resolution."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 11.471889972686768,
+      "output_tokens": 1114,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Missing information that could change management\n\nI would clarify:\n\n- **Exact age**: PECARN uses the **<2 years vs \u22652 years** rule. At exactly 24 months, the \u22652-year pathway generally applies, but confirm age in months.\n- **Loss of consciousness**: whether there was any witnessed or suspected LOC, and its duration.\n- **Vomiting**: whether this was truly one episode, whether vomiting is recurrent or persistent, and whether it is worsening.\n- **Headache/behavior**: severe or worsening headache, unusual irritability, confusion, lethargy, difficulty awakening, or behavior unlike baseline.\n- **Mechanism**: approximate couch height, whether he struck a sharp object, and whether the fall was witnessed. A fall from **>5 feet** in a child \u22652 years is a PECARN severe mechanism.\n- **Bleeding risk**: known bleeding disorder, anticoagulant/antiplatelet use, or medications/substances in the home that could have been ingested.\n- **Prior neurologic risk**: prior neurosurgery, significant neurologic disease, or shunt.\n- **Safeguarding history**: if the history is inconsistent, the injury is unwitnessed in a concerning way, or additional injuries are found, assess for nonaccidental trauma.\n\n## Current plan, assuming none of the concerning features above are present\n\nThis child currently has:\n\n- GCS 15 and normal neurologic examination\n- No signs of basilar skull fracture\n- A low-height fall, if the couch was not unusually high\n- One episode of vomiting\n- An occipital scalp hematoma, which is less predictive of clinically important traumatic brain injury in children \u22652 years than in younger children\n\nI would **not obtain routine immediate CT solely for one episode of vomiting and an isolated scalp hematoma**. I would discuss the small risk of clinically important intracranial injury and perform a period of **ED/clinic observation with serial neurologic examinations**, generally for about **4\u20136 hours from the injury** or until clearly stable, depending on the setting and ability to monitor.\n\nDuring observation, reassess:\n\n- Mental status and interaction\n- Pupils and neurologic function\n- Gait\n- Headache or increasing pain\n- Recurrent vomiting\n- Scalp swelling\n- Development of seizure, abnormal behavior, or excessive sleepiness\n\n### Conditional escalation\n\n- **If GCS becomes <15, mental status worsens, a focal neurologic deficit or seizure occurs, signs of basilar skull fracture appear, or vomiting becomes recurrent/persistent**, obtain urgent emergency evaluation and **noncontrast head CT**, with neurosurgical consultation as indicated.\n- **If there was LOC, severe/worsening headache, a severe mechanism, or other concerning symptoms**, discuss CT versus continued observation using shared decision-making; CT becomes more strongly favored as the number or severity of risk factors increases.\n- **If the fall was >5 feet, involved a high-energy impact, or the history is unreliable**, send to the ED for formal observation and consideration of CT.\n- **If bleeding risk or anticoagulant exposure is present**, have a lower threshold for ED assessment, laboratory evaluation as appropriate, and neuroimaging.\n- **If recurrent vomiting occurs during observation**, obtain ED-level reassessment; CT is considered based on the overall clinical picture rather than vomiting alone.\n- **If there are concerns for abuse or an inconsistent history**, do not simply discharge; initiate a child-safety evaluation and appropriate social work/child-protection consultation.\n\n## Disposition if he remains well\n\nIf he remains alert and neurologically normal, has no recurrent vomiting or worsening symptoms, and a reliable caregiver is available, discharge with written precautions.\n\nAt home:\n\n- An adult should observe him closely for the next 24 hours.\n- Quiet activity for the remainder of the day; avoid climbing, rough play, and activities with risk of another head injury.\n- Acetaminophen may be used for discomfort according to weight-based dosing; avoid medications that increase bleeding risk unless advised.\n- Sleep is permitted; the caregiver should ensure he is breathing normally and can be aroused/respond normally. Routine repeated awakening is not required if he is otherwise stable, unless specifically advised.\n\nReturn immediately for repeated vomiting, worsening headache, confusion, unusual behavior, difficulty waking, seizure, weakness, unsteady walking, unequal pupils, fluid/blood from the nose or ears, or enlarging scalp swelling. Follow up with his pediatrician within 1\u20132 days or sooner if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 9.730581998825073,
+      "output_tokens": 748,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Missing Information That Would Change the Plan\n*Do not assume unstated variables are negative.*\n\n1. **Loss of Consciousness (LOC):** Was there any period of unresponsiveness or LOC before crying was heard?\n2. **Behavioral Baseline / Headache:** Is he currently 100% back to his normal baseline behavior per the father, or is there persistent fussiness, lethargy, or signs of a severe headache?\n3. **Course of Vomiting:** Has he had any additional retching or vomiting since arriving at the clinic?\n4. **Cervical Spine / Neck Exam:** Is there any cervical spine tenderness or resistance to active range of motion?\n5. **Caregiver Reliability & Distance:** Can the father monitor the child closely at home, and is there reliable transportation/proximity to an emergency department if symptoms worsen?\n\n---\n\n### Conditional (If / Then) Management Plan\n\nUsing the **PECARN Pediatric Head Injury Rule** (for children $\\ge 24$ months with a GCS of 15, 1 isolated vomit, and a large non-frontal [occipital] hematoma), the risk of clinically-important traumatic brain injury (ciTBI) is low (<1%), but observation vs. imaging depends on specific variables:\n\n#### 1. Observation vs. Imaging (Head CT)\n* **IF** the child has no history of LOC, has no further vomiting, continues to interact and play normally at baseline, and the father agrees with shared decision-making:\n  * **Plan:** **Clinical observation** for a total of 4 to 6 hours post-injury (about 2 to 4 more hours from now). A non-contrast head CT is **not immediately required**.\n* **IF** any of the following are present:\n  * Documented LOC (especially $>5$ seconds)\n  * Recurrent/worsening vomiting ($\\ge 2$ episodes)\n  * Progressing lethargy, irritability, or failure to return to baseline\n  * Increasing size/tenseness of the occipital hematoma or concern for an underlying depressed skull fracture\n  * **Plan:** **Obtain an immediate non-contrast Head CT** (transfer to the nearest Emergency Department if CT/pediatric sedation is not available in clinic).\n\n---\n\n#### 2. Symptom Management & Pain Control\n* **IF** the child experiences pain/fussiness:\n  * Use **Acetaminophen** (15 mg/kg every 4\u20136 hours as needed; approx. 190 mg for 12.8 kg). \n  * Avoid NSAIDs (e.g., ibuprofen) until an intracranial hemorrhage is completely ruled out/the observation period is successfully completed.\n  * Cold compress to the occipital hematoma for comfort.\n\n---\n\n#### 3. Discharge and Return Precautions (If Stable Post-Observation)\n* **IF** he remains asymptomatic, tolerates oral fluids, and completes the 4\u20136 hour observation window with a normal exam:\n  * **Discharge home with strict red-flag return precautions:**\n    * Recurrent vomiting (more than 1 additional episode)\n    * Inability to wake the child or extreme lethargy\n    * Seizure activity or abnormal twitching\n    * Unequal pupils, stumbling, or focal weakness\n    * Clear fluid or blood draining from the nose or ears\n    * Expanding swelling of the scalp\n  * **Follow-up:** Schedule a routine clinic recheck or phone follow-up in **24\u201348 hours**."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-flash",
+      "model_id": "gemini-3.7-flash",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 10.401824951171875,
+      "output_tokens": 647,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "### Missing Information That Would Alter the Plan\n* **Loss of consciousness (LOC):** Was there any period of unresponsiveness before crying? If so, for how long?\n* **Evolution of symptoms / Headache:** Is the child complaining of a worsening headache, or showing persistent irritability?\n* **Recurrent vomiting:** Has he vomited again since the single car episode?\n* **Exact mechanism / Height:** Was he sitting on the cushion, or jumping/standing on the back of the couch (fall height $>5$ feet)?\n* **Social / Reliability:** Is there a reliable caregiver who can closely observe the child at home for the next 24\u201348 hours, with reliable transportation back to care?\n\n---\n\n### Assessment & Risk Stratification (PECARN Rule: Age $\\ge 2$ Years)\nThe child is alert (GCS 15) with a normal neurological exam, but has **intermediate risk features / minor criteria** for clinically important traumatic brain injury (ciTBI):\n1. **Isolated vomiting** (1 episode).\n2. **Significant non-frontal scalp hematoma** (3 cm boggy occipital hematoma\u2014particularly relevant given he is right at the 2-year age threshold).\n\n---\n\n### Conditional Management Plan\n\n#### 1. Imaging & Observation Decisions\n* **IF the child remains at his baseline, has no further vomiting, no LOC, and normal behavior:**\n  * **Plan:** **Observe for 4 to 6 hours post-injury** (clinic or short-stay observation) without an immediate CT. Shared decision-making with the father regarding the low risk of ciTBI vs. radiation exposure.\n* **IF he develops any of the following:**\n  * Recurrent vomiting ($\\ge 2$ additional episodes)\n  * Increasing lethargy, somnolence, or abnormal behavior per parent\n  * New or worsening focal neurological signs\n  * Known LOC $>5$ seconds\n  * Rapidly expanding occipital hematoma\n  * **Plan:** **Immediate transfer to the Emergency Department for a non-contrast Head CT.**\n\n---\n\n#### 2. Symptom Management\n* **Analgesia:** Acetaminophen (15 mg/kg oral every 4\u20136 hours as needed). Avoid NSAIDs (e.g., ibuprofen) initially until intracranial hemorrhage is ruled out or the observation period passes uneventfully.\n* **Local care:** Cold compress applied gently to the occiput for swelling.\n\n---\n\n#### 3. Discharge & Safety Netting (If Observation Period is Uneventful)\n* **Discharge criteria:** Tolerating oral fluids, walking with normal gait, completely at baseline behavior, reliable caregiver.\n* **Strict Return Precautions (Go to ED immediately if):**\n  * Repeated or projectile vomiting\n  * Difficulty waking up or excessive sleepiness\n  * Seizures, twitching, or unusual eye movements\n  * Stumbling, unsteadiness, or weakness in arms/legs\n  * Clear fluid or blood draining from nose or ears\n  * Worsening or expanding head swelling"
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 11.853239059448242,
+      "output_tokens": 1095,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Information that could change management\n\nI would clarify:\n\n- **Exact age**: \u201c24 months\u201d is a threshold for PECARN; confirm whether he is younger than 2 years or \u22652 years.\n- **Loss of consciousness**: any witnessed or suspected LOC, and duration.\n- **Behavior relative to baseline**: persistent irritability, somnolence, confusion, or inability to console.\n- **Vomiting**: whether it was truly emesis, number of episodes, and whether vomiting is recurrent.\n- **Fall details**: approximate couch height, whether he struck a sharp edge, and whether the mechanism could have involved a higher fall or additional impact.\n- **Headache or apparent pain**, neck pain, or visual changes.\n- **Medical risks**: bleeding disorder, anticoagulant/antiplatelet use, prior neurosurgery, or significant neurologic disease.\n- **Injury history and social context**: whether the history is consistent with the child\u2019s developmental abilities, whether there was any delay in seeking care, and whether there are other unexplained injuries. The unwitnessed nature alone does not establish abuse, but it warrants a nonjudgmental safety assessment.\n\n## Assessment\n\nThis is currently a well-appearing child with GCS 15, normal neurologic examination, one episode of vomiting, and a boggy **occipital** scalp hematoma after a likely low-height fall. There are no current signs of basilar skull fracture or palpable depressed fracture.\n\n## Plan\n\n### 1. Observation and serial examinations\n\nI would observe him in clinic/ED with:\n\n- Repeated mental-status and neurologic examinations\n- Monitoring for recurrent vomiting, increasing sleepiness, abnormal behavior, seizure, worsening pain, or gait abnormality\n- Reassessment of the scalp swelling and pupils\n\nIf he remains at baseline with no additional concerning symptoms during an observation period\u2014typically about **4\u20136 hours from the injury**\u2014and can tolerate fluids, discharge with reliable supervision is reasonable.\n\n### 2. Imaging decision\n\nA head CT is **not automatically indicated** based on one episode of vomiting and an isolated scalp hematoma in an otherwise normal child.\n\n- **If he has altered mental status, a palpable/depressed skull fracture, seizure, persistent or worsening neurologic abnormality, or signs of basilar skull fracture**, obtain urgent noncontrast head CT and involve emergency/trauma services.\n- **If he has recurrent vomiting, worsening headache or irritability, abnormal behavior, prolonged LOC, or a severe mechanism**, obtain CT or transfer for emergency evaluation depending on the clinical setting.\n- **If he is exactly \u22652 years old**, one episode of vomiting alone generally supports observation rather than immediate CT when the examination is normal.\n- **If he is actually <2 years old**, the nonfrontal scalp hematoma is an intermediate-risk PECARN feature; with a normal exam and no other risk factors, ED observation versus CT should be discussed with the parent, generally favoring observation when reliable monitoring is available.\n- If the fall was substantially higher than a typical couch fall, involved a hard/pointed object, or there is concern for a skull fracture, the imaging threshold is lower.\n\n### 3. Supportive care\n\n- Oral fluids once fully alert; observe for tolerance.\n- Acetaminophen for discomfort if needed.\n- Avoid sedating medications.\n- No need to force wakefulness, but an adult should supervise him closely for the next 24 hours.\n\n### 4. Discharge instructions\n\nReturn immediately or call emergency services for:\n\n- Repeated vomiting\n- Increasing sleepiness or difficulty awakening\n- Confusion, unusual behavior, worsening inconsolability, or inability to walk normally\n- Seizure, weakness, unequal pupils, slurred speech, or loss of coordination\n- Worsening headache\n- Clear/bloody drainage from the nose or ears\n- Increasing scalp swelling or any new concerning injury\n\nHe should have routine follow-up with his pediatrician, particularly if symptoms persist."
+    },
+    {
+      "case_id": "head_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "luna",
+      "model_id": "gpt-5.6-luna",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 12.839363098144531,
+      "output_tokens": 1168,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "## Missing information that could change management\n\nI would clarify:\n\n- **Exact age**: whether he is already **\u22652 years** or still **<2 years**, since PECARN predictors differ at the cutoff.\n- **Fall details**: approximate height, whether the head definitely struck the floor, hard edge, or another object, and whether this was a witnessed fall. A fall >5 ft is a severe mechanism for this age group.\n- **Loss of consciousness**: whether there was any LOC, and if so, duration.\n- **Current symptoms and baseline behavior**:\n  - Repeated or worsening vomiting\n  - Severe or worsening headache/irritability\n  - Unusual sleepiness, confusion, imbalance, or behavior unlike baseline\n  - Visual symptoms or seizure\n- **Vomiting history**: whether there has been any additional emesis since arrival and whether vomiting preceded the fall.\n- **Bleeding risk**: known or possible bleeding disorder, easy bruising, liver disease, or use/exposure to anticoagulants or antiplatelet drugs.\n- **Possibility of another mechanism or nonaccidental trauma**: consistency of the history, developmental ability, caregiver explanation, and whether the child is otherwise safe. A full skin exam without bruising is reassuring but does not by itself exclude abuse.\n- **Ability to observe at home**: reliable caregiver, transportation, phone access, and ability to return promptly.\n\n## Plan based on the information currently provided\n\nThis is a neurologically normal child with a low-height fall, one episode of vomiting, and an occipital scalp hematoma. There are no current signs of altered mental status or basilar skull fracture.\n\nI would:\n\n1. **Perform serial observation in clinic/ED**, including repeated mental-status, pupil, gait, and neurologic examinations, for several hours after the injury\u2014typically until at least about 4\u20136 hours after injury.\n2. Offer oral fluids/food if appropriate and assess whether he can tolerate them.\n3. Provide acetaminophen if needed for pain; avoid aspirin. Ibuprofen can be considered after significant intracranial bleeding concerns are low, but is not necessary initially.\n4. **Do not obtain routine skull radiographs**; they do not exclude intracranial injury.\n5. Discuss head CT using PECARN and shared decision-making, balancing the very low but nonzero risk of clinically important traumatic brain injury against radiation exposure.\n\n### Conditional imaging/observation recommendations\n\n- **If he is \u22652 years old**, remains GCS 15 with a normal neurologic examination, has no basilar skull-fracture signs, no LOC, no severe/worsening headache, and no further vomiting, then **observation without immediate CT is reasonable**. The isolated occipital hematoma is not, by itself, a PECARN CT indication in children \u22652 years.\n- **If he is <2 years old**, the nonfrontal\u2014occipital\u2014scalp hematoma places him in an intermediate-risk group. If he remains well appearing with no other risk factors, **careful observation rather than immediate CT is reasonable**, but the threshold for CT is lower.\n- **If vomiting recurs or persists, there was LOC, the headache is severe or worsening, behavior becomes abnormal, or the mechanism was severe**, then **continued observation versus head CT should be discussed**, with CT favored if symptoms are worsening, multiple risk factors are present, or reliable observation is not possible.\n- **If GCS falls below 15, there is altered mental status, a seizure, focal neurologic deficit, signs of basilar skull fracture, a palpable depressed skull fracture, or clinical deterioration**, obtain **urgent noncontrast head CT and emergency evaluation**.\n- **If a bleeding disorder, anticoagulant exposure, or concern for nonaccidental trauma is identified**, manage more cautiously\u2014often with urgent ED assessment and a lower threshold for neuroimaging and additional evaluation.\n\n## Discharge if observation remains reassuring\n\nIf he continues to act normally, has stable serial examinations, has no further concerning vomiting, and can drink, discharge with a reliable caregiver is appropriate. Give written precautions to return immediately for:\n\n- Repeated vomiting\n- Increasing headache or inconsolability\n- Increasing drowsiness, confusion, or difficulty awakening\n- Seizure, weakness, abnormal walking, or unequal pupils\n- Fluid or blood from the nose/ears\n- Any caregiver concern that he is worsening\n\nHe may sleep normally; the caregiver should check that he is breathing comfortably and can be aroused normally. Arrange follow-up with his primary clinician within 1\u20132 days, sooner if symptoms persist."
+    }
+  ]
+}
