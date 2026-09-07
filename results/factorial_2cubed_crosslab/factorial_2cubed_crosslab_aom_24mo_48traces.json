@@ -1,0 +1,1068 @@
+{
+  "timestamp": "2026-09-07T21:32:04.769101+00:00",
+  "case": "aom_24mo",
+  "models": [
+    "terra",
+    "gemini-pro"
+  ],
+  "total_runs": 48,
+  "wall_clock_seconds": 110.2868537902832,
+  "traces": [
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 12.043000221252441,
+      "output_tokens": 740,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:**  \n- **Acute otitis media, right ear**: middle-ear effusion with moderate TM bulging and decreased mobility, in the setting of URI symptoms and fever.  \n- He is 24 months old with **unilateral, nonsevere AOM** (pain <48 hours, fever <39\u00b0C/102.2\u00b0F, well appearing, no otorrhea or mastoid findings).\n\n**Plan:**\n\n1. **Discuss observation (\u201cwatchful waiting\u201d) versus immediate antibiotics with parent.**  \n   Observation is appropriate because he is \u226524 months, has unilateral nonsevere AOM, is otherwise healthy, and appears well between discomfort episodes.\n\n   - Provide a **safety-net antibiotic prescription** or arrange reliable reassessment.\n   - Start antibiotics if ear pain or fever worsens, he develops ear drainage, or he is not clearly improving within **48\u201372 hours**.\n\n2. **Pain/fever control**\n   - Acetaminophen: **15 mg/kg/dose every 4\u20136 hours as needed** (maximum 5 doses/24 hours). For 12.4 kg: about **185 mg per dose**.\n   - OR ibuprofen if age >6 months and well hydrated: **10 mg/kg/dose every 6\u20138 hours as needed**. For 12.4 kg: about **125 mg per dose**.\n   - Emphasize that analgesia is important even if antibiotics are used.\n\n3. **If antibiotic treatment is chosen now or needed after observation:**  \n   - **High-dose amoxicillin 80\u201390 mg/kg/day PO divided twice daily for 7 days.**  \n   - For 12.4 kg: amoxicillin approximately **560 mg PO twice daily**. Using 400 mg/5 mL suspension, this is approximately **7 mL twice daily for 7 days**.  \n   - No allergy history and no recent amoxicillin exposure/concurrent purulent conjunctivitis, so amoxicillin is first line.\n\n4. **URI supportive care**\n   - Fluids, rest, saline nasal drops/suction as needed, humidified air.  \n   - Avoid OTC cough/cold medicines in this age group.\n\n5. **Return/urgent precautions**\n   - Recheck or call for no improvement by 48\u201372 hours, worsening pain/fever, new otorrhea, poor intake/dehydration, persistent fever, swelling/redness/tenderness behind the ear, ear protrusion, lethargy, breathing difficulty, or other parental concern.\n   - Routine follow-up if symptoms resolve is not required; reassess if recurrent infections or persistent hearing/speech concerns."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 13.734542846679688,
+      "output_tokens": 858,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear \u2014 diagnostic findings include moderate TM bulging, purulent/yellow middle-ear effusion, and decreased mobility. He is otherwise well appearing, has unilateral disease, mild/intermittent pain for <48 hours, and fever <39\u00b0C, so this is **nonsevere AOM**.\n\n**Plan**\n\n1. **Shared decision-making: observation vs immediate antibiotics**\n   - Because he is 24 months old with unilateral, nonsevere AOM and reliable follow-up, either option is reasonable.\n   - I would offer **watchful waiting for 48\u201372 hours** with good pain control, given that many cases improve without antibiotics.\n   - Provide a delayed (\u201csafety-net\u201d) prescription or arrange prompt reassessment if he is not clearly improving within 48\u201372 hours or worsens sooner.\n\n2. **If antibiotics are started**\n   - **Amoxicillin 90 mg/kg/day PO divided twice daily** (high-dose).\n   - Weight 12.4 kg: approximately **560 mg PO twice daily**.\n   - Using amoxicillin 400 mg/5 mL suspension: **7 mL by mouth twice daily for 7 days**.\n   - No need for amoxicillin-clavulanate currently because there is no purulent conjunctivitis, recent amoxicillin exposure, or recurrent AOM history.\n   - Counsel regarding diarrhea, rash, and to stop and seek care for signs of allergic reaction.\n\n3. **Pain/fever management**\n   - **Ibuprofen** 10 mg/kg every 6\u20138 hours as needed (if drinking well): about **120 mg per dose**; with 100 mg/5 mL liquid, about **6 mL per dose**.\n   - Or **acetaminophen** 15 mg/kg every 4\u20136 hours as needed: about **185 mg per dose**; with 160 mg/5 mL liquid, about **5.5\u20136 mL per dose**.\n   - Do not exceed labeled daily maximums; avoid aspirin.\n   - Encourage fluids; reduced appetite is acceptable if hydration is maintained.\n\n4. **Return/urgent precautions**\n   - Start the antibiotic or return for evaluation if fever, ear pain, fussiness, or overall condition is not improving after 48\u201372 hours.\n   - Seek urgent care for ear drainage, swelling/redness or tenderness behind the ear, ear protrusion, severe headache, stiff neck, lethargy, breathing difficulty, dehydration/poor urine output, persistent fever \u226539\u00b0C (102.2\u00b0F), or worsening appearance.\n\n5. **Follow-up**\n   - Routine follow-up is not required if symptoms fully resolve.\n   - Recheck if symptoms persist, recur frequently, hearing/speech concerns arise, or there is persistent middle-ear fluid beyond about 3 months."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 14.166513919830322,
+      "output_tokens": 946,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:**  \nAcute otitis media, right ear, in setting of viral URI. He has a definite middle-ear effusion with moderate TM bulging. He is well appearing and has **nonsevere illness** (fever <39\u00b0C, intermittent pain <48 hours, no otorrhea, no mastoid findings).\n\n**Plan:**\n\n1. **Discuss observation versus immediate antibiotics with parent**\n   - Because this is unilateral, nonsevere AOM in a well-appearing 24-month-old, either:\n     - **Watchful waiting for 48\u201372 hours** with reliable follow-up, or\n     - Treat now with antibiotics  \n     is appropriate.\n   - I would offer **watchful waiting / delayed prescription** if mother is comfortable and can return or contact us if he worsens.\n\n2. **Pain and fever control**\n   - Acetaminophen **15 mg/kg/dose PO every 4\u20136 hours as needed**  \n     - For 12.4 kg: about **185 mg per dose**.  \n   - Ibuprofen, if needed and taking fluids well: **10 mg/kg/dose PO every 6\u20138 hours as needed**  \n     - For 12.4 kg: about **125 mg per dose**.  \n   - Do not routinely alternate medicines; use one appropriately and avoid exceeding labeled daily limits.\n\n3. **If choosing immediate treatment, or if not improving after 48\u201372 hours / worsening**\n   - **Amoxicillin 90 mg/kg/day PO divided twice daily** for **5\u20137 days** (he is age 2 years with nonsevere disease).\n   - At 12.4 kg: approximately **560 mg PO twice daily**.  \n     - Using amoxicillin 400 mg/5 mL suspension: **7 mL by mouth twice daily** (\u2248560 mg/dose).\n   - Use amoxicillin-clavulanate instead if he had amoxicillin in the prior 30 days, has purulent conjunctivitis, or develops treatment failure.\n\n4. **Supportive URI care**\n   - Fluids, rest, saline nasal spray/drops and suction as needed.\n   - Avoid OTC cough/cold medicines and decongestants in this age group.\n   - No antibiotic ear drops are indicated without tubes, ear drainage, or TM perforation.\n\n5. **Return precautions**\n   Seek care promptly for:\n   - Ear swelling/redness behind the ear, ear pushed forward, or mastoid tenderness\n   - Persistent fever \u226539\u00b0C (102.2\u00b0F), fever lasting >48\u201372 hours, worsening pain, new ear drainage\n   - Lethargy, poor fluid intake, decreased urine output, breathing difficulty, vomiting, or parent concern.\n\n6. **Follow-up**\n   - Parent to call or return in **48\u201372 hours** if symptoms are not clearly improving, sooner for worsening symptoms.\n   - Routine recheck is not required if symptoms resolve; reassess persistent effusion/hearing concerns or recurrent infections."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 16.208563327789307,
+      "output_tokens": 697,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "It sounds like your little guy has a classic right ear infection (Acute Otitis Media). The bulging and yellow fluid behind his eardrum, combined with the tugging and fever, tell us exactly what's bothering him. The good news is that his left ear looks perfect, his lungs are clear, and he is well-hydrated and playful. \n\nHere is my recommended plan for him today:\n\n**1. Pain and Fever Control (Crucial First Step)**\nThe pain is usually the worst part of an ear infection. Since he is uncomfortable and has a low-grade fever, continue giving **Acetaminophen** (Tylenol) or **Ibuprofen** (Motrin/Advil). \n*   *For his weight (12.4 kg):* You can give him Ibuprofen (10 mg/kg) or Acetaminophen (10-15 mg/kg) as directed on the package for a 24-pound child. Ibuprofen is often excellent for ear pain because it also reduces inflammation, and it lasts a bit longer (6-8 hours).\n\n**2. Shared Decision-Making on Antibiotics (\"Watchful Waiting\")**\nBecause he is exactly 2 years old, the infection is only in one ear, and his symptoms are mild (fever is under 102.2\u00b0F / 39\u00b0C, and he's still happily playing), he is a perfect candidate for **observation or \"watchful waiting.\"**\n*   *Why observe?* Studies show that a large percentage of mild ear infections in kids his age are either viral or clear up entirely on their own thanks to their immune system. Holding off on antibiotics can save him from potential side effects like diarrhea, rash, or building up antibiotic resistance.\n*   *The \"Safety Net\" Prescription:* I will write you a prescription today for high-dose **Amoxicillin** (about 5.5 mL of the 400mg/5mL suspension, twice a day for 7 days). However, I recommend you **hold onto it and wait 48 hours**. If he is not getting better by the day after tomorrow, or if he suddenly gets worse (e.g., higher fever, crying constantly, stops drinking), you can go ahead and fill it without needing to come back to the clinic. \n\n**3. Supportive Care for the Cold**\nSince his ear infection stems from his 5-day cold, you can continue to use nasal saline drops and a cool-mist humidifier in his room to help drain the congestion. Encourage plenty of fluids. \n\n**4. When to Call Us or Return (Return Precautions)**\nPlease bring him back or call the clinic if:\n*   His fever spikes above 102.2\u00b0F (39\u00b0C) or lasts more than a few more days.\n*   He becomes unusually lethargic, difficult to wake, or stops drinking fluids.\n*   You see any redness, swelling, or pushing out of the earlobe/bone *behind* the ear (mastoiditis).\n*   You see gross pus/fluid draining out of the ear canal (indicating a ruptured eardrum). \n\nHow do you feel about trying the watchful waiting approach with the safety-net prescription? What questions can I answer for you?"
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 16.344048976898193,
+      "output_tokens": 1134,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear \u2014 moderate TM bulging with effusion and impaired mobility. He is non-toxic and has **nonsevere disease**: unilateral AOM, pain <48 hours and mild/intermittent, temperature <39\u00b0C, no otorrhea, mastoid findings, or significant systemic illness.\n\n## Plan\n\n### 1. Shared decision-making: observation is appropriate\nBecause he is 24 months old with unilateral, nonsevere AOM, I would offer **watchful waiting for 48\u201372 hours** with reliable follow-up rather than immediate antibiotics.\n\n- Provide a \u201csafety-net\u201d/delayed antibiotic prescription if that is the family\u2019s preferred approach and they can reliably follow instructions.\n- Start antibiotics sooner if pain clearly worsens, fever reaches **\u226539\u00b0C (102.2\u00b0F)**, ear drainage develops, he appears ill, or symptoms are not improving within 48\u201372 hours.\n\n### 2. Pain/fever treatment\nPain control is important regardless of whether antibiotics are used.\n\n- **Ibuprofen** (if well hydrated and no renal/GI contraindication): 10 mg/kg/dose every 6\u20138 hours as needed  \n  - For 12.4 kg: about **120 mg per dose**.\n- Or **acetaminophen**: 15 mg/kg/dose every 4\u20136 hours as needed  \n  - For 12.4 kg: about **185 mg per dose**.\n- Avoid cough/cold medications and decongestants; they do not treat AOM and can be harmful in this age group.\n\n### 3. If antibiotic treatment is chosen or needed\nFirst-line treatment, assuming no recent amoxicillin exposure and no purulent conjunctivitis:\n\n- **Amoxicillin 80\u201390 mg/kg/day PO divided twice daily for 7 days**\n  - For 12.4 kg: approximately **560 mg by mouth twice daily**\n  - Using 400 mg/5 mL suspension: **7 mL twice daily for 7 days**.\n\nIf he has had amoxicillin in the last 30 days, has concurrent purulent conjunctivitis, or has failed amoxicillin recently, use **high-dose amoxicillin-clavulanate** instead.\n\n### 4. Return precautions\nSeek urgent evaluation for:\n- Redness/swelling/tenderness behind the ear, ear protrusion, stiff neck, severe headache, lethargy, dehydration, persistent vomiting, breathing concerns, or toxic appearance.\n- Fever \u226539\u00b0C, worsening pain, new ear drainage, or no improvement after 48\u201372 hours.\n- If antibiotics are started, reassess if he is not improving after 48\u201372 hours.\n\n## Missing information that could change the plan\nNo additional information is required to make a reasonable initial plan, but I would specifically confirm:\n\n1. **Can the family reliably observe him and obtain follow-up in 48\u201372 hours?**  \n   If not, immediate antibiotics are preferable.\n\n2. **Any amoxicillin or other antibiotic use in the past 30 days?**  \n   This would favor amoxicillin-clavulanate rather than amoxicillin.\n\n3. **Any purulent eye drainage/conjunctivitis?**  \n   This also favors amoxicillin-clavulanate.\n\n4. **Exact severity/duration of ear pain and whether fever has reached \u226539\u00b0C at home.**  \n   Moderate/severe pain, pain lasting \u226548 hours, or fever \u226539\u00b0C would make immediate antibiotics appropriate.\n\n5. **History of recurrent AOM, tympanostomy tubes, immune compromise, craniofacial anomalies, cochlear implant, or prior complications.**  \n   These would lower the threshold for immediate treatment and/or ENT involvement.\n\nWith the information provided and reliable follow-up, my preferred plan is observation plus scheduled analgesia, with a delayed amoxicillin prescription/safety-net plan."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 17.665043115615845,
+      "output_tokens": 766,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Impression:** \nRight-sided Acute Otitis Media (AOM). \nThe patient is 24 months old with non-severe symptoms (fever < 102.2\u00b0F/39\u00b0C, mild pain for < 48 hours) and unilateral involvement. \n\n**Plan:**\n\n**1. Shared Decision Making (Antibiotics vs. Watchful Waiting):**\nBecause he is 2 years old, the infection is only in one ear, and his symptoms are not severe, he meets the AAP guidelines for either immediate antibiotic therapy OR a 48-72 hour period of watchful waiting with a \"Safety-Net\" (Wait-and-See) prescription. \n\nI will discuss these options with his mother. Given that he is still playing, smiling, and staying hydrated, **watchful waiting is highly appropriate**. I will provide the prescription today but instruct her to only fill it if his pain or fever does not improve, or worsens, in the next 48 hours.\n\n**2. Antibiotic Prescription (if starting today or using as backup):**\nSince he has no drug allergies and no recent history of amoxicillin use, high-dose Amoxicillin is first-line.\n*   **Dose:** 90 mg/kg/day divided BID. (Weight: 12.4 kg = ~1,116 mg/day = 558 mg/dose).\n*   **Rx:** Amoxicillin 400 mg/5 mL suspension. \n*   **Sig:** Give 7 mL by mouth twice daily for 7 days. (A 7-day course is appropriate for children $\\ge$ 2 years old with non-severe AOM).\n\n**3. Pain and Fever Control:**\nThe main priority right now is keeping him comfortable. I will recommend scheduling pain medication for the next 48 hours rather than waiting for him to cry.\n*   **Ibuprofen (Motrin/Advil):** 10 mg/kg/dose. Give 125 mg (approx. 6.25 mL of children's 100mg/5mL suspension) every 6-8 hours as needed. \n*   **Acetaminophen (Tylenol):** 15 mg/kg/dose. Give 185 mg (approx. 5.75 mL of children's 160mg/5mL suspension) every 4-6 hours as needed.\n\n**4. Supportive Care:**\n*   Encourage continued fluid intake to prevent dehydration.\n*   Elevating the head of his bed slightly or using a humidifier may help with his lingering cold symptoms and ear pressure.\n\n**5. Return Precautions & Follow-up:**\nI will counsel the mother to bring him back to clinic or go to the ER if he develops:\n*   Fever $\\ge$ 102.2\u00b0F (39\u00b0C) that does not come down with medication.\n*   Lethargy, extreme irritability, or inability to keep fluids down.\n*   Swelling, redness, or pain behind the ear (mastoiditis).\n*   Drainage coming from the ear canal (TM rupture).\n*   No improvement after 48-72 hours on antibiotics (if started), which may require switching to Amoxicillin-Clavulanate (Augmentin). \n\nNo routine follow-up is strictly necessary if he clears the infection, but they can follow up in 2-3 weeks if there are lingering concerns about his hearing or fluid in the ear."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_1_none",
+      "cell_name": "1. None (Baseline)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic.",
+      "latency_s": 19.508967876434326,
+      "output_tokens": 900,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Here is the clinical assessment and plan, followed by how I would discuss it with the mother. \n\n### **Assessment & Plan**\n**Diagnosis:** Unilateral Acute Otitis Media (AOM), right ear, non-severe.\n**Reasoning:** The patient has a secure diagnosis of right AOM based on a bulging TM, yellow effusion, and poor mobility, preceded by a viral URI. He is 24 months old, has unilateral disease, and meets criteria for \"non-severe\" illness (fever is < 102.2\u00b0F / 39\u00b0C, mild otalgia, well-appearing, alert, and playing).\n\n**Plan:**\n1. **Shared Decision Making (Observation vs. Immediate Antibiotics):** Per AAP guidelines for children \u2265 24 months with non-severe, unilateral AOM, observation with watchful waiting for 48-72 hours is an appropriate first-line approach to reduce unnecessary antibiotic use. I will offer the mother a \"Safety-Net\" Antibiotic Prescription (SNAP) or the option to start antibiotics today.\n2. **Antibiotic (if utilized):** Amoxicillin (first-line, as he has no allergies and no recent antibiotic use). \n   * *Dose:* 90 mg/kg/day divided BID. Weight is 12.4 kg = 1,116 mg/day.\n   * *Rx:* Amoxicillin 400 mg/5 mL suspension; Give 7 mL PO twice daily for 7 days. \n3. **Pain/Fever Control:** Maximize supportive care. \n   * Ibuprofen (100 mg/5 mL): Give 6 mL every 6-8 hours as needed for pain/fever.\n   * Acetaminophen (160 mg/5 mL): Give 6 mL every 4-6 hours as needed for pain/fever.\n4. **Follow-up / Return Precautions:** Call or return to clinic if symptoms worsen, if he develops high fever (> 102.2\u00b0F), lethargy, vomiting, redness/swelling behind the ear, or if there is no improvement after 48-72 hours. \n\n***\n\n### **Conversation with the Mother:**\n\n\"Thank you for bringing him in. You were absolutely right to have him checked. When I looked in his right ear, I saw some fluid and bulging behind his eardrum, which tells me he has an ear infection. His left ear looks perfectly healthy. \n\nBecause he is two years old, his symptoms are mild, his fever isn't dangerously high, and he is still playing and smiling, we actually have two options for how to treat this. \n\nA lot of ear infections at this age are caused by viruses from the cold he just had, and his immune system can often fight it off on its own within two to three days. \n* **Option one** is what we call 'watchful waiting.' We focus on keeping him comfortable with pain medicine, and I give you a prescription for antibiotics today, but you only fill it if he isn't getting better in 48 to 72 hours, or if he gets worse. \n* **Option two** is that we just go ahead and start the antibiotic today. \n\nGiven how good he looks right now, I highly recommend the watchful waiting approach to save him from the side effects of antibiotics, like diarrhea or upset stomach, if he doesn't truly need them. How do you feel about that approach?\n\n*(Assuming she agrees to watchful waiting)*: \nGreat. The most important thing for the next two days is pain control. The ear hurts the most when he lies down to sleep, which is why he was fussy last night. You can alternate Ibuprofen and Acetaminophen\u2014I'll print out a dosing chart based on his exact weight today (12.4 kg) so you know exactly how much of the liquid to give. \n\nIf he suddenly spikes a higher fever, stops drinking fluids, gets extremely lethargic, if you notice redness or swelling *behind* his ear, or if we hit day three and he is still miserable, I want you to fill this antibiotic prescription and give us a call to let us know.\""
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 19.99420690536499,
+      "output_tokens": 1454,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear. He meets diagnostic criteria with a bulging TM, middle-ear effusion, and reduced mobility. He is otherwise well appearing and has **nonsevere** illness: unilateral AOM, no otorrhea, fever below 39\u00b0C/102.2\u00b0F, and apparently mild/intermittent otalgia for <48 hours.\n\n## Plan\n\n### 1. Shared decision-making: observation (\u201cwatchful waiting\u201d) is appropriate\nBecause he is 24 months old with unilateral, nonsevere AOM and reliable parent observation appears feasible, I would offer either:\n\n- **Observe with pain control for 48\u201372 hours**, with a delayed antibiotic prescription if symptoms fail to improve or worsen, **or**\n- Treat now with antibiotics if the family strongly prefers, follow-up is uncertain, or his pain/severity is greater than currently described.\n\nMy usual recommendation from this history would be **watchful waiting with a safety-net prescription**.\n\n### 2. Pain/fever treatment\nPain control is important regardless of whether antibiotics are used.\n\n- **Ibuprofen:** 10 mg/kg orally every 6\u20138 hours as needed (if drinking well and no kidney disease/dehydration).  \n  - For 12.4 kg: about **120 mg per dose**.  \n- **Acetaminophen:** 10\u201315 mg/kg orally every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **125\u2013185 mg per dose**.  \n\nUse the product concentration on hand to calculate mL carefully; avoid exceeding labeled daily maximums. Do not use aspirin. Avoid OTC cough/cold medicines and decongestants\u2014they do not treat AOM and can be harmful in toddlers.\n\n### 3. Delayed antibiotic if not improving\nStart antibiotics if he has persistent significant ear pain or fever after **48\u201372 hours**, worsening symptoms at any point, or new ear drainage.\n\nIf treatment is needed and there has been **no amoxicillin in the prior 30 days** and no purulent conjunctivitis:\n\n- **Amoxicillin 80\u201390 mg/kg/day divided twice daily**\n- At 12.4 kg: approximately **560 mg by mouth twice daily**\n  - Example with 400 mg/5 mL suspension: **7 mL twice daily**\n- Duration: **5\u20137 days** (I would use 5 days for a mildly ill 2-year-old; 7 days is also reasonable depending on local practice and clinical course).\n\nIf he had amoxicillin in the past 30 days, has concurrent purulent conjunctivitis, or has recurrent AOM not responding to amoxicillin, I would use **amoxicillin-clavulanate** instead. A true severe penicillin allergy would require an alternative agent.\n\n### 4. Return precautions\nSeek urgent evaluation for:\n- Redness/swelling/tenderness behind the ear, ear pushed forward, or severe headache (mastoiditis concern)\n- Lethargy, stiff neck, breathing difficulty, dehydration, persistent vomiting\n- Fever \u226539\u00b0C/102.2\u00b0F or escalating pain\n- Ear drainage\n- No improvement after 48\u201372 hours of observation or antibiotics\n\nRoutine ear recheck is not necessary if symptoms resolve. Reevaluate if hearing concerns, speech delay, recurrent episodes, or persistent effusion/symptoms develop.\n\n## Missing information that could change the plan\nThe key missing details are:\n\n1. **Can the family reliably observe him and obtain follow-up within 48\u201372 hours?**  \n   If not, I would treat immediately rather than observe.\n\n2. **Exact pain severity and duration:**  \n   Moderate/severe otalgia or pain lasting **\u226548 hours** would make this \u201csevere\u201d AOM and favor immediate antibiotics.\n\n3. **Recent antibiotic exposure:**  \n   Specifically, amoxicillin in the past 30 days would change first-line therapy to amoxicillin-clavulanate.\n\n4. **Purulent conjunctivitis:**  \n   This would also favor amoxicillin-clavulanate because of likely beta-lactamase-producing *H. influenzae*.\n\n5. **History of recurrent AOM, tympanostomy tubes, immunocompromise, craniofacial anomalies, or significant chronic disease:**  \n   These would lower the threshold for immediate treatment and/or alter follow-up.\n\nBased on the information provided, none of these are identified, so observation with analgesia and a delayed amoxicillin prescription is a reasonable plan."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 13.74351692199707,
+      "output_tokens": 1007,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "This is **acute otitis media (AOM)** of the right ear: bulging TM with effusion and fever. He is 24 months old, has unilateral disease, is nontoxic/interactive, has no otorrhea, and does not meet \u201csevere\u201d criteria (no fever \u226539\u00b0C/102.2\u00b0F and no moderate/severe or prolonged otalgia).\n\n## Plan\n\n### 1. Shared decision-making: observation is appropriate\nOffer **watchful waiting for 48\u201372 hours** with reliable follow-up, because he has nonsevere unilateral AOM and is clinically well appearing.\n\n- Treat pain/fever:\n  - **Ibuprofen** 10 mg/kg/dose PO every 6\u20138 hours as needed (if well hydrated): about **120 mg/dose** for 12.4 kg.\n  - Or **acetaminophen** 15 mg/kg/dose PO every 4\u20136 hours as needed: about **185 mg/dose**.\n- Encourage fluids; appetite may be reduced temporarily.\n- Avoid OTC cough/cold medications in this age group.\n- Reassess or begin antibiotics if symptoms are not improving or worsen after **48\u201372 hours**, or sooner for concerning symptoms.\n\nA delayed (\u201csafety-net\u201d) prescription can be provided if follow-up access is uncertain.\n\n### 2. If antibiotics are chosen now, or needed after observation\nFirst-line treatment would be:\n\n- **Amoxicillin 90 mg/kg/day divided twice daily**  \n  For 12.4 kg: approximately **560 mg PO twice daily**.  \n  With amoxicillin 400 mg/5 mL suspension: **7 mL PO twice daily**.\n- Duration: **5\u20137 days** for a nonsevere child age 2 years or older.\n\n### 3. Return/urgent-care precautions\nSeek care promptly for:\n- Increasing ear pain, persistent fever, or no improvement by 48\u201372 hours\n- Ear drainage\n- Swelling/redness/tenderness behind the ear, ear pushed forward, stiff neck, severe headache, lethargy, dehydration, or respiratory distress.\n\nRoutine recheck is not necessary if symptoms resolve. Middle-ear fluid may persist after infection; evaluate if effusion/hearing concerns persist for about 3 months.\n\n## Missing information that could change the plan\nNo additional information is required to safely choose observation with analgesia, **provided the family can obtain reassessment within 48\u201372 hours**. However, I would specifically ask:\n\n1. **Can the caregiver reliably follow up and obtain medication if symptoms worsen?**  \n   - If not, immediate antibiotics are more reasonable.\n\n2. **Any amoxicillin or other antibiotic exposure in the last 30 days?**\n   - If yes, choose **amoxicillin-clavulanate** rather than amoxicillin.\n\n3. **Purulent conjunctivitis now or recently?**\n   - If present, use **amoxicillin-clavulanate**, since this suggests beta-lactamase-producing *H. influenzae*.\n\n4. **History of recurrent AOM, chronic ear disease, tympanostomy tubes, immune compromise, craniofacial anomaly, or significant hearing/speech concerns?**\n   - These would lower the threshold for immediate treatment and/or closer follow-up.\n\n5. **Exact severity and duration of ear pain**\u2014especially whether pain has been moderate/severe or present for \u226548 hours.\n   - That would make this \u201csevere AOM\u201d and favor immediate antibiotics."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 11.989339113235474,
+      "output_tokens": 814,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Right acute otitis media (AOM) with concurrent viral URI symptoms. He is well appearing, has unilateral disease, pain for <48 hours, and temperature <39\u00b0C, so this is **nonsevere AOM**. No mastoid findings or ear drainage.\n\n**Plan**\n\n1. **Pain/fever control**\n   - Acetaminophen **15 mg/kg/dose PO every 4\u20136 hours as needed** (max 5 doses/24 hr).\n     - For 12.4 kg: about **185 mg per dose**.\n   - Ibuprofen may be used if he is drinking well and has no contraindication: **10 mg/kg/dose PO every 6\u20138 hours as needed** (for 12.4 kg: about **125 mg/dose**; avoid if dehydrated).\n   - Comfort measures: fluids, rest; avoid inserting anything or using OTC ear drops unless specifically advised.\n\n2. **Observation / delayed-antibiotic approach**\n   - Discuss shared decision-making with mother. Because he is 24 months old with unilateral, nonsevere AOM and reliable follow-up, **watchful waiting for 48\u201372 hours** is appropriate.\n   - Continue analgesics and monitor symptoms.\n   - Start antibiotics if ear pain is not improving within 48\u201372 hours, fever persists/worsens, new ear drainage occurs, or he becomes more ill.\n\n3. **Safety-net antibiotic prescription**\n   - If symptoms fail to improve or worsen as above, treat with:\n     - **Amoxicillin 90 mg/kg/day divided twice daily for 7 days**\n     - For his weight: **amoxicillin 400 mg/5 mL suspension, 7 mL by mouth twice daily for 7 days** (approximately 560 mg/dose BID).\n   - If there has been amoxicillin use in the prior 30 days or purulent conjunctivitis is identified, use **amoxicillin-clavulanate** instead; reassess dosing/formulation at that time.\n\n4. **URI care**\n   - Encourage fluids and usual diet as tolerated.\n   - Saline nasal drops/spray and gentle suction or blowing for congestion.\n   - Avoid OTC cough/cold medicines in this age group.\n\n5. **Return/urgent precautions**\n   - Seek care promptly for swelling/redness/tenderness behind the ear, ear protrusion, persistent high fever or fever \u226539\u00b0C/102.2\u00b0F, increasing lethargy, stiff neck, breathing difficulty, inability to drink, reduced urine output, repeated vomiting, new ear drainage, or worsening pain.\n   - Recheck in clinic if not clearly improving within **48\u201372 hours**, sooner for concerns."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 14.405626058578491,
+      "output_tokens": 1021,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, in the setting of viral upper-respiratory symptoms. He has definite middle-ear effusion with moderate TM bulging. He is 24 months old with unilateral disease and nonsevere symptoms (fever <39\u00b0C, ear pain <48 hours, comfortable/interactive between episodes, no otorrhea or mastoid findings).\n\n## Plan\n\n### 1. Shared decision-making: observation is appropriate\nOffer **watchful waiting for 48\u201372 hours** with reliable follow-up, since he is \u226524 months, has unilateral nonsevere AOM, and is otherwise well appearing.\n\n- Treat pain/fever now.\n- Mother should contact/return if ear pain or fever is not clearly improving within **48\u201372 hours**, or sooner if worsening.\n- A delayed (\u201csafety-net\u201d) antibiotic prescription can be provided if access to reassessment is difficult, with instructions to start it only if he fails to improve or worsens after 48\u201372 hours.\n\n### 2. Pain and fever control\nPain treatment is important regardless of whether antibiotics are used.\n\n- **Acetaminophen:** 15 mg/kg/dose by mouth every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **185 mg/dose**.  \n  - With 160 mg/5 mL liquid: approximately **5.5\u20136 mL per dose**.  \n  - Do not exceed the product\u2019s daily maximum or give more frequently than directed.\n\n- **Ibuprofen:** 10 mg/kg/dose by mouth every 6\u20138 hours as needed, if he remains well hydrated.  \n  - For 12.4 kg: about **125 mg/dose**.  \n  - With 100 mg/5 mL liquid: approximately **6 mL per dose**.\n\nUse one medicine at a time as needed; avoid routine alternating schedules unless caregivers can do so safely. Do not use OTC cough/cold medicines in this age group.\n\n### 3. If antibiotics are started\nBefore choosing therapy, clarify whether he has had **amoxicillin in the past 30 days** or has **purulent conjunctivitis**, as either would favor amoxicillin-clavulanate instead.\n\nIf neither is present, use:\n\n- **Amoxicillin 80\u201390 mg/kg/day divided twice daily for 7 days**\n  - Example: amoxicillin 400 mg/5 mL suspension, **6.25 mL by mouth twice daily for 7 days**  \n  - This provides 500 mg twice daily (about 81 mg/kg/day).\n\nIf recent amoxicillin exposure or concurrent purulent conjunctivitis is identified, use high-dose **amoxicillin-clavulanate** instead.\n\n### 4. URI supportive care\n- Encourage fluids; reduced appetite is acceptable if fluid intake and urine output remain adequate.\n- Nasal saline and suction/blowing as tolerated for congestion.\n- No antibiotic treatment is needed specifically for the cold symptoms.\n\n### 5. Return precautions\nSeek urgent evaluation for:\n- Increasing ear pain, persistent fever, or no improvement by 48\u201372 hours\n- New ear drainage\n- Swelling, redness, tenderness, or protrusion behind the ear\n- Lethargy, inconsolability, stiff neck, breathing difficulty, dehydration/markedly reduced urination, or other concerning clinical worsening.\n\nNo routine follow-up is required if symptoms resolve, but recheck is appropriate for persistent symptoms or parental concern."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 18.62941002845764,
+      "output_tokens": 860,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "As a pediatrician, my diagnosis for this patient is **unilateral, non-severe Acute Otitis Media (AOM)**. \n\nAccording to AAP guidelines, because he is exactly 24 months old, has unilateral disease, and lacks severe symptoms (his temperature is < 39\u00b0C / 102.2\u00b0F, and his pain is mild/intermittent), he is an excellent candidate for watchful waiting with a delayed antibiotic prescription. \n\nHowever, before finalizing this plan, I need to clarify a few missing pieces of information that could drastically change my management:\n\n### Missing Information That Would Change My Plan:\n1. **Recent Antibiotic Use:** Has he taken any antibiotics (specifically amoxicillin) in the past 30 days? \n   * *Why it matters:* If yes, he is at risk for resistant organisms, and if we decide to treat, I would need to prescribe high-dose Amoxicillin-Clavulanate (Augmentin) instead of Amoxicillin.\n2. **History of Recurrent Ear Infections:** How many ear infections has he had in his life? \n   * *Why it matters:* If he has had $\\ge$ 3 in the last 6 months, or $\\ge$ 4 in the last 12 months (with at least one in the last 6 months), he meets the criteria for an ENT referral for tympanostomy tubes.\n3. **Presence of Eye Discharge:** Has he had any crusty or goopy eyes with this cold? \n   * *Why it matters:* Otitis-conjunctivitis syndrome is typically caused by non-typeable *Haemophilus influenzae*, which produces beta-lactamase. This would require Augmentin instead of Amoxicillin. \n4. **Reliability/Access to Follow-up:** Can the mother easily access a pharmacy in 48 hours, and does she feel comfortable observing him?\n   * *Why it matters:* Watchful waiting requires a reliable safety net. If the family has poor access to care, transportation issues, or high anxiety about observing, I would opt for an immediate antibiotic prescription. \n\n---\n\n### My Plan (Assuming the answers to the above are negative/normal):\n\n**1. Shared Decision Making:** \nI would discuss two options with the mother, highly recommending **Observation (Watchful Waiting)**. Since this is a mild, unilateral infection in a 2-year-old, his immune system will likely clear it on its own within 48-72 hours without the side effects of antibiotics (diarrhea, rash, resistance).\n\n**2. Delayed \"Safety Net\" Prescription:**\nI will provide a prescription for **Amoxicillin** and instruct the mother to fill it *only* if he does not improve, or if he worsens (e.g., higher fever, severe pain) after 48 to 72 hours.\n* *Dose:* Amoxicillin 90 mg/kg/day. \n* *Calculation for 12.4 kg:* ~1,116 mg/day divided BID. \n* *Rx:* Amoxicillin 400 mg / 5 mL suspension. Give 7 mL (560 mg) by mouth twice daily for 7 days.\n\n**3. Pain Management:**\nI will validate that pain control is the most important intervention right now. \n* Continue Acetaminophen every 4-6 hours as needed.\n* Alternatively, use Ibuprofen (approx. 120 mg / 6 mL of the 100mg/5mL suspension) every 6-8 hours, which may work better for inflammatory ear pain.\n\n**4. Return Precautions:**\nCall or return to clinic if he develops a fever $\\ge$ 102.2\u00b0F (39\u00b0C), becomes lethargic, develops swelling behind the ear (mastoiditis), or has fluid/blood draining from the ear (TM rupture). Otherwise, routine follow-up at his 2-year well-child check."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 16.427945137023926,
+      "output_tokens": 666,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Here is how I would approach this patient as a pediatrician, along with the missing information that could change my management:\n\n### **Current Assessment and Plan**\n**Diagnosis:** Right-sided Acute Otitis Media (AOM). The exam confirms AOM (moderate bulging, yellow effusion, poor mobility). \n\n**Plan:** Because this child is **24 months old**, has **unilateral** disease, and **lacks severe symptoms** (temperature is < 102.2\u00b0F / 39\u00b0C, and he has mild, intermittent pain of < 48 hours duration), he is an excellent candidate for **Watchful Waiting / Observation**. \n*   **Pain Control:** I would recommend optimizing analgesia with weight-based ibuprofen or acetaminophen.\n*   **Safety-Net Prescription:** I would offer the mother a \"wait-and-see\" prescription for high-dose Amoxicillin (80-90 mg/kg/day). I would instruct her to fill it only if his symptoms fail to improve or worsen after 48 to 72 hours. \n*   **Alternative:** If the mother prefers immediate treatment after a shared decision-making discussion, starting Amoxicillin today is also an acceptable and guideline-concordant option.\n\n---\n\n### **Missing Information That Would Change My Plan**\n\n1. **Antibiotic use in the past 30 days**\n   * *Why it changes the plan:* If he has taken amoxicillin in the last month, he is at higher risk for harboring beta-lactamase-producing organisms (like *H. influenzae* or *M. catarrhalis*). I would change the antibiotic choice from Amoxicillin to **Amoxicillin-clavulanate (Augmentin)**.\n\n2. **Presence of eye discharge / conjunctivitis**\n   * *Why it changes the plan:* If he also has purulent eye drainage (Otitis-Conjunctivitis Syndrome), the most likely pathogen is non-typeable *H. influenzae*. I would bypass standard Amoxicillin and prescribe **Amoxicillin-clavulanate**.\n\n3. **History of recurrent ear infections**\n   * *Why it changes the plan:* If he meets the criteria for recurrent AOM (\u22653 episodes in 6 months, or \u22654 episodes in 12 months with at least 1 in the past 6 months), I would lean toward immediate treatment and place a referral to Pediatric ENT for tympanostomy tube evaluation.\n\n4. **Underlying medical conditions or craniofacial abnormalities**\n   * *Why it changes the plan:* The AAP guidelines for observation only apply to otherwise healthy children. If he has a cleft palate, Down syndrome, immunodeficiency, or a cochlear implant, Watchful Waiting is contraindicated, and I would start antibiotics immediately.\n\n5. **Caregiver reliability and access to care**\n   * *Why it changes the plan:* Watchful waiting requires a caregiver who can closely monitor the child, recognize worsening symptoms, and easily access a pharmacy if the child declines. If the mother expresses discomfort with observation, has transportation issues, or is unlikely to follow up, I would prescribe immediate antibiotics."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 13.250208139419556,
+      "output_tokens": 995,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear \u2014 supported by moderate TM bulging, purulent/yellow middle-ear effusion, and reduced mobility. He is 24 months old with unilateral disease, symptoms for <48 hours, fever <39\u00b0C, and no clearly severe otalgia, so he is eligible for either observation or immediate antibiotics depending on shared decision-making and follow-up reliability.\n\n## Plan\n\n1. **Pain/fever control (start now)**\n   - Acetaminophen **15 mg/kg/dose** PO every 4\u20136 hours as needed  \n     - For 12.4 kg: about **185 mg/dose** (do not exceed labeled daily maximum).\n   - OR ibuprofen **10 mg/kg/dose** PO every 6\u20138 hours as needed (age >6 months and taking fluids)  \n     - For 12.4 kg: about **125 mg/dose**.\n   - The goal is comfort; fever itself does not need to be completely eliminated.\n\n2. **Shared decision: observation with safety-net antibiotic prescription is reasonable**\n   - Because he is comfortable between episodes, has unilateral AOM, and does not currently meet severe-disease criteria, I would offer **watchful waiting for 48\u201372 hours** with analgesics.\n   - Provide a delayed antibiotic prescription to start if:\n     - Ear pain or fever persists beyond 48\u201372 hours,\n     - Symptoms worsen at any time, or\n     - Follow-up cannot be arranged/reliably obtained.\n\n3. **If antibiotic therapy is chosen now, or if symptoms fail to improve**\n   - First confirm whether he has had **amoxicillin in the past 30 days** or has **purulent conjunctivitis**; these details are not provided and affect antibiotic selection.\n   - If neither is present and there is no penicillin allergy:\n     - **Amoxicillin 80\u201390 mg/kg/day PO divided twice daily for 7 days.**\n     - For 12.4 kg: approximately **500\u2013560 mg twice daily**.\n     - Example: amoxicillin 400 mg/5 mL suspension, **6.25 mL PO twice daily for 7 days** (500 mg/dose; ~81 mg/kg/day).\n   - If amoxicillin was used in the prior 30 days or purulent conjunctivitis is present, use **high-dose amoxicillin-clavulanate** instead.\n   - If there is a drug allergy, clarify the reaction before selecting an alternative.\n\n4. **Return/urgent precautions**\n   Seek prompt reassessment for:\n   - Worsening pain, persistent fever, or no improvement after 48\u201372 hours;\n   - New ear drainage;\n   - Redness/swelling/tenderness behind the ear, ear protrusion, severe headache, stiff neck, lethargy, poor fluid intake, decreased urination, breathing concerns, or other significant clinical deterioration.\n\n5. **Follow-up**\n   - Telephone/clinic follow-up in **48\u201372 hours** if observing or if not improving on antibiotics.\n   - Routine immediate repeat ear examination is not required if symptoms fully resolve. Reassess if hearing, speech, or persistent effusion concerns arise; persistent middle-ear fluid for about **3 months** warrants evaluation."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_2_A_only",
+      "cell_name": "2. A only (Query)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan?",
+      "latency_s": 20.51878595352173,
+      "output_tokens": 898,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "As a pediatrician, my diagnosis for this patient is **Acute Otitis Media (AOM)** of the right ear. He meets the strict criteria: acute onset, middle ear effusion, and moderate bulging of the tympanic membrane. \n\nBecause he is exactly 24 months old, has unilateral disease, and his symptoms are non-severe (mild pain, still playing, temperature < 102.2\u00b0F/39\u00b0C), he is an excellent candidate for **observation (watchful waiting) with a safety-net prescription.**\n\nHowever, before finalizing that plan, here is the **missing information that would change my management:**\n\n### Missing Information That Would Change the Plan\n1. **Recent antibiotic use:** Has he been treated with Amoxicillin (or another antibiotic) in the past 30 days? \n   * *Why it matters:* If yes, I would bypass Amoxicillin and prescribe Amoxicillin-Clavulanate (Augmentin) to cover resistant *Streptococcus pneumoniae* or beta-lactamase producing organisms.\n2. **Concurrent purulent conjunctivitis:** Does he have thick, crusty eye drainage?\n   * *Why it matters:* Otitis-conjunctivitis syndrome is typically caused by non-typeable *Haemophilus influenzae*. The first-line treatment changes from Amoxicillin to Augmentin.\n3. **History of recurrent AOM or Tympanostomy tubes:** Has he had $\\ge$ 3 ear infections in 6 months, or $\\ge$ 4 in a year? Does he have tubes? \n   * *Why it matters:* If he has a history of recurrent AOM, I would lean away from observation and prescribe antibiotics immediately, and potentially place an ENT referral. (The exam notes no drainage, so functional tubes are unlikely).\n4. **Caregiver's ability to follow up and preference:** Can the mother easily access the pharmacy or clinic if he worsens in 2-3 days?\n   * *Why it matters:* Watchful waiting requires a reliable caregiver. If she has no transportation, poor health literacy, or is highly anxious and strongly prefers immediate treatment after shared decision-making, I will prescribe immediate antibiotics.\n\n---\n\n### My Plan (Assuming the missing history is negative)\n\n**1. Shared Decision Making & Watchful Waiting (WASP / Safety-Net Rx)**\n*   I will discuss with the mother that at 24 months old, his immune system will likely clear this unilateral ear infection on its own without antibiotics.\n*   I will provide a **Safety-Net Prescription for Amoxicillin**. I will instruct her *not* to fill it today. She should fill it only if his symptoms (fever, pain) do not improve or if they worsen after 48 to 72 hours.\n\n**2. Medication (If antibiotics are used/filled)**\n*   **Amoxicillin 90 mg/kg/day divided BID for 7 days.** \n    *   *Calculation:* 12.4 kg x 90 mg = 1,116 mg/day. Divided by 2 = 558 mg per dose. \n    *   *Rx:* Amoxicillin 400 mg / 5 mL suspension. Give **7 mL by mouth twice daily for 7 days**. (Since he is 24 months and non-severe, a 5-7 day course is adequate; 10 days is no longer strictly required for this age).\n\n**3. Symptomatic Management (Crucial for the observation period)**\n*   Continue **Acetaminophen** (15 mg/kg every 6 hours as needed) or switch to **Ibuprofen** (10 mg/kg every 6-8 hours as needed) for pain and fever control. I will provide a dosing chart based on his 12.4 kg weight.\n*   Encourage continued fluids.\n\n**4. Follow-up**\n*   Call or return to the clinic if he develops a higher fever (>102.2\u00b0F), becomes lethargic, develops swelling behind the ear (mastoiditis), or has fluid draining from the ear.\n*   Otherwise, follow up at his next well-child check."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 16.45538902282715,
+      "output_tokens": 663,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "Based on your son's history and my exam, he has a classic right-sided ear infection (acute otitis media). \n\nBecause he is exactly 24 months old, the infection is only in one ear, his fever is under 102.2\u00b0F (39\u00b0C), and his pain appears mild, we have two safe and appropriate options for how to proceed, which I like to decide together with parents:\n\n**1. Observation with a \"Safety-Net\" Prescription (Watch and Wait):**\nBecause many mild ear infections in children his age are viral or will resolve on their own without antibiotics, we can hold off on starting antibiotics right now. I will give you a prescription for antibiotics today, but you only fill it if he does not improve, or if his symptoms worsen, in the next 48 to 72 hours. \n*OR*\n**2. Start Antibiotics Today:**\nWe can go ahead and start an antibiotic immediately to treat the infection. \n\n**My Recommendation & Plan:**\nGiven how well he is acting, I highly recommend the **Watch and Wait** approach. However, if you prefer to start antibiotics today, or if you end up needing to use the safety-net prescription, here is the plan:\n\n*   **Antibiotic:** Amoxicillin is the first-line choice since he doesn't have any allergies and hasn't had recent antibiotics. \n    *   *Dose:* At his weight (12.4 kg), he needs a high dose of 90 mg/kg/day. I will prescribe Amoxicillin 400 mg/5 mL suspension. Give **7 mL by mouth twice a day for 7 days**. \n*   **Pain & Fever Control:** The most important thing right now is keeping him comfortable. Continue giving Acetaminophen (Tylenol) or you can switch to Ibuprofen (Motrin/Advil).\n    *   *Ibuprofen (100 mg/5 mL):* Give 6 mL every 6 to 8 hours as needed.\n    *   *Acetaminophen (160 mg/5 mL):* Give 5.5 mL every 4 to 6 hours as needed.\n*   **Supportive Care:** Keep offering plenty of fluids. It's okay if his appetite for solid foods is a little decreased right now, as long as he is staying hydrated. \n\n**Reasons to Call or Return Sooner:**\nPlease call the clinic or bring him back if his fever spikes above 102.2\u00b0F, if he develops severe pain, if you see fluid or pus draining from the ear, if he becomes lethargic, or if he isn't improving after 48-72 hours on antibiotics. \n\nOtherwise, I'd like to see him back in the clinic in about **2 to 3 months** for a quick ear check to make sure the fluid behind his eardrum has completely cleared up, which is important for his hearing and speech development. \n\nHow does this plan sound to you, and would you prefer to watch and wait or start the antibiotics today?"
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 13.242780923843384,
+      "output_tokens": 859,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, associated with viral upper-respiratory symptoms. He is 24 months old with **unilateral AOM and non-severe symptoms** (fever <39\u00b0C/102.2\u00b0F, mild/intermittent pain, well appearing, no otorrhea), so either observation or immediate antibiotics is reasonable with reliable follow-up.\n\n### Plan\n\n1. **Pain/fever control**\n   - **If he seems uncomfortable or has fever**, give:\n     - **Acetaminophen** 15 mg/kg every 4\u20136 hours as needed (maximum 5 doses/24 hours), **or**\n     - **Ibuprofen** 10 mg/kg every 6\u20138 hours as needed (if drinking adequately; avoid if dehydrated).\n   - For his weight (12.4 kg):\n     - Acetaminophen dose: about **185 mg per dose**\n     - Ibuprofen dose: about **125 mg per dose**\n   - **If using over-the-counter products**, verify the concentration on the bottle before measuring.\n\n2. **Observation (\u201cwatchful waiting\u201d) option\u2014preferred/reasonable today**\n   - **If pain is controlled and he remains playful, drinking well, and not worsening**, observe for **48\u201372 hours** without starting antibiotics.\n   - Continue fluids, rest, and fever/pain medicine as needed.\n   - Viral cold symptoms may last 1\u20132 weeks; antibiotics do not treat the cold.\n\n3. **Safety-net antibiotic prescription**\n   - **If ear pain becomes moderate/severe, fever reaches 39\u00b0C/102.2\u00b0F or higher, he develops ear drainage, or he is not clearly improving within 48\u201372 hours**, start:\n     - **Amoxicillin 80\u201390 mg/kg/day by mouth divided twice daily**\n     - For 12.4 kg: **amoxicillin 400 mg/5 mL suspension, 7 mL by mouth twice daily for 7 days**.\n   - **If he has taken amoxicillin in the prior 30 days, develops purulent conjunctivitis, or fails to improve after 48\u201372 hours of amoxicillin**, contact the clinic; amoxicillin-clavulanate or another antibiotic may be needed instead.\n   - **If a true penicillin allergy develops/is identified**, call for an alternative antibiotic plan.\n\n4. **Return/urgent precautions**\n   - **Seek same-day evaluation** if he is getting worse, cannot keep fluids down, has decreased urine output, persistent inconsolability, new ear drainage, significant neck stiffness, or fever persisting beyond 48\u201372 hours.\n   - **Seek urgent/emergency care** if there is swelling/redness/tenderness behind the ear, the ear is pushed forward, severe headache, lethargy, breathing difficulty, or concern for dehydration\u2014these could indicate complications such as mastoiditis.\n\n5. **Follow-up**\n   - **If symptoms resolve**, routine ear recheck is not required.\n   - **If symptoms persist despite 48\u201372 hours of antibiotics, recur frequently, hearing seems reduced, speech concerns arise, or middle-ear fluid remains for about 3 months**, schedule reevaluation."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 15.015581130981445,
+      "output_tokens": 718,
+      "audit": {
+        "confab": true,
+        "has_branching": false
+      },
+      "text": "**Diagnosis:** Acute Otitis Media (AOM), Right Ear (Unilateral, Non-Severe)\n\n**Assessment:** \nThis 24-month-old boy has a classic presentation of unilateral acute otitis media (moderate TM bulging, effusion, and poor mobility) following a viral upper respiratory infection. Importantly, his AOM is classified as \"non-severe\" because his temperature is under 102.2\u00b0F (39\u00b0C), his ear pain is mild (he is still smiling and playing), and the pain has been present for less than 48 hours. \n\n**Plan:**\n\n**1. Shared Decision-Making (Observation vs. Immediate Antibiotics):**\n*   According to the American Academy of Pediatrics (AAP) guidelines, children aged 24 months and older with unilateral, non-severe AOM are excellent candidates for an **observation period (watchful waiting)** for 48 to 72 hours. \n*   I will discuss this approach with the mother. If she is comfortable and reliable to follow up, we can provide a **\"Safety-Net\" Antibiotic Prescription (SNAP) / Wait-and-See prescription**. \n*   *Instructions for mother:* Only fill and start the antibiotic if his symptoms (fever, pain, fussiness) do not improve or if they worsen over the next 48 to 72 hours. \n\n**2. Pain and Fever Management:**\n*   Pain control is the cornerstone of AOM management in the first few days. \n*   Recommend scheduled **Ibuprofen** (10 mg/kg/dose every 6-8 hours) or **Acetaminophen** (15 mg/kg/dose every 4-6 hours) for the next 1-2 days to manage his ear pain and fever, rather than using it only as needed.\n\n**3. Antibiotic Strategy (If initiating now or if used as a safety-net):**\n*   **Medication:** Amoxicillin (first-line, since he has no allergies and no recent antibiotic use).\n*   **Dose:** 90 mg/kg/day divided into two doses.\n    *   *Calculation:* 12.4 kg x 90 mg/kg = 1,116 mg/day = 558 mg per dose. \n    *   *Prescription:* Amoxicillin 400 mg / 5 mL suspension. Give **7 mL (560 mg) by mouth twice daily for 7 days.** *(A 5-7 day course is appropriate for children 2 years and older with uncomplicated AOM).*\n\n**4. Supportive Care:**\n*   Continue encouraging oral fluids to maintain hydration.\n*   Saline nasal drops and suctioning as needed for his ongoing cold symptoms.\n\n**5. Follow-up and Return Precautions:**\n*   **Call/Return sooner if:** He develops a higher fever (\u2265 102.2\u00b0F / 39\u00b0C), severe pain, vomiting, lethargy, redness/swelling behind the ear (mastoiditis), or fluid/pus draining from the ear.\n*   **Routine Follow-up:** If he resolves without issues, follow up in 2-3 months for a re-check of his ears to ensure the middle ear effusion has cleared and is not impacting his hearing or speech development."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_3_B_only",
+      "cell_name": "3. B only (Brake)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative.",
+      "latency_s": 19.49294114112854,
+      "output_tokens": 667,
+      "audit": {
+        "confab": false,
+        "has_branching": false
+      },
+      "text": "This patient has **acute otitis media (AOM)** of the right ear. His exam shows classic signs (moderate bulging, yellow effusion, poor mobility), but his clinical presentation is **non-severe** and **unilateral**. He is 24 months old, interacting well, drinking fluids, and his temperature is below the severe threshold of 102.2\u00b0F (39\u00b0C). \n\nHere is the management plan:\n\n**1. Shared Decision-Making (Observation vs. Immediate Antibiotics)**\n*   Based on AAP guidelines for children \u226524 months with non-severe, unilateral AOM, he is a perfect candidate for **observation (\"watchful waiting\")** for 48 to 72 hours. \n*   Discuss with the mother that many mild ear infections resolve on their own without antibiotics, which spares the child from potential side effects like diarrhea and helps prevent antibiotic resistance. \n*   Offer a **\"safety-net\" or \"wait-and-see\" prescription (SNAP)** to be filled *only* if his symptoms worsen or do not improve within 48 to 72 hours.\n\n**2. Antibiotic Prescription (if starting now or for the safety-net)**\n*   **Drug:** Amoxicillin (first-line, assuming no amoxicillin use in the last 30 days and no concurrent purulent conjunctivitis).\n*   **Dose:** 90 mg/kg/day divided twice daily. \n    *   *Calculation:* 12.4 kg x 90 mg/kg = 1,116 mg/day \u00f7 2 = 558 mg per dose. \n*   **Dispense:** Amoxicillin 400 mg/5 mL suspension. \n*   **Sig:** Give 7 mL orally twice daily for 7 days. *(A 5- to 7-day course is appropriate for children \u226524 months with non-severe AOM).*\n\n**3. Symptomatic Management**\n*   **Pain Control:** This is the most important step for the next few days. Continue Acetaminophen (10-15 mg/kg/dose every 4-6 hours) or start Ibuprofen (10 mg/kg/dose every 6-8 hours) for ear pain and fever. Emphasize to the mother that giving it on a schedule for the first 24-48 hours can help keep him comfortable.\n*   **Hydration:** Continue to encourage fluids. \n\n**4. Follow-up and Return Precautions**\n*   Call or return to the clinic immediately if he develops a high fever (>102.2\u00b0F / 39\u00b0C), vomiting, lethargy, decreased fluid intake, swelling/redness behind the ear (mastoiditis), or if pain worsens significantly. \n*   If symptoms do not improve in 48-72 hours on observation, start the antibiotics.\n*   Follow up in 2 to 3 months for a recheck of the ears to ensure the middle ear effusion has resolved and there are no lingering impacts on his hearing or speech development."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 13.204841136932373,
+      "output_tokens": 925,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute right acute otitis media (AOM) with moderate TM bulging and effusion. He is **non-severe**: unilateral disease, symptoms <48 hours, fever <39\u00b0C/102.2\u00b0F, and no severe/persistent ear pain, otorrhea, or mastoid findings.\n\n### Plan: shared decision-making\u2014watchful waiting is appropriate\nBecause he is 24 months old with mild unilateral AOM, offer **observation with reliable follow-up for 48\u201372 hours** rather than immediate antibiotics.\n\n- **If** parent is comfortable observing and can obtain follow-up/medication promptly, **then** treat pain/fever and monitor for 48\u201372 hours.\n- **If** ear pain or fever is worsening, symptoms are not clearly improving after 48\u201372 hours, or new ear drainage develops, **then** start antibiotics and/or re-evaluate in clinic.\n- **If** parent prefers immediate treatment, follow-up is unreliable, or he develops severe symptoms, **then** treat now with antibiotics.\n\n### Symptom control\n- **Acetaminophen:** 15 mg/kg/dose PO every 4\u20136 hours as needed for pain/fever.  \n  - For 12.4 kg: about **185 mg per dose**.  \n  - Do not exceed 5 doses in 24 hours.\n- **Ibuprofen:** 10 mg/kg/dose PO every 6\u20138 hours as needed, if drinking well and no kidney disease/dehydration.  \n  - For 12.4 kg: about **125 mg per dose**.  \n  - Avoid if vomiting, dehydrated, or unable to take fluids.\n\nWarm compresses may be soothing. Avoid OTC cough/cold medicines, oral decongestants, antihistamines, or ear candles; they do not treat AOM and may cause harm in this age group.\n\n### Antibiotic plan if needed\n- **If** symptoms persist/worsen at 48\u201372 hours or antibiotics are elected today, **then** prescribe:\n  - **Amoxicillin 90 mg/kg/day divided twice daily**  \n  - For 12.4 kg: **amoxicillin 400 mg/5 mL suspension, 7 mL by mouth twice daily** (about 1,120 mg/day)  \n  - Duration: **7 days** is reasonable for this 24-month-old with non-severe illness.\n\n- **If** he had amoxicillin in the last 30 days, develops purulent conjunctivitis, or fails amoxicillin after 48\u201372 hours, **then** use **amoxicillin-clavulanate** rather than repeating amoxicillin.\n\n### Return/urgent precautions\n- **If** swelling/redness/tenderness develops behind the ear, the ear protrudes forward, he develops severe headache, stiff neck, persistent vomiting, lethargy, trouble breathing, dehydration/poor urine output, fever \u2265104\u00b0F (40\u00b0C), or appears significantly sicker, **then** seek urgent evaluation immediately.\n- **If** he is not improving after 48\u201372 hours of observation or antibiotics, **then** return for re-examination.\n\nNo imaging, labs, or ENT referral are needed currently."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 13.184587001800537,
+      "output_tokens": 768,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "It is great to see that he is still his playful, smiling self despite the ear discomfort! Based on his exam, he has a classic Acute Otitis Media (ear infection) in his right ear. \n\nBecause he is exactly 24 months old, his infection is only in one ear, and his symptoms are relatively mild (temperature is under 102.2\u00b0F/39\u00b0C and he is still playing), the American Academy of Pediatrics guidelines give us two safe options to choose from together. \n\nHere is my plan for him, structured with conditional **if/then** recommendations so you know exactly what to do:\n\n**If/Then Treatment Options (Shared Decision-Making):**\n\n*   **IF** you prefer a \"watch and wait\" approach to spare him unnecessary antibiotics, **THEN** we can hold off on prescription antibiotics today. We will treat his pain with over-the-counter medications and only start antibiotics if he does not improve in the next 48 to 72 hours. I will give you a \"safety net\" prescription to hold onto just in case.\n*   **IF** you prefer to start treating the infection immediately (given his fever today), **THEN** we will start Amoxicillin today. The dose for his weight (12.4 kg) is 5.5 mL to 7 mL of the 400mg/5mL suspension, given twice a day for 7 days. \n\n**If/Then Symptom Management:**\n\n*   **IF** he is experiencing ear pain or has a fever that is making him uncomfortable, **THEN** you can give him Acetaminophen (Tylenol) or Ibuprofen (Motrin/Advil). \n    *   *For Acetaminophen (160 mg/5 mL):* Give 5 mL every 4 to 6 hours as needed.\n    *   *For Ibuprofen (100 mg/5 mL):* Give 6 mL every 6 to 8 hours as needed (always with a bit of food/milk to protect his stomach).\n*   **IF** he continues to have mild cold symptoms (congestion/runny nose), **THEN** you can use nasal saline drops and a suction bulb to keep his airway clear, especially before meals and bedtime. \n\n**If/Then Follow-Up and Return Precautions:**\n\n*   **IF** we choose the \"watch and wait\" method and he is not improving or his fever continues past 48-72 hours, **THEN** you should fill the Amoxicillin prescription and start giving it to him.\n*   **IF** we start the Amoxicillin today and he is still having fevers or severe pain after 48-72 hours of taking the medication, **THEN** you need to call the clinic or bring him back in, as we may need to change the antibiotic to a stronger one.\n*   **IF** he develops any new concerning symptoms\u2014such as redness or swelling behind the ear (over the mastoid bone), lethargy, refusal to drink fluids, persistent vomiting, or fluid draining from the ear canal\u2014**THEN** you must bring him back to the clinic or go to the nearest pediatric urgent care/ER immediately.\n*   **IF** he does perfectly fine and resolves this infection, **THEN** I would just like to see him back in 3 to 4 weeks for a quick ear check to make sure the fluid behind his eardrum has completely cleared up.\n\nHow does that sound to you, and which path (watchful waiting vs. immediate antibiotics) would you prefer to take today?"
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 13.674636125564575,
+      "output_tokens": 935,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, with viral upper-respiratory symptoms. He has unilateral AOM without ear drainage and is not severely ill (temperature <102.2\u00b0F/39\u00b0C, pain appears mild/intermittent, well appearing).\n\n### Plan: shared decision-making\u2014observation is appropriate\n- **If mother is comfortable monitoring and can obtain follow-up promptly,** use **watchful waiting for 48\u201372 hours** rather than starting antibiotics today.\n  - Provide pain/fever treatment as below.\n  - **If ear pain, fever, or overall symptoms are clearly improving within 48\u201372 hours,** continue supportive care; antibiotics are not needed.\n  - **If symptoms are not improving, worsen, fever reaches \u2265102.2\u00b0F/39\u00b0C, pain becomes significant/persistent, or ear drainage develops,** start antibiotics or return for reassessment.\n\n### Analgesia/fever care\n- **If uncomfortable or febrile,** give either:\n  - **Acetaminophen:** 15 mg/kg per dose every 4\u20136 hours as needed (max 5 doses/24 hours).  \n    - For 12.4 kg: about **185 mg per dose** (e.g., **5.8 mL of 160 mg/5 mL liquid**).\n  - **OR ibuprofen** (if drinking well and no kidney disease/dehydration): 10 mg/kg per dose every 6\u20138 hours as needed.  \n    - For 12.4 kg: about **124 mg per dose** (e.g., **6.2 mL of 100 mg/5 mL liquid**).\n- Do not use aspirin. Avoid cough/cold medicines in this age group.\n\n### Antibiotic option / delayed prescription\n- **If family prefers immediate treatment, or if he fails observation as above,** prescribe:\n  - **Amoxicillin 90 mg/kg/day divided twice daily**\n  - For 12.4 kg: **amoxicillin 400 mg/5 mL suspension, 7 mL by mouth twice daily** (about 90 mg/kg/day).\n  - **Duration:** 7 days is reasonable for this otherwise healthy 24-month-old with nonsevere illness; use 10 days if symptoms become severe or recovery is slow.\n- **If he has received amoxicillin in the past 30 days, has purulent conjunctivitis, or does not improve after 48\u201372 hours of amoxicillin,** switch to high-dose amoxicillin-clavulanate rather than repeating amoxicillin alone.\n- Counsel that diarrhea or rash can occur; **if hives, facial swelling, breathing difficulty, or severe rash develops, stop the medicine and seek urgent care.**\n\n### Return/urgent precautions\n- **Seek urgent evaluation now/ER if** he becomes difficult to wake, has trouble breathing, appears significantly dehydrated (very few wet diapers, cannot drink), has stiff neck, severe headache, seizure, swelling/redness/tenderness behind the ear, ear pushed forward, or appears much sicker.\n- **Call/return within 48\u201372 hours if** fever or ear pain is not improving, symptoms worsen, or new ear drainage occurs.\n\n### Follow-up\n- Routine ear recheck is not necessary if symptoms fully resolve.\n- **If hearing, speech, or balance concerns arise, or fluid/ear symptoms seem to persist beyond about 3 months,** return for repeat ear examination and hearing assessment."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 18.708007097244263,
+      "output_tokens": 674,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Based on your son's exam, he has a right-sided acute otitis media (an ear infection). Because he is 24 months old, the infection is only in one ear, his fever is relatively mild (under 102.2\u00b0F / 39\u00b0C), and he is well-appearing and playful, he is a great candidate for \"watchful waiting\" with a safety-net antibiotic prescription. \n\nHere is our plan using conditional recommendations:\n\n**Regarding Antibiotics (Shared Decision-Making):**\n*   **IF** you are comfortable watching him closely at home without starting antibiotics today, **THEN** I will provide a \"safety-net\" or \"wait-and-see\" prescription for Amoxicillin to hold onto. (Many mild ear infections in this age group resolve on their own without antibiotics, which saves him from potential side effects like upset stomach or diarrhea).\n*   **IF** his ear pain or fever does not improve or gets worse 48 to 72 hours from now, **THEN** you should fill the prescription at your pharmacy and start the medication. \n*   **IF** you do need to start the Amoxicillin (based on his weight of 12.4 kg), **THEN** give 7 mL (of the 400mg/5mL suspension) by mouth twice a day for 7 days.\n\n**Regarding Pain and Fever Management:**\n*   **IF** he is having ear pain or a fever that is making him fussy or uncomfortable, **THEN** give him Acetaminophen or Ibuprofen. For his weight (12.4 kg), you can give 6 mL of Children's Tylenol (160mg/5mL) every 4-6 hours, OR 6 mL of Children's Motrin (100mg/5mL) every 6-8 hours. \n*   **IF** he feels warm but is happily playing, eating, or sleeping comfortably, **THEN** you do not need to give him pain/fever medication. \n*   **IF** you lay him down flat and he cries or tugs at the ear more, **THEN** try elevating the head of his bed slightly, as lying flat can increase pressure behind the eardrum.\n\n**Regarding Follow-up and Return Precautions:**\n*   **IF** he develops new symptoms such as a fever over 104\u00b0F, persistent vomiting, extreme lethargy, redness/swelling on the skin behind his ear (mastoid bone), or if you see blood/pus draining from the ear canal, **THEN** call the clinic immediately or take him to the nearest urgent care/emergency department.\n*   **IF** he gets better over the next few days (with or without the antibiotics), **THEN** we will see him back in the clinic in about 8 to 12 weeks for a quick ear check to make sure the fluid behind his eardrum has completely drained. \n\nDo you feel comfortable holding off on the antibiotics for 48 hours to see if his immune system clears this on its own, or would you prefer to start them today?"
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_4_C_only",
+      "cell_name": "4. C only (Branching)",
+      "clauses": {
+        "A": false,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Provide conditional if/then recommendations.",
+      "latency_s": 20.590909004211426,
+      "output_tokens": 782,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Hello! It\u2019s nice to see both of you today. Based on my exam, your little guy has a classic right-sided ear infection (acute otitis media). The good news is that his left ear looks completely clear, his fever is relatively low-grade, and I am highly reassured by the fact that he is still playing, smiling, and staying hydrated. \n\nBecause he is exactly 24 months old, the infection is only in one ear, and his symptoms are mild (fever under 102.2\u00b0F / 39\u00b0C), pediatric guidelines give us some excellent options. \n\nHere is my conditional, step-by-step plan for him:\n\n**For Pain and Fever Management:**\n*   **IF** he is tugging at his ear, acting irritable, or feeling warm and uncomfortable, **THEN** you can use over-the-counter pain relievers (which also help with the inflammation). Based on his weight of 12.4 kg:\n    *   *Ibuprofen (Children's Motrin/Advil, 100 mg/5 mL):* Give **6 mL** by mouth every 6 to 8 hours as needed (best given with a little food or milk). \n    *   *Acetaminophen (Children's Tylenol, 160 mg/5 mL):* Give **5.5 mL** by mouth every 4 to 6 hours as needed. \n*   **IF** you use both, **THEN** you can alternate them if one alone isn't keeping him comfortable.\n\n**For the Ear Infection (The \"Watch and Wait\" Option):**\nBecause a child's immune system frequently clears mild ear infections on its own without the side effects of antibiotics (like diarrhea or rashes), we often do \"watchful waiting\" in kids his age with mild symptoms. I will send a prescription for Amoxicillin to your pharmacy today, but ask them to put it on hold.\n*   **IF** he continues to do well, his fevers space out, and he is acting like his normal self over the next 2 days, **THEN** we do not need to use the antibiotic at all. His body is fighting it off!\n*   **IF** his symptoms do not improve within 48 to 72 hours, his fever spikes over 102.2\u00b0F, or he becomes significantly more fussy/in pain, **THEN** you should call the pharmacy, have them fill the prescription, and start the medication. \n    *   *The Prescription:* Amoxicillin (400 mg/5 mL). Give **7 mL** by mouth twice a day for 7 days. \n\n**Parental Preference:**\n*   **IF** you feel uncomfortable waiting, or **IF** your schedule/childcare situation makes it difficult to monitor him closely over the next two days, **THEN** it is completely medically acceptable to just fill the Amoxicillin today and start it right away. We can make that decision together right now. \n\n**When to Seek Immediate Medical Attention (Return Precautions):**\n*   **IF** he develops redness, swelling, or pushing out of the earlobe on that right side (behind the ear).\n*   **IF** he becomes extremely lethargic, difficult to wake up, or stops drinking fluids.\n*   **IF** he starts vomiting repeatedly or develops a new, widespread rash. \n*   **THEN** please call our clinic immediately or take him to the nearest pediatric emergency room or urgent care.\n\nHow does this plan sound to you, and would you prefer to try watchful waiting or start the antibiotics today?"
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 17.581394910812378,
+      "output_tokens": 1342,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, with a clear effusion and moderate TM bulging. He is currently **nonsevere**: unilateral disease, symptoms <48 hours, mild/intermittent otalgia, temperature <39\u00b0C, well appearing, and no mastoid findings.\n\n## Plan\n\n### 1. Shared decision-making: observation is appropriate\nFor a 24-month-old with **unilateral, nonsevere AOM**, I would offer either:\n\n- **Watchful waiting with analgesia for 48\u201372 hours** (my preferred option if reliable follow-up is available), or\n- Immediate antibiotics if the family strongly prefers treatment or follow-up is uncertain.\n\nIf observing:\n- Give scheduled/as-needed pain medication.\n- Arrange a definite reassessment or phone follow-up in 48\u201372 hours.\n- Start antibiotics sooner if pain becomes moderate/severe, fever reaches **39\u00b0C/102.2\u00b0F or higher**, ear drainage develops, or he is worsening/not improving by 48\u201372 hours.\n\nA delayed (\u201csafety-net\u201d) antibiotic prescription can be provided if the family can reliably follow these instructions.\n\n### 2. Pain/fever treatment\n- **Acetaminophen:** 15 mg/kg/dose PO every 4\u20136 hours as needed  \n  - For 12.4 kg: about **185 mg per dose** (do not exceed usual daily limits).\n- **Ibuprofen:** 10 mg/kg/dose PO every 6\u20138 hours as needed, if drinking adequately and no kidney disease/dehydration  \n  - For 12.4 kg: about **125 mg per dose**.\n\nAvoid topical anesthetic ear drops if there is concern for TM perforation or tubes.\n\n### 3. If antibiotics are chosen or become necessary\nIf no recent amoxicillin exposure and no purulent conjunctivitis:\n- **Amoxicillin 80\u201390 mg/kg/day divided twice daily for 5\u20137 days**\n  - For 12.4 kg: approximately **560 mg PO twice daily**.\n\nIf he received amoxicillin in the last 30 days, has concurrent purulent conjunctivitis, or had AOM not responding to amoxicillin recently:\n- **Amoxicillin-clavulanate** (high-dose amoxicillin component, 80\u201390 mg/kg/day divided BID) would be preferred.\n\n### 4. Return precautions\nSeek urgent evaluation for:\n- Swelling/redness/tenderness behind the ear, ear protrusion, or severe headache\n- Persistent high fever, toxic appearance, neck stiffness, dehydration, breathing difficulty\n- New ear drainage\n- Worsening pain or no improvement after 48\u201372 hours\n- Any concern that he is less interactive or difficult to awaken\n\nNo testing, imaging, or ENT referral is needed today given the reassuring exam and absence of mastoid signs.\n\n## Missing information that could change the plan\nI would specifically clarify:\n\n1. **Can the family reliably observe him and obtain follow-up within 48\u201372 hours?**  \n   If not, I would treat immediately rather than observe.\n\n2. **Exact severity/duration of otalgia:**  \n   If pain has actually been present for **\u226548 hours** or is moderate/severe rather than mild/intermittent, I would give immediate antibiotics.\n\n3. **Any fever \u226539\u00b0C/102.2\u00b0F at home or worsening systemic illness?**  \n   This would favor immediate treatment.\n\n4. **Amoxicillin or other antibiotic use in the past 30 days, purulent conjunctivitis, or recent amoxicillin treatment failure:**  \n   This would change antibiotic selection from amoxicillin to amoxicillin-clavulanate.\n\n5. **History of recurrent AOM, tympanostomy tubes, TM perforation, hearing/language concerns, craniofacial anomaly, immunocompromise, cochlear implant, or significant chronic illness:**  \n   These factors may lower the threshold for immediate antibiotics and/or alter follow-up.\n\nWith the information provided and reliable follow-up, I would recommend **watchful waiting plus good analgesia**."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 16.435155868530273,
+      "output_tokens": 1263,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear\u2014diagnostic criteria met by moderate TM bulging with middle-ear effusion and reduced mobility. He is **nonsevere**: temperature is <39\u00b0C, otalgia appears mild/intermittent and <48 hours, no otorrhea, and he is well appearing.\n\n## Information that would change or refine the plan\n1. **Can the family reliably observe him and obtain reassessment/treatment within 48\u201372 hours if he is not improving or worsens?**  \n   This is the key missing information. If yes, observation with analgesia is appropriate. If no, I would treat now with antibiotics.\n\n2. **Any systemic antibiotic exposure in the past 30 days?**  \n   This would change first-line antibiotic choice from amoxicillin to amoxicillin-clavulanate if immediate antibiotics are used.\n\n3. **Purulent conjunctivitis?**  \n   If present, I would use amoxicillin-clavulanate rather than amoxicillin because this suggests beta-lactamase-producing *H. influenzae*. The remainder of the exam is described as unremarkable, but explicit documentation would be useful.\n\n4. **History of recurrent AOM or prior treatment failure?**  \n   This would not necessarily change today\u2019s initial management, but could affect antibiotic selection, follow-up, and whether to discuss ENT referral.\n\n## Plan\n### Preferred plan if reliable follow-up is available: observation/watchful waiting\nBecause he is 24 months old with unilateral, nonsevere AOM and is clinically well between episodes, offer shared decision-making and observe for **48\u201372 hours**.\n\n- **Pain/fever control**\n  - Acetaminophen: **15 mg/kg/dose every 4\u20136 hours as needed**  \n    - For 12.4 kg: about **185 mg per dose** (commonly 5.8 mL of 160 mg/5 mL liquid).\n  - Or ibuprofen if well hydrated and no contraindication: **10 mg/kg/dose every 6\u20138 hours as needed**  \n    - For 12.4 kg: about **124 mg per dose** (commonly 6.2 mL of 100 mg/5 mL liquid).\n  - Avoid topical anesthetic ear drops if there is concern for TM perforation or drainage.\n\n- Encourage fluids; reduced appetite is acceptable as long as hydration remains adequate.\n\n- Provide either a delayed antibiotic prescription or a clear plan for prompt reassessment if not improving.\n\n- Start antibiotics or return for reassessment sooner for:\n  - worsening ear pain,\n  - persistent fever or pain beyond 48\u201372 hours,\n  - new ear drainage,\n  - poor fluid intake/decreased urine output,\n  - lethargy, breathing difficulty, mastoid redness/swelling/tenderness, or other clinical deterioration.\n\n### If the family prefers treatment now, cannot ensure follow-up, or he fails observation\n- **Amoxicillin 80\u201390 mg/kg/day by mouth divided twice daily.**\n  - For 12.4 kg: approximately **500\u2013560 mg PO twice daily**.\n  - For nonsevere AOM at age 2 years, treat for **5\u20137 days**.\n\n- Use **amoxicillin-clavulanate** instead if he received amoxicillin in the prior 30 days, has purulent conjunctivitis, or has failed amoxicillin recently.\n\nNo imaging, labs, or urgent referral are indicated currently because there is no mastoid tenderness, toxic appearance, neurologic finding, or other complication."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 17.570833206176758,
+      "output_tokens": 1329,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, with a concurrent viral URI. He has diagnostic findings (moderate TM bulging with middle-ear effusion and reduced mobility). He currently appears **nonsevere**: unilateral disease, intermittent pain for <48 hours, temperature 38.7\u00b0C (<39\u00b0C), well appearing, and no otorrhea or mastoid findings.\n\n## Plan\n\n### 1. Pain/fever control\nThis is the most important immediate treatment.\n\n- **Ibuprofen** 10 mg/kg/dose PO every 6\u20138 hours as needed (if adequately hydrated): for 12.4 kg, about **120 mg per dose**.  \n  - With 100 mg/5 mL liquid: **6 mL per dose**.\n- Or **acetaminophen** 15 mg/kg/dose PO every 4\u20136 hours as needed: about **185 mg per dose**.  \n  - With 160 mg/5 mL liquid: about **5.5\u20136 mL per dose**.\n- Avoid exceeding package/weight-based daily maximums; do not use aspirin.\n- Encourage fluids; reduced solid intake is acceptable short term if hydration and urine output remain adequate.\n\n### 2. Observation with a safety-net prescription is appropriate\nAt age 24 months with unilateral, nonsevere AOM, either immediate antibiotics or observation is guideline-concordant. Given his mild appearance and short symptom duration, I would recommend **watchful waiting for 48\u201372 hours**, provided the family can be reached and can obtain reassessment/medication if needed.\n\n- Continue analgesics.\n- Start antibiotics or return for reassessment if ear pain is not clearly improving within **48\u201372 hours**, fever persists/worsens, or he becomes more ill.\n\nA delayed prescription could be provided for:\n\n- **Amoxicillin 90 mg/kg/day divided twice daily for 7 days**\n  - For 12.4 kg: approximately **560 mg PO twice daily**\n  - Using 400 mg/5 mL suspension: **7 mL PO twice daily for 7 days**\n\nIf the family strongly prefers treatment now, it is also reasonable to begin this regimen today.\n\n### 3. Return/urgent-care precautions\nSeek prompt evaluation for:\n\n- Swelling, redness, or tenderness behind the ear; ear pushed outward\n- Persistent fever or worsening symptoms after 48\u201372 hours\n- Increasing lethargy, inconsolability, stiff neck, severe headache, breathing difficulty\n- Poor fluid intake, signs of dehydration, repeated vomiting\n- Ear drainage\n- New balance problems, facial weakness, or concern that he is substantially sicker\n\n## Information I would specifically obtain before finalizing observation versus antibiotic choice\n\nThe current information supports observation, but the following could change the plan:\n\n1. **Can the family reliably observe him and obtain follow-up or antibiotics within 48\u201372 hours?**  \n   If not, I would treat immediately.\n\n2. **Has he received amoxicillin in the past 30 days?**  \n   If yes, standard first-line amoxicillin is less appropriate; I would generally use **amoxicillin-clavulanate** instead.\n\n3. **Does he have purulent conjunctivitis now or in the last few days?**  \n   This suggests beta-lactamase\u2013producing *H. influenzae* and would favor **amoxicillin-clavulanate** rather than amoxicillin.\n\n4. **Any recurrent AOM, prior antibiotic treatment failure, tympanostomy tubes, chronic middle-ear disease, hearing concerns, immunodeficiency, cochlear implant, craniofacial anomaly, or other medical complexity?**  \n   These factors would lower my threshold for immediate antibiotics and/or closer follow-up.\n\n5. **Confirm severity:** specifically, whether pain has actually been continuous/severe, whether it has lasted **\u226548 hours**, or whether there has been a temperature **\u226539\u00b0C (102.2\u00b0F)** at home.  \n   Any of these would make this \u201csevere AOM\u201d and favor **immediate antibiotic therapy** rather than observation."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 16.437011003494263,
+      "output_tokens": 801,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Current Assessment**\nThe patient is a 24-month-old boy with **unilateral acute otitis media (AOM)**. His signs and symptoms are considered **non-severe** because his temperature is < 39\u00b0C (102.2\u00b0F), his ear pain is mild (he is playful and smiling), and the pain duration is less than 48 hours. \n\n### **Missing Information That Would Change the Plan**\nBefore finalizing the plan, I would ask about:\n1. **Recent antibiotic use (past 30 days):** If he has taken amoxicillin in the last 30 days, he is at higher risk for beta-lactamase producing organisms (like *H. influenzae* or *M. catarrhalis*), and the first-line antibiotic would change from high-dose amoxicillin to high-dose amoxicillin-clavulanate (Augmentin). \n2. **History of recurrent AOM:** If he has a history of recurrent ear infections (e.g., 3 episodes in the past 6 months, or 4 episodes in the past 12 months with 1 in the past 6 months), he may warrant a referral to ENT for tympanostomy tubes.\n3. **Caregiver preference and reliable follow-up:** Because he is 24 months old with non-severe unilateral AOM, he is a candidate for \"watchful waiting\" (observation). I need to know if the mother is comfortable with this approach and if she has reliable access to communication/pharmacies should he worsen. \n4. **Concurrent purulent conjunctivitis:** Though the exam was marked \"unremarkable,\" a history of purulent eye drainage alongside AOM (otitis-conjunctivitis syndrome) would also prompt the use of amoxicillin-clavulanate instead of amoxicillin.\n\n### **Proposed Plan (Assuming unstated variables are negative)**\nGiven that he is 24 months old with non-severe unilateral AOM:\n\n**1. Shared Decision-Making on Antibiotics vs. Observation:**\n*   **Option A (Watchful Waiting):** Observe for 48\u201372 hours. I would provide a **Safety-Net Antibiotic Prescription (SNAP)** or instructions to call the clinic. If his fever persists, pain worsens, or he does not improve in 48\u201372 hours, the mother can fill the prescription.\n*   **Option B (Immediate Antibiotics):** If the mother is uncomfortable with observation or follow-up is a concern, we will start antibiotics immediately.\n\n**2. Antibiotic Choice (if initiating):**\n*   **Drug:** Amoxicillin 90 mg/kg/day divided twice daily. \n*   **Dose:** For a 12.4 kg child, this is approx. 1,116 mg/day. (Prescribe Amoxicillin 400 mg/5 mL suspension: Give 7 mL [560 mg] by mouth twice daily).\n*   **Duration:** 5 to 7 days (since he is $\\ge$ 2 years old and has non-severe symptoms, a shorter 5-7 day course is appropriate rather than the traditional 10 days).\n\n**3. Symptomatic Care:**\n*   Continue scheduled acetaminophen or ibuprofen for pain and fever control over the next 48 hours. Ear pain is the primary driver of AOM morbidity, and antibiotics do not provide immediate pain relief.\n\n**4. Follow-up:**\n*   Call or return to the clinic if symptoms worsen at any time, or if they fail to improve within 48 to 72 hours of observation (or starting antibiotics). Otherwise, routine follow-up at the next well-child check."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 18.03407096862793,
+      "output_tokens": 894,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Assessment**\n**Diagnosis:** Unilateral Right Acute Otitis Media (AOM) without severe signs. \nThe patient is 24 months old with unilateral AOM, mild otalgia for < 48 hours, non-toxic appearance, and a temperature < 39\u00b0C (101.7\u00b0F = 38.7\u00b0C). Under AAP guidelines, he is a candidate for either antibiotic therapy OR watchful waiting with shared decision-making.\n\n---\n\n### **Missing Information That Would Change My Plan**\nBecause I cannot assume unstated variables are negative, I need to ask the following questions before finalizing the plan:\n\n1. **Has he received Amoxicillin in the past 30 days?** \n   * *Why it changes the plan:* If yes, I would bypass Amoxicillin and prescribe Amoxicillin-Clavulanate to cover beta-lactamase producing organisms.\n2. **Does he have concurrent purulent eye drainage (conjunctivitis)?** \n   * *Why it changes the plan:* Otitis-conjunctivitis syndrome is highly associated with non-typeable *H. influenzae*. If present, I would prescribe Amoxicillin-Clavulanate as first-line therapy.\n3. **Does he have a history of recurrent AOM?** (e.g., \u22653 episodes in 6 months, or \u22654 in 12 months with 1 in the past 6 months).\n   * *Why it changes the plan:* If yes, he would warrant an ENT referral for evaluation for tympanostomy tubes, and I would be less likely to recommend watchful waiting.\n4. **Is the family able to reliably follow up, communicate, and obtain antibiotics if he worsens?**\n   * *Why it changes the plan:* Watchful waiting/observation requires reliable caregivers. If they lack transportation, phone access, or reliable pharmacy access, I must prescribe antibiotics today rather than offering a wait-and-see approach.\n5. **Has he had ear pain or fever for more than 48 hours?**\n   * *Why it changes the plan:* The prompt notes tugging \"since yesterday afternoon\" and warm \"last night.\" However, if careful history reveals severe pain or pain/fever present for \u226548 hours, his AOM becomes classified as \"severe,\" mandating immediate antibiotic therapy rather than an observation option.\n\n---\n\n### **The Plan**\n*Assuming the missing information above is negative/unremarkable:*\n\n**1. Shared Decision-Making for Treatment:**\nDiscuss the options with the mother: **Observation vs. Immediate Antibiotics.**\n*   **Option A: Observation (Watchful Waiting):** Provide a \"Safety-Net\" (SNAP) prescription. Provide pain control. If he is not improving or worsens in 48-72 hours, she fills the prescription.\n*   **Option B: Immediate Antibiotics:** \n    *   **Amoxicillin** at 80-90 mg/kg/day. \n    *   *Dose:* For 12.4 kg, total daily dose is ~1100 mg. Prescribe Amoxicillin 400 mg/5 mL suspension; give 7 mL by mouth twice daily for 7-10 days.\n\n**2. Pain and Fever Management:**\n*   Maximize supportive care, as antibiotics do not provide immediate pain relief.\n*   **Acetaminophen:** 160 mg/5 mL. Give 5.5 mL every 6 hours as needed.\n*   **Ibuprofen:** 100 mg/5 mL. Give 6 mL every 6 hours as needed (can alternate with acetaminophen if pain/fever is difficult to control).\n\n**3. Follow-up and Return Precautions:**\n*   Return to clinic if symptoms worsen, if fever spikes >104\u00b0F, if he develops lethargy, decreased oral intake leading to decreased wet diapers, swelling/redness behind the ear (mastoiditis), or if symptoms do not improve after 48-72 hours on antibiotics or observation.\n*   Routine follow-up in 2-3 months to ensure the middle ear effusion has resolved."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_5_AB",
+      "cell_name": "5. A + B (Query + Brake)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": false
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative.",
+      "latency_s": 18.74250817298889,
+      "output_tokens": 778,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Diagnosis\n**Unilateral, non-severe Acute Otitis Media (AOM)** of the right ear. \nThe patient is exactly 24 months old, his temperature is < 39\u00b0C (102.2\u00b0F), he has no otorrhea, and his pain appears mild (he is playful and smiling).\n\n### Missing Information That Would Change My Plan\nBefore finalizing my treatment plan, I need to know the following, as positive answers would alter my management:\n1. **Recent antibiotic use:** Has he taken amoxicillin or other antibiotics in the past 30 days? *(If yes, I would bypass amoxicillin and prescribe Amoxicillin-Clavulanate to cover resistant organisms).*\n2. **Concomitant symptoms:** Does he have purulent eye discharge / conjunctivitis? *(Otitis-conjunctivitis syndrome is highly associated with non-typeable Haemophilus influenzae, which requires Amoxicillin-Clavulanate).*\n3. **History of recurrent AOM:** Has he had 3 ear infections in the past 6 months, or 4 in the past 12 months with 1 in the last 6 months? *(If yes, he meets criteria for an ENT referral for tympanostomy tubes, though I would still treat the current episode).*\n4. **Caregiver preference and follow-up capability:** Is the mother comfortable with a watchful waiting approach? Does she have reliable access to a pharmacy and the clinic if he worsens in 48-72 hours? *(If no, I must prescribe immediate antibiotics).*\n\n### Proposed Plan (Assuming the above missing variables are negative)\nBased on American Academy of Pediatrics (AAP) guidelines, a 24-month-old with mild, unilateral AOM without otorrhea is an ideal candidate for **Shared Decision-Making with Observation (Watchful Waiting)**.\n\n**1. Shared Decision-Making:**\nI will discuss two options with the mother:\n*   **Option A (Preferred): Watchful Waiting with a Safety-Net Prescription (SNAP).** We focus on pain control for 48-72 hours. If his symptoms do not improve or if they worsen (fever spikes, severe pain), she fills the antibiotic prescription. \n*   **Option B: Immediate Antibiotics.** If she is uncomfortable with observation or cannot reliably follow up.\n\n**2. Medications (If proceeding with antibiotics immediately or via SNAP):**\n*   **Drug:** Amoxicillin 80-90 mg/kg/day divided BID. \n*   **Dose:** Weight is 12.4 kg. (12.4 x 90 = 1,116 mg/day, or 558 mg per dose). I will prescribe **Amoxicillin 400 mg/5 mL suspension; give 7 mL PO BID**.\n*   **Duration:** 5 to 7 days (since he is \u2265 24 months and the infection is non-severe, a 10-day course is unnecessary).\n\n**3. Supportive Care:**\n*   Continue weight-based Acetaminophen or Ibuprofen for otalgia and fever. (Ibuprofen dose: 124 mg, so 125 mg / 6.25 mL of the 100mg/5mL suspension every 6-8 hours PRN).\n*   Maintain hydration.\n\n**4. Follow-up:**\n*   Call or return in 48\u201372 hours if symptoms fail to improve, worsen, or if a new high fever develops. \n*   Otherwise, follow up in 2-3 months to ensure the middle ear effusion has resolved."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 14.867875099182129,
+      "output_tokens": 1121,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "This child has **acute otitis media (AOM) of the right ear**: acute symptoms plus a moderately bulging TM with effusion and decreased mobility.\n\nHe is 24 months old with **unilateral, nonsevere AOM** (fever <39\u00b0C, intermittent/mild pain for <48 hours, well appearing, no otorrhea). Either immediate antibiotics or observation with close follow-up is guideline-concordant.\n\n## Plan\n\n### 1. Shared decision-making: observation (\u201cwatchful waiting\u201d) is reasonable\nBecause he is clinically well, has unilateral disease, and has no severe features, I would offer **48\u201372 hours of observation** with pain control, provided the family can obtain follow-up and understands return precautions.\n\n- Treat pain/fever:\n  - **Ibuprofen** 10 mg/kg/dose PO every 6\u20138 hours as needed (if well hydrated and no renal disease): for 12.4 kg, about **120 mg/dose**.\n  - Or **acetaminophen** 10\u201315 mg/kg/dose PO every 4\u20136 hours as needed: for 12.4 kg, about **125\u2013185 mg/dose**.\n  - Do not exceed labeled daily maximums; avoid aspirin.\n- Encourage fluids; reduced appetite is acceptable as long as hydration remains good.\n- No role for OTC cough/cold medicines, oral decongestants, or antihistamines for AOM.\n\nIf observation is selected, I would either arrange recheck/phone follow-up within 48\u201372 hours or provide a delayed antibiotic prescription with explicit instructions on when to start it.\n\n### 2. If antibiotics are chosen now, or if he does not improve\nUse **high-dose amoxicillin**:\n\n- **Amoxicillin 80\u201390 mg/kg/day divided twice daily for 5\u20137 days**  \n  - For 12.4 kg: approximately **560 mg PO twice daily**.\n  - With amoxicillin 400 mg/5 mL suspension, this is about **7 mL PO twice daily**.\n  - At age 2 years with mild/moderate illness, a **5\u20137 day** course is appropriate; I would commonly use 7 days if there is any concern about symptom severity or follow-up.\n\nImprovement in pain/fever should begin within 48\u201372 hours. Effusion and temporary muffled hearing can persist for weeks after infection resolves and do not by themselves require another antibiotic course.\n\n## Missing information that could change the plan\n\n- **If ear pain becomes moderate/severe, lasts \u226548 hours, or fever reaches \u226539\u00b0C (102.2\u00b0F), then** treat immediately with antibiotics rather than observation.\n- **If he develops ear drainage (otorrhea), then** treat with systemic antibiotics; reassess for TM perforation or otitis externa.\n- **If he received amoxicillin in the prior 30 days, has purulent conjunctivitis, or has had AOM not responsive to amoxicillin, then** use high-dose **amoxicillin-clavulanate** rather than amoxicillin.\n- **If he has a non-anaphylactic penicillin allergy, then** an oral cephalosporin such as cefdinir may be appropriate.  \n  **If he has a history of immediate/anaphylactic penicillin reaction, then** select a non\u2013beta-lactam alternative based on local resistance patterns and allergy history.\n- **If the family cannot reliably observe him, cannot return/contact the clinic within 48\u201372 hours, or prefers treatment after counseling, then** start antibiotics now.\n- **If he has recurrent AOM** (\u22653 episodes in 6 months or \u22654 in 12 months, with one in the last 6 months), persistent middle-ear fluid with hearing/language concerns, craniofacial anomalies, immunocompromise, or a history of tympanostomy tubes, **then** management/follow-up may need modification and ENT/audiology assessment may be indicated.\n\n## Return/urgent precautions\nSeek same-day reassessment for worsening illness, persistent fever/pain after 48\u201372 hours, poor fluid intake or decreased urination, new ear drainage, swelling/redness/tenderness behind the ear, ear protrusion, severe headache, stiff neck, lethargy, or breathing concerns."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 16.018697023391724,
+      "output_tokens": 1201,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, with concurrent viral URI. He is 24 months old with unilateral disease, symptoms for <48 hours, fever <39\u00b0C/102.2\u00b0F, and no severe otalgia, otorrhea, mastoid findings, or toxicity.\n\n## Plan\n\n### 1. Pain/fever control now\nPain treatment is the most important immediate intervention.\n\n- **Acetaminophen:** 15 mg/kg/dose = about **185 mg per dose** every 4\u20136 hours as needed (do not exceed labeled daily maximum).\n- **OR ibuprofen** (if well hydrated and no kidney disease): 10 mg/kg/dose = about **125 mg per dose** every 6\u20138 hours as needed.\n- Avoid combination cough/cold products in this age group.\n\n### 2. Shared decision: observation (\u201cwatchful waiting\u201d) is appropriate\nBecause he is age 24 months, has **unilateral nonsevere AOM**, is drinking well, and is clinically well appearing, I would offer **observation for 48\u201372 hours** with reliable follow-up rather than immediate antibiotics.\n\nProvide a clear safety-net plan:\n- Call/return if pain is not improving within **48 hours**, fever persists or worsens, symptoms worsen at any time, or new ear drainage develops.\n- If not clearly improving by 48\u201372 hours, start antibiotics or reassess in clinic.\n\nA delayed (\u201csafety-net\u201d) prescription can be provided if the family is reliable and prefers that approach.\n\n### 3. If family prefers immediate treatment, or if he fails observation\nUse **high-dose amoxicillin**:\n\n- **Amoxicillin 90 mg/kg/day divided twice daily**\n- For 12.4 kg: approximately **560 mg by mouth twice daily**\n- With amoxicillin 400 mg/5 mL suspension, this is approximately **7 mL twice daily**\n- Duration: **5\u20137 days** for a nonsevere child age 2 years or older; I would reasonably use **7 days** given that he is just 24 months old.\n\n### 4. Return precautions / urgent evaluation\nSeek urgent care for:\n- Swelling, redness, or tenderness behind the ear; ear protrusion\n- Stiff neck, severe headache, lethargy, inconsolability, breathing difficulty, dehydration, or persistent vomiting\n- Fever \u226539\u00b0C/102.2\u00b0F with worsening illness\n- New purulent ear drainage\n- Failure to improve after 48\u201372 hours or worsening at any time\n\nNo routine follow-up is needed if symptoms resolve, though reassessment is appropriate if symptoms persist or recur.\n\n## Missing information that would change the plan\n\n- **If he has had amoxicillin in the last 30 days, has concurrent purulent conjunctivitis, or has recurrent AOM not responding to amoxicillin, then** choose **amoxicillin-clavulanate** rather than amoxicillin.\n- **If he has a penicillin allergy, then** the antibiotic choice depends on the reaction:\n  - If a mild delayed rash/non\u2013IgE reaction: an oral cephalosporin such as cefdinir may be appropriate.\n  - If immediate hives, angioedema, respiratory symptoms, or anaphylaxis: avoid beta-lactams with relevant cross-reactivity and select an alternative based on local guidance.\n- **If otalgia becomes moderate/severe, lasts \u226548 hours, temperature reaches \u226539\u00b0C/102.2\u00b0F, he develops otorrhea, or he appears toxic, then** treat immediately with antibiotics rather than observe.\n- **If reliable follow-up within 48\u201372 hours cannot be ensured, then** immediate antibiotics are reasonable.\n- **If he has immunodeficiency, craniofacial abnormalities, cochlear implants, tympanostomy tubes, chronic middle-ear disease, or prior complications of AOM, then** I would have a lower threshold for immediate treatment and/or ENT involvement.\n- **If this is actually recurrent AOM** (\u22653 episodes in 6 months or \u22654 in 12 months with one in the past 6 months), then document the pattern and consider hearing assessment/ENT referral, particularly if middle-ear effusion persists."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 16.244969129562378,
+      "output_tokens": 1042,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear\u2014supported by moderate TM bulging, purulent/yellow middle-ear effusion, and reduced mobility. He is currently non-toxic appearing, has unilateral disease, fever below 39\u00b0C, and no documented severe/prolonged ear pain or complications.\n\n## Plan\n\n### 1. Pain and fever control (start now)\n- **Acetaminophen:** 15 mg/kg/dose PO every 4\u20136 hours as needed  \n  - For 12.4 kg: about **185 mg per dose**. Do not exceed the product\u2019s daily maximum or combine with other acetaminophen-containing products.\n- **Ibuprofen** may be used instead of or alternating with acetaminophen if he is drinking adequately and has no contraindication: 10 mg/kg/dose PO every 6\u20138 hours as needed  \n  - For 12.4 kg: about **125 mg per dose**.\n- Avoid OTC cough/cold medications in this age group unless specifically advised.\n\n### 2. Antibiotics versus observation: shared decision-making\nBecause he is 24 months old with **unilateral, nonsevere AOM**, either immediate antibiotics or observation with reliable follow-up is reasonable.\n\n**Preferred option if family can monitor and access follow-up:**  \n- **Watchful waiting for 48\u201372 hours** with scheduled analgesics as needed.\n- If ear pain, fever, or overall symptoms are **not clearly improving by 48\u201372 hours**, or if they worsen at any time, begin antibiotics/reassess.\n\n**If mother prefers immediate treatment, if follow-up is unreliable, or if symptoms worsen:**  \n- **Amoxicillin 90 mg/kg/day PO divided twice daily for 7 days.**\n  - For 12.4 kg: approximately **560 mg twice daily**.\n  - Using amoxicillin 400 mg/5 mL suspension: **7 mL by mouth twice daily for 7 days** (approximately 1,120 mg/day).\n\nBefore prescribing amoxicillin, confirm whether he has received amoxicillin in the past 30 days or has purulent conjunctivitis. **If either is present**, use **amoxicillin-clavulanate** instead, at an appropriate high-dose amoxicillin component.\n\n### 3. Return precautions\nSeek same-day evaluation/urgent care if any of the following occur:\n- Increasing ear pain despite appropriate pain medicine\n- Fever **\u226539\u00b0C (102.2\u00b0F)**, fever persisting beyond 48\u201372 hours, or child appears significantly more ill\n- New ear drainage\n- Swelling, redness, or tenderness behind the ear; ear pushed forward\n- Stiff neck, severe headache, persistent vomiting, lethargy, poor fluid intake, decreased urination, breathing difficulty, or other parental concern\n\n### 4. Follow-up\n- If observing without antibiotics: contact/return in **48\u201372 hours** if not improving, sooner for worsening.\n- If antibiotics are started: reassess if he is not noticeably improving within **48\u201372 hours** of starting them.\n- Routine recheck is not required if symptoms fully resolve, but reassess if persistent hearing concerns, recurrent infections, or ongoing middle-ear fluid symptoms develop."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 18.683764219284058,
+      "output_tokens": 795,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:**\nThis is a 24-month-old well-appearing male with a confirmed unilateral Acute Otitis Media (AOM). Based on AAP guidelines, his presentation is considered **non-severe** because his temperature is under 102.2\u00b0F (39\u00b0C), his pain is mild (he is smiling and playing), and his ear symptoms have been present for less than 48 hours. \n\n**Missing Information That Would Change My Plan:**\n1. **Recent antibiotic use:** Has he taken amoxicillin in the last 30 days?\n2. **Eye symptoms:** Does he have concurrent purulent conjunctivitis? \n3. **AOM History:** Is this an isolated episode, or does he have recurrent ear infections (\u22653 in 6 months or \u22654 in 12 months)?\n4. **Caregiver reliability and access:** Is the mother comfortable observing him, and can she easily access care/medication if he worsens?\n\n**Conditional If/Then Plan:**\n\n**1. Observation vs. Immediate Treatment (Shared Decision-Making)**\nBecause he is 24 months old with *non-severe, unilateral* AOM, he is an excellent candidate for Watchful Waiting / Safety-Net Antibiotic Prescription (SNAP).\n*   **IF** the mother is reliable, comfortable observing, and has good access to follow-up/pharmacy, **THEN** I will provide a Safety-Net Prescription. I will instruct her to give weight-based ibuprofen or acetaminophen for pain, and only fill the antibiotic if his symptoms worsen or do not improve in 48 to 72 hours.\n*   **IF** the mother is highly anxious, cannot easily return/call if he worsens, or strongly prefers immediate treatment after discussing the risks (diarrhea, resistance) and benefits, **THEN** I will prescribe immediate antibiotics.\n\n**2. Antibiotic Selection**\n*   **IF** he has **not** had amoxicillin in the last 30 days and has no concurrent purulent conjunctivitis, **THEN** the first-line choice is high-dose Amoxicillin. \n    *   *Dose:* 90 mg/kg/day divided BID. (Weight 12.4 kg = 1,116 mg/day). \n    *   *Prescription:* Amoxicillin 400 mg/5 mL suspension; give 7 mL by mouth twice daily for 7 days.\n*   **IF** he has had amoxicillin in the past 30 days OR has concurrent purulent eye discharge (suggesting non-typeable *H. influenzae*), **THEN** I will prescribe Amoxicillin-Clavulanate (Augmentin) to cover beta-lactamase producing organisms. \n    *   *Prescription:* Augmentin ES-600 (600 mg amox/5 mL); give 4.5 mL by mouth twice daily for 7 days.\n\n**3. ENT Referral**\n*   **IF** a chart review reveals this is his 3rd AOM in 6 months or 4th in 12 months, **THEN** I will treat the current episode but also place a referral to Pediatric ENT to evaluate for tympanostomy tubes.\n*   **IF** this is an isolated or infrequent episode, **THEN** routine follow-up as needed is sufficient. \n\n**General Counseling for all scenarios:** \nContinue supportive care (hydration, pain control with Ibuprofen/Acetaminophen). Return to clinic immediately if he develops lethargy, high persistent fevers (\u2265102.2\u00b0F), swelling behind the ear (mastoiditis), or vomiting preventing oral intake."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 19.454643964767456,
+      "output_tokens": 968,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "As a pediatrician, my assessment is that this 24-month-old boy has **Unilateral Acute Otitis Media (AOM)** of the right ear. Based on AAP guidelines, his presentation is currently **non-severe** because his temperature is strictly less than 39\u00b0C (102.2\u00b0F) and his pain is mild/moderate and present for less than 48 hours. \n\nBecause he is $\\ge$ 24 months old with non-severe, unilateral AOM, he is a candidate for either immediate antibiotic therapy OR observation with a safety-net prescription (Watchful Waiting).\n\nHere is my analysis of the missing information, conditional recommendations, and overall plan.\n\n### Missing Information That Would Change the Plan\n1. **Recent Antibiotic Use:** Has he taken amoxicillin in the past 30 days?\n2. **Concurrent Eye Symptoms:** Does he have purulent conjunctivitis (matted eyes in the morning, yellow/green eye discharge)?\n3. **Caregiver Preference and Reliability:** Is the mother comfortable with watchful waiting? Can she easily access a pharmacy or return to clinic if he worsens in the next 48-72 hours?\n4. **History of Recurrent AOM:** Has he had $\\ge$ 3 ear infections in the past 6 months, or $\\ge$ 4 in the past 12 months?\n\n### Conditional If/Then Recommendations\n* **IF** he has had amoxicillin in the past 30 days OR has concurrent purulent conjunctivitis (suggestive of non-typeable *H. influenzae*), **THEN** bypass standard amoxicillin and prescribe Amoxicillin-Clavulanate (Augmentin) at 90 mg/kg/day of the amoxicillin component.\n* **IF** the mother is reliable, prefers to avoid antibiotics if possible, and has good access to follow-up/pharmacies, **THEN** utilize \"Watchful Waiting.\" I would provide a Safety-Net Antibiotic Prescription (SNAP) to be filled only if his symptoms do not improve or worsen in 48\u201372 hours.\n* **IF** the mother prefers immediate treatment, or there are barriers to follow-up/pharmacy access (e.g., leaving for a trip, weekend approaching), **THEN** start antibiotics today.\n* **IF** he meets criteria for recurrent AOM, **THEN** treat the current infection and place a routine referral to Pediatric ENT for tympanostomy tube evaluation.\n\n### The Plan (Assuming no recent antibiotics/eye symptoms)\n**1. Pain Management (Primary focus for the first 24-48 hours)**\n* Maximize analgesia. Recommend alternating Acetaminophen and Ibuprofen (since he is > 6 months old) on a scheduled basis rather than as-needed for the next 24-48 hours. \n* *Dosing:* Ibuprofen (10 mg/kg) ~120 mg every 6-8 hours. Acetaminophen (15 mg/kg) ~180 mg every 6 hours. \n\n**2. Antimicrobial Therapy (Shared Decision Making with Mother)**\n* *Option A (Watchful Waiting/SNAP):* Provide a prescription for Amoxicillin. Instruct the mother to hold the prescription and focus on pain control. If he is not improving, or if his fever spikes $\\ge$ 102.2\u00b0F, or pain worsens over the next 48-72 hours, she should fill it.\n* *Option B (Immediate Treatment):* Prescribe High-Dose Amoxicillin. \n* *Prescription details:* Amoxicillin 90 mg/kg/day divided BID. \n    * Weight: 12.4 kg = ~1116 mg/day = 558 mg per dose. \n    * *Rx:* Amoxicillin 400 mg/5 mL suspension. Give 7 mL PO twice daily for 7 days. *(Note: 5-7 days is appropriate for age $\\ge$ 2 years with mild/moderate disease).*\n\n**3. Supportive Care**\n* Continue pushing oral fluids. \n* Nasal saline drops and suctioning for the concurrent URI symptoms.\n\n**4. Return Precautions**\n* Return to clinic or seek urgent evaluation if: he develops lethargy, vomiting/inability to keep fluids down, swelling/redness behind the ear (mastoiditis), or if symptoms are worsening despite being on antibiotics for 48-72 hours."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 20.455938816070557,
+      "output_tokens": 1361,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear\u2014diagnostic criteria met by moderate TM bulging plus middle-ear effusion and acute symptoms. He is currently **nonsevere** based on the information provided (unilateral disease, fever <39\u00b0C, appears well between episodes, symptoms <48 hours).\n\n## Plan today\n\n### Option 1: Watchful waiting (reasonable/preferred if follow-up is reliable)\nBecause he is 24 months old with unilateral, nonsevere AOM, offer observation with pain control for **48\u201372 hours** rather than immediate antibiotics.\n\n- **Pain/fever treatment**\n  - Acetaminophen **15 mg/kg/dose** every 4\u20136 hours as needed  \n    - For 12.4 kg: about **185 mg/dose** = **5.5\u20136 mL of 160 mg/5 mL liquid**\n  - *Or* ibuprofen **10 mg/kg/dose** every 6\u20138 hours as needed (if drinking adequately and no kidney disease/dehydration)  \n    - For 12.4 kg: about **125 mg/dose** = **6 mL of 100 mg/5 mL liquid**\n  - Do not routinely alternate medications; use one correctly dosed agent as needed.\n\n- Encourage fluids; decreased solid intake for a few days is acceptable if hydration and urine output remain adequate.\n- No ear drops are needed because there is no otitis externa and no ear drainage/tubes.\n- Provide a delayed antibiotic prescription or arrange phone/portal follow-up in 48\u201372 hours.\n\n### If treating immediately, or if he does not improve\nUse **high-dose amoxicillin**:\n- **Amoxicillin 80\u201390 mg/kg/day by mouth divided twice daily for 7 days**\n- For 12.4 kg: approximately **560 mg twice daily**\n  - If using amoxicillin 400 mg/5 mL suspension: **7 mL by mouth twice daily for 7 days**\n\nExpected course: fever and pain should begin improving within **48\u201372 hours**. Middle-ear fluid can persist for weeks after infection resolution and alone does not require another antibiotic.\n\n## Missing information that would change the plan\n\n- **If** he has a documented temperature **\u226539\u00b0C (102.2\u00b0F)**, moderate/severe ear pain, or ear pain lasting **\u226548 hours**, **then** treat with immediate antibiotics rather than observation.\n- **If** the family cannot reliably obtain reassessment/contact within 48\u201372 hours, cannot fill a delayed prescription, or follow-up is uncertain, **then** favor immediate amoxicillin.\n- **If** he received amoxicillin within the past 30 days, has concurrent **purulent conjunctivitis**, or has failed amoxicillin for this episode, **then** use high-dose amoxicillin-clavulanate instead:\n  - Amoxicillin component 80\u201390 mg/kg/day divided twice daily for 7 days.\n  - For the 600 mg/5 mL formulation, this is approximately **4.7 mL twice daily**.\n- **If** there is a penicillin allergy, clarify the reaction:\n  - **If** delayed mild rash/non\u2013IgE-type reaction, a cephalosporin such as cefdinir is reasonable.\n  - **If** immediate hives, angioedema, respiratory symptoms, or anaphylaxis occurred, avoid beta-lactams and choose an alternative based on local guidance.\n- **If** he has significant immunocompromise, craniofacial abnormalities, cochlear implant, chronic ear disease, or a history of recurrent AOM, **then** the threshold for immediate treatment and/or ENT follow-up is lower.\n- **If** he develops ear drainage, swelling/redness/tenderness behind the ear, protrusion of the ear, stiff neck, lethargy, dehydration, persistent fever, or worsening pain, **then** he needs urgent reassessment.\n\nNo imaging, labs, or routine scheduled ear recheck are needed if symptoms resolve."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_6_AC",
+      "cell_name": "6. A + C (Query + Branching)",
+      "clauses": {
+        "A": true,
+        "B": false,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Provide conditional if/then recommendations.",
+      "latency_s": 20.300958156585693,
+      "output_tokens": 1035,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "As a pediatrician evaluating this patient, my working diagnosis is **unilateral, non-severe Acute Otitis Media (AOM)**. He meets the criteria for AOM (bulging TM, yellow effusion, poor mobility) but does not meet the criteria for *severe* AOM (temperature is < 102.2\u00b0F / 39\u00b0C, otalgia is mild/intermittent, and symptoms have been present for < 48 hours). \n\nBecause he is $\\ge$ 24 months old with unilateral, non-severe AOM, the American Academy of Pediatrics (AAP) guidelines allow for **either immediate antibiotics OR observation with shared decision-making.**\n\nHere is the missing information that would change my plan, the conditional recommendations, and my initial plan.\n\n### Missing Information & Conditional \"If/Then\" Recommendations\n\n**1. Home temperature and pain severity:**\n*   *Missing Info:* Did the mother take a core temperature last night when he \"felt warm\"? Has the pain been worse than she described?\n*   *If/Then:* **IF** he had a documented fever of $\\ge$ 102.2\u00b0F (39\u00b0C) at home, or if mom reports the pain has actually been severe/crying uncontrollably, **THEN** he meets the criteria for *severe AOM*. The option to observe is off the table, and I will prescribe immediate antibiotics.\n\n**2. Recent antibiotic use:**\n*   *Missing Info:* Has he taken any antibiotics in the last 30 days?\n*   *If/Then:* **IF** he has taken amoxicillin or another antibiotic in the past 30 days, **THEN** I will prescribe Amoxicillin-Clavulanate (Augmentin) to cover potential beta-lactamase-producing organisms (*H. influenzae, M. catarrhalis*), instead of standard Amoxicillin.\n\n**3. Eye discharge (Conjunctivitis):**\n*   *Missing Info:* Does he have any purulent (pus-like) eye drainage? \n*   *If/Then:* **IF** he has concurrent purulent conjunctivitis (Otitis-Conjunctivitis Syndrome), **THEN** observation is inappropriate, and I will prescribe Amoxicillin-Clavulanate, as this is highly associated with non-typeable *H. influenzae*.\n\n**4. Social factors and follow-up reliability:**\n*   *Missing Info:* Does the family have reliable transportation, a way to contact the clinic, and access to a pharmacy over the next 48-72 hours?\n*   *If/Then:* **IF** they have poor access to care or the mother is highly anxious and strongly prefers immediate treatment, **THEN** I will lean away from observation and recommend starting antibiotics today.\n\n---\n\n### My Plan (Based on current information)\n\nAssuming there are no recent antibiotics, no high home fevers, and the mother is comfortable with observation, my plan is:\n\n**1. Shared Decision-Making & Observation (Safety-Net Prescription):**\n*   Discuss the \"Wait and See\" approach with the mother. Explain that his immune system is likely to clear this without antibiotics, saving him from potential side effects (diarrhea, rash). \n*   Provide a **Safety-Net Antibiotic Prescription (SNAP)**. Instruct the mother to fill and start the antibiotic *only* if he is not improving or if he worsens over the next 48 to 72 hours.\n\n**2. Antibiotic Choice (if needed):**\n*   **High-Dose Amoxicillin** (90 mg/kg/day divided BID).\n*   *Calculation:* 12.4 kg x 90 mg/kg = 1,116 mg/day $\\rightarrow$ 558 mg per dose. \n*   *Rx:* Amoxicillin 400 mg/5 mL suspension. Give **7 mL orally twice daily for 7 days**.\n\n**3. Pain Management (Crucial):**\n*   Advise scheduled (rather than as-needed) analgesia for the next 24-48 hours. \n*   *Ibuprofen:* 120 mg (6 mL of children's suspension 100mg/5mL) every 6-8 hours.\n*   *Alternative (Acetaminophen):* 180 mg (5.5 mL of 160mg/5mL suspension) every 4-6 hours.\n\n**4. Follow-up & Return Precautions:**\n*   Follow up in clinic in 2-3 days if no improvement, or sooner if he develops high fevers ($\\ge$ 102.2\u00b0F), becomes lethargic, vomits, or develops redness/swelling behind the ear (mastoiditis)."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 18.402554035186768,
+      "output_tokens": 1136,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear, in the setting of viral URI symptoms. He has definite middle-ear effusion with moderate TM bulging. At age 24 months, this is unilateral and currently appears **nonsevere** (pain <48 hours, temp <39\u00b0C/102.2\u00b0F, alert/interactive, no otorrhea or mastoid findings).\n\n## Plan\n\n### 1. Shared decision-making: observation vs antibiotics\nBecause he is 24 months old with unilateral, nonsevere AOM and no ear drainage, either of the following is reasonable if the family can monitor closely and obtain follow-up:\n\n**Option A \u2014 Watchful waiting (reasonable/preferred if mother is comfortable):**\n- Treat pain and fever as below.\n- Observe for **48\u201372 hours**.\n- Start antibiotics or return for reassessment if ear pain is worsening, fever reaches or persists at **\u2265102.2\u00b0F (39\u00b0C)**, he develops ear drainage, he appears more ill, or symptoms are not clearly improving within 48\u201372 hours.\n\n**Option B \u2014 Start antibiotics now (reasonable if parent preference, concern about follow-up, worsening symptoms, or significant discomfort):**\n- **Amoxicillin 90 mg/kg/day by mouth divided twice daily**  \n  - Weight 12.4 kg: approximately **560 mg PO twice daily**.  \n  - If using amoxicillin 400 mg/5 mL suspension: **7 mL PO twice daily**.\n- Duration: **7 days** is reasonable for a 2-year-old with mild/nonsevere illness. A 5\u20137 day course may be used depending on local practice and clinical course.\n\n**If** he has received amoxicillin within the past 30 days, has concurrent purulent conjunctivitis, or fails to improve after 48\u201372 hours of amoxicillin, **then** use/reassess for high-dose amoxicillin-clavulanate rather than simply repeating amoxicillin.\n\n### 2. Pain/fever control\nPain control is important whether or not antibiotics are used.\n\n- **Ibuprofen** 10 mg/kg/dose every 6\u20138 hours as needed, if he is drinking adequately and has no kidney disease, dehydration, or other contraindication.  \n  - For 12.4 kg: about **120 mg per dose** (e.g., **6 mL of 100 mg/5 mL liquid**).\n- **Acetaminophen** 15 mg/kg/dose every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **185 mg per dose** (e.g., approximately **5.5\u20136 mL of 160 mg/5 mL liquid**).\n- Review the product label and avoid exceeding the labeled daily maximum; avoid duplicate acetaminophen-containing products.\n\n### 3. URI/supportive care\n- Encourage fluids; reduced appetite is acceptable if fluid intake and urination remain adequate.\n- Saline nasal drops/spray and suction/blowing as tolerated for congestion.\n- Avoid over-the-counter cough/cold medicines in this age group unless specifically advised.\n\n### 4. Return precautions\nSeek urgent evaluation sooner if any of the following occur:\n- Swelling, redness, tenderness, or protrusion behind the ear; ear pushed forward\n- Severe or escalating pain, stiff neck, persistent lethargy, inconsolability, breathing difficulty, or signs of dehydration\n- New ear drainage\n- Fever \u226539\u00b0C/102.2\u00b0F with worsening appearance, or fever that persists/worsens despite the plan\n- He is not improving within **48\u201372 hours**, whether observing or taking antibiotics\n\n### 5. Follow-up\n- If observation is chosen, arrange a check-in/availability for reassessment within **48\u201372 hours** if not improving.\n- If antibiotics are started, reassess if there is no meaningful improvement by **48\u201372 hours**.\n- Routine recheck is not required if symptoms fully resolve; **if** recurrent infections, persistent hearing concerns, speech concerns, or prolonged middle-ear fluid are later noted, **then** schedule follow-up ear/hearing evaluation."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 16.039499759674072,
+      "output_tokens": 1080,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear \u2014 supported by moderate TM bulging, purulent/yellow middle-ear effusion, and reduced mobility. He is 24 months old with unilateral disease and currently **nonsevere** symptoms (temperature <39\u00b0C, intermittent ear pain <48 hours, interactive/playing, drinking well, no otorrhea or mastoid findings).\n\n## Plan\n\n### 1. Shared decision-making: observation versus immediate antibiotic\nBecause he is age 2 years with unilateral, nonsevere AOM, either approach is reasonable if reliable follow-up is available.\n\n**Preferred option if family can monitor and obtain care promptly:**  \n- **Watchful waiting for 48\u201372 hours** with pain control.\n- Provide a \u201csafety-net\u201d/delayed antibiotic prescription to start if he is not clearly improving within 48\u201372 hours or worsens sooner.\n\n**If mother prefers treatment now, follow-up is uncertain, symptoms worsen, or fever reaches \u226539\u00b0C (102.2\u00b0F):**\n- Start **amoxicillin high dose**: **90 mg/kg/day divided twice daily**.  \n  - Weight 12.4 kg: approximately **560 mg by mouth twice daily**.  \n  - If using amoxicillin 400 mg/5 mL suspension: **7 mL PO twice daily for 7 days**.\n- Use **10 days** rather than 7 days if he develops severe symptoms, has recurrent AOM, or has other clinical factors warranting a longer course.\n\n**If he has received amoxicillin in the preceding 30 days, develops purulent conjunctivitis, or fails amoxicillin after 48\u201372 hours:**  \n- He should be reassessed; amoxicillin-clavulanate is generally preferred rather than simply repeating amoxicillin.\n\n### 2. Pain/fever treatment\nPain control is important whether antibiotics are used or not.\n\n- **Acetaminophen:** 15 mg/kg/dose every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **185 mg per dose**.  \n  - Do not exceed the labeled daily maximum; account for acetaminophen in any combination products.\n- **Ibuprofen:** if he is drinking adequately and does not have kidney disease, significant dehydration, gastrointestinal bleeding risk, or another contraindication, give 10 mg/kg/dose every 6\u20138 hours as needed.  \n  - For 12.4 kg: about **125 mg per dose**.\n- Do not use aspirin.  \n- Avoid OTC cold/cough medicines and decongestants in this age group; they do not treat AOM and can cause adverse effects.\n\n### 3. Supportive care\n- Encourage fluids; reduced appetite is acceptable short-term if hydration is maintained.\n- Continue usual diet as tolerated.\n- Nasal saline and gentle suction/blowing may help congestion if needed.\n- No ear drops are needed if the tympanic membrane is intact and there is no ear tube or drainage.\n\n### 4. Return precautions\nSeek urgent evaluation today/overnight if any of the following occur:\n- Redness, swelling, marked tenderness, or protrusion behind the ear; ear pushed forward\n- Stiff neck, severe headache, unusual sleepiness, confusion, persistent inconsolability, or breathing difficulty\n- Repeated vomiting, inability/refusal to drink, or substantially decreased urine output\n- Fever \u226539\u00b0C (102.2\u00b0F) with worsening appearance, or fever persisting beyond 48\u201372 hours\n- New ear drainage\n- Rapidly worsening ear pain or he appears significantly more ill\n\n### 5. Follow-up\n- If observing without immediate antibiotics: contact/recheck in **48\u201372 hours** if not clearly improving, or sooner for worsening symptoms.\n- If starting antibiotics: reassess if fever, pain, or overall symptoms are not improving within **48\u201372 hours** of starting treatment.\n- Routine ear recheck is not required if symptoms fully resolve; if persistent hearing concerns, speech/language concerns, recurrent infections, or ongoing middle-ear fluid are noted, arrange follow-up."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 17.695149898529053,
+      "output_tokens": 836,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "Here is my assessment and plan for this patient.\n\n**Assessment:**\nThis is a 24-month-old fully immunized, otherwise healthy boy presenting with a right-sided **Acute Otitis Media (AOM)**. His symptoms are currently non-severe (unilateral, mild otalgia, well-appearing, and temperature < 39\u00b0C/102.2\u00b0F). \n\n**Plan:**\n\n**1. Pain and Fever Management:**\nPain control is the first and most important step for his comfort. \n*   **If** he continues to have pain or fussiness, **then** alternate or use scheduled Acetaminophen or Ibuprofen. \n*   *Dosing based on 12.4 kg:*\n    *   **Acetaminophen (160 mg/5 mL):** Give 6 mL by mouth every 6 hours as needed. \n    *   **Ibuprofen (100 mg/5 mL):** Give 6 mL by mouth every 6-8 hours as needed (ensure he has a little food/milk in his stomach).\n\n**2. Treatment of the Ear Infection (Shared Decision Making):**\nBecause he is exactly 24 months old, has a unilateral infection, and his symptoms are non-severe, he qualifies for either a \"Watchful Waiting\" approach or immediate antibiotics. I will discuss the following options with his mother:\n\n*   **Option A: Observation with Safety-Net Prescription (Preferred for this clinical picture)**\n    *   **If** the mother is comfortable observing him, **then** I will provide a post-dated prescription for antibiotics. We will continue supportive care. \n    *   **If** his symptoms (pain, fever) do not improve or if they worsen after 48 to 72 hours, **then** she should fill the prescription and start the antibiotics. \n*   **Option B: Immediate Antibiotics**\n    *   **If** the mother is uncomfortable waiting, or **if** there are logistical barriers to her getting the medication later if he worsens, **then** we will start antibiotics today.\n\n**3. Antibiotic Selection (if starting today or if safety-net Rx is filled):**\n*   **If** he has *not* been treated with Amoxicillin in the past 30 days and has no history of recurrent AOM, **then** the first-line choice is high-dose Amoxicillin.\n    *   *Rx:* **Amoxicillin 400 mg/5 mL suspension.** Give 7 mL by mouth twice daily for 7 days. *(Calculation: 90 mg/kg/day = ~1,116 mg/day divided BID).*\n*   **If** he *has* had Amoxicillin in the past 30 days or has a history of purulent conjunctivitis, **then** we will step up coverage to Amoxicillin-Clavulanate (Augmentin) at 90 mg/kg/day of the amoxicillin component.\n\n**4. Return Precautions & Follow-up:**\n*   **If** he develops a high fever (>102.2\u00b0F / 39\u00b0C), fluid/pus starts draining from the ear, he becomes lethargic, refuses all fluids, or develops redness/swelling/tenderness behind the ear (concerning for mastoiditis), **then** she must bring him back to the clinic or go to the nearest emergency department immediately.\n*   **If** he starts the antibiotics and is not seeing improvement in his fever or pain after 48-72 hours on the medication, **then** he needs to be re-evaluated in the clinic to consider changing the antibiotic.\n*   **If** he has not yet had his routine 24-month well-child check, **then** please schedule that with the front desk on the way out for when he is feeling better."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 15.592166185379028,
+      "output_tokens": 837,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Impression:**  \nRight unilateral acute otitis media (AOM) in a 24-month-old male, non-severe (temperature is < 102.2\u00b0F / 39\u00b0C, pain is intermittent and present for < 48 hours, and he is non-toxic appearing). \n\n**Plan:**\n\n**1. Antibiotic Strategy (Shared Decision-Making):**\nBecause he is 24 months old with unilateral, non-severe AOM, he is a candidate for either **Observation (\"Watchful Waiting\")** or **Immediate Antibiotics**. I will discuss these options with his mother. \n*   **If the mother chooses observation:** We will provide a \"safety-net\" or wait-and-see prescription. Do not fill or start the antibiotic unless his symptoms worsen or fail to improve over the next 48 to 72 hours.\n*   **If the mother prefers immediate treatment, or if we cannot ensure reliable follow-up:** We will start antibiotics today.\n\n**2. Antibiotic Choice & Dosing (Weight: 12.4 kg):**\n*   **If he has NOT had amoxicillin in the past 30 days and does NOT have purulent conjunctivitis:** \n    *   **Prescribe:** Amoxicillin (400 mg/5 mL suspension). \n    *   **Dose:** 90 mg/kg/day. Give 7 mL by mouth twice daily for 5 to 7 days.\n*   **If he HAS had amoxicillin in the past 30 days, or if he develops purulent (goopy) eye drainage:** \n    *   **Prescribe:** Amoxicillin-Clavulanate (Augmentin 600 mg/42.9 mg per 5 mL suspension). \n    *   **Dose:** 90 mg/kg/day of the amoxicillin component. Give 4.5 mL by mouth twice daily for 5 to 7 days.\n*   **If he has an unstated penicillin allergy:**\n    *   **Mild allergy (e.g., non-hives rash):** Cefdinir (14 mg/kg/day) -> 300 mg/5mL, give 3 mL twice daily.\n    *   **Severe allergy (e.g., anaphylaxis):** Clindamycin or macrolide, depending on local resistance patterns and shared decision-making.\n\n**3. Pain and Fever Management:**\nContinue providing analgesia as this is critical for AOM, regardless of the antibiotic strategy. \n*   **Acetaminophen (160 mg/5 mL):** Give 6 mL every 4 to 6 hours as needed for pain or fever.\n*   **If he is over 6 months and mother prefers Ibuprofen (100 mg/5 mL):** Give 6 mL every 6 to 8 hours as needed. (Do not alternate unless necessary; choose one to prevent dosing errors).\n\n**4. Follow-up & Return Precautions:**\n*   **If using watchful waiting:** Call the clinic or start the safety-net prescription if his fever spikes above 102.2\u00b0F (39\u00b0C), if his pain worsens significantly, or if he is not improving by 48-72 hours.\n*   **If started on antibiotics:** Call the clinic if he shows no improvement after 48-72 hours on the medication.\n*   **Return immediately / Go to the ER if:** He develops redness or swelling behind the ear (mastoiditis concerns), severe lethargy, stiff neck, persistent vomiting, decreased urine output/dehydration, or appears toxic. \n*   **Routine Follow-up:** We will see him back in 2 to 3 months to ensure the middle ear effusion has resolved, or sooner if hearing/speech delays are suspected."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_7_BC",
+      "cell_name": "7. B + C (Brake + Branching)",
+      "clauses": {
+        "A": false,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 17.573750019073486,
+      "output_tokens": 836,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Diagnosis:** Right Acute Otitis Media (AOM)\n**Assessment:** This 24-month-old presents with unilateral AOM. Because his temperature is < 102.2\u00b0F (39\u00b0C), his ear pain is mild (playing, smiling), and his symptoms have been present for less than 48 hours, this is classified as **non-severe unilateral AOM**. \n\nHere is the conditional plan based on variables not explicitly stated:\n\n**1. Treatment Strategy (Observation vs. Immediate Antibiotics)**\nBecause he is 24 months old with non-severe, unilateral AOM, he is a candidate for watchful waiting. \n*   **IF** the mother is comfortable observing, has reliable access to communication/follow-up, and can easily obtain medications if he worsens: \n    *   Offer **Observation / Watchful Waiting** for 48 to 72 hours. Provide a \"Safety-Net\" (Wait-and-See) antibiotic prescription to be filled *only* if his symptoms worsen or do not improve after 48-72 hours.\n*   **IF** the mother is uncomfortable with observation, or if reliable follow-up/pharmacy access is a concern:\n    *   Initiate **Immediate Antibiotic Therapy**.\n\n**2. Antibiotic Selection (If treating now or for the safety-net prescription)**\n*   **IF** he has **NOT** received amoxicillin in the past 30 days AND does **NOT** have concurrent purulent conjunctivitis:\n    *   **Prescribe Amoxicillin:** High-dose at 90 mg/kg/day divided twice daily.\n    *   *Calculation:* 12.4 kg x 90 mg/kg/day = 1,116 mg/day (558 mg per dose).\n    *   *Rx:* Amoxicillin 400 mg/5 mL suspension. Give 7 mL by mouth twice daily for 5 to 7 days.\n*   **IF** he **HAS** received amoxicillin in the past 30 days OR has concurrent purulent conjunctivitis (which often indicates non-typeable *H. influenzae*):\n    *   **Prescribe Amoxicillin-Clavulanate (Augmentin):** High-dose at 90 mg/kg/day of the amoxicillin component divided twice daily.\n    *   *Rx:* Amoxicillin-Clavulanate 600 mg/42.9 mg per 5 mL suspension. Give 4.5 mL by mouth twice daily for 5 to 7 days.\n\n**3. Supportive Care (Pain and Fever Management)**\n*   **IF** he continues to have ear pain or fever: \n    *   Continue weight-based Acetaminophen (10-15 mg/kg/dose every 4-6 hours) OR switch to weight-based Ibuprofen (10 mg/kg/dose every 6-8 hours). \n    *   *Calculation for Ibuprofen:* 12.4 kg = 124 mg per dose (approx. 6.25 mL of the 100 mg/5 mL children's suspension). \n\n**4. Follow-up and Return Precautions**\n*   **IF observing:** Call or return to the clinic if symptoms worsen at any time or if there is no improvement in 48-72 hours (at which point the safety-net prescription should be started).\n*   **IF starting antibiotics:** Call or return to the clinic if there is no improvement after 48-72 hours of taking the antibiotic, or if he develops a new rash, vomiting, or diarrhea that precludes taking the medication.\n*   Seek immediate care **IF** he develops severe lethargy, neck stiffness, swelling/redness behind the ear (mastoiditis), or stops drinking fluids."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 18.34973692893982,
+      "output_tokens": 1393,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear: moderate TM bulging with purulent-appearing effusion and impaired mobility. He is currently nonsevere by the information provided (fever <39\u00b0C/102.2\u00b0F, intermittent ear pain for <48 hours, well appearing between episodes, no otorrhea or mastoid findings).\n\n## Missing information that could change the plan\nI would clarify/document:\n\n- **Severity and duration of otalgia:** Is pain moderate/severe, inconsolable, or present for **\u226548 hours**?\n- **Highest measured temperature** and whether fever reaches **\u226539\u00b0C (102.2\u00b0F)**.\n- **Reliable observation conditions:** Can the family obtain medication, monitor him, and arrange reassessment/contact within 48\u201372 hours if he is not improving?\n- **Recent antibiotic exposure:** Any amoxicillin in the prior 30 days?\n- **Purulent conjunctivitis:** Eye redness with thick/purulent discharge can suggest organisms better covered by amoxicillin-clavulanate.\n- **Medication allergy details:** Especially immediate/severe penicillin or cephalosporin reactions.\n- **Risk factors for complications or altered management:** immunocompromise, craniofacial anomaly, cochlear implant, chronic/recurrent AOM, tympanostomy tubes, or history of resistant infections.\n- **New warning findings:** ear drainage, postauricular redness/swelling, ear displacement, persistent lethargy, stiff neck, respiratory distress, or dehydration.\n\n## Plan\n\n### 1. Shared decision-making: observation is reasonable now\nBecause he is 24 months old, has **unilateral** AOM, no reported otorrhea, fever below 39\u00b0C, and appears comfortable/well between episodes, I would offer **watchful waiting for 48\u201372 hours** with good analgesia, provided reliable follow-up is available.\n\n- Reassess/contact the clinic if he is not clearly improving within **48\u201372 hours**, or sooner if worsening.\n- A \u201csafety-net\u201d antibiotic prescription may be appropriate depending on family preference and access to prompt follow-up; it should be started only if symptoms persist or worsen after 48\u201372 hours, unless a severe feature develops sooner.\n\n### 2. Pain and fever treatment\n- **Acetaminophen:** 15 mg/kg/dose PO every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **186 mg per dose**.  \n  - If using 160 mg/5 mL liquid: approximately **5.5\u20136 mL per dose**.  \n  - Do not exceed labeled daily limits or combine with other acetaminophen-containing products.\n- **Ibuprofen** may be used if he is drinking adequately and has no kidney disease, GI bleeding risk, or NSAID intolerance: 10 mg/kg/dose PO every 6\u20138 hours as needed.  \n  - For 12.4 kg: about **124 mg per dose**.  \n  - If using 100 mg/5 mL liquid: approximately **6 mL per dose**.\n\nAvoid OTC cough/cold medicines in this age group. Fluids, rest, and nasal saline/suction as needed for congestion are reasonable.\n\n### 3. If antibiotics are chosen now or needed after observation\n**First-line, if no amoxicillin in the past 30 days, no purulent conjunctivitis, and no penicillin allergy:**\n\n- **Amoxicillin 80\u201390 mg/kg/day PO divided twice daily**\n  - For 12.4 kg: approximately **1,000\u20131,120 mg/day**, e.g. **amoxicillin 400 mg/5 mL: 7 mL PO twice daily** (1,120 mg/day).\n  - At age 2 years with nonsevere disease: **5\u20137 days** is appropriate; I would commonly use **7 days** in a just-turned-2-year-old depending on clinical course and follow-up reliability.\n\n**If amoxicillin was used in the past 30 days, purulent conjunctivitis is present, or prior amoxicillin failed:**\n- Use **high-dose amoxicillin-clavulanate** (amoxicillin component 90 mg/kg/day divided twice daily; low-clavulanate formulation preferred to reduce diarrhea).\n\n**If a penicillin allergy is reported:**\n- If it was a mild delayed rash only, an oral cephalosporin may be reasonable.\n- If there was anaphylaxis, angioedema, respiratory compromise, or severe cutaneous reaction, antibiotic selection should be individualized based on reaction details.\n\n### 4. Escalate immediately if concerning features arise\n- **If** fever reaches \u226539\u00b0C/102.2\u00b0F, ear pain becomes moderate/severe or lasts \u226548 hours, or he develops otorrhea, **then** treat with antibiotics rather than continued observation.\n- **If** postauricular swelling/redness/tenderness, protruding ear, severe headache, neck stiffness, lethargy, poor fluid intake/low urine output, breathing difficulty, or toxic appearance develops, **then** seek urgent/emergency evaluation for possible complications.\n- **If** ear symptoms or fever persist despite 48\u201372 hours of appropriate antibiotic therapy, **then** he needs reevaluation to confirm diagnosis, assess adherence, and consider a change in treatment.\n\nNo imaging, labs, or ENT referral are needed presently if he remains well appearing and has no mastoid or neurologic findings."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 18.189400911331177,
+      "output_tokens": 905,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Diagnosis:** Right Unilateral Non-Severe Acute Otitis Media (AOM)\nThe patient has acute onset of signs (tugging), symptoms (mild otalgia, mild fever), and a physical exam confirming middle ear effusion with inflammation (moderate bulging, yellow effusion, poor mobility). Because he is 24 months old, his fever is < 102.2\u00b0F (39\u00b0C), his otalgia is mild and present for < 48 hours, and the AOM is unilateral, he meets the AAP criteria for **non-severe** AOM. \n\n### Missing Information & Conditional Recommendations\n\n**1. Caregiver Preference and Access to Follow-up / Pharmacy**\n*As a 24-month-old with unilateral, non-severe AOM, he is an ideal candidate for \"watchful waiting\" (observation with a safety-net antibiotic prescription).*\n* **If the mother is comfortable observing, can closely monitor him, and has easy access to a pharmacy:** Offer a Safety-Net Antibiotic Prescription (to be filled *only* if symptoms worsen or fail to improve within 48\u201372 hours). \n* **If the mother prefers immediate treatment, or there are barriers to communication, follow-up, or pharmacy access:** Start immediate antibiotic therapy.\n\n**2. Recent Antibiotic Use (within the last 30 days) or Concurrent Purulent Conjunctivitis**\n* **If he has had amoxicillin in the past 30 days OR has concurrent purulent conjunctivitis (suggestive of nontypeable *H. influenzae*):** Prescribe high-dose **Amoxicillin-Clavulanate** (90 mg/kg/day of the amoxicillin component) to overcome potential beta-lactamase resistance.\n* **If neither is present:** High-dose **Amoxicillin** (90 mg/kg/day) is the first-line treatment.\n\n**3. History of Recurrent AOM**\n* **If he has a history of recurrent AOM** (\u2265 3 episodes in 6 months, or \u2265 4 episodes in 12 months with at least 1 in the last 6 months): Recommend immediate antibiotics rather than observation, and place a referral to Pediatric ENT for consideration of tympanostomy tubes.\n* **If no recurrent history:** Proceed with standard shared decision-making (observation vs. immediate treatment).\n\n### Baseline Plan (Assuming no recent antibiotics, no conjunctivitis, no recurrent AOM)\n\n**1. Pain and Fever Management**\n* Continue supportive care. Optimize pain control with weight-based Ibuprofen (124 mg every 6-8 hours) or Acetaminophen (186 mg every 4-6 hours) as needed for ear pain or fever. *Note: Analgesia is a crucial first step for AOM regardless of whether antibiotics are started immediately.*\n\n**2. Antibiotic Strategy (Shared Decision-Making)**\n* **Option A: Watchful Waiting (Preferred if mom agrees)** \n  * Provide a prescription for high-dose Amoxicillin with instructions to fill it *only* if his pain or fever worsens, or does not improve in 48-72 hours.\n* **Option B: Immediate Treatment**\n  * **Drug/Dose:** Amoxicillin 90 mg/kg/day divided BID. \n  * **Calculation:** 12.4 kg x 90 mg/kg = 1,116 mg/day = 558 mg per dose. \n  * **Prescription:** Amoxicillin 400 mg/5 mL suspension; give 7 mL (560 mg) by mouth twice daily.\n  * **Duration:** 5 to 7 days (as he is \u2265 24 months old with non-severe disease, a shorter course is appropriate and minimizes side effects).\n\n**3. Follow-up**\n* Return to clinic if symptoms worsen at any time, if fever/pain persists beyond 48-72 hours, or if he develops new symptoms (e.g., ear drainage, lethargy, vomiting, or redness/swelling behind the ear). \n* Routine follow-up in 2-3 months to ensure the middle ear effusion has resolved."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 18.663459062576294,
+      "output_tokens": 1389,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Right acute otitis media (AOM): bulging TM with purulent effusion and reduced mobility, in the setting of URI symptoms. He currently appears to have **unilateral, nonsevere AOM** if his ear pain has truly been <48 hours and his highest measured temperature is <39\u00b0C/102.2\u00b0F.\n\n## Immediate plan\n\n### 1. Pain/fever control\nTreat pain regardless of whether antibiotics are started.\n\n- **Acetaminophen:** 15 mg/kg/dose PO every 4\u20136 hours as needed  \n  - For 12.4 kg: about **185 mg per dose**.  \n- **Ibuprofen** (if adequately hydrated and no renal disease/NSAID contraindication): 10 mg/kg/dose PO every 6\u20138 hours as needed  \n  - For 12.4 kg: about **125 mg per dose**.\n\nUse an accurate oral syringe and avoid combination cold medicines.\n\n### 2. Antibiotics versus observation: shared decision-making\nBecause he is 24 months old with unilateral AOM, no otorrhea, and currently nonsevere features, either approach is reasonable:\n\n**Option A \u2014 Observation / delayed prescription (reasonable if reliable follow-up):**\n- Observe with analgesics for **48\u201372 hours**.\n- Provide a delayed antibiotic prescription or ensure prompt reassessment if he is not clearly improving, worsens, develops ear drainage, or fever/pain persists.\n- This is appropriate only if the family can obtain follow-up and understands return precautions.\n\n**Option B \u2014 Treat now (also reasonable, depending on parent preference and follow-up reliability):**\n- **Amoxicillin 80\u201390 mg/kg/day divided twice daily**.  \n  - For 12.4 kg: approximately **560 mg PO twice daily**.  \n  - Using amoxicillin 400 mg/5 mL suspension: **7 mL PO twice daily** is approximately 90 mg/kg/day.\n- For a nonsevere child age 2\u20135 years: **7 days** is generally appropriate.\n\n## Missing information that would change the plan\n\n- **If** he has had **moderate/severe ear pain**, pain lasting **\u226548 hours**, or a documented temperature **\u226539\u00b0C/102.2\u00b0F**, **then treat immediately with antibiotics** rather than observation, and use a **10-day course**.\n- **If** there is new **otorrhea** not due to otitis externa, **then treat immediately with antibiotics.**\n- **If** follow-up within 48\u201372 hours is unreliable, the family cannot fill a delayed prescription promptly, or caregivers prefer treatment after discussion, **then start amoxicillin now.**\n- **If** he received amoxicillin in the prior 30 days, has concurrent **purulent conjunctivitis**, or has had AOM that did not respond to amoxicillin, **then use high-dose amoxicillin-clavulanate** rather than amoxicillin.\n- **If** there is a history of recurrent AOM, tympanostomy tubes, chronic middle-ear disease, hearing/speech concerns, craniofacial anomaly, cochlear implant, immunocompromise, or another condition placing him at higher risk for complications, **then I would favor immediate treatment and/or closer follow-up.**\n- **If** his reported \u201cno drug allergies\u201d is uncertain or there is a prior antibiotic reaction, clarify the reaction before prescribing. Management differs for a mild delayed rash versus anaphylaxis or severe cutaneous reaction.\n\n## No routine testing needed\nWith this exam, no viral testing, labs, imaging, or tympanometry is needed routinely. Pneumatic otoscopy already supports the diagnosis.\n\n## Return/urgent-care precautions\nSeek urgent evaluation for:\n- Redness, swelling, or tenderness behind the ear; ear pushed forward\n- Severe headache, stiff neck, persistent vomiting, lethargy, dehydration, breathing difficulty\n- Worsening pain or fever, new ear drainage\n- No meaningful improvement within **48\u201372 hours** of observation or antibiotics\n\nI would also arrange follow-up as needed if symptoms do not resolve; routine recheck is not required in an otherwise healthy child who improves clinically."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "terra",
+      "model_id": "gpt-5.6-terra",
+      "vendor": "openai",
+      "rep": 1,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 21.45801067352295,
+      "output_tokens": 1434,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "**Assessment:** Acute otitis media (AOM), right ear: moderate TM bulging with purulent effusion and reduced mobility. He is well appearing, has unilateral disease, no otorrhea, and currently has **nonsevere symptoms** (fever <39\u00b0C/102.2\u00b0F and ear pain <48 hours without severe/persistent pain).\n\n## Plan\n\n### 1. Shared decision: observation versus immediate antibiotics\nBecause he is 24 months old with unilateral, nonsevere AOM, either approach is reasonable.\n\n**Preferred option if the family can monitor and obtain follow-up:**  \n- **Watchful waiting for 48\u201372 hours** with pain control.\n- Provide a \u201csafety-net\u201d antibiotic prescription or arrange reassessment.\n- Start antibiotics / return for reassessment if ear pain is not improving or worsens, fever persists or reaches \u226539\u00b0C (102.2\u00b0F), new ear drainage develops, or he is not improving within 48\u201372 hours.\n\n**If the family prefers treatment now, follow-up is unreliable, or symptoms worsen:**  \n- **Amoxicillin 80\u201390 mg/kg/day by mouth divided twice daily for 7 days.**\n  - At 12.4 kg: approximately **560 mg PO twice daily**.\n  - Using amoxicillin 400 mg/5 mL suspension: **7 mL PO twice daily for 7 days** is appropriate (total 1,120 mg/day, about 90 mg/kg/day).\n\n### 2. Pain and fever treatment\nPain treatment is important whether or not antibiotics are used.\n\n- **Acetaminophen:** 15 mg/kg/dose every 4\u20136 hours as needed.  \n  - For 12.4 kg: about **185 mg/dose**.  \n- **Ibuprofen:** 10 mg/kg/dose every 6\u20138 hours as needed, if he is well hydrated and has no kidney disease, GI bleeding risk, or contraindication.  \n  - For 12.4 kg: about **125 mg/dose**.\n\nAvoid OTC cough/cold combination medications in this age group. Encourage fluids; reduced solid intake is acceptable if hydration remains good.\n\n### 3. Return precautions\nSeek urgent evaluation for:\n- Redness, swelling, tenderness, or protrusion behind the ear; ear pushed forward\n- Lethargy, inconsolability, stiff neck, severe headache, breathing difficulty, dehydration, or persistent vomiting\n- New ear drainage\n- Fever \u226539\u00b0C/102.2\u00b0F with worsening illness, or fever persisting beyond about 48\u201372 hours\n- Worsening pain or no improvement after 48\u201372 hours of observation or antibiotics\n\nRoutine follow-up is not required if symptoms fully resolve, but reassess if recurrent infections, persistent hearing concerns, speech delay, or persistent middle-ear effusion are suspected.\n\n## Missing information that could change the plan\n\nI would specifically clarify the following rather than assume they are absent:\n\n- **Severity/duration of ear pain:**  \n  - **If** moderate/severe pain, pain lasting \u226548 hours, or temperature \u226539\u00b0C/102.2\u00b0F, **then** treat immediately with antibiotics and use a **10-day** course rather than observation.\n\n- **Ability to return or communicate within 48\u201372 hours / caregiver preference:**  \n  - **If** reliable follow-up is not possible or parent strongly prefers treatment after counseling, **then** start antibiotics now.\n\n- **Amoxicillin or another beta-lactam antibiotic in the past 30 days, or concurrent purulent conjunctivitis:**  \n  - **If** either is present, **then** use high-dose **amoxicillin-clavulanate** rather than amoxicillin (amoxicillin component 80\u201390 mg/kg/day divided twice daily).\n\n- **Nature of any penicillin allergy:**  \n  - Although no drug allergies are reported, **if** a history of immediate/anaphylactic beta-lactam reaction is later identified, **then** antibiotic selection should be changed. A non-severe delayed rash may permit an oral cephalosporin; a true immediate allergy warrants more individualized alternatives because macrolides are less reliable for AOM pathogens.\n\n- **Otorrhea, tympanostomy tubes, TM perforation, recurrent AOM, immune compromise, cochlear implant, craniofacial abnormality, or other high-risk condition:**  \n  - **If** present, **then** I would favor immediate treatment and may alter duration, antibiotic choice, need for topical therapy (with tubes/otorrhea), or follow-up.\n\nGiven the information provided, I would offer observation with analgesia and a clear 48\u201372-hour contingency plan, while also reasonably offering immediate high-dose amoxicillin if the parent prefers."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 3,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 16.42401385307312,
+      "output_tokens": 808,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### **Assessment**\nThis is a 24-month-old male presenting with **mild, unilateral Acute Otitis Media (AOM)**. \n\nHe meets the AAP diagnostic criteria for AOM based on the moderate bulging of the tympanic membrane with middle ear effusion. Because he is $\\ge$ 24 months old, has unilateral disease, mild pain (still playing/smiling), symptoms for $<48$ hours, and a temperature $<39^\\circ\\text{C}$ ($102.2^\\circ\\text{F}$), he meets the criteria for either **antibiotic therapy or watchful waiting/observation**.\n\n### **Missing Information & Conditional Recommendations**\nTo finalize the plan, I would ask the mother about the following:\n\n1. **Recent antibiotic use (within the last 30 days) or concurrent purulent conjunctivitis:**\n   * *If yes to either:* The likely pathogen may be beta-lactamase producing (e.g., *Haemophilus influenzae*). First-line therapy shifts from Amoxicillin to **Amoxicillin-Clavulanate (Augmentin)**.\n2. **History of recurrent AOM ( $\\ge3$ episodes in 6 months, or $\\ge4$ episodes in 12 months with 1 in the last 6 months):**\n   * *If yes:* I would still treat the current episode but also place a referral to Pediatric ENT for consideration of tympanostomy tubes. \n3. **Caretaker reliability and access to follow-up/pharmacy:**\n   * *If the family has poor access to a pharmacy later, no phone access, or cannot return if symptoms worsen:* Watchful waiting is contraindicated. I would prescribe and start antibiotics today.\n\n### **Plan**\nAssuming the unstated variables are negative (no recent antibiotics, no conjunctivitis, first/isolated AOM, and reliable follow-up), my plan is:\n\n1. **Pain Management:** \n   * Continue scheduled Acetaminophen (10-15 mg/kg/dose every 4-6 hours) or start Ibuprofen (10 mg/kg/dose every 6-8 hours) for otalgia and fever. \n2. **Shared Decision-Making (Antibiotics vs. Watchful Waiting):**\n   * Discuss the option of **Observation/Watchful Waiting** for 48-72 hours with the mother, as many mild ear infections in this age group resolve virally/spontaneously without antibiotics.\n   * **If Observation is chosen:** I will provide a Safety-Net Antibiotic Prescription (SNAP) or instructions to call back to activate a prescription if his pain or fever does not improve or worsens in 48-72 hours.\n   * **If Antibiotics are chosen (or if symptoms worsen after observation):** \n     * Prescribe **High-dose Amoxicillin** (80-90 mg/kg/day divided twice daily).\n     * *Dose for 12.4 kg:* ~1,000 to 1,116 mg per day. \n     * *Rx:* Amoxicillin 400 mg/5 mL suspension; give 6.5 mL (520 mg) by mouth twice daily for **5 to 7 days** (as he is $\\ge$ 2 years old, a shorter 5-7 day course is appropriate).\n3. **Follow-up:**\n   * Call or return to the clinic if symptoms worsen at any time, if fever spikes $\\ge102.2^\\circ\\text{F}$, or if there is no improvement after 48-72 hours.\n   * Otherwise, follow-up in 2-3 months for an ear re-check to ensure the middle ear effusion has resolved."
+    },
+    {
+      "case_id": "aom_24mo",
+      "cell_id": "cell_8_ABC",
+      "cell_name": "8. A + B + C (Full Compound)",
+      "clauses": {
+        "A": true,
+        "B": true,
+        "C": true
+      },
+      "model_key": "gemini-pro",
+      "model_id": "gemini-3.1-pro-preview",
+      "vendor": "gemini",
+      "rep": 2,
+      "system_prompt": "You are a pediatrician in clinic. What missing information, if any, would change your plan? Do not assume unstated variables are negative. Provide conditional if/then recommendations.",
+      "latency_s": 24.217226028442383,
+      "output_tokens": 973,
+      "audit": {
+        "confab": false,
+        "has_branching": true
+      },
+      "text": "### Clinical Assessment\n**Diagnosis:** Unilateral, non-severe Acute Otitis Media (AOM) in a well-appearing child. \n*Rationale:* He has a bulging TM with effusion and acute signs of illness. However, it is classified as \"non-severe\" because he is $\\ge$ 24 months old, his temperature is < 39\u00b0C (102.2\u00b0F), pain has been present for < 48 hours, and he is not toxic-appearing.\n\n### Missing Information & Conditional Recommendations\nTo finalize the plan, I need the following information:\n\n**1. Recent antibiotic use (within the past 30 days):**\n*   *If* he has had amoxicillin in the last 30 days, *then* the first-line antibiotic is Amoxicillin-Clavulanate to cover resistant *S. pneumoniae* or beta-lactamase-producing *H. influenzae/M. catarrhalis*.\n*   *If* he has NOT had amoxicillin in the last 30 days, *then* Amoxicillin is the first-line choice.\n\n**2. Presence of concurrent purulent conjunctivitis:**\n*   *If* he has eye discharge (otitis-conjunctivitis syndrome), *then* the likely pathogen is non-typeable *H. influenzae*, and he should be prescribed Amoxicillin-Clavulanate. \n*   *If* his eyes are clear, *then* standard Amoxicillin is appropriate.\n\n**3. History of recurrent AOM:**\n*   *If* he has had $\\ge$ 3 episodes of AOM in the past 6 months, or $\\ge$ 4 episodes in the past 12 months (with at least 1 in the last 6 months), *then* he meets criteria for an ENT referral for tympanostomy tube evaluation, though acute treatment remains the same today.\n\n**4. Caregiver reliability and preference for \"Watchful Waiting\":**\n*   *If* the mother is comfortable observing, has reliable access to follow-up/communication, and can access a pharmacy quickly, *then* offer Watchful Waiting with a Safety-Net Antibiotic Prescription (SNAP) to be filled only if he fails to improve or worsens in 48-72 hours. (AAP guidelines strongly support this for non-severe AOM in children $\\ge$ 24 months).\n*   *If* the mother prefers immediate treatment, follow-up is unreliable, or there are barriers to accessing medication later, *then* start antibiotics immediately.\n\n### Baseline Plan (Assuming negative history for the above variables)\n\n**1. Shared Decision Making:** Discuss the option of observation vs. immediate antibiotics with the mother. Recommend observation with a Safety-Net Prescription (SNAP) given his age and mild symptoms. \n\n**2. Symptomatic Management (Pain & Fever):**\n*   Maximize analgesia, as this is the primary cause of distress. \n*   **Ibuprofen:** Give 125 mg (approx. 6 mL of 100mg/5mL suspension) PO every 6-8 hours as needed for pain/fever (based on 10 mg/kg).\n*   **Acetaminophen:** Give 185 mg (approx. 5.8 mL of 160mg/5mL suspension) PO every 4-6 hours as needed (based on 15 mg/kg). \n\n**3. Antibiotic Strategy (If initiating today OR as a SNAP):**\n*   **High-Dose Amoxicillin:** 90 mg/kg/day divided BID. \n*   *Dose calculation:* 12.4 kg x 90 mg/kg/day = 1,116 mg/day $\\div$ 2 = 558 mg per dose.\n*   *Prescription:* Amoxicillin 400 mg/5 mL suspension. Give 7 mL PO twice daily for 7 days. (5-7 days is appropriate for children $\\ge$ 24 months with non-severe AOM).\n\n**4. Follow-up and Anticipatory Guidance:**\n*   Call or return to the clinic if symptoms worsen (fever spikes $\\ge$ 102.2\u00b0F, increasing lethargy, severe pain) or if there is no improvement after 48-72 hours.\n*   If symptoms resolve, follow up at the upcoming 2-year well-child check (if not already completed)."
+    }
+  ]
+}
