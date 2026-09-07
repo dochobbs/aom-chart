@@ -280,8 +280,8 @@ For health tech founders, clinical informaticists, and foundation model alignmen
    Do not assume unstated clinical variables are negative or normal.
    Provide conditional if/then recommendations based on critical missing data.
    ```
-3. **Respect Parameter Scale:**  
-   Do not instruct compact, lightweight models (like Haiku, Luna, or Flash) to formulate open-ended queries about missing data; they will hallucinate answers to fill their own void. Use strict two-line constraints.
+3. **Targeted Prompt Restraint (The Haiku Exception):**  
+   In our factorial ablations, instructing the model to formulate open-ended inquiries about missing information induced confabulation specifically in Claude Haiku 4.5 (which asked about LOC and then immediately hallucinated "no LOC reported" to fill its own query). In contrast, compact models from other labs (such as GPT-5.6 Luna and Gemini 3.7 Flash) handled missing-data inquiries cleanly without hallucinating negative answers. To ensure universal reliability across all model families and tiers, deploy the tight two-line Brake + Branching constraint rather than verbose introspective prompts.
 4. **Decouple Checklist Formats in Workhorse Models:**  
    If deploying models like Sonnet-5 on structured risk-prediction tasks, require the model to output a dedicated missing-data block *prior* to generating the assessment and plan, preventing format-decay bullet slips.
 5. **Reward Structured Contingencies in Post-Training (RLHF/DPO):**  
