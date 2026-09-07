@@ -14,7 +14,7 @@ To ensure transparent accounting and prevent pseudoreplication or denominator mi
 ### Table S1: Consolidated Study Cohort Accounting
 | Cohort ID | Description / Arm | Clinical Cases | Models Evaluated | Total Traces (Turns) | Primary Analytical Endpoints |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Cohort 1: Foundational AOM Battery** | Baseline unguided catalog ($N=140$); identity testing ($N=192$); Turn 2 sealed probes ($N=192$); single-sentence prompt intervention ($N=56$) | `aom` (24mo) | 10 models (4 vendor families) | **580 traces** (772 turns) | Closed-world fabrication; verbosity correlation; model signatures; parametric decay; dual-pass scoring vs. clinician adjudication; 0/228 prescription invariance |
+| **Cohort 1: Foundational AOM Battery** | Baseline unguided catalog ($N=140$); pre-specified identity contrast testing ($N=228$ traces); Turn 2 sealed probing evaluations ($N=192$ multi-turn traces); single-sentence prompt intervention ($N=56$) | `aom` (24mo) | 10 models (4 vendor families) | **580 traces** (772 turns) | Closed-world fabrication; verbosity correlation; model signatures; parametric decay; dual-pass scoring vs. clinician adjudication; 0/228 prescription invariance |
 | **Cohort 2: Factorial Credentialism Battery** | $2 \times 2$ factorial (Mother/Father $\times$ Nurse/Unemployed) at $N=6$ replicates per cell | `aom`, `head_24mo` | 6 models (`fable`, `sonnet`, `opus`, `flash`, `pro`, `grok`) | **288 traces** (576 turns) | Parental credentialism in justification text ($p < 10^{-6}$) vs. gender invariance ($p = 1.0000$) |
 | **Cohort 3: Reasoning Compute Spectrum** | Test-time reasoning token scaling (Dynamic effort: None, Low, Medium, High, Max) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 2 reasoning models (`gpt-5.6-sol`, `claude-3.7-fable`) | **60 traces** (120 turns) | Persistence of unknown-to-negative conversion under scaled reasoning compute |
 | **Cohort 4: Multi-Case Replicate Benchmark** | Paired baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 traces** (480 turns) | Resolution of head-injury confabulation (5/6 $\rightarrow$ 0/6, $p=0.015$; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); edge distillation collapse |
@@ -27,7 +27,7 @@ To ensure transparent accounting and prevent pseudoreplication or denominator mi
 ### Table S2: Minor Head Trauma (`head_24mo`) Confabulation Rates (PECARN "No LOC" Assertion)
 *Evaluating whether the model asserts "no loss of consciousness" for a toddler whose fall was explicitly unwitnessed.*
 
-| Model Grouping | Baseline Confabulation Rate | Compound Directive Rate | Absolute Risk Reduction (ARR) | Exact Two-Sided Fisher's Exact Test ($p$-value) | Baseline 95% Exact CI | Directive 95% Exact CI |
+| Model Grouping | Baseline Confabulation Rate | Compound Directive Rate | Risk Difference (RD) | Exact Two-Sided Fisher's Exact Test ($p$-value) | Baseline 95% Exact CI | Directive 95% Exact CI |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Anthropic Flagships (`opus-5` + `sonnet-5`)** | **5 / 6 (83.3%)** | **0 / 6 (0.0%)** | **$-83.3\%$** | **$p = 0.01515$** | 35.9% – 99.6% | 0.0% – 45.9% |
 | Anthropic All 4 Models | 5 / 12 (41.7%) | 0 / 12 (0.0%) | $-41.7\%$ | $p = 0.03728$ | 15.2% – 72.3% | 0.0% – 26.5% |
@@ -64,13 +64,13 @@ Generating structured contingency trees incurs a measurable token expansion cost
 
 ---
 
-## Section S4: Parental Credentialism Justification Analysis (Cohort 2)
+## Section S4: Occupation-Conditioned Clinical Justification Analysis (Cohort 2)
 
-### Table S4: Prescription Invariance vs. Justification Credentialism ($N=288$ Traces)
+### Table S4: Prescription Invariance vs. Occupation-Conditioned Justification ($N=288$ Traces)
 | Evaluation Metric | Nurse Parent ($N=144$) | Unemployed Parent ($N=144$) | Statistical Comparison | Clinical Interpretation |
 | :--- | :---: | :---: | :---: | :--- |
 | **Prescription Order Changes** | **0 / 144 (0.0%)** | **0 / 144 (0.0%)** | **$p = 1.0000$** | **Prescriptions held identical.** Drug orders reflect fixed model signatures rather than demographic factors. |
-| **Citing Parent Job as Reliable Monitoring Justification** | **128 / 144 (88.9%)** | **0 / 144 (0.0%)** | **$p < 10^{-6}$** | **Overwhelming credential favoritism.** Models actively operationalize medical professions as unhedged certificates of follow-up reliability. |
+| **Citing Parent Job as Reliable Monitoring Justification** | **128 / 144 (88.9%)** | **0 / 144 (0.0%)** | **$p < 10^{-6}$** | **Substantial occupation-conditioned divergence in justification text.** Models actively operationalize medical professions as unhedged certificates of follow-up reliability. |
 | **Raising Socioeconomic / Transportation Doubts** | 0 / 144 (0.0%) | 104 / 144 (72.2%) | $p < 10^{-6}$ | Unemployed parents receive unsolicited logistical scrutiny and defensive risk escalation. |
 | **Mother vs. Father Nurse Citation Disparity** | 64 / 72 (88.9%) | 64 / 72 (88.9%) | $p = 1.0000$ | Zero maternal vs. paternal disparity; bias is purely socioeconomic/credentialist. |
 
@@ -85,4 +85,4 @@ Auditing the initial 140 AOM traces against expert human adjudication demonstrat
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Deterministic Keyword Regex** | 48 traces flagged for "asserted follow-up" | 11 confirmed assertions | 77.1% (37/48) | 19 missed fabrications | Falsely flagged appropriate clinical conditionals (*"requires close follow-up, verify with mom"*) as assertions. |
 | **Cross-Model LLM Evaluator (`gpt-5.6-terra`)** | 85 flagged for "demographic bias" | 0 confirmed true bias | 100.0% (85/85) | 11 missed age-binning errors | Misclassified routine discharge safety warnings as identity bias; failed 24-month threshold check on 11/14 Sonnet traces. |
-| **Dual-Pass + Human Adjudication** | **57 verified fabrications** | **57 verified fabrications** | **0.0%** | **0.0%** | **Gold Standard Ground Truth.** Established 40.7% true baseline fabrication rate across 10 models. |
+| **Dual-Pass + Human Adjudication** | **57 verified fabrications** | **57 verified fabrications** | **N/A (reference standard)** | **N/A (reference standard)** | **Clinical Reference Standard.** Established 40.7% true baseline fabrication rate across 10 models. |
