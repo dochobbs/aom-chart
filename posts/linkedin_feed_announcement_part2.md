@@ -1,41 +1,44 @@
 # LinkedIn Feed Announcement Post (The Article Trailer)
 
-*Character count: ~1,950 characters (fits comfortably within LinkedIn's 3,000-character feed limit).*
+*Character count: 2771 characters (comfortably within LinkedIn's 3,000-character feed limit).*
 
 ---
 
 ```text
-Two weeks ago, I published "The Anatomy of an AI Clinical Error" after testing 10 frontier models on an ear infection.
+Two weeks ago, I published "The Anatomy of an AI Clinical Error" after testing 10 frontier models on an ambiguous pediatric ear infection.
 
-In 41% of runs, models silently fabricated missing chart history (like prior antibiotic use) so their decision algorithm could finish. Yet on Turn 2, 97% immediately named the exact assumptions they made.
+In 41% of baseline runs, models silently fabricated unstated chart history to reach an unhedged plan. Yet on Turn 2, 97% immediately recognized the exact assumptions they had made.
 
-In the comments, Graham Walker, MD (MDCalc founder) and Gabe Wilson, MD asked the load-bearing questions:
-Is post-training helpfulness overriding clinical restraint? Does this happen in other acute emergencies? And can we prompt Turn 1 so clinicians don't have to interrogate the AI in Turn 2?
+In the comments, clinical AI leaders like Graham Walker, MD (MDCalc founder) and Gabe Wilson, MD asked the key questions: Does this happen in acute emergencies? What is the mechanism? And can we prompt Turn 1 so clinicians don't have to interrogate the AI in Turn 2?
 
-To answer them, we expanded the study from 140 traces to 1,324 clinical traces across 8 cohorts and 10 frontier models (Anthropic, OpenAI, Google, xAI).
+To find out, we expanded the study from 140 traces to 1,324 clinical generation traces across 8 cohorts and 10 foundation models (Anthropic, OpenAI, Google, xAI).
 
 Today, I published Part 2: "The Boolean Checklist Trap, the Epistemic Split, and the Prompt Scale Paradox."
 
-Here are the four key discoveries:
+Here is the core story:
 
-1️⃣ The Additive vs. Boolean Trap:
-In pneumonia and UTI, frontier models had 0% confabulation. Why? Because those guidelines are ADDITIVE (positive findings justify treatment). But in unwitnessed head trauma (PECARN), frontier Claude fabricated "- No LOC — negative" on 67% of runs! When an algorithm requires an unstated negative to clear a gate, the model assumes it's negative to stay "helpful."
+1️⃣ We reproduced the failure in a high-stakes setting:
+In unwitnessed pediatric head trauma (PECARN), frontier Claude models (Sonnet 5, Opus 5) fabricated "- No loss of consciousness — negative" on 66.7% of baseline runs to justify observation over CT imaging—even though the fall was unwitnessed.
 
-2️⃣ The Solution ("Brake + Branching"):
-Telling models "it's okay to say you don't know" failed. Banning assumptions caused clinical paralysis. 
-The breakthrough was pairing a negative constraint with contingency authorization:
+2️⃣ We identified the trigger: The Boolean Checklist Trap.
+In pneumonia and UTI, baseline confabulation was rare. Why? Those guidelines are additive: positive findings justify treatment. But when a clinical rule requires an unrecorded variable to be negative before clearing an exclusionary gate, models cast the unknown to negative to stay decisive.
+
+3️⃣ We found a prompt intervention that changed the behavior: Brake + Branching.
+Telling models "it's okay to say you don't know" was ignored. An epistemic brake alone still left models guessing. The solution was pairing the brake with authorization for contingency branches:
+
 "Do not assume unstated variables are negative. Provide conditional if/then recommendations."
 
-3️⃣ The Cross-Lab Divide:
-Claude fabricates facts to complete its structured checklists. OpenAI and Google glide past missing data with smooth narrative prose. In medicine, silently ignoring an unwitnessed fall's unknown LOC is just as dangerous as hallucinating that it didn't happen! Brake + Branching cures both: it stops Claude from inventing checklist items, and forces OpenAI and Google to stop ignoring missing data and branch explicitly (0% confabulation across 7 models in all 3 labs).
+This eliminated observed confabulation in our head trauma factorial across all three Claude tiers (0/9, 0.0%).
 
-4️⃣ The Model-Scale Paradox & Literature Decay:
-Brake + Branching cured AOM and Head Trauma across labs. But prompt constraints cannot overwrite parametric literature decay (e.g. Haiku's 20-year-old 45 mg/kg dosing persisting from pre-2004 training data). Prompts shape epistemic reasoning; deterministic guardrails must catch obsolete medical training weights.
+In the full article, we also examine:
+• The Cross-Lab Divide: Why OpenAI and Google models didn't hallucinate checkboxes, but silently omitted missing data entirely (0/12 LOC mentions)—and how Brake + Branching prompted 91.7% active conditional branching.
+• The Model-Scale Paradox: Why asking "what missing data would change your plan?" provoked hallucinations in Haiku 4.5, but helped Sonnet 5.
+• Parametric Literature Decay: Why prompt engineering cannot fix 20-year-old drug dosing weights.
 
-Read the full deep-dive article, trace autopsies, and clinical deployment principles here:
+Read the full article and trace autopsies here:
 [LINK TO ARTICLE]
 
-All 1,324 raw traces, codebooks, and Python notebooks are open: https://lnkd.in/gKHBTh99
+All 1,324 raw traces, codebooks, and replication scripts are open: https://lnkd.in/gKHBTh99
 
 #HealthcareAI #ClinicalAI #MedicalInformatics #LLMs #AIAlignment #PatientSafety #Pediatrics
 ```
