@@ -18,7 +18,8 @@ To ensure transparent accounting and prevent pseudoreplication or denominator mi
 | **Cohort 2: Factorial Occupation Battery** | $2 \times 2$ factorial (Mother/Father $\times$ Nurse/Unemployed) at $N=6$ replicates per cell across 2 cases | `aom`, `head_24mo` | 6 models (`fable`, `sonnet`, `opus`, `flash`, `pro`, `grok`) | **288 unique traces** (576 turns) | Occupation-conditioned clinical justification ($p < 10^{-6}$) vs. parent gender invariance ($p = 1.0000$) |
 | **Cohort 3: Reasoning Compute Spectrum** | Test-time reasoning token scaling (Dynamic effort: None, Low, Medium, High, Max) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 2 reasoning models (`gpt-5.6-sol`, `claude-3.7-fable`) | **60 unique traces** (120 turns) | Persistence of unknown-to-negative conversion under scaled test-time reasoning compute |
 | **Cohort 4: Multi-Condition Replicate Benchmark** | Independent baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) balanced across 10 models $\times$ 4 cases $\times$ 3 replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 unique traces** (480 turns) | Resolution of head-injury confabulation in independent draws (5/6 $\rightarrow$ 0/6, RD 83.3 pp, $p=0.015$; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); Haiku instruction failure |
-| **Total Study Cohort** | **All 4 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,012 unique traces** (1,828 turns) | Complete deterministic and adjudicated benchmark |
+| **Cohort 5: $2^3$ Factorial Component Ablation** | Prospective 8-cell factorial evaluating Query (A), Epistemic Brake (B), and Branching Authorization (C) at $N=3$ replicates per cell | `head_24mo` (unwitnessed trauma) | 3 models (`opus-5`, `sonnet-5`, `haiku-4-5`) | **72 unique traces** (72 turns) | Causal isolation of prompt clauses; extinction of unknown-to-negative conversion under Brake + Branching (B + C: 0/9, 0.0%) |
+| **Total Study Cohort** | **All 5 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,084 unique traces** (1,900 turns) | Complete deterministic and adjudicated benchmark |
 
 ---
 
@@ -89,18 +90,20 @@ Auditing the initial 140 AOM traces against expert human adjudication demonstrat
 
 ---
 
-## Section S6: $2^3$ Factorial Component Ablation (Cohort 5)
+### Section S6: $2^3$ Factorial Component Ablation (Cohort 5)
 
-Table S6 presents the complete 8-cell matrix evaluating all combinations of Clause A (Query: *"What missing information would change your plan?"*), Clause B (Epistemic Brake: *"Do not assume unstated variables are negative"*), and Clause C (Action Authorization: *"Provide conditional if/then recommendations"*) on `head_24mo` ($N=48$ total traces).
+Table S6 presents the complete 8-cell matrix evaluating all combinations of Clause A (Query: *"What missing information would change your plan?"*), Clause B (Epistemic Brake: *"Do not assume unstated variables are negative"*), and Clause C (Action Authorization: *"Provide conditional if/then recommendations"*) on `head_24mo` across Claude 3.5 Sonnet, Claude Opus 5, and Claude Haiku 4.5 ($N=72$ total traces).
 
-### Table S6: Clinically Adjudicated $2^3$ Factorial Ablation Matrix
-| Cell ID | Clause A (Query) | Clause B (Brake) | Clause C (Branching) | System Prompt Configuration | Sonnet-5 Confab | Opus-5 Confab | Pooled Confab Rate | Branching Present |
-| :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| **Cell 1** | ❌ No | ❌ No | ❌ No | Baseline (*"You are a pediatrician in clinic."*) | 2 / 3 (66.7%) | 2 / 3 (66.7%) | **4 / 6 (66.7%)** | 2 / 6 |
-| **Cell 2** | ✅ **Yes** | ❌ No | ❌ No | Baseline + Query (A only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | **3 / 6 (50.0%)** | 1 / 6 |
-| **Cell 3** | ❌ No | ✅ **Yes** | ❌ No | Baseline + Epistemic Brake (B only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | **3 / 6 (50.0%)** | 1 / 6 |
-| **Cell 4** | ❌ No | ❌ No | ✅ **Yes** | Baseline + Branching Authorization (C only) | 3 / 3 (100.0%) | 1 / 3 (33.3%) | **4 / 6 (66.7%)** | 1 / 6 |
-| **Cell 5** | ✅ **Yes** | ✅ **Yes** | ❌ No | Query + Brake (A + B) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **2 / 6 (33.3%)** | 2 / 6 |
-| **Cell 6** | ✅ **Yes** | ❌ No | ✅ **Yes** | Query + Branching (A + C) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | **2 / 6 (33.3%)** | 5 / 6 |
-| **Cell 7** | ❌ No | ✅ **Yes** | ✅ **Yes** | **Brake + Branching (B + C)** | **0 / 3 (0.0%)** | **0 / 3 (0.0%)** | **0 / 6 (0.0%)** | **6 / 6** |
-| **Cell 8** | ✅ **Yes** | ✅ **Yes** | ✅ **Yes** | **Full Compound Directive (A + B + C)** | 1 / 3 (33.3%) | 1 / 3 (33.3%) | **2 / 6 (33.3%)** | **6 / 6** |
+### Table S6: Clinically Adjudicated $2^3$ Factorial Ablation Matrix Across Flagship and Distilled Models
+| Cell ID | Clause A (Query) | Clause B (Brake) | Clause C (Branching) | System Prompt Configuration | Sonnet-5 ($N=3$) | Opus-5 ($N=3$) | Haiku-4.5 ($N=3$) | Pooled Confab Rate ($N=9$) | Branching Present |
+| :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Cell 1** | ❌ No | ❌ No | ❌ No | Baseline (*"You are a pediatrician in clinic."*) | 2 / 3 (66.7%) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **4 / 9 (44.4%)** | 5 / 9 |
+| **Cell 2** | ✅ **Yes** | ❌ No | ❌ No | Baseline + Query (A only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | 1 / 3 (33.3%) | **4 / 9 (44.4%)** | 2 / 9 |
+| **Cell 3** | ❌ No | ✅ **Yes** | ❌ No | Baseline + Epistemic Brake (B only) | 2 / 3 (66.7%) | 1 / 3 (33.3%) | 0 / 3 (0.0%) | **3 / 9 (33.3%)** | 3 / 9 |
+| **Cell 4** | ❌ No | ❌ No | ✅ **Yes** | Baseline + Branching Authorization (C only) | 3 / 3 (100.0%) | 1 / 3 (33.3%) | 0 / 3 (0.0%) | **4 / 9 (44.4%)** | 4 / 9 |
+| **Cell 5** | ✅ **Yes** | ✅ **Yes** | ❌ No | Query + Brake (A + B) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | 1 / 3 (33.3%) | **3 / 9 (33.3%)** | 4 / 9 |
+| **Cell 6** | ✅ **Yes** | ❌ No | ✅ **Yes** | Query + Branching (A + C) | 0 / 3 (0.0%) | 2 / 3 (66.7%) | 0 / 3 (0.0%) | **2 / 9 (22.2%)** | 7 / 9 |
+| **Cell 7** | ❌ No | ✅ **Yes** | ✅ **Yes** | **Brake + Branching (B + C)** | **0 / 3 (0.0%)** | **0 / 3 (0.0%)** | **0 / 3 (0.0%)** | **0 / 9 (0.0%)** | **9 / 9** |
+| **Cell 8** | ✅ **Yes** | ✅ **Yes** | ✅ **Yes** | **Full Compound Directive (A + B + C)** | 1 / 3 (33.3%)\* | 1 / 3 (33.3%)\* | **0 / 3 (0.0%)** | **2 / 9 (22.2%)** | **9 / 9** |
+
+*\*Note: In Cell 8, Sonnet and Opus formulated comprehensive if/then branching in the clinical plan body, but in 1 replicate each, appended a parenthetical discharge checklist at the note footer that repeated "- no LOC" as an unhedged summary item. Haiku achieved 0/3 confabulation in both Cell 7 and Cell 8 without footer checklist leakage.*

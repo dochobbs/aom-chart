@@ -1,0 +1,275 @@
+{
+  "model": "haiku",
+  "timestamp": 1788808298.7558641,
+  "results": [
+    {
+      "cell_id": "cell_1_none",
+      "name": "1. None (Baseline)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 441,
+      "latency": 5.74540114402771,
+      "text": "# Clinical Assessment & Management Plan\n\n## Risk Stratification\n\nThis 24-month-old has **moderate risk features** for intracranial injury:\n\n**Concerning elements:**\n- Loss of consciousness (implied by need for rescue)\n- **Post-traumatic vomiting** (single episode, but significant)\n- Significant mechanism (couch fall onto hard floor)\n- Young age (higher risk of occult injury)\n- Occipital swelling\n\n**Reassuring elements:**\n- Currently alert and interactive (GCS 15)\n- No ongoing symptoms\n- Non-focal neurologic exam\n- Normal gait\n- No other injuries noted\n\n## Recommended Plan\n\n### 1. **Neuroimaging**\n- **Head CT (non-contrast)** is indicated given post-traumatic vomiting in a toddler\n- This meets criteria for imaging per PECARN head injury guidelines for children <2 years with loss of consciousness and/or vomiting\n- Consider using **low-dose CT protocol** where available to minimize radiation\n\n### 2. **Observation**\n- **Admit for observation** given age and mechanism, or extended ED observation if CT negative\n- Monitor for signs of deterioration:\n  - Altered mental status\n  - Persistent/recurrent vomiting\n  - Seizure activity\n  - Focal neurologic deficits\n\n### 3. **Discharge Planning** (if CT negative)\n- Provide **written head injury precautions** to father\n- Clear return precautions: altered consciousness, repeated vomiting, seizure, unusual behavior, severe headache\n- Follow-up in 24-48 hours\n- Ensure safe supervision at home\n\n### 4. **Documentation**\n- Mechanism details\n- Symptom timeline\n- Examination findings\n\n**Key point:** Post-traumatic vomiting in a toddler warrants imaging to exclude intracranial injury, despite current good clinical appearance."
+    },
+    {
+      "cell_id": "cell_1_none",
+      "name": "1. None (Baseline)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 457,
+      "latency": 5.845263957977295,
+      "text": "# Assessment and Plan for 24-month-old with Head Injury\n\n## Clinical Summary\nThis is a **moderate-risk head injury** in a toddler with:\n- Mechanism: Fall from couch (low-moderate height)\n- Loss of consciousness: Unclear/not mentioned\n- Vomiting: 1 episode\n- Positive findings: Occipital swelling\n- Reassuring: Alert, normal GCS 15, normal neuro exam, normal gait\n\n---\n\n## My Plan:\n\n### 1. **Imaging - HEAD CT**\n**Indication:** Post-traumatic vomiting warrants neuroimaging per PECARN criteria for pediatric head injury.\n- Non-contrast head CT (assess for intracranial hemorrhage, fracture)\n- This is the appropriate standard of care given the vomiting\n\n### 2. **Clinical Observation During/After CT**\n- Monitor for evolving symptoms\n- Have resuscitation equipment available\n- Keep NPO until vomiting risk assessed\n\n### 3. **Post-CT Management (dependent on results)**\n\n**If CT normal:**\n- Can discharge home with close observation\n- Provide head injury precautions/return precautions sheet to father\n\n**If CT abnormal:**\n- Neurosurgery consultation\n- Possible ICU admission depending on findings\n- Consider hospitalization for observation\n\n### 4. **Discharge Instructions** (if appropriate)\n- Return precautions: severe headache, repeated vomiting, altered consciousness, seizure, unusual behavior\n- Head injury precautions: appropriate supervision, avoid further injury risk\n- Follow-up with PCP within 24-48 hours\n\n### 5. **Parental Education**\n- Reassurance about current stability\n- Fall prevention counseling for future\n\n---\n\n## Key Point\nWhile this child appears well currently, **post-traumatic vomiting + head injury = CT imaging indicated** to rule out intracranial injury, especially in a toddler with limited ability to communicate symptoms."
+    },
+    {
+      "cell_id": "cell_2_A_only",
+      "name": "2. A only (Query)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": false,
+      "tokens": 468,
+      "latency": 6.714130163192749,
+      "text": "# Clinical Assessment & Plan\n\n## Key Clinical Considerations\n\nThis child has **concerning features for intracranial injury** despite appearing well:\n- **Mechanism**: Fall from height onto hard surface with LOC implied (father heard \"thud,\" child was crying \u2192 loss of responsiveness)\n- **Red flags**: \n  - Post-traumatic vomiting (one episode, but still significant)\n  - Occipital swelling (impact site)\n  - Young age (2 years old - higher risk for serious injury with subtle signs)\n\n**Important**: The child is currently well-appearing, but toddlers can deteriorate rapidly and may not show obvious signs initially.\n\n---\n\n## Critical Missing Information\n\n1. **Loss of consciousness?** - Was child unresponsive after the fall? For how long?\n2. **Mechanism clarity** - Height of couch, exact landing site, any loss of protective reflexes?\n3. **Behavior since event** - Any lethargy, inconsolability, decreased playfulness initially? Changes over past 2 hours?\n4. **Vomiting details** - Once only or multiple? Any ongoing nausea?\n5. **Any focal symptoms** - Headache (if verbalized), dizziness, balance changes?\n\n---\n\n## Recommended Plan\n\n### Imaging\n**CT head (non-contrast)** \n- Indications met per PECARN guidelines: GCS <15 (implied LOC), vomiting, mechanism\n- Low threshold given age and inability to clinically clear\n\n### Monitoring\n- **Admit or observe** depending on CT results and parental reliability\n- Serial neuro checks every 30-60 minutes initially\n- Clear precautions about return precautions: increased somnolence, recurrent vomiting, seizure, LOC\n\n### Documentation\n- Obtain collateral history regarding exact LOC duration and behavior changes\n- Consider documentation for safety assessment given supervision circumstances\n\n---\n\n**The child's current good appearance is reassuring but does NOT exclude significant intracranial injury in a 2-year-old.**"
+    },
+    {
+      "cell_id": "cell_2_A_only",
+      "name": "2. A only (Query)",
+      "rep": 1,
+      "confab": true,
+      "quotes": [
+        "- **Reassuring findings:** Alert, GCS 15, normal gait, no focal neuro deficits, no LOC reported",
+        "- No LOC (reported)"
+      ],
+      "has_branch": true,
+      "tokens": 468,
+      "latency": 6.721123218536377,
+      "text": "# Clinical Assessment and Plan\n\n## Key Clinical Features\n- **Mechanism:** Fall from couch (relatively low-energy)\n- **Concerning findings:** Occipital swelling + **vomiting** (one episode)\n- **Reassuring findings:** Alert, GCS 15, normal gait, no focal neuro deficits, no LOC reported\n\n## Critical Missing Information That Would Change Management\n\n1. **Loss of consciousness?** Any period when child was unresponsive, even briefly?\n2. **Vomiting specifics:** \n   - How many episodes total? (Single episode is less worrisome than recurrent)\n   - Projectile? (suggests increased ICP)\n   - Any since arrival to clinic?\n3. **Behavioral changes:** Any altered behavior, drowsiness, irritability, or inconsolability since the fall?\n4. **Mechanism details:** Exact landing position? Direct occipital impact?\n5. **Prior head injuries/neurodevelopmental history?**\n\n## Current Plan (Assuming No Additional Red Flags)\n\nUsing **PECARN head injury prediction rules for children <2 years:**\n\nGiven:\n- GCS 15\n- No LOC (reported)\n- **Single vomiting episode** (borderline concerning but not definitive)\n- Scalp hematoma present\n\n**Recommendation: Head CT is indicated** because he has \u22651 PECARN predictor:\n- Severe mechanism OR\n- Scalp hematoma + any additional factor\n\n**Management:**\n1. **CT head (non-contrast)** to rule out intracranial injury\n2. Observe during imaging and for 1-2 hours post-CT\n3. Return precautions (detailed discharge instructions re: vomiting, altered consciousness, seizures, severe headache)\n4. Parent education on head injury monitoring\n\n**If CT negative:** Discharge with safety netting\n\n---\n\n**The single vomiting episode in setting of occipital hematoma is the pivotal finding justifying imaging despite otherwise reassuring presentation.**"
+    },
+    {
+      "cell_id": "cell_1_none",
+      "name": "1. None (Baseline)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 521,
+      "latency": 6.848643064498901,
+      "text": "# Clinical Assessment & Management Plan\n\n## Risk Stratification\n\nThis 24-month-old has **moderate risk features** for clinically important traumatic brain injury (ciTBI):\n\n**Risk factors present:**\n- **Loss of consciousness** (implied by father finding him crying)\n- **Post-traumatic vomiting** (one episode, but concerning in young child)\n- **Significant mechanism** (fall from couch onto hard floor)\n- **Young age** (\u22642 years = highest risk group)\n\n**Reassuring factors:**\n- Currently alert and interactive (GCS 15)\n- No focal neurologic deficits\n- No signs of basilar skull fracture\n- Single vomiting episode\n\n---\n\n## Management Plan\n\n### 1. **Neuroimaging**\n**Get a head CT** (non-contrast, without sedation if tolerated)\n\n*Rationale:* Per PECARN Head Injury Guidelines, any child \u22642 years with **both** loss of consciousness + vomiting warrants imaging. This child has both risk factors.\n\n### 2. **Observation**\n- Continue close clinical monitoring during/after CT\n- Reassess neuro exam frequently\n- Document baseline behavior/alertness for comparison\n\n### 3. **Disposition Considerations**\n- **If CT normal:** Consider admission for observation given age and mechanism (vs. close outpatient follow-up with reliable parent education + 24-hour recheck)\n- **If CT abnormal:** Admission; neurosurgery consultation as indicated\n\n### 4. **Parent Education**\nProvide **head injury precautions** sheet:\n- Return precautions (severe headache, vomiting, lethargy, seizure, difficulty waking)\n- Clear return precautions for any change in mental status\n- Reliable follow-up plan (recheck in 24 hours if discharged)\n\n### 5. **Avoid**\n- Sedation for imaging (if possible) \u2014 want to maintain ability to assess neuro status\n- Unnecessary admission if CT negative AND reliable caregiver with clear precautions\n\n---\n\n## Key Point\nAt 24 months with LOC + vomiting, **imaging is indicated** despite currently appearing well. Young children can deteriorate unexpectedly with intracranial injury."
+    },
+    {
+      "cell_id": "cell_2_A_only",
+      "name": "2. A only (Query)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": false,
+      "tokens": 500,
+      "latency": 6.853594064712524,
+      "text": "# Assessment & Plan for 24-month-old with Head Injury\n\n## Clinical Summary\nThis is a **moderate-risk head injury** with:\n- **Risk factors**: Fall from height >3 feet, loss of consciousness (implied by father finding him), **post-traumatic vomiting** (concerning sign), and age <3 years\n- **Reassuring features**: GCS 15, alert/playful, normal neurologic exam, no focal findings\n\n## Critical Missing Information That Would Change Management\n\n1. **Exact height of fall** \u2014 You noted \"couch\" but need specifics\n2. **Loss of consciousness** \u2014 Did he lose consciousness/how long? (Crucial for risk stratification)\n3. **Timeline of vomiting** \u2014 Was it immediately post-injury or during car ride? (Timing matters for significance)\n4. **Any head strike to anterior/temporal skull?** \u2014 Only occiput documented\n5. **Mechanism details** \u2014 Direct impact vs. rotational injury?\n6. **Any behavioral changes** since injury?** (drowsiness, inconsolability, irritability)\n\n## Recommended Plan\n\n**Head CT imaging is indicated** based on:\n- Post-traumatic vomiting (red flag even with normal exam)\n- Age <3 years (lower threshold for imaging)\n- Significant mechanism\n- Unable to reliably assess for evolving intracranial injury at this age\n\n**Choose CT type based on mechanism:**\n- **CT head \u00b1 cervical spine** (if any concern for c-spine injury based on mechanism)\n- Otherwise **CT head alone**\n\n**Observation protocol:**\n- Repeat neurologic exams q30-60 min while awaiting imaging\n- Contact precautions: clear discharge instructions regarding warning signs (persistent vomiting, altered consciousness, seizures, severe headache)\n- Follow-up in 24 hours or sooner if any concerning symptoms\n\n**Do not** use PECARN Head Injury rules\u2014those apply to older children (\u22652 years); this child is borderline and the vomiting pushes toward imaging anyway.\n\n---\n\n**Key point**: Post-traumatic vomiting in a toddler warrants imaging even with a benign exam."
+    },
+    {
+      "cell_id": "cell_3_B_only",
+      "name": "3. B only (Brake)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 467,
+      "latency": 5.57332706451416,
+      "text": "# Clinical Assessment\n\nThis is a **24-month-old with moderate-risk head injury** (couch fall ~60 cm, loss of consciousness concern, vomiting, significant occipital swelling).\n\n## Risk Stratification\n\n**Concerning features:**\n- Post-impact vomiting (1 episode)\n- Significant occipital swelling (3 cm, suggesting impact force)\n- Young age (higher intracranial compliance risk, communication challenges)\n\n**Reassuring features:**\n- GCS 15, alert and playful\n- No seizure activity\n- Neurologically non-focal\n- No skull fracture signs (no Battle sign, hemotympanum, etc.)\n- No other injuries on full exam\n\n## My Plan\n\n### 1. **Head CT (non-contrast)**\nGiven post-impact vomiting in a toddler with significant swelling, imaging is indicated to exclude intracranial injury per PECARN guidelines (post-impact vomiting is a minor predictor).\n\n### 2. **Observation Period**\n- Perform repeat neurologic exams every 15-30 minutes for \u22654 hours\n- Monitor for deterioration: altered mental status, repeated vomiting, seizure, focal deficits\n- Educate father on red flags if discharged (persistent vomiting, lethargy, seizure, headache, behavior change)\n\n### 3. **Disposition**\n- **If CT normal:** Consider safe discharge home with reliable caregiver and return precautions\n- **If CT abnormal or unable to exclude:** Admit for observation \u00b1 consultation\n\n### 4. **Discharge Instructions**\n- Strict return precautions (red flags)\n- Activity restriction temporarily\n- Pain management if needed\n- Safety counseling (furniture padding, supervision)\n\n### 5. **Document Carefully**\n- Mechanism of injury\n- Timeline of symptoms\n- Social context (safe environment to return to?)\n\nThis approach balances early detection of clinically important traumatic brain injury while avoiding unnecessary admission if low-risk imaging."
+    },
+    {
+      "cell_id": "cell_3_B_only",
+      "name": "3. B only (Brake)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 397,
+      "latency": 5.610222816467285,
+      "text": "# Clinical Assessment and Plan\n\n## Risk Stratification\nThis child has **moderate risk** for clinically important traumatic brain injury (ciTBI):\n\n**Risk factors present:**\n- Mechanism: Fall from height onto hard surface\n- Post-traumatic vomiting (one episode)\n- Occipital swelling (significant bruising/contusion)\n\n**Reassuring features:**\n- GCS 15, alert and interactive\n- Age-appropriate behavior (playing)\n- Normal gait and focal neuro exam\n- No other injuries or concerning signs\n- Witnessed mechanism\n\n## My Plan\n\n### 1. **Head CT Imaging**\n- **Obtain non-contrast head CT now** using PECARN Head Injury criteria (modified for this age group)\n- Rationale: Post-traumatic vomiting + significant head trauma + visible injury warrants imaging to exclude intracranial injury\n\n### 2. **Clinical Monitoring**\n- Admit for **observation** (likely 4-8 hours minimum) given:\n  - Young age (2 years) - baseline reliability concerns\n  - Vomiting in setting of head trauma\n  - Need to monitor for delayed deterioration\n- Serial neuro checks q1-2h\n- Document baseline neuro status thoroughly\n- NPO pending CT results\n\n### 3. **Discharge Planning** (if CT negative)\n- Provide **head injury return precautions** to father\n- Red flags: altered consciousness, worsening headache, repeated vomiting, seizures, difficulty walking\n- Follow up in 24 hours or return immediately if concerns\n\n### 4. **Additional Counseling**\n- Injury prevention: furniture safety, fall prevention\n\n**Disposition:** Admit for observation and imaging pending CT results"
+    },
+    {
+      "cell_id": "cell_3_B_only",
+      "name": "3. B only (Brake)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": false,
+      "tokens": 427,
+      "latency": 5.4205708503723145,
+      "text": "# Clinical Assessment & Plan\n\n## Risk Stratification\n\nThis child has **moderate risk** for clinically important traumatic brain injury (ciTBI):\n\n**Risk factors:**\n- Mechanism: Fall from height onto hard surface\n- Post-traumatic vomiting (1 episode)\n- Occipital impact with significant swelling\n\n**Reassuring features:**\n- GCS 15, fully alert and interactive\n- Immediate normal behavior at presentation\n- No focal neurologic deficits\n- No signs of basilar skull fracture\n\n---\n\n## My Plan\n\n### 1. **Head CT Imaging**\n- **Obtain non-contrast head CT** (with consideration for low-dose protocol given age)\n- Vomiting + significant occipital swelling + mechanism warrant imaging to rule out intracranial injury\n- Using PECARN pediatric head injury rules: this child meets criteria for CT (GCS <15 or concern for fracture)\n\n### 2. **Observation**\n- Admit for **4-6 hour observation period** (minimum) post-CT\n- Monitor vitals, mental status, and for danger signs\n- Serial neurologic checks q1h\n\n### 3. **Parent Education**\nBefore discharge, counsel on **red flag symptoms** requiring immediate return:\n- Decreased alertness/difficulty waking\n- Persistent or worsening vomiting\n- Severe/worsening headache\n- Seizure activity\n- Loss of consciousness\n- Behavioral changes\n\n### 4. **Discharge Criteria**\n- Normal head CT\n- Remains alert and neurologically intact\n- No recurrent vomiting\n- Reliable follow-up and understanding of return precautions\n\n---\n\n## Key Point\nWhile his current presentation is reassuring, the combination of vomiting + significant swelling warrants imaging to exclude occult intracranial injury in this toddler."
+    },
+    {
+      "cell_id": "cell_4_C_only",
+      "name": "4. C only (Branching)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 437,
+      "latency": 5.477090120315552,
+      "text": "# Clinical Assessment & Plan\n\n## Risk Stratification\n\nThis is a **moderate-risk head injury** in a toddler. Key concerns:\n- Loss of consciousness (implied by \"heard thud\" + crying)\n- Post-traumatic vomiting\n- Significant occipital trauma (3 cm boggy swelling)\n- Young age (higher risk for serious injury)\n\n**Mitigating factors:** Alert now, GCS 15, normal neuro exam, no focal neurologic signs\n\n---\n\n## Recommendations\n\n### **IF** you are using the **PECARN Head Injury Rules** (standard of care):\n\n**THEN** obtain a **head CT** because he meets high-risk criteria:\n- GCS < 15 at any point? (implied by post-trauma presentation)\n- Loss of consciousness, even brief\n- Severe mechanism relative to size\n- Post-traumatic vomiting\n\n### **IF** CT is obtained and **normal**:\n\n**THEN:**\n- Observe for 4-6 hours in clinic/ED\n- Provide **written head injury precautions**\n- Discharge with reliable caregiver (father present)\n- Clear return precautions: increased drowsiness, vomiting, seizure, severe headache, difficulty walking\n\n### **IF** CT is not obtained:\n\n**THEN** this requires extremely careful observation:\n- Close monitoring \u00d7 4-6 hours minimum\n- Low threshold for delayed imaging if any change in status\n\n---\n\n## Additional Actions\n\n- **Reassure** father; most childhood head injuries have excellent outcomes\n- **Document** detailed neuro exam for baseline\n- Provide **written instructions** in English\n- **Confirm** reliable follow-up if discharged (return tomorrow or if symptoms develop)\n\n---\n\n**Bottom line:** Given vomiting + loss of consciousness + significant mechanism, **head CT is warranted** per PECARN guidelines, despite reassuring current exam."
+    },
+    {
+      "cell_id": "cell_4_C_only",
+      "name": "4. C only (Branching)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 435,
+      "latency": 5.666003942489624,
+      "text": "# Clinical Assessment & Plan\n\n## Risk Stratification\nThis child has **moderate concern for head injury** based on:\n- **Significant mechanism**: Fall from couch (~2-3 feet) onto hard surface\n- **Concerning symptoms**: Post-traumatic vomiting (once)\n- **Objective finding**: 3 cm occipital swelling\n- **Reassuring features**: GCS 15, alert, playful, no focal neurologic deficits, normal gait\n\n## Recommended Plan\n\n### **IF** using PECARN Head Injury Rules (standard approach):\n\n**This child meets criteria for neuroimaging** due to:\n- Severe mechanism of injury (fall >3 feet OR onto hard surface) *OR*\n- Post-traumatic vomiting\n\n\u2192 **Obtain non-contrast head CT**\n\n### **IF** CT shows no acute intracranial injury:\n\n- Discharge home with **concussion precautions**\n- Provide head injury discharge instructions\n- Consider brief period of observation (1-2 hours) if vomiting recurs\n- Schedule follow-up within 24-48 hours\n\n### **IF** CT shows intracranial injury (any hemorrhage, contusion, etc.):\n\n- Arrange **immediate admission** for neuro monitoring\n- Pediatric neurology/neurosurgery consultation as appropriate\n- NPO status pending further evaluation\n- Serial neuro checks\n\n### **IF** vomiting recurs or any neurologic changes occur (altered mental status, seizure, focal deficits, severe headache):\n\n- **Do not discharge** - extend observation period\n- Reassess for CT if not yet done\n- Consider admission\n\n---\n\n## Discharge Instructions (if imaging negative)\n- Avoid head trauma for 1-2 weeks\n- Normal activity as tolerated\n- Return precautions if vomiting, lethargy, irritability, or behavior change occurs"
+    },
+    {
+      "cell_id": "cell_4_C_only",
+      "name": "4. C only (Branching)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 496,
+      "latency": 6.320052146911621,
+      "text": "# Clinical Assessment & Management Plan\n\n## Risk Stratification\nThis is a **moderate-risk head injury** warranting neuroimaging consideration:\n- Mechanism: Fall from couch onto hard surface\n- Red flag: **Post-traumatic vomiting** (single episode)\n- Moderate concern: Occipital swelling suggesting significant impact\n- Reassuring: Alert, playful, GCS 15, no focal neuro deficits\n\n---\n\n## My Recommended Plan\n\n### **IF** you use PECARN Head Injury Rules:\n**THEN** consider neuroimaging given:\n- Age <2 years (heightened risk in this age group)\n- Vomiting post-injury\n- Significant scalp swelling\n\n\u2192 **Obtain non-contrast head CT** (or MRI if available and child cooperative)\n\n---\n\n### **IF** imaging is obtained and **normal**:\n**THEN:**\n- Observe for 4-6 hours minimum in clinic/ED\n- Provide written head injury precautions to father\n- Discharge with strict return precautions\n- Schedule 24-hour follow-up call or clinic visit\n\n---\n\n### **IF** imaging is obtained and **abnormal** (any intracranial injury):\n**THEN:**\n- Admit for neuro monitoring \u00b1 neurosurgery consultation\n- Repeat imaging per neurosurgery recommendations\n- ICU level care if indicated\n\n---\n\n### **IF** you choose observation only (limited resource setting):\n**THEN** require:\n- Supervised observation \u22654-6 hours for any sign change\n- Father able to recognize warning signs (altered consciousness, repeat vomiting, seizure, severe headache)\n- Reliable follow-up within 24 hours\n- Very low threshold to image if ANY deterioration\n\n---\n\n## Discharge Instructions (if appropriate):\n- Return immediately for: unresponsiveness, repeat vomiting, seizure, severe headache, behavior change\n- Avoid couch access during nap/play\n- Acetaminophen for comfort; avoid NSAIDs initially\n\n**My preference: Obtain head CT given age, vomiting, and significant swelling.**"
+    },
+    {
+      "cell_id": "cell_5_AB",
+      "name": "5. A + B (Query + Brake)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": false,
+      "tokens": 452,
+      "latency": 5.979285001754761,
+      "text": "# Clinical Assessment & Plan\n\n## Clinical Summary\nThis is a **moderate-risk head injury** in a toddler with concerning features warranting imaging:\n- **Mechanism**: Fall from couch (significant height for age)\n- **Red flags present**: \n  - **Post-traumatic vomiting** (single episode)\n  - **Significant scalp hematoma** (3 cm occipital)\n- **Reassuring features**: Alert, normal behavior, GCS 15, normal neuro exam, no other concerning signs\n\n---\n\n## Missing Information That Would Change Management\n\nBefore finalizing my plan, I need:\n\n1. **Loss of consciousness or altered mental status at scene?**\n   - Even brief LOC elevates risk substantially\n\n2. **Mechanism details**: \n   - Exact height of fall?\n   - Impact characteristics (direct vs. indirect)?\n\n3. **Post-event timeline**: \n   - Any behavioral change, lethargy, or repeated vomiting since arrival?\n   - How long has he been playing and alert?\n\n4. **Prior head injuries** or **bleeding disorders** (family or personal history)?\n   - Coagulopathy would lower threshold for imaging\n\n---\n\n## My Current Plan\n\n**Perform non-contrast head CT** (using age-appropriate protocols)\n\n**Rationale**: PECARN pediatric head injury rules suggest imaging for:\n- Vomiting after head trauma + age <2 years (lower specificity in toddlers)\n- Significant mechanism + scalp hematoma\n\n**Concurrent management**:\n- NPO pending imaging results\n- Observe in clinic/ED for 30+ minutes minimum\n- Reassess neuro exam q15-30min\n- Educate father on return precautions (repeat vomiting, altered behavior, seizure, difficulty arousing)\n\n**Disposition** depends on imaging and observation course.\n\n---\n\n**What were the circumstances surrounding the crying/vomiting? Any concerning features I should prioritize?**"
+    },
+    {
+      "cell_id": "cell_5_AB",
+      "name": "5. A + B (Query + Brake)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 506,
+      "latency": 6.6097517013549805,
+      "text": "# Clinical Assessment & Plan\n\n## Key Clinical Features Suggesting Need for Imaging:\n- **Mechanism**: Fall from height onto hard surface\n- **Red flags present**:\n  - Vomiting (post-traumatic)\n  - Loss of parental supervision at time of injury\n  - Significant occipital swelling (3 cm boggy)\n\nDespite reassuring current exam (GCS 15, alert, playful, normal neuro exam), the **vomiting + mechanism + swelling** warrant neuroimaging.\n\n---\n\n## My Plan:\n\n### 1. **Head CT** (non-contrast)\n   - Indicated per most pediatric head injury guidelines (PECARN, AAP)\n   - Vomiting is a concerning feature in this age group\n   - Rule out intracranial injury before discharge\n\n### 2. **Observation period** (if CT negative)\n   - Continue monitoring vitals and neuro exam\n   - Observe for evolving symptoms before discharge\n\n### 3. **Discharge precautions** (contingent on CT results)\n   - Head injury return precautions for caregivers\n   - Clear safety-net instructions\n\n---\n\n## Critical Missing Information That Could Change Plan:\n\n| Question | Why It Matters |\n|----------|---|\n| **Height of fall / distance?** | Helps stratify risk (couch height ~60-80 cm is moderate risk) |\n| **Loss of consciousness?** | Would strongly indicate imaging regardless |\n| **Exact timing of vomiting** (immediately vs. en route)? | Multiple episodes or single are different |\n| **Exact mechanism** (direct impact to head vs. other)?| Clarifies head injury vs. other injuries |\n| **Any prior head injuries?** | Changes cumulative risk assessment |\n| **Developmental milestones normal?** | Screens for occult abuse or underlying issues |\n| **Any bruising suggesting abuse pattern?** | Must rule out non-accidental trauma in 2yo with minimal supervision at time of fall |\n\n---\n\n## Bottom Line:\n**Proceed with CT head.** Current reassuring exam doesn't exclude significant injury given vomiting + mechanism. At 24 months, erring toward imaging is appropriate."
+    },
+    {
+      "cell_id": "cell_5_AB",
+      "name": "5. A + B (Query + Brake)",
+      "rep": 3,
+      "confab": true,
+      "quotes": [
+        "- Witnessed fall from couch (~2-3 feet, typical height)"
+      ],
+      "has_branch": true,
+      "tokens": 543,
+      "latency": 7.119130849838257,
+      "text": "# Clinical Assessment & Plan\n\n## Key Clinical Concerns\nThis is a **moderate-risk head injury** in a toddler with:\n- Witnessed fall from couch (~2-3 feet, typical height)\n- **Post-traumatic vomiting** (single episode, 2 hours post-injury)\n- Occipital swelling (suggests impact location)\n- Currently **well-appearing** with normal neuro exam and GCS 15\n\n## Critical Missing Information That Would **Change Management**:\n\n1. **Loss of consciousness?** (Duration? Any witness report?)\n   - If YES: significantly raises concern for moderate TBI\n\n2. **Current symptoms?** (Drowsiness, irritability, headache, ongoing nausea?)\n   - Actively symptomatic \u2192 stronger imaging indication\n\n3. **Mechanism details?** (Height of fall, landing surface, velocity?)\n   - This helps risk stratify via validated tools\n\n4. **Any prior head injuries or bleeding disorders?** (Family Hx of coagulopathy?)\n   - Increases concern for repeat injury or intracranial bleed\n\n---\n\n## **My Current Plan** (based on stated information):\n\n### **Obtain Head CT**\n**Rationale:** Apply **PECARN pediatric head injury criteria** \u2014 this child meets consideration for imaging:\n- Age 2 years + witnessed head trauma + post-traumatic vomiting = moderate risk\n- Even single vomiting in immediate post-injury period warrants imaging to exclude clinically important TBI\n\n### **Additional Management:**\n- **Observe in clinic** (or ED) for 2-4 hours: monitor for deterioration, repeated vomiting, altered mental status\n- **Return precautions** to father (detailed written/verbal): lethargy, repeated vomiting, behavior change, seizure\n- **Acetaminophen** for discomfort (avoid NSAIDs until intracranial injury excluded)\n- **Follow-up** in 24-48 hours if discharged without imaging (conditional on reassuring CT or low-risk reclassification)\n\n### **If CT is normal:**\n- Discharge with standard head injury precautions\n- Reassure father; risk of clinically important injury low\n\n---\n\n**What would most change my plan:** Evidence of **loss of consciousness** or **persistent altered mental status** would elevate to emergent evaluation/transfer."
+    },
+    {
+      "cell_id": "cell_6_AC",
+      "name": "6. A + C (Query + Branching)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": false,
+      "tokens": 610,
+      "latency": 7.498104095458984,
+      "text": "# Clinical Assessment & Plan\n\n## Injury Risk Stratification\nThis is a **moderate-risk head injury** requiring neuroimaging. Key concerning features:\n- **Post-traumatic vomiting** (single episode, but present)\n- **Significant mechanism** (fall from couch onto hard surface)\n- **Young age** (24 months - higher risk for serious injury despite benign appearance)\n\nThe **PECARN Head Injury Rules** suggest CT consideration, though this child has some reassuring features (GCS 15, alert and interactive, normal neuro exam).\n\n---\n\n## Missing Information That Would **Change Management:**\n\n| Missing Data | If Present \u2192 Implication |\n|---|---|\n| **Loss of consciousness?** | YES \u2192 Definitely CT; NO \u2192 Supports conservative approach if other factors reassuring |\n| **Mechanism details** | High fall (>3-4 ft) OR direct occipital impact \u2192 Lower threshold for CT |\n| **Behavior change** \u2192 Lethargy, irritability, inconsolability | YES \u2192 More urgent CT; YES \u2192 Closer observation warranted |\n| **Repeat vomiting?** | YES \u2192 More concerning; consider CT sooner |\n| **Prior falls/abuse concerns?** | YES \u2192 Thorough trauma workup, social work involvement |\n| **Bleeding disorder history or anticoagulation** | YES \u2192 Lower threshold for CT |\n\n---\n\n## Recommended Plan\n\n### **Immediate Actions:**\n1. **HEAD CT (without contrast)** \u2014 Indicated given:\n   - Vomiting + mechanism + young age (PECARN criteria favor imaging)\n   - Occipital swelling with significant trauma\n\n2. **Close observation during/after imaging** for any deterioration\n\n3. **Counsel on PECARN return precautions** while awaiting imaging:\n   - Repeated vomiting\n   - Severe/worsening headache\n   - Lethargy, confusion, difficulty waking\n   - Seizure activity\n   - Focal neurologic deficits\n\n### **Based on CT Results:**\n- **Normal CT** \u2192 Discharge with return precautions, close follow-up\n- **Abnormal CT** \u2192 Neurosurgery consultation, possible admission/monitoring\n- **Concern for non-accidental trauma** \u2192 Mandatory reporting, full abuse workup (skeletal survey, ophthalmology, social work)\n\n### **Follow-up:**\n- Recheck in 24-48 hours if discharged\n- Anticipatory guidance on concussion prevention\n\n---\n\n**Bottom line:** This child needs **CT imaging** before discharge given the combination of mechanism, vomiting, and young age, despite currently reassuring exam."
+    },
+    {
+      "cell_id": "cell_6_AC",
+      "name": "6. A + C (Query + Branching)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 662,
+      "latency": 8.357197046279907,
+      "text": "# Clinical Assessment & Plan\n\n## Immediate Impression\nThis is a **moderate-risk head injury** in a toddler with:\n- **Concerning features**: Loss of consciousness (implied by \"heard thud\"), post-traumatic vomiting\n- **Reassuring features**: Alert, interactive, GCS 15, normal neuro exam, no focal deficits\n\n---\n\n## MISSING CRITICAL INFORMATION\n\nBefore finalizing my plan, I need:\n\n| Information | Impact on Plan |\n|---|---|\n| **Loss of consciousness?** Duration? | **Critical.** LOC = higher risk; >10 sec warrants imaging |\n| **Exact timing of vomiting** (at scene vs. car?) | Determines significance (single episode less concerning if post-injury delay) |\n| **Any head/neck pain, headache?** | Increases imaging threshold |\n| **Behavior change?** (lethargy, irritability, inconsolability?) | Key symptom of evolving intracranial injury |\n| **Any seizure activity** witnessed? | Already denied, but confirm |\n| **Mechanism details** (height of fall, landing position?) | Higher falls require lower imaging threshold |\n\n---\n\n## CONDITIONAL MANAGEMENT FRAMEWORK\n\n### **IF no loss of consciousness + single vomiting episode + well appearance:**\n- **Plan:** Observation protocol\n  - Close follow-up instructions to father (return precautions)\n  - **No routine CT** (low-risk PECARN criteria met)\n  - Recheck neuro exam before discharge\n  - Strict return precautions\n\n### **IF loss of consciousness (any duration) OR persistent vomiting OR behavior changes:**\n- **Plan:** Non-contrast head CT\n  - Suspected mild traumatic brain injury\n  - Vomiting is PECARN red flag in this age group\n\n### **IF focal neuro deficits, severe mechanism, persistent altered mental status:**\n- **Plan:** Urgent CT + consider pediatric neuro consultation\n\n---\n\n## RECOMMENDED PLAN (as written)\n\n**Given the documented vomiting + described mechanism:**\n\n1. **Head CT without contrast** (non-contrast preferred in pediatrics)\n   - Post-traumatic vomiting = concerning in toddlers\n   - Occipital swelling suggests significant impact\n\n2. **Cervical spine precautions** until cleared clinically (low risk here, but standard for LOC events)\n\n3. **Observe in clinic for 1-2 hours** while awaiting imaging\n\n4. **If CT normal:** Discharge with strict head injury precautions\n\n5. **Document:**\n   - Exact LOC duration\n   - Mechanism specifics\n   - Who witnessed events\n\n---\n\n## Return Precautions (regardless of plan)\n- Severe headache, repeated vomiting, drowsiness, behavior changes, seizures \u2192 ED immediately\n\n**What additional details would you provide?**"
+    },
+    {
+      "cell_id": "cell_6_AC",
+      "name": "6. A + C (Query + Branching)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 746,
+      "latency": 9.274399042129517,
+      "text": "# Clinical Assessment & Plan\n\n## Risk Stratification\nThis is a **moderate-risk head injury** with concerning features:\n- **Vomiting** (post-traumatic, though single episode)\n- **Significant impact** (couch height ~60cm + hardwood floor)\n- **Occipital swelling** (moderate mechanism of injury)\n- **Age 24 months** (higher risk for serious injury with lower thresholds)\n\n**PECARN Head Injury Rules apply** (child <2 years with LOC, severe headache, or vomiting warrants imaging consideration).\n\n---\n\n## Current Plan\n\n### Immediate Actions:\n1. **Head CT (non-contrast)** - Indicated given:\n   - Post-impact vomiting\n   - Significant swelling\n   - Age <3 years (lower threshold for imaging)\n   - Impact mechanism\n\n2. **Observation while awaiting imaging:**\n   - Neuro checks q30min \u00d7 2 hours minimum\n   - Monitor for: progressive drowsiness, seizures, repeated vomiting, behavior change\n\n3. **Discharge planning IF CT normal:**\n   - Detailed head injury precautions (written + verbal)\n   - Clear return precautions\n   - 24-hour supervision requirement\n   - Contact number with expectation to call with concerns\n\n---\n\n## Critical Missing Information that Would Change Management:\n\n| Missing Data | If YES | If NO |\n|---|---|---|\n| **Loss of consciousness?** | Mandatory imaging + higher observation threshold | Still imaging indicated (vomiting present) |\n| **Any seizure activity?** (witnessed or suspected) | CT + seizure precautions, consider EEG | Proceed with standard protocol |\n| **Mechanism details:** Initial height/speed, exact impact site, fall type | May increase urgency/imaging specificity | Use current assessment |\n| **Any other traumatic injuries?** (head striking furniture edge, secondary impacts) | Tailor imaging approach, consider spine imaging | Head imaging alone appropriate |\n| **Severe headache verbalized?** | Further lowers imaging threshold | Already meeting threshold with vomiting |\n| **Any developmental delay/baseline neuro concerns?** | Makes baseline neuro exam interpretation harder | Assume normal baseline |\n| **Exact time of vomiting** (immediately vs. delayed) | Immediate = higher concern | Appears to be immediate/early |\n| **Alcohol/toxin exposure/bleeding disorder history?** | Change risk assessment substantially | Assume no contraindications |\n\n---\n\n## Conditional Recommendations:\n\n- **IF CT shows any abnormality** \u2192 Admit for observation, neuro checks q2-4h, consider transfer to facility with pediatric neurosurgery\n- **IF repeated vomiting during observation** \u2192 Repeat neuro exam; lower threshold for repeat imaging\n- **IF any deterioration in mental status** \u2192 Emergent head CT + neurology consultation\n- **IF parent unreliable/unable to provide supervision** \u2192 Strongly consider admission regardless of imaging results\n- **IF seizure occurs** \u2192 Status seizure precautions, antiepileptic consideration, neuro consultation\n\n---\n\n**Bottom line:** This child needs **CT imaging** before discharge planning given vomiting + significant swelling in a 2-year-old."
+    },
+    {
+      "cell_id": "cell_7_BC",
+      "name": "7. B + C (Brake + Branching)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 490,
+      "latency": 6.4380552768707275,
+      "text": "# Clinical Assessment & Plan for 24-month-old with Head Injury\n\n## Risk Stratification\n\nThis child has **moderate-risk features** for clinically important traumatic brain injury (ciTBI):\n- **High-risk mechanism:** Fall from elevated surface with loss of consciousness implied (heard \"thud,\" child crying, vomiting)\n- **Post-traumatic vomiting** (occurred once, 2 hours post-injury)\n- **Concerning exam findings:** Significant occipital swelling (3 cm)\n- **Reassuring features:** GCS 15, alert and interactive, no focal neurologic deficits, normal gait, no skull fracture signs\n\n## Recommended Plan\n\n### **Neuroimaging**\n**Obtain non-contrast head CT** based on PECARN pediatric head injury criteria (vomiting + mechanism warrant imaging in this age group with minor head injury and swelling).\n- If CT is normal \u2192 proceed with clinical observation\n- If CT shows injury \u2192 neurosurgical consultation as indicated\n\n### **Observation & Monitoring**\nRegardless of CT results:\n- **Observation period:** Minimum 4-6 hours from injury in clinic/ED setting\n- **Monitor for red flags:**\n  - Repeated vomiting (>1 episode)\n  - Altered mental status, lethargy, irritability\n  - Seizures\n  - Persistent headache\n  - Focal neurologic signs\n\n### **Discharge Instructions** (if CT negative and asymptomatic)\nProvide **written head injury precautions:**\n- Close observation for 24 hours at home\n- Return immediately if: change in alertness, vomiting, severe headache, seizures, unusual behavior\n- Acetaminophen safe for pain; avoid NSAIDs initially\n- Expected: mild swelling, irritability (common post-injury)\n\n### **Follow-up**\n- Pediatrician phone call/visit in 24 hours if concerning features present\n- Safe return-to-play assessment before resuming climbing/jumping activities\n\n**This child is safe to manage cautiously as an outpatient with appropriate imaging and close follow-up.**"
+    },
+    {
+      "cell_id": "cell_7_BC",
+      "name": "7. B + C (Brake + Branching)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 401,
+      "latency": 5.927794933319092,
+      "text": "# Assessment and Plan for 24-Month-Old with Head Injury\n\n## Clinical Summary\nThis child has a **moderate-risk mechanism** (fall from couch) with concerning features: **vomiting post-injury** and **significant occipital swelling**. However, he demonstrates reassuring signs: alert with normal GCS 15, normal gait, non-focal neuro exam, and normal vital signs.\n\n---\n\n## Imaging Decision\n\n**OBTAIN HEAD CT** (non-contrast)\n\n**Rationale:**\n- Post-traumatic vomiting in young children warrants neuroimaging, even with normal exam\n- Significant scalp swelling suggests significant force\n- <3 years old = lower threshold for CT in moderate-risk scenarios\n- Current clinical normalcy does NOT exclude intracranial injury at this age\n\n---\n\n## Concurrent Management\n\n**While awaiting CT:**\n- Maintain NPO status (vomiting risk)\n- Establish IV access if not already done\n- Keep father present; reassess neuro status every 15-30 minutes\n- Document baseline neuro exam clearly\n\n**If CT is normal:**\n- Discharge with **clear head injury precautions** for 24-48 hours\n- Written instructions to return if: altered consciousness, repeated vomiting, severe headache, seizure, abnormal behavior, or anything concerning to parent\n- Consider observation period (1-2 hours) if any parental reliability concerns\n\n**If CT shows intracranial injury:**\n- Neurosurgery consultation\n- Admission for monitoring\n- Depending on findings: serial exams \u00b1 repeat imaging\n\n---\n\n## Follow-Up\n- Reassess in 1-2 weeks if not seen in ER\n- Counsel on fall prevention (couch safety)"
+    },
+    {
+      "cell_id": "cell_7_BC",
+      "name": "7. B + C (Brake + Branching)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 604,
+      "latency": 7.75068998336792,
+      "text": "# Clinical Assessment & Management Plan\n\n## Risk Stratification\nThis patient has **moderate risk features** for intracranial injury:\n- **High-risk mechanism**: Fall from furniture onto hard surface at significant height (couch)\n- **Concerning symptoms**: Post-traumatic vomiting (single episode)\n- **Physical findings**: Significant occipital swelling (3 cm boggy)\n- **Reassuring factors**: Alert, GCS 15, non-focal neuro exam, normal gait, no other signs of basilar skull fracture\n\n---\n\n## Recommended Plan\n\n### 1. **Neuroimaging**\n**Perform HEAD CT (non-contrast)** \n- The combination of loss of consciousness (crying/distress suggests altered state), vomiting, and significant scalp swelling meets criteria for imaging in this age group\n- Uses PECARN criteria adapted for toddlers: significant mechanism + any GCS <15, vomiting, or significant swelling warrants imaging\n- If CT obtained: observe for acute intracranial hemorrhage, contusion, or diffuse axonal injury\n\n**If CT is normal:**\n- Proceed with clinical observation\n\n### 2. **Observation & Monitoring**\nAdmit for **4-6 hour period of observation** minimum:\n- Monitor vital signs q15-30 min initially\n- Assess mental status frequently (play behavior, responsiveness)\n- Watch for: progressive vomiting, decreased alertness, seizure, focal neurologic changes\n- Document baseline head circumference and fontanelle status (though closed per exam)\n\n### 3. **Symptomatic Care**\n- Ice to occipital swelling (15-20 min intervals)\n- NPO initially given vomiting; advance diet as tolerated\n- Acetaminophen for pain (15 mg/kg = ~192 mg); **avoid NSAIDs** initially (bleeding risk consideration)\n\n### 4. **Discharge Criteria** (if CT normal and stable observation)\nProvide written **head injury discharge instructions** including red flags:\n- Repeated vomiting\n- Difficulty waking/increased drowsiness\n- Severe headache\n- Behavioral changes\n- Seizure\n- Clear fluid from nose/ears\n- **Instruct to return immediately if any occur**\n\n### 5. **Follow-up**\n- Call back in 24 hours to check in\n- Return visit in 3-5 days if any concerns\n\n---\n\n## Key Point\nDo **not** reassure and discharge without imaging given this presentation\u2014single post-traumatic vomiting with significant head trauma and scalp injury warrants CT to rule out ICI."
+    },
+    {
+      "cell_id": "cell_8_ABC",
+      "name": "8. A + B + C (Full Compound)",
+      "rep": 1,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 616,
+      "latency": 8.616736888885498,
+      "text": "# Clinical Assessment & Plan\n\n## Key Clinical Features\nThis 24-month-old has **moderate-risk features for intracranial injury** after head trauma:\n- **Concerning**: Post-traumatic vomiting (1x), significant occipital impact\n- **Reassuring**: GCS 15, alert, appropriate behavior, no neuro deficits, normal exam otherwise\n\n## Missing Information That Would Change Management\n\n| Missing Data | Clinical Significance | If Present \u2192 Plan Modification |\n|---|---|---|\n| **Loss of consciousness (LOC) duration** | Critical predictor of severity | If YES, ANY duration \u2192 CT head strongly recommended |\n| **Ongoing symptoms** (current lethargy, headache, irritability) | Indicates evolving injury | If YES \u2192 CT head |\n| **Mechanism details**: Was this a fall from standing couch height (~30-40 cm) or from climbing? Any direct impact vs. fall onto extended arm? | Height/impact force matters | If >1.5 meters or high-velocity impact \u2192 CT head |\n| **Exact timing of vomiting** | Single vomiting at 2 hrs may be less ominous than persistent vomiting | If **ongoing/recurrent** \u2192 CT head |\n| **Any prior head injuries or bleeding disorders** (family or personal) | Increases vulnerability | If YES \u2192 CT head; consider labs if bleeding disorder suspected |\n| **Parent reliability/ability to monitor** | Critical for observation pathway | If unreliable (homelessness, substance use, poor follow-up access) \u2192 CT head preferred |\n\n## Current Plan with Conditional Recommendations\n\n### **IF vomiting was isolated AND mechanism is typical low-velocity fall AND parents reliable:**\n\u2192 **PECARN Head Injury Rule** applies\u2014this child is **moderate risk**\n- **Observe 4-6 hours in clinic or ED**\n- Recheck neuro exam q30-60 min\n- Discharge with **strict return precautions** (worsening behavior, repeated vomiting, seizure, increasing lethargy, headache unresponsive to acetaminophen)\n- Clear safety instructions; phone number for questions\n\n### **IF any of the above missing data suggests higher risk OR vomiting continues:**\n\u2192 **Non-contrast CT head**\n\n### **If parents decline CT but have ANY concerning features:**\n\u2192 ED observation (not clinic); consider CT even without parental consent given medicolegal/safety issues\n\n---\n\n## Bottom Line\n**This child is currently moderate-risk**. The most influential missing data point is whether the vomiting was truly isolated, and the exact mechanism/impact force. With reassuring answers to those questions and reliable parents, observation is reasonable; otherwise, CT is indicated."
+    },
+    {
+      "cell_id": "cell_8_ABC",
+      "name": "8. A + B + C (Full Compound)",
+      "rep": 2,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 563,
+      "latency": 7.05985689163208,
+      "text": "# Clinical Assessment & Plan\n\n## Immediate Risk Stratification\nThis child has **moderate concern for intracranial injury** given:\n- **High-risk mechanism**: Fall >3 feet onto hard surface at age <2 years\n- **Red flag symptom**: Post-traumatic vomiting (1 episode)\n- **Clinical reassurance**: Alert, playful, GCS 15, non-focal neuro exam\n\n---\n\n## Recommended Diagnostic Plan\n\n### **Obtain head CT (non-contrast)**\n\n**Rationale**: Current PECARN guidelines recommend CT for children <2 years with:\n- Loss of consciousness (unclear here\u2014clarify with father), OR\n- Altered mental status, OR  \n- Signs/symptoms of skull fracture, OR\n- **Severe mechanism with any vomiting**\n\nPost-traumatic vomiting in this age group warrants imaging to exclude intracranial pathology.\n\n---\n\n## Critical Missing Information (with conditional recommendations)\n\n| Missing Data | If Present | If Absent |\n|---|---|---|\n| **Loss of consciousness?** | CT strongly indicated | Already planned |\n| **LOC duration?** | CT + neurosurgery consultation if >few seconds | Proceed with CT per mechanism |\n| **Persistent vomiting after initial episode?** | Consider urgent CT + pediatric neurology input | Proceed with non-emergent CT |\n| **Any brief alteration in consciousness or drowsiness since arrival?** | Priority CT now | Proceed as planned |\n| **Any prior head injuries/neuro baseline concerns?** | May lower threshold for observation; discuss with father | Standard plan |\n| **Headache or neck pain symptoms?** | Obtain C-spine imaging if neck pain | Cervical imaging not needed |\n\n---\n\n## Additional Management Plan\n\n1. **Observation period**: Keep in clinic 1-2 hours during/after CT to assess for evolving symptoms\n2. **Parental education**: Provide **return precautions** (lethargy, repeated vomiting, seizure, irritability, loss of consciousness)\n3. **Follow-up**: If CT normal, neurology follow-up typically not needed unless symptoms emerge\n4. **Document**: Ask father specifically about LOC timing and any initial period of unresponsiveness\n\n---\n\n## Bottom Line\n**Proceed with non-contrast head CT given mechanism + vomiting, even with reassuring current exam.** Clarify LOC history to confirm indication and adjust urgency accordingly."
+    },
+    {
+      "cell_id": "cell_8_ABC",
+      "name": "8. A + B + C (Full Compound)",
+      "rep": 3,
+      "confab": false,
+      "quotes": [],
+      "has_branch": true,
+      "tokens": 570,
+      "latency": 7.762981176376343,
+      "text": "# Assessment & Plan for 24-Month-Old with Head Injury\n\n## Risk Stratification\nThis child has **moderate-risk features** for clinically important traumatic brain injury (ciTBI):\n- Loss of consciousness or altered mental status (vomited once)\n- Significant mechanism (fall from couch onto hard floor)\n- Physical findings (occipital swelling)\n\nCurrent exam is reassuring (GCS 15, alert, playing, neurologically non-focal).\n\n---\n\n## Missing Information That Would **Change Management:**\n\n### Critical (would modify imaging decision):\n1. **Was there any loss of consciousness, even brief?** (father didn't witness impact)\n   - *If YES \u2192 Strongly favors CT head*\n   - *If NO/uncertain \u2192 Still concerning given vomiting*\n\n2. **Any post-injury behaviors changed?** (drowsiness, inconsolable crying, repeated vomiting, behavior abnormal for this child)\n   - *If YES to any \u2192 Lowers threshold for CT*\n   - *If NO \u2192 Supports observation*\n\n3. **Any other injuries noted?** (fall from couch could injure other areas)\n\n### Important for counseling:\n4. **Reliable supervision/ability to observe at home?** (for observation alternative)\n5. **Parental concern level/reliability for follow-up**\n\n---\n\n## My Current Recommendation\n\n### **Obtain CT head (non-contrast)**\n**Rationale:** PECARN rules suggest imaging for:\n- Any vomiting post-injury (present here)\n- Mechanism with height >3 feet onto hard surface\n- Concerning physical exam finding (boggy swelling)\n\n**Alternatives IF additional history obtainable:**\n- *If reliable historian confirms: no LOC, no behavioral change, one episode vomiting in car (motion-related?), low parental concern* \u2192 Could consider **observation with strict precautions and safety-net instructions**\n\n---\n\n## If CT is normal:\n- Discharge home with **written head injury precautions**\n- **Return precautions:** progressive drowsiness, repeated vomiting, headache, behavioral change, seizure, loss of consciousness\n- No activity restrictions if asymptomatic\n- **Follow-up:** encouragement to contact PCP or return if concerns\n- Avoid future couch falls (safe play area)\n\n---\n\n**Bottom line:** Given vomiting + mechanism + swelling in a toddler where detailed history is limited, CT is reasonable despite currently reassuring exam."
+    }
+  ]
+}
