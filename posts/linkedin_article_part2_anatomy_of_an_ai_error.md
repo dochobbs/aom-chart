@@ -20,7 +20,7 @@ In the comments, clinical AI leaders like Dr. Graham Walker (MDCalc / Offcall fo
 2. *Is it helpfulness sycophancy overriding clinical restraint?*
 3. *Can we prompt the model upfront in Turn 1 so supervising clinicians don't have to interrogate the AI in Turn 2?*
 
-To answer them, we expanded the investigation from 140 traces to **1,084 clinical generation traces across five cohorts and ten frontier models** (Anthropic, OpenAI, Google, and xAI). 
+To answer them, we expanded the investigation from 140 traces to **1,324 clinical generation traces across eight cohorts and ten frontier models** (Anthropic, OpenAI, Google, and xAI). 
 
 Here is what we discovered.
 
@@ -273,7 +273,7 @@ For clinical software engineers, this distinction is paramount: **Use system pro
 
 ## Five Practical Principles for Clinical AI Deployments
 
-For health tech founders, clinical informaticists, and foundation model alignment teams, these 1,084 traces yield five operational mandates:
+For health tech founders, clinical informaticists, and foundation model alignment teams, these 1,324 traces yield five operational mandates:
 
 1. **Recognize the Boolean Checklist Trap:**  
    If your clinical software evaluates algorithms gated on negative checkmarks (PECARN, Centor, Wells, Ottawa), standard LLMs will silently fabricate negatives to satisfy the rule. Additive guidelines (pneumonia, UTI) do not share this vulnerability.
@@ -293,7 +293,7 @@ For health tech founders, clinical informaticists, and foundation model alignmen
 ---
 
 ### Open Data & Replication
-The complete dataset supporting this research—including the 1,084 raw generation traces, the 92-trace validation battery, the automated regex and clinician adjudication scripts, and the peer-reviewed manuscript prepared for journal submission—is fully open and reproducible at:  
+The complete dataset supporting this research—including the 1,324 raw generation traces, the 92-trace validation battery, the automated regex and clinician adjudication scripts, and the peer-reviewed manuscript prepared for journal submission—is fully open and reproducible at:  
 👉 **GitHub:** https://github.com/dochobbs/aom-chart
 
 ---

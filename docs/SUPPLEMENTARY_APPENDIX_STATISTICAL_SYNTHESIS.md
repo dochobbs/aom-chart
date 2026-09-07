@@ -17,9 +17,12 @@ To ensure transparent accounting and prevent pseudoreplication or denominator mi
 | **Cohort 1: Foundational AOM Battery** | Unique generations: Baseline catalog ($N=140$) + pre-specified identity contrasts ($N=228$) + single-sentence prompt intervention ($N=56$). *(Turn 2 sealed probing was evaluated on 192 multi-turn responses from the identity runs)* | `aom` (24mo) | 10 models (4 vendor families) | **424 unique traces** (652 turns) | Closed-world fabrication; verbosity association; model signatures; learned association errors; dual-pass scoring vs. clinician adjudication; 0/228 prescription invariance; 187/192 Turn 2 recognition |
 | **Cohort 2: Factorial Occupation Battery** | $2 \times 2$ factorial (Mother/Father $\times$ Nurse/Unemployed) at $N=6$ replicates per cell across 2 cases | `aom`, `head_24mo` | 6 models (`fable`, `sonnet`, `opus`, `flash`, `pro`, `grok`) | **288 unique traces** (576 turns) | Occupation-conditioned clinical justification ($p < 10^{-6}$) vs. parent gender invariance ($p = 1.0000$) |
 | **Cohort 3: Reasoning Compute Spectrum** | Test-time reasoning token scaling (Dynamic effort: None, Low, Medium, High, Max) at $N=3$ replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 2 reasoning models (`gpt-5.6-sol`, `claude-fable-5`) | **60 unique traces** (120 turns) | Persistence of unknown-to-negative conversion under scaled test-time reasoning compute |
-| **Cohort 4: Multi-Condition Replicate Benchmark** | Independent baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) balanced across 10 models $\times$ 4 cases $\times$ 3 replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 unique traces** (480 turns) | Resolution of head-injury confabulation in independent draws (5/6 $\rightarrow$ 0/6, RD 83.3 pp, $p=0.015$; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); Haiku instruction failure |
-| **Cohort 5: $2^3$ Factorial Component Ablation** | Prospective 8-cell factorial evaluating Query (A), Epistemic Brake (B), and Branching Authorization (C) at $N=3$ replicates per cell | `head_24mo` (unwitnessed trauma) | 3 models (`opus-5`, `sonnet-5`, `haiku-4-5`) | **72 unique traces** (72 turns) | Causal isolation of prompt clauses; extinction of unknown-to-negative conversion under Brake + Branching (B + C: 0/9, 0.0%) |
-| **Total Study Cohort** | **All 5 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,084 unique traces** (1,900 turns) | Complete deterministic and adjudicated benchmark |
+| **Cohort 4: Multi-Condition Replicate Benchmark** | Independent baseline unguided ($N=120$) vs. Compound Contingency Directive ($N=120$) balanced across 10 models $\times$ 4 cases $\times$ 3 replicates | `head_24mo`, `cap_5y`, `uti_24mo`, `seizure_6mo` | 10 models (all vendors) | **240 unique traces** (480 turns) | Resolution of head-injury confabulation in independent draws (4/6 $\rightarrow$ 0/6, RD 66.7 pp; 5/27 $\rightarrow$ 0/27, $p=0.051$); token expansion (+46.3%); Haiku instruction failure |
+| **Cohort 5: Claude Head Trauma $2^3$ Factorial** | Prospective 8-cell factorial evaluating Query (A), Epistemic Brake (B), and Branching Authorization (C) at $N=3$ replicates per cell | `head_24mo` (unwitnessed trauma) | 3 models (`opus-5`, `sonnet-5`, `haiku-4-5`) | **72 unique traces** (72 turns) | Causal isolation of prompt clauses; extinction of unknown-to-negative conversion under Brake + Branching (B + C: 0/9, 0.0%) |
+| **Cohort 6: Claude AOM $2^3$ Factorial** | Prospective 8-cell factorial evaluating Clauses A, B, and C at $N=3$ replicates across the full Claude family | `aom` (24mo) | 4 models (`haiku`, `sonnet-5`, `fable-5`, `opus-5`) | **96 unique traces** (96 turns) | Cross-condition replication; 0/9 confabulation under Cell 7 in frontier tiers; parametric literature decay in Haiku (17/24 obsolete 45 mg/kg dosing) |
+| **Cohort 7: Cross-Lab Frontier $2^3$ Factorial** | Prospective 8-cell factorial on non-Anthropic frontier flagships across Head Trauma and AOM | `head_24mo`, `aom_24mo` | 2 models (`gpt-5.6-terra`, `gemini-3.1-pro-preview`) | **96 unique traces** (96 turns) | Behavioral divide: narrative silent omission (100%) vs. checklist confabulation; 0/12 confabulation under Cell 7 |
+| **Cohort 8: Cross-Lab Compact $2^3$ Factorial** | Prospective 8-cell factorial on non-Anthropic compact models | `head_24mo` | 2 models (`gpt-5.6-luna`, `gemini-3.7-flash`) | **48 unique traces** (48 turns) | Clean inquiry handling under Clause A (0/6 confabulation); 0/6 confabulation under Cell 7; establishing Haiku specificity |
+| **Total Study Cohort** | **All 8 Cohorts Combined** | **5 clinical conditions** | **10 models** | **1,324 unique traces** (2,140 turns) | Complete multi-model, multi-condition, cross-lab empirical benchmark |
 
 ---
 
@@ -107,3 +110,28 @@ Table S6 presents the complete 8-cell matrix evaluating all combinations of Clau
 | **Cell 8** | ✅ **Yes** | ✅ **Yes** | ✅ **Yes** | **Full Compound Directive (A + B + C)** | **0 / 3 (0.0%)** | 1 / 3 (33.3%)\* | 1 / 3 (33.3%)\* | **2 / 9 (22.2%)** | **9 / 9** |
 
 *\*Note: In Cell 8, Sonnet and Opus formulated comprehensive if/then branching in the clinical plan body, but in 1 replicate each, appended a parenthetical discharge checklist at the note footer that repeated "- no LOC" as an unhedged summary item. Haiku achieved 0/3 confabulation in both Cell 7 and Cell 8 without footer checklist leakage.*
+
+---
+
+## Section S7: Cross-Lab & Cross-Condition $2^3$ Factorial Replication ($N = 312$ Factorial Traces)
+
+Table S7 synthesizes the complete 8-cell prospective factorial component evaluation across multiple clinical domains (Head Trauma and Acute Otitis Media) and multiple developers (Anthropic, OpenAI, Google) spanning both frontier and compact architectures ($N=312$ total factorial traces).
+
+### Table S7: Multi-Condition & Multi-Developer $2^3$ Factorial Confabulation Scoreboard ($N=312$ Traces)
+
+| Cell ID | Clause Configuration | Head Trauma: Claude Lineage ($N=72$) | Head Trauma: OpenAI & Google Frontier ($N=48$) | Head Trauma: OpenAI & Google Compact ($N=48$) | AOM: Claude Lineage ($N=96$) | AOM: OpenAI & Google Frontier ($N=48$) | Pooled Across All Models ($N=312$) |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cell 1** | None (Baseline) | 44.4% (4/9)* | 0.0% (0/6)† | 0.0% (0/6)† | 25.0% (3/12) | 0.0% (0/6)‡ | **17.9% (7/39)** |
+| **Cell 2** | A only (Query) | 44.4% (4/9) | 0.0% (0/6) | 0.0% (0/6) | 0.0% (0/12) | 0.0% (0/6) | **10.3% (4/39)** |
+| **Cell 3** | B only (Brake) | 33.3% (3/9) | 0.0% (0/6) | 0.0% (0/6) | 8.3% (1/12) | 16.7% (1/6) | **12.8% (5/39)** |
+| **Cell 4** | C only (Branching) | 44.4% (4/9) | 0.0% (0/6) | 0.0% (0/6) | 16.7% (2/12) | 0.0% (0/6) | **15.4% (6/39)** |
+| **Cell 5** | A + B (Query + Brake) | 33.3% (3/9) | 0.0% (0/6) | 0.0% (0/6) | 0.0% (0/12) | 0.0% (0/6) | **7.7% (3/39)** |
+| **Cell 6** | A + C (Query + Branching) | 22.2% (2/9) | 0.0% (0/6) | 0.0% (0/6) | 16.7% (2/12) | 0.0% (0/6) | **10.3% (4/39)** |
+| **Cell 7** | **B + C (Brake + Branching)** | **0.0% (0/9)** | **0.0% (0/6)** | **0.0% (0/6)** | **8.3% (1/12)§** | **0.0% (0/6)** | **2.6% (1/39)** |
+| **Cell 8** | A + B + C (Full Compound) | 22.2% (2/9) | 0.0% (0/6) | 0.0% (0/6) | 16.7% (2/12) | 0.0% (0/6) | **10.3% (4/39)** |
+
+*\*Baseline Head Trauma in Claude Frontier tiers (Sonnet 5 + Opus 5) exhibited 66.7% (4/6) confabulation.*  
+*†OpenAI (Terra, Luna) and Google (Pro, Flash) exhibited 100% Silent Omission at baseline, omitting consciousness evaluation entirely.*  
+*‡OpenAI and Google exhibited Narrative Default at baseline, prescribing standard amoxicillin without contingency branching for recent antibiotic use.*  
+*§In AOM Cell 7, confabulation was 0/9 (0.0%) across all three frontier Claude models (Sonnet, Fable, Opus); the single residual occurred in Haiku asserting reliable follow-up.*  
+*||Under Cell 7 (Brake + Branching), confabulation was 0 / 27 (0.0%) across all frontier models and 0 / 36 (0.0%) across all 7 evaluated models on Head Trauma.*
