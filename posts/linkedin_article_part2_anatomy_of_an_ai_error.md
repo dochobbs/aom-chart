@@ -98,9 +98,9 @@ Should we include Clause A (*"What missing information would change your plan?"*
 
 We found that **the third line is a model-scale paradox**:
 
-### 1. Line 3 Poisons Distilled Models (`haiku`)
-When you prompt a smaller, distilled model like Claude Haiku to identify missing information, it lacks the metacognitive discipline to leave the question open. It feels compelled to **answer its own questions**—inventing reassuring clinical details (*"- Reassuring: Alert, GCS 15, no LOC reported"*) just to close the loop.  
-$\rightarrow$ **For distilled models, Two Lines (Brake + Branching) is mandatory. Adding Line 3 actively induces hallucination.**
+### 1. Line 3 Poisons Compact, Lightweight Models (`haiku`)
+When you prompt a compact, lightweight model like Claude Haiku to identify missing information, it lacks the parameter capacity and metacognitive discipline to leave the question open. It feels compelled to **answer its own questions**—inventing reassuring clinical details (*"- Reassuring: Alert, GCS 15, no LOC reported"*) just to close the loop.  
+$\rightarrow$ **For compact models, Two Lines (Brake + Branching) is mandatory. Adding Line 3 actively induces hallucination.**
 
 ### 2. Line 3 Rescues Format-Rigid Flagships (`sonnet-5`)
 Claude Sonnet 5 represents the opposite extreme: an exceptionally capable model with an intensely trained reflex for standard PECARN bulleted formatting. Under Two Lines alone, Sonnet generated brilliant conditional contingency trees in its plan body—**yet still slipped into inserting `"- No LOC reported"` as an unhedged bullet point in its PECARN summary checklist on 8 of 10 runs!**
@@ -281,7 +281,7 @@ For health tech founders, clinical informaticists, and foundation model alignmen
    Provide conditional if/then recommendations based on critical missing data.
    ```
 3. **Respect Parameter Scale:**  
-   Do not instruct distilled edge models (like Haiku) to formulate open-ended queries about missing data; they will hallucinate answers to fill their own void. Use strict two-line constraints.
+   Do not instruct compact, lightweight models (like Haiku, Luna, or Flash) to formulate open-ended queries about missing data; they will hallucinate answers to fill their own void. Use strict two-line constraints.
 4. **Decouple Checklist Formats in Workhorse Models:**  
    If deploying models like Sonnet-5 on structured risk-prediction tasks, require the model to output a dedicated missing-data block *prior* to generating the assessment and plan, preventing format-decay bullet slips.
 5. **Reward Structured Contingencies in Post-Training (RLHF/DPO):**  
