@@ -97,7 +97,8 @@ One case, one day, vendor-default sampling (no seeds/temperature pinning), n=2â€
 | The chart models saw | `docs/STEM.md` (+ `docs/STEM_18mo.md` second stem) |
 | Variants / models / prompts | `eval/variants.json`, `eval/models.json`, `eval/render.py`, `eval/run.py` |
 | Scoring rules | `docs/codebook_v2.md`, `docs/failures.md`, `docs/JUDGE.md`, `docs/TURN2.md` |
-| Human-error literature mapped to the modes | `docs/human_parallels.md` (all citations source-verified) |
+| Human-error literature mapped to the modes | `docs/human_parallels.md` (source-verified 2026-08-22; Goldman/Doherty bank errors corrected 2026-08-29) |
+| Anchor-essay citation and version review | `docs/essay_editorial_review.md` |
 | Doctor+AI combination literature (synergy thesis) | `docs/combination_lit.md` |
 | Where the errors come from (data / post-training / prompting) | `docs/error_origins.md` |
 | Run ledger | `docs/RUNS.md`; per-run index `results/README.md` |
@@ -106,5 +107,6 @@ One case, one day, vendor-default sampling (no seeds/temperature pinning), n=2â€
 | Confirmation + mitigation | `results/smoke_20260815T214424Z*`, `â€¦214553Z*` |
 | Turn-2 tabulation | `results/turn2_summary.md` |
 | Shareables | `share/` â€” team summary, one-pager, LinkedIn drafts, talk |
+| Public-release review | `docs/public_release_review.md` |
 
 Michael Hobbs, MD â€” michael@hobbs.md

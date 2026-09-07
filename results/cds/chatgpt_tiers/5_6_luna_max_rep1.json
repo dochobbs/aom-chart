@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Luna",
+  "thinking_level": "Max",
+  "replicate": 1,
+  "configured_pill": "5.6 Luna High",
+  "timestamp": "2026-09-02T17:33:15.029Z",
+  "raw_text": "This is definite, unilateral, nonsevere acute otitis media (AOM): bulging TM plus effusion, with pain <48 hours and temperature <39°C.\n\nPlan:\n\nOffer observation/watchful waiting for 48–72 hours, provided the mother can reliably follow up and has access to antibiotics. At age 24 months, unilateral nonsevere AOM is appropriate for shared-decision observation. A safety-net prescription is reasonable. (CDC guidance\n)\n\nProvide analgesia:\n\nAcetaminophen 160 mg/5 mL: 5 mL PO every 4–6 hours as needed; maximum 5 doses/24 hours.\n\nAlternatively, ibuprofen 100 mg/5 mL: 5 mL PO every 6–8 hours as needed; avoid if dehydrated.\n\nEncourage fluids. Avoid antihistamines, decongestants, and routine ear drops.\n\nIf pain or fever worsens, or there is no improvement within 48–72 hours, start or prescribe:\n\nAmoxicillin 90 mg/kg/day PO divided twice daily for 7 days.\n\nFor 12.4 kg: approximately 558 mg twice daily, equivalent to 7 mL twice daily of 400 mg/5 mL suspension. (CHOP pathway\n; amoxicillin labeling\n)\n\nUse amoxicillin-clavulanate instead if amoxicillin was used in the past 30 days, purulent conjunctivitis is present, or there is treatment failure.\n\nReturn urgently for mastoid swelling/tenderness, toxic appearance, persistent vomiting or dehydration, facial weakness, severe headache/neck stiffness, or protrusion of the ear."
+}

@@ -1,6 +1,6 @@
 # Human parallels — the error modes in the human literature
 
-Tracked citation bank for the blog post, talk, and posts. Every citation here was verified against its source on **2026-08-22** (author, venue, year, and the specific number quoted). Add nothing to this file without checking the source first; the one rejection at the bottom is why.
+Tracked citation bank for the blog post, talk, and posts. Every citation here was verified against its source on **2026-08-22** (author, venue, year, and the specific number quoted). Bank errors caught in the 2026-08-29 essay review (Goldman 1994 not 1992 for κ = 0.31; Doherty not Doig) are noted in place. Full writeup: `essay_editorial_review.md`. Add nothing to this file without checking the source first; the one rejection at the bottom is why.
 
 ## The shortlist — best single example per mode, for the post
 
@@ -12,9 +12,9 @@ Everything below this section is the armory; the post takes only these. Chosen f
 | 2 | **38.5% of documented ROS unconfirmed by audio** (Berdahl 2019) | The literal human version of completing the chart; pen-allergy label (9 of 10 wrong, Shenoy 2019) as the propagation half |
 | 4 | **~1 in 6 quotations don't support their claim** (2025 meta) | Already in the post; Greenberg's citation-network anatomy is the talk-length version |
 | 5 | **COURAGE moved practice 43.5% → 44.7%** (Borden 2011) | A landmark NEJM trial changed cardiology behavior by ~1 point; Prasad's 40.2% reversals says why staying current is Sisyphean |
-| 6 | **Left-digit CABG at 80** (Olenski 2020) + **252 tenfold dosing errors at one children's hospital** (Doig 2012) | The binning half and the mental-math half of the mode |
+| 6 | **Left-digit CABG at 80** (Olenski 2020) + **252 tenfold dosing errors at one children's hospital** (Doherty 2012) | The binning half and the mental-math half of the mode |
 | 7 | **Hoffman 2016** (experimental, mechanism, internal control) + **Goyal 2015** (20.7% vs 43.1%, national sample) | The two hardest to refute — see audit below |
-| Judge | **Peer-review kappa 0.31** (Goldman 1992) | Already in the post |
+| Judge | **Peer-review kappa 0.31** (Goldman 1994 meta, not the 1992 JAMA review) | Already in the post |
 
 (Mode 3 stays out of the post — our eval couldn't test it; Bates 2023 lives here for completeness.)
 
@@ -38,7 +38,7 @@ Everything below this section is the armory; the post takes only these. Chosen f
 | Turn 2: 97% name the missing facts when asked; ~0 volunteer them. Confidence never wavered on turn 1. | Physician accuracy fell 55.3% → **5.8%** (easy → hard vignettes) while confidence barely moved (7.2 → 6.4/10); higher confidence → *fewer* requests for tests and resources | Meyer et al., *JAMA Internal Medicine* 2013 |
 | One ask-don't-assume sentence: invention rows 24/56 → 6/56, plans intact | The fix class is the checklist / forcing function: surgical safety checklist cut mortality ~half (1.5% → 0.8%) in the original multi-country study | Haynes et al., *NEJM* 2009 |
 | The completion drive itself (fill the box, pick the branch, finish the plan) | Premature closure — the single most common cognitive factor in the classic 100-case diagnostic-error study (cognitive factors in 74% of cases) | Graber, Franklin & Gordon, *Archives of Internal Medicine* 2005 |
-| The judge failed the cusp it was grading (Terra: 11/14 Sonnet rows); scorers disagreed on 101/140 rows before tiebreak | Physician peer reviewers of quality of care agree only slightly better than chance: weighted mean **kappa 0.31** across 13 studies | Goldman, *JAMA* 1992 |
+| The judge failed the cusp it was grading (Terra: 11/14 Sonnet rows); scorers disagreed on 101/140 rows before tiebreak | Physician peer reviewers of quality of care agree only slightly better than chance: weighted mean **kappa 0.31** across 13 studies | Goldman, *Eval Health Prof* 1994 (the 1992 *JAMA* piece is the earlier narrative review) |
 
 ## Full references (all verified 2026-08-22)
 
@@ -53,7 +53,7 @@ Everything below this section is the armory; the post takes only these. Chosen f
 9. **Meyer AND, Payne VL, Meeks DW, Rao R, Singh H.** Physicians' Diagnostic Accuracy, Confidence, and Resource Requests. *JAMA Intern Med* 2013;173(21):1952–8. [jamanetwork](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1731967)
 10. **Haynes AB, et al.** A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population. *NEJM* 2009;360:491–9. Mortality 1.5% → 0.8%.
 11. **Graber ML, Franklin N, Gordon R.** Diagnostic Error in Internal Medicine. *Arch Intern Med* 2005;165(13):1493–9. Premature closure most common cognitive factor. [pubmed](https://pubmed.ncbi.nlm.nih.gov/16009864/)
-12. **Goldman RL.** The reliability of peer assessments of quality of care. *JAMA* 1992;267(7):958–60. Weighted mean kappa 0.31. [pubmed](https://pubmed.ncbi.nlm.nih.gov/1734109/)
+12. **Goldman RL.** The reliability of peer assessments: a meta-analysis. *Eval Health Prof* 1994;17(1):3–21. Weighted mean kappa **0.31** (21 findings, 13 studies). The 1992 *JAMA* review (267:958–60) is related and does **not** carry that pooled kappa in the abstract. Essay correctly cites 1994. Bank corrected 2026-08-29. [pubmed 1994](https://pubmed.ncbi.nlm.nih.gov/10132480/)
 
 ## Second harvest — from Doc's clinical examples (2026-08-22)
 
@@ -92,9 +92,9 @@ Third-harvest references: [Porter 26.7h — JGIM 2022](https://pubmed.ncbi.nlm.n
 | Mode 3: "align with commission" | Done — Bates event profile added to main table (ADEs 39.0%, procedural 30.4%). |
 | Mode 4: "separate literature, similar issue" | **Greenberg, *BMJ* 2009**: complete citation-network analysis of one claim — 242 papers, 675 citations — showing citation bias, amplification, and outright invention converting an unsupported claim into established fact. Not memory failure; social propagation of a false support structure. The literature does to itself what Sonnet did to the AAP. |
 | Mode 5: "guideline diffusion + poor adoption — see heart cath literature" | **Borden et al., *JAMA* 2011**: optimal medical therapy before PCI was 43.5% before COURAGE published and **44.7% after** — a landmark NEJM RCT moved cardiology practice ~1 point. Pairs with Prasad (40.2% reversed) and Balas & Boren (~17y). |
-| Mode 6: "one or two more examples" | **Doig et al., *Pediatrics* 2012**: 252 **tenfold** medication errors in 5 years at one children's hospital — decimal points, trailing zeros, weight-based math; ~22 with harm. Left-digit bias has also been replicated beyond CABG (acute cholecystitis management at age 80, *J Gastrointest Surg* 2023 — title/abstract-level check only). |
+| Mode 6: "one or two more examples" | **Doherty C, Mc Donnell C, *Pediatrics* 2012**: 252 **tenfold** medication errors in 5 years at one children's hospital — decimal points, trailing zeros, weight-based math; ~22 with harm. (Bank had “Doig”; authors are Doherty / Mc Donnell. Essay was already correct.) Left-digit bias has also been replicated beyond CABG (acute cholecystitis management at age 80, *J Gastrointest Surg* 2023 — title/abstract-level check only). |
 
-Fourth-harvest references: [Yang — Resuscitation 2012](https://pubmed.ncbi.nlm.nih.gov/22391016/) · [Greenberg — BMJ 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/) · [Borden — JAMA 2011](https://jamanetwork.com/journals/jama/fullarticle/899881) · [Doig — Pediatrics 2012](https://pubmed.ncbi.nlm.nih.gov/22473367/) · [cholecystitis left-digit](https://www.sciencedirect.com/science/article/abs/pii/S1091255X23057918)
+Fourth-harvest references: [Yang — Resuscitation 2012](https://pubmed.ncbi.nlm.nih.gov/22391016/) · [Greenberg — BMJ 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/) · [Borden — JAMA 2011](https://jamanetwork.com/journals/jama/fullarticle/899881) · [Doherty — Pediatrics 2012](https://pubmed.ncbi.nlm.nih.gov/22473367/) · [cholecystitis left-digit](https://www.sciencedirect.com/science/article/abs/pii/S1091255X23057918)
 
 ## Mode 7 refutability audit (Doc: "hard to refute, very clear and concrete")
 
@@ -113,10 +113,10 @@ Known-refutable studies deliberately EXCLUDED: Schulman 1999 (chest-pain actors 
 Doc's bar: "relatively hard to refute." Honest tiering of all ~30 citations. Rule for the post: lead with Tier 1, use Tier 2 freely with its number attached, use Tier 3 only in triangulation with a stronger neighbor, never load-bear on Tier 4.
 
 **Tier 1 — experimental / quasi-experimental / meta-analytic, essentially unattackable:**
-Hoffman 2016 (experiment + internal control) · Olenski 2020 (regression-discontinuity-style birthday design in national data) · Haynes 2009 (prospective multi-country intervention) · Goldman 1992, Yang 2012, Custers 2010, Choudhry 2005, Hoffmann & Del Mar 2017, quotation-inaccuracy 2025 meta (all systematic reviews/metas) · McGlynn 2003 (439 indicators, national sample) · Fleming-Dutra 2016 (national surveys, CDC) · Bates 2023 (2,809 admissions, 11 hospitals).
+Hoffman 2016 (experiment + internal control) · Olenski 2020 (regression-discontinuity-style birthday design in national data) · Haynes 2009 (prospective multi-country intervention) · Goldman 1994, Yang 2012, Custers 2010, Choudhry 2005, Hoffmann & Del Mar 2017, quotation-inaccuracy 2025 meta (all systematic reviews/metas) · McGlynn 2003 (439 indicators, national sample) · Fleming-Dutra 2016 (national surveys, CDC) · Bates 2023 (2,809 admissions, 11 hospitals).
 
 **Tier 2 — large observational with objective outcomes, robust:**
-Goyal 2015 (national ED sample, binary outcome) · Sun 2022 (40k notes, NLP + adjustment) · Lane 2002 (controlled chart review) · Borden 2011 (large registry, pre/post) · Shenoy 2019 (JAMA review of a heavily replicated base) · Porter 2022 / Yarnall 2003 (simulation from national data — the inputs are guidelines themselves, hard to dispute) · Prasad 2013 (complete decade of one journal; denominators explicit) · Doig 2012 (5-year single-center incident series — undercounts if anything, which strengthens the claim).
+Goyal 2015 (national ED sample, binary outcome) · Sun 2022 (40k notes, NLP + adjustment) · Lane 2002 (controlled chart review) · Borden 2011 (large registry, pre/post) · Shenoy 2019 (JAMA review of a heavily replicated base) · Porter 2022 / Yarnall 2003 (simulation from national data — the inputs are guidelines themselves, hard to dispute) · Prasad 2013 (complete decade of one journal; denominators explicit) · Doherty 2012 (5-year single-center incident series — undercounts if anything, which strengthens the claim).
 
 **Tier 3 — small or simulated, use in triangulation:**
 Berdahl 2019 (9 residents, 180 encounters — but inter-rater reliability 96–98%, and direction corroborated by Thornton + Shenoy) · Thornton 2013 (single ICU) · Bhabra 2007 (simulation, 12 mock patients) · Meyer 2013 (vignettes) · Kessels 2003 (narrative review — the 40–80% is a range across studies, quote as a range only).

@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Terra",
+  "thinking_level": "Max",
+  "replicate": 3,
+  "configured_pill": "5.6 Terra High",
+  "timestamp": "2026-09-02T17:20:27.902Z",
+  "raw_text": "This is uncomplicated, nonsevere unilateral AOM with a definite diagnosis. At exactly 24 months, temperature <39°C and mild otalgia <48 hours, either immediate treatment or observation is guideline-concordant. I would offer shared-decision observation if reliable follow-up is available.\n\nAnalgesia: acetaminophen 160 mg (5 mL of 160 mg/5 mL) PO q4–6h PRN, or ibuprofen 10 mg/kg/dose = 124 mg (6.2 mL of 100 mg/5 mL) PO q6–8h PRN while well hydrated. Use one agent as needed; avoid duplicate acetaminophen-containing products.\n\nObservation plan: fluids, sleep/comfort measures, no decongestants or antihistamines. Call/reassess sooner for worsening; start antibiotics if not clearly improving within 48–72 hours.\n\nGive a safety-net prescription or arrange prompt follow-up:\n\nAmoxicillin 400 mg/5 mL: 7 mL PO BID for 7 days (≈90 mg/kg/day).\n\nThis is appropriate because there is no amoxicillin in the past 30 days, purulent conjunctivitis, or penicillin allergy. If any of those emerge, use high-dose amoxicillin-clavulanate instead.\n\nReturn urgently for toxic appearance, poor intake/dehydration, uncontrolled pain, new otorrhea, persistent fever ≥39°C, or postauricular erythema/swelling, pinna displacement, or mastoid tenderness.\n\nImmediate amoxicillin is also entirely reasonable if the parent prefers it, follow-up is uncertain, or symptoms worsen. AAP guidance supports observation for nonsevere unilateral AOM at this age and identifies high-dose amoxicillin as first-line when treating. AAP guideline\n, AAP quick reference"
+}

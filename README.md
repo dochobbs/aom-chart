@@ -17,6 +17,7 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 | **Final Adjudication & Tiebreak Log** | [`results/smoke_20260815T160303Z_tiebreak.md`](results/smoke_20260815T160303Z_tiebreak.md) |
 | **Plain-Language Summary (Team)** | [`share/team_summary.md`](share/team_summary.md) |
 | **What Ran, in Order** | [`docs/RUNS.md`](docs/RUNS.md) |
+| **Public-release review** (secrets / names / leftover flags) | [`docs/public_release_review.md`](docs/public_release_review.md) |
 
 ## Headline numbers (final, tiebroken)
 

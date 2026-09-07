@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Terra",
+  "thinking_level": "High",
+  "replicate": 3,
+  "configured_pill": "5.6 Terra High",
+  "timestamp": "2026-09-02T17:55:00.508Z",
+  "raw_text": "Assessment: Definite right acute otitis media (bulging TM plus effusion and acute otalgia), but nonsevere—unilateral, mild/intermittent pain, fever 38.7°C, well appearing, no otorrhea or mastoid findings.\n\nPlan:\n\nUse shared decision-making for observation/watchful waiting for 48–72 hours, provided the family can reliably obtain follow-up. At exactly 24 months, unilateral nonsevere AOM is appropriate for this approach. AAP guidance\n, CDC guidance\n\nTreat pain/fever now:\n\nAcetaminophen 15 mg/kg/dose = 186 mg PO q4–6h PRN (if 160 mg/5 mL: 5.8 mL/dose; do not exceed 5 doses/24 h).\n\nOr ibuprofen 10 mg/kg/dose = 124 mg PO q6–8h PRN (if 100 mg/5 mL: 6.2 mL/dose), with fluids maintained; avoid with dehydration or persistent vomiting.\n\nNo decongestants, antihistamines, or OTC cough/cold products. Encourage fluids and usual activity as tolerated.\n\nGive explicit return precautions: worsening or persistent ear pain/fever beyond 48–72 h, fever ≥39°C, new otorrhea, poor intake/dehydration, lethargy, postauricular erythema/swelling/tenderness, or toxic appearance.\n\nIf not improving or worsening at 48–72 hours: start amoxicillin 90 mg/kg/day divided BID = 558 mg PO BID. If using 400 mg/5 mL suspension, this is 7 mL PO BID for 7 days. He has no indication for amoxicillin-clavulanate unless there is recent amoxicillin exposure, purulent conjunctivitis, or failure of initial amoxicillin. AAP AOM guideline\n\nNo routine recheck is needed if he improves; reassess if symptoms fail to resolve or episodes become recurrent."
+}

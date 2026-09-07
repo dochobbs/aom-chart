@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Sol",
+  "thinking_level": "Medium",
+  "replicate": 3,
+  "configured_pill": "5.6 Sol Medium",
+  "timestamp": "2026-09-02T14:25:58.175Z",
+  "raw_text": "This is definite, uncomplicated right acute otitis media. Because he is exactly 24 months old and has unilateral, nonsevere disease—mild pain for under 48 hours and temperature below 39°C—either immediate antibiotics or observation is appropriate. I would favor shared decision-making with a safety-net prescription if follow-up is reliable. AAP guideline\n\nAnalgesia:\n\nAcetaminophen 160 mg/5 mL: 5 mL PO every 4–6 hours as needed, maximum 5 doses/day.\n\nOr ibuprofen 100 mg/5 mL: 5 mL PO every 6–8 hours as needed, maximum 4 doses/day; avoid if dehydrated.\n\nThese are the labeled doses for his 27.3-lb weight. Acetaminophen label\n, ibuprofen label\n\nObserve for 48–72 hours, with a reliable way to contact/reassess him. Provide a delayed prescription to start if pain or fever worsens or is not clearly improving.\n\nDelayed/immediate prescription, assuming no amoxicillin in the preceding 30 days, purulent conjunctivitis, or prior amoxicillin-unresponsive AOM:\n\nAmoxicillin 400 mg/5 mL: 7 mL PO twice daily for 7 days\n(560 mg/dose; approximately 90 mg/kg/day). High-dose amoxicillin is first-line, and seven days is appropriate for mild-to-moderate AOM at age 2–5 years. AAP dosing and duration\n\nIf any of those β-lactamase risk factors are present, use high-dose amoxicillin-clavulanate instead.\n\nFluids, saline/nasal suction as needed; no OTC cough/cold medicine or decongestant.\n\nReassess sooner for toxic appearance, dehydration, severe or escalating pain, otorrhea, postauricular redness/swelling or auricular displacement. If antibiotics are started and there is no improvement after 48–72 hours, reexamine, confirm the diagnosis/complications, and change therapy if persistent AOM. No routine labs or imaging are indicated."
+}

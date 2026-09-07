@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Sol",
+  "thinking_level": "Medium",
+  "replicate": 2,
+  "configured_pill": "5.6 Sol Medium",
+  "timestamp": "2026-09-02T14:24:31.012Z",
+  "raw_text": "This is definite right acute otitis media—moderate TM bulging with yellow middle-ear effusion—but it is nonsevere: unilateral disease, mild otalgia for <48 hours, and temperature <39°C.\n\nMy preferred plan is shared decision-making with initial observation, assuming reliable follow-up. At exactly 24 months, observation for nonsevere unilateral or bilateral AOM is guideline-concordant. AAP guideline\n\nProvide scheduled analgesia for the first 24–48 hours:\n\nAcetaminophen 160 mg (5 mL of 160 mg/5 mL) PO every 4–6 hours as needed; maximum 5 doses/24 hours.\n\nAlternatively, ibuprofen 100 mg (5 mL of 100 mg/5 mL) PO every 6–8 hours as needed, provided hydration remains adequate. AAP acetaminophen table\n, AAP ibuprofen table\n\nAvoid aspirin, OTC cough/cold combinations, and routine anesthetic ear drops.\n\nGive a safety-net prescription:\n\nAmoxicillin 400 mg/5 mL: 7 mL PO twice daily for 7 days.\n\nThis supplies 560 mg/dose and approximately 90 mg/kg/day; dispense 100 mL.\n\nStart if pain or fever worsens at any time or is not clearly improving within 48–72 hours. High-dose amoxicillin is appropriate because there is no allergy, recent amoxicillin exposure, or purulent conjunctivitis. AAP dosing recommendation\n, current 400-mg/5-mL formulation\n\nReassess if symptoms fail to improve after 48–72 hours of amoxicillin; confirm persistent AOM and, if appropriate, escalate to high-dose amoxicillin-clavulanate. Seek prompt evaluation for postauricular swelling/erythema, auricular protrusion, toxic appearance, dehydration, severe headache/neck stiffness, or other clinical deterioration. No routine short-interval ear recheck is necessary after clinical resolution; residual effusion may persist for weeks."
+}

@@ -1,5 +1,21 @@
 # Changelog
 
+## essay editorial review (2026-08-29, filed 2026-09-04)
+
+Citation and version review of the anchor essay. Writeup: `essay_editorial_review.md`.
+
+**Ship** the v5.5 lineage (real 2026 model names; Densen/Morris caveats on). **Do not ship** the high-velocity v6 that mapped Fable/Terra onto Claude 3.5 Sonnet / GPT-4o or restated the 73-day doubling and 17-year lag as measurements.
+
+Bank corrections in `human_parallels.md`: Goldman κ = 0.31 is *Eval Health Prof* 1994, not *JAMA* 1992; tenfold-error paper is Doherty/Mc Donnell, not Doig.
+
+## LinkedIn for the anchor essay (2026-09-04)
+
+One post, not a four-post week. Live draft: `posts/linkedin_tldr_5_one_post.md` (≤3000 characters). Links: published essay URL + https://github.com/dochobbs/aom-chart. Measurement detail stays in the essay. Index: `posts/README.md`.
+
+## public-release review (2026-08-31)
+
+Three-pass review of the public GitHub copy: secrets (none), names/companies, leftover flags. Writeup: `public_release_review.md`. No redaction applied. Cleanup still open: `share/` drafts, OpenRouter/Console-key lines, LICENSE, clinical-use disclaimer.
+
 ## packet v5 — 24 months is primary again (2026-08-15)
 
 **Goal locked:** maximize error types from one innocent case (`GOAL.md`). 24-month cusp stays. 18 months is a small second stem only (`STEM_18mo.md`). v4 smoke stays on disk; do not pool.

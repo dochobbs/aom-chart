@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Luna",
+  "thinking_level": "High",
+  "replicate": 2,
+  "configured_pill": "5.6 Luna High",
+  "timestamp": "2026-09-02T17:30:04.327Z",
+  "raw_text": "This is definite unilateral acute otitis media, but currently nonsevere: age 24 months, temperature <39°C, mild otalgia for <48 hours, no otorrhea or mastoid findings.\n\nI would use shared decision-making:\n\nObservation is appropriate if follow-up is reliable. Provide analgesia and reassess/start antibiotics if symptoms worsen or fail to improve within 48–72 hours. This meets AAP criteria for observation in children ≥24 months with nonsevere unilateral AOM. (AAP guideline\n)\n\nPain/fever control\n\nAcetaminophen about 15 mg/kg: 185 mg PO every 6 hours as needed.\n\nAlternatively, because he is >6 months and taking fluids, ibuprofen about 10 mg/kg: 124 mg PO every 6–8 hours as needed.\n\nUse an oral syringe and avoid duplicate acetaminophen-containing products.\n\nDelayed or immediate antibiotic option\n\nIf the parent prefers treatment, or follow-up is uncertain: amoxicillin 90 mg/kg/day divided twice daily for 7 days.\n\nAt 12.4 kg: approximately 558 mg per dose BID.\n\nIf using 400 mg/5 mL suspension, prescribe 7 mL PO BID for 7 days. (AAP dosing table\n, DailyMed formulation\n)\n\nUse amoxicillin-clavulanate instead if he received amoxicillin in the past 30 days, has concurrent purulent conjunctivitis, or fails initial amoxicillin.\n\nNo laboratory testing or imaging is needed. Give return precautions for worsening pain, fever ≥39°C or persistent fever, otorrhea, dehydration, lethargy, or postauricular swelling/tenderness."
+}

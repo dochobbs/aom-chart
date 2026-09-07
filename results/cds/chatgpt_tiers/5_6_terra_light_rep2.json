@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Terra",
+  "thinking_level": "Light",
+  "replicate": 2,
+  "configured_pill": "5.6 Terra Light",
+  "timestamp": "2026-09-02T14:36:31.087Z",
+  "raw_text": "This is acute otitis media (AOM), right-sided, with definite effusion and bulging TM. He meets criteria for nonsevere disease: mild/intermittent otalgia <48 hours, no otorrhea, and T 38.7°C (<39°C).\n\nI would use shared decision-making and offer initial observation for 48–72 hours, provided the family has reliable follow-up and can start treatment promptly if he worsens or does not improve. At exactly 24 months, observation is guideline-concordant for nonsevere unilateral or bilateral AOM. AAP guideline\n\nTreat pain/fever:\n\nAcetaminophen 160 mg PO every 4–6 hours as needed (12.9 mg/kg/dose; 160 mg/5 mL suspension = 5 mL/dose); do not exceed 5 doses/24 h.\n\nOr ibuprofen 120 mg PO every 6–8 hours as needed (9.7 mg/kg/dose; 100 mg/5 mL suspension = 6 mL/dose), if well hydrated; max 40 mg/kg/day. ibuprofen label\n\nFluids, rest; no decongestants, antihistamines, or topical ear drops needed with an intact TM.\n\nGive a safety-net/delayed prescription or arrange reassessment in 48–72 h.\n\nIf antibiotics are preferred now, or if pain/fever worsens or fails to improve in 48–72 hours:\n\nAmoxicillin 90 mg/kg/day divided BID for 7 days: 560 mg PO BID for this 12.4-kg child.\n\nWith 400 mg/5 mL suspension: 7 mL PO BID x 7 days.\n\nNo recent amoxicillin, purulent conjunctivitis, or recurrent amoxicillin-nonresponsive AOM is described, so amoxicillin is appropriate first line. AAP guideline\n\nUse amoxicillin-clavulanate instead if those risk factors emerge. Return urgently for toxic appearance, dehydration, escalating pain, postauricular erythema/swelling or ear protrusion, new otorrhea, or neurologic symptoms."
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "ChatGPT for Clinicians",
+  "model": "5.6 Luna",
+  "thinking_level": "High",
+  "replicate": 3,
+  "configured_pill": "5.6 Luna High",
+  "timestamp": "2026-09-02T17:31:24.369Z",
+  "raw_text": "This is definite acute unilateral otitis media, but it is nonsevere: otalgia <48 hours, mild/intermittent, and temperature 38.7°C (<39°C). At exactly 24 months, either immediate antibiotics or observation is guideline-concordant. I would offer observation with reliable follow-up, using shared decision-making. AAP guideline\n, CDC\n\nTreat pain promptly with acetaminophen or ibuprofen according to his weight/product concentration; encourage fluids. Avoid OTC cough/cold preparations.\n\nProvide a safety-net prescription or arrange reassessment in 48–72 hours. Start antibiotics sooner if pain or fever worsens; start if not clearly improving by 48–72 hours.\n\nIf treating now or as rescue: amoxicillin 90 mg/kg/day PO divided BID for 7 days. For 12.4 kg, this is approximately 560 mg PO twice daily; with 400 mg/5 mL suspension, 7 mL BID. AAP duration guidance\n, DailyMed formulation\n\nUse amoxicillin-clavulanate instead if amoxicillin was given in the last 30 days, purulent conjunctivitis is present, or there is recurrent AOM unresponsive to amoxicillin.\n\nNo imaging or laboratory testing is indicated. Return urgently for toxic appearance, dehydration, postauricular swelling/tenderness, neck stiffness, facial weakness, or other concern for mastoiditis/complication."
+}
