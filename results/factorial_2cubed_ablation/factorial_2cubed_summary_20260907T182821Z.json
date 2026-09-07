@@ -1,0 +1,114 @@
+[
+  {
+    "cell_id": "cell_1_none",
+    "name": "1. None (Baseline)",
+    "clauses": {
+      "A": false,
+      "B": false,
+      "C": false
+    },
+    "sonnet_confab": 2,
+    "opus_confab": 2,
+    "pooled_confab": 4,
+    "pooled_pct": 66.66666666666666,
+    "pooled_branching": 2
+  },
+  {
+    "cell_id": "cell_2_A_only",
+    "name": "2. A only (Query)",
+    "clauses": {
+      "A": true,
+      "B": false,
+      "C": false
+    },
+    "sonnet_confab": 3,
+    "opus_confab": 2,
+    "pooled_confab": 5,
+    "pooled_pct": 83.33333333333334,
+    "pooled_branching": 1
+  },
+  {
+    "cell_id": "cell_3_B_only",
+    "name": "3. B only (Brake)",
+    "clauses": {
+      "A": false,
+      "B": true,
+      "C": false
+    },
+    "sonnet_confab": 2,
+    "opus_confab": 0,
+    "pooled_confab": 2,
+    "pooled_pct": 33.33333333333333,
+    "pooled_branching": 1
+  },
+  {
+    "cell_id": "cell_4_C_only",
+    "name": "4. C only (Branching)",
+    "clauses": {
+      "A": false,
+      "B": false,
+      "C": true
+    },
+    "sonnet_confab": 3,
+    "opus_confab": 1,
+    "pooled_confab": 4,
+    "pooled_pct": 66.66666666666666,
+    "pooled_branching": 1
+  },
+  {
+    "cell_id": "cell_5_AB",
+    "name": "5. A + B (Query + Brake)",
+    "clauses": {
+      "A": true,
+      "B": true,
+      "C": false
+    },
+    "sonnet_confab": 1,
+    "opus_confab": 1,
+    "pooled_confab": 2,
+    "pooled_pct": 33.33333333333333,
+    "pooled_branching": 2
+  },
+  {
+    "cell_id": "cell_6_AC",
+    "name": "6. A + C (Query + Branching)",
+    "clauses": {
+      "A": true,
+      "B": false,
+      "C": true
+    },
+    "sonnet_confab": 2,
+    "opus_confab": 2,
+    "pooled_confab": 4,
+    "pooled_pct": 66.66666666666666,
+    "pooled_branching": 5
+  },
+  {
+    "cell_id": "cell_7_BC",
+    "name": "7. B + C (Brake + Branching)",
+    "clauses": {
+      "A": false,
+      "B": true,
+      "C": true
+    },
+    "sonnet_confab": 0,
+    "opus_confab": 1,
+    "pooled_confab": 1,
+    "pooled_pct": 16.666666666666664,
+    "pooled_branching": 3
+  },
+  {
+    "cell_id": "cell_8_ABC",
+    "name": "8. A + B + C (Full Compound)",
+    "clauses": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "sonnet_confab": 2,
+    "opus_confab": 2,
+    "pooled_confab": 4,
+    "pooled_pct": 66.66666666666666,
+    "pooled_branching": 6
+  }
+]
