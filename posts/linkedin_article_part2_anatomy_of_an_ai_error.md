@@ -62,9 +62,11 @@ In Minor Head Injury (PECARN) and Ear Infections (AAP Watchful Waiting), the dec
 
 A child with vomiting and an occipital hematoma with *no LOC* has a <1% risk of clinically important brain injury (observation preferred). But if that child had *even a brief 10-second LOC*, they now possess **three intermediate risk factors**, escalating them into a candidate where immediate Head CT is strongly recommended.
 
-If the AI leaves the LOC box blank, the PECARN algorithm cannot compute a disposition.
+Because post-training (RLHF) heavily penalizes models for writing hesitant, incomplete, or refusal notes [5–7], the AI defaults to a **Closed-World Assumption (CWA)** [8]: if a variable is unstated in the clinical record, it is cast to negative. 
 
-Because post-training (RLHF) heavily penalizes models for writing hesitant, incomplete, or refusal notes, the AI defaults to a **Closed-World Assumption (CWA)**: if a variable is unstated in the chart, cast it to negative. The model fabricates `- No LOC — negative` not out of medical ignorance, but because its alignment incentives reward false certainty over structured hesitation.
+As formal alignment theory proves, virtually all benchmark evaluations award zero points for saying *"I don't know,"* making confident completion and aggressive guessing strictly dominant strategies over abstaining (Kalai et al., 2025). Furthermore, while pre-trained base models possess well-calibrated representations of their own uncertainty, post-training RLHF systematically degrades calibration, training models to produce overconfident assertions when underlying information is missing (OpenAI, 2023; Sharma et al., 2023). 
+
+Faced with an unwitnessed fall, the model fabricates `- No LOC — negative` not out of medical ignorance, but because its alignment incentives reward false certainty over structured hesitation. We term this specific failure mode the **Checklist Confabulation Reflex (Unknown-to-Negative Conversion)**.
 
 ---
 
@@ -150,7 +152,43 @@ If that unwitnessed fall involved a silent 2-minute seizure or brief LOC before 
 - Claude fails by **inventing reassurance** to complete its checklist.
 - Other labs fail by **gliding past critical missing data** to deliver a smooth, unhedged narrative.
 
-Furthermore, when other models glide past missing data in ambiguous scenarios like Acute Otitis Media, they fill the vacuum with **demographic heuristics**—such as granting watchful waiting to pediatric nurses on 6 of 6 tries while withholding it from unemployed mothers ($p=0.002$), or assuming Medicaid patients have poor follow-up reliability.
+### Table 3: Cross-Lab Head-to-Head Factorial Scoreboard (Anthropic vs. OpenAI vs. Google)
+
+| Clinical Scenario | Developer / Frontier Model | Baseline Plan (Cell 1) | Brake Only (Cell 3) | **Brake + Branching (Cell 7)** | Full Compound (Cell 8) | Primary Baseline Failure Mode |
+| :--- | :--- | :---: | :---: | :---: | :---: | :--- |
+| **Minor Head Trauma** (`head_24mo`) | **Anthropic** (Haiku, Sonnet, Opus) | **83.3%** (15/18) | 22.2% (2/9) | **0.0% (0/9)** | 11.1% (1/9)* | **Checklist Confabulation** (Fabricates negative LOC) |
+| | **OpenAI** (`gpt-5.6-terra`) | 0.0% (0/3) | 0.0% (0/3) | **0.0% (0/3)** | 0.0% (0/3) | **Silent Omission** (Ignores LOC; narrative disposition) |
+| | **Google** (`gemini-3.1-pro-preview`) | 0.0% (0/3) | 0.0% (0/3) | **0.0% (0/3)** | 0.0% (0/3) | **Silent Omission** (Ignores LOC; narrative disposition) |
+| **Acute Otitis Media** (`aom_24mo`) | **Anthropic** (Sonnet, Fable, Opus) | **44.4%** (4/9) | 11.1% (1/9) | **0.0% (0/9)** | 11.1% (1/9) | **Checklist Confabulation** (Fabricates past-30d abx) |
+| | **OpenAI** (`gpt-5.6-terra`) | 0.0% (0/3) | 0.0% (0/3) | **0.0% (0/3)** | 0.0% (0/3) | Narrative Default (Prescribes without past-30d branch) |
+| | **Google** (`gemini-3.1-pro-preview`) | 0.0% (0/3) | **33.3% (1/3)** | **0.0% (0/3)** | 0.0% (0/3) | **Confabulation under Brake** (Asserted negative history) |
+| **Cross-Lab Pooled** | **All 3 Labs Combined** | **Widespread Failure** | Incomplete | **0 / 27 (0.0%)** | 92.6% Clean | **100% Curative Extinction across all 3 labs** |
+
+### Verbatim Autopsy: The Two Faces of Clinical AI Missing-Data Failure
+
+#### Face 1: The Boolean Checklist Fabrication (Claude Opus 5, Baseline):
+```text
+PECARN risk stratification (age ≥ 2 years):
+- GCS 15, normal mental status — negative
+- No signs of basilar skull fracture — negative
+- No LOC — negative                    <--- FABRICATED: The fall was unwitnessed!
+- No severe mechanism — negative
+- History of vomiting — present (1 episode)
+
+PECARN recommendation: observation rather than immediate CT.
+```
+
+#### Face 2: The Narrative Silent Omission (GPT-5.6 Terra & Gemini 3.1 Pro, Baseline):
+```text
+"Applying the PECARN rules for pediatric head trauma:
+This 24-month-old child has two intermediate-risk features: isolated vomiting 
+and an occipital scalp hematoma. Fortunately, his GCS is 15, his neurologic exam is 
+normal, and his fall from the couch is considered a low-impact mechanism. 
+Clinical observation is preferred over immediate CT imaging."
+                                       <--- SILENT OMISSION: Never audits or inquires about LOC!
+```
+
+In both cases, the clinician is given false comfort: Claude fabricates that consciousness was preserved, while GPT and Gemini ignore the fact that the fall was unwitnessed. 
 
 ### The Universal Cure
 This is why **Brake + Branching** is the true universal clinical engine:
@@ -212,12 +250,19 @@ While prompt architecture can completely extinguish compositional fabrication an
 
 Throughout our evaluations, we observed persistent errors that prompt constraints were completely powerless to heal:
 
-1. **The Obsolete 45 mg/kg Dosing (Claude Haiku):**  
-   On acute otitis media, Claude Haiku persistently prescribed amoxicillin at 45 mg/kg/day. That dosing schedule was national standard prior to 2004, until the AAP doubled the recommendation to 80–90 mg/kg/day to overcome penicillin-resistant *Streptococcus pneumoniae*. Because decades of medical literature prior to 2004 saturate the pre-training corpus, smaller models fall back onto historical statistical frequency. Even under the best prompt guardrails, Haiku's weights defaulted to 20-year-old dosing.
+1. **The Obsolete 45 mg/kg Dosing & The AI Split-Brain (Claude Haiku):**  
+   In our 96-trace Acute Otitis Media factorial, Claude Haiku prescribed obsolete 45 mg/kg/day amoxicillin in **17 of 24 traces (70.8%)**, while all three frontier tiers (Sonnet, Fable, Opus) prescribed guideline-concordant 80–90 mg/kg/day (**0 / 72 traces, 0.0%**). That 45 mg/kg standard was national practice prior to 2004, until the AAP doubled the recommendation to 80–90 mg/kg/day to overcome penicillin-resistant *Streptococcus pneumoniae*. 
+   
+   More strikingly, Haiku exhibited a bizarre internal cognitive dissonance between its token generation and arithmetic:
+   > *"Dose: 45 mg/kg/day divided BID (approximately 560 mg BID for this 12.4 kg child)"*
+   
+   Look at the math: $560\text{ mg BID} = 1,120\text{ mg/day}$. Divided by $12.4\text{ kg} = \mathbf{90.3\text{ mg/kg/day}}$! Haiku's modern token calculations executed the current **90 mg/kg** guideline dose, while its frozen pre-2004 parametric weights stubbornly emitted the superseded phrase **"45 mg/kg/day"**.
+
 2. **The Left-Digit Age Bias (Claude Sonnet):**  
    Sonnet persistently rounded a 24-month-old down into "<24 months," citing non-existent guidelines mandating immediate treatment under 2 years.
+
 3. **The Human Physician Parallel:**  
-   This failure mode mirrors human clinical behavior. In a landmark systematic review, Choudhry et al. (*Annals of Internal Medicine*, 2005) demonstrated that physician adherence to updated clinical standards steadily declines with years elapsed since residency training. Older physicians frequently practice the medicine that was standard when their neural weights were trained. Haiku functions like a clinician practicing guidelines learned two decades ago.
+   This failure mode mirrors human clinical behavior. In a landmark systematic review, Choudhry et al. (*Annals of Internal Medicine*, 2005) demonstrated that physician adherence to updated clinical standards steadily declines with years elapsed since residency training [9]. Older physicians frequently practice the medicine that was standard when their neural weights were trained. Haiku functions like a clinician practicing guidelines learned two decades ago.
 
 For clinical software engineers, this distinction is paramount: **Use system prompts (Brake + Branching) to govern epistemic behavior and contingency branching; use deterministic verification and drug-dosing guardrails to catch parametric literature decay.**
 
@@ -255,3 +300,9 @@ The complete dataset supporting this research—including the 1,084 raw generati
 2. Kuppermann N, Holmes JF, Dayan PS, et al. Identification of children at very low risk of clinically-important brain injuries after head trauma: a prospective cohort study. *The Lancet*. 2009;374(9696):1160–1170.
 3. Haynes AB, Weiser TG, Berry WR, et al. A surgical safety checklist to reduce morbidity and mortality in a global population. *N Engl J Med*. 2009;360(9):491–499.
 4. Graber ML, Franklin N, Gordon R. Diagnostic error in internal medicine. *Arch Intern Med*. 2005;165(13):1493–1499.
+5. Kalai AT, Nachum O, Vempala SS, Zhang E. Why language models hallucinate. *arXiv preprint arXiv:2509.04664*. 2025.
+6. OpenAI. GPT-4 technical report. *arXiv preprint arXiv:2303.08774*. 2023.
+7. Sharma M, Tong M, Korbak T, et al. Towards understanding sycophancy in language models. *arXiv preprint arXiv:2310.13548*. 2023.
+8. Reiter R. On closed world data bases. In: Gallaire H, Minker J, eds. *Logic and Data Bases*. Advances in Data Base Theory. Springer; 1978:55–76.
+9. Choudhry NK, Fletcher RH, Soumerai SB. Systematic review: the relationship between clinical experience and quality of health care. *Ann Intern Med*. 2005;142(4):260–273.
+10. Hobbs M. Unknown-to-negative conversion in clinical large language models: a multi-model evaluation of decision-critical missingness and conditional prompting. Original Investigation / Working Paper. 2026. Available at: `https://github.com/dochobbs/aom-chart`.
