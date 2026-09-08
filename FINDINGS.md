@@ -106,7 +106,7 @@ One case, one day, vendor-default sampling (no seeds/temperature pinning), n=2�
 | Identity runs (4 × n=6) | `results/smoke_20260815T18*` / `19*` + `_notes.md` each |
 | Confirmation + mitigation | `results/smoke_20260815T214424Z*`, `…214553Z*` |
 | Turn-2 tabulation | `results/turn2_summary.md` |
-| Shareables | `share/` — team summary, one-pager, LinkedIn drafts, talk |
+| Shareables | `share/` — team summary, one-pager, presentation deck, talk notes |
 | Public-release review | `docs/public_release_review.md` |
 
 Michael Hobbs, MD — michael@hobbs.md

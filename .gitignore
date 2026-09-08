@@ -24,3 +24,19 @@ posts/
 results/cds_eval/
 share/node_modules/
 share/slides/
+
+# Anthropic memos & follow-ups
+docs/ANTHROPIC_*
+docs/anthropic_followup_*
+docs/*.zip
+
+# Manuscript & Supplementary materials
+docs/MANUSCRIPT_*
+docs/SUPPLEMENTARY_APPENDIX_*
+docs/REVIEW_MANUSCRIPT_*
+
+# generated web site & layout prototypes
+site/
+prototypes/
+index.html
+ai2027-hero.png

@@ -8,10 +8,6 @@ Citation and version review of the anchor essay. Writeup: `essay_editorial_revie
 
 Bank corrections in `human_parallels.md`: Goldman κ = 0.31 is *Eval Health Prof* 1994, not *JAMA* 1992; tenfold-error paper is Doherty/Mc Donnell, not Doig.
 
-## LinkedIn for the anchor essay (2026-09-04)
-
-One post, not a four-post week. Live draft: `posts/linkedin_tldr_5_one_post.md` (≤3000 characters). Links: published essay URL + https://github.com/dochobbs/aom-chart. Measurement detail stays in the essay. Index: `posts/README.md`.
-
 ## public-release review (2026-08-31)
 
 Three-pass review of the public GitHub copy: secrets (none), names/companies, leftover flags. Writeup: `public_release_review.md`. No redaction applied. Cleanup still open: `share/` drafts, OpenRouter/Console-key lines, LICENSE, clinical-use disclaimer.

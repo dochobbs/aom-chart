@@ -45,12 +45,10 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 ├── notebooks/       Jupyter reproduction notebook (reproduce_findings.ipynb)
 ├── results/         Every raw JSON trace, scored file, and human adjudication log (results/README.md)
 ├── share/           Team summary, one-pager, slide deck, and presentation materials
-├── prototypes/      Interactive HTML/CSS web preview prototypes
-├── site/            HTML renders of the documentation set (rebuild: python eval/build_site.py)
 └── archive/         Superseded working docs and pre-registration trail
 ```
 
-Markdown is the source of truth; `site/` is generated from it.
+Markdown is the source of truth across all analyses and documentation.
 
 ## Reproduce & verify
 

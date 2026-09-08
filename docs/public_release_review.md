@@ -41,8 +41,7 @@ Not secrets. Would I want them on a public scientific repo?
 | Flag | Where | Why |
 |---|---|---|
 | Publishing calendar | `share/README.md` | Two-wave plan, “Goh hook not yet drafted,” await review |
-| “Do not post” + `[repo link]` / `[repo link — private for now]` | `share/blog_post.md`, `share/linkedin_*.md`, `share/compared_to_whom.md`, Gemini/Grok/Codex edit passes | Drafts look live once the repo is the packet |
-| Landing page points at drafts | `index.html` toc: “LinkedIn drafts and the five-slide talk live beside it” | |
+| Landing page review | `index.html` toc | Update table of contents for release |
 | AI 2027 layout homage | `prototypes/compared-to-whom/`, `share/compared_to_whom_grok-4.6.html` | Style copy, not a data leak |
 | Fisher p ≈ 0.001 on n=6 | `FINDINGS.md`, site HTML | Bar was “not a fluke,” not p < 0.05 |
 | No LICENSE | repo root | Reuse terms unclear |

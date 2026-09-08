@@ -21,4 +21,3 @@ node talk.js
 ```
 Then export `talk.pdf` from PowerPoint.
 
-Long-form drafts and social posts live in `posts/`. See **`posts/README.md`**. LinkedIn for the anchor essay is a single post (`posts/linkedin_tldr_5_one_post.md`) that links the full article plus the GitHub packet; do not recap the 140-trace scoreboard in the post.
