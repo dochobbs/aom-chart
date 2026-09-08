@@ -2,6 +2,8 @@
 
 Ten frontier AI models, one synthetic pediatric ear-infection chart with decision-critical facts deliberately left blank. 41% of answers invented the missing facts rather than ask. Identity never changed the prescription — it changed the justifications and defaults. One added prompt sentence cut fact fabrication by three-quarters.
 
+Subsequent September 2026 replication batteries tested multi-case generalization (5 pediatric conditions), an 8-cell 2³ factorial prompt component ablation (72 traces), and a 92-trace statistical depth battery across four model lineages—revealing where prompt brakes succeed (Haiku, Fable, Opus down to 0%) and where workhorse models relapse (Sonnet 5 relapsing 8/10 on unstated variables).
+
 Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim quote a human can check. Synthetic case, no PHI.
 
 ## Start here
@@ -9,17 +11,21 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 | You want | Resource |
 |---|---|
 | **Clean Open Datasets (CSV)** | [`data/`](data/) (`main_140_traces.csv`, `identity_contrasts.csv`, `prompt_mitigation.csv`) |
+| **Brake + Branching Validation (92 Traces)** | [`results/brake_branching_validation/`](results/brake_branching_validation/) (Statistical depth, Sonnet 8/10 relapse traces) |
+| **2³ Factorial Prompt Ablation (72 Traces)** | [`results/factorial_2cubed_ablation/`](results/factorial_2cubed_ablation/) (Brake vs Branching vs Anchor components) |
 | **Clinical Decision Support (CDS) Benchmark** | [`results/cds/`](results/cds/) (7 live medical AI tools tested on the case) |
 | **Data Dictionary & Error Codebook** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
 | **Reproduction Notebook** | [`notebooks/reproduce_findings.ipynb`](notebooks/reproduce_findings.ipynb) |
-| **Full Technical Findings** | [`FINDINGS.md`](FINDINGS.md) |
-| **The Locked Patient Chart** | [`docs/STEM.md`](docs/STEM.md) |
+| **Full Technical Findings (Baseline AOM)** | [`FINDINGS.md`](FINDINGS.md) |
+| **The Locked Patient Chart** | [`docs/STEM.md`](docs/STEM.md) (and multi-condition stems: [`STEM_head_24mo.md`](STEM_head_24mo.md), etc.) |
 | **Final Adjudication & Tiebreak Log** | [`results/smoke_20260815T160303Z_tiebreak.md`](results/smoke_20260815T160303Z_tiebreak.md) |
 | **Plain-Language Summary (Team)** | [`share/team_summary.md`](share/team_summary.md) |
 | **What Ran, in Order** | [`docs/RUNS.md`](docs/RUNS.md) |
 | **Public-release review** (secrets / names / leftover flags) | [`docs/public_release_review.md`](docs/public_release_review.md) |
 
 ## Headline numbers (final, tiebroken)
+
+### 1. Foundational AOM Benchmark (August 15, N=140)
 
 | Measured Finding | Adjudicated Count | Rate / Context |
 |---|:---:|---|
@@ -33,6 +39,15 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 | Identity shifted justifications and default paths | 2 findings | Fable nurse 6/6; Flash private default 5/6 |
 | Must-not-miss clinical basics omitted | 3 / 140 | 2.1% (Mode 1 omission) |
 | **Ask-don't-assume prompt constraint: invention rate** | **24/56 → 6/56** | **43% → 11%** (Opus & Haiku to 0%) |
+
+### 2. September Replication & Generalization (N=92 Battery)
+
+| Dimension / Test | Cohort & Replicates | Adjudicated Confabulation | Clinical Significance |
+|---|:---:|:---:|---|
+| **Head Trauma Statistical Depth** (`head_24mo`) | Claude Lineage (N=40) | Haiku 0/10, Fable 0/10, Opus 0/10, **Sonnet 8/10 (80%)** | Workhorse model relapses into unstated variable hallucination (LOC, witnessed) |
+| **Cross-Condition Transfer** (`aom_24mo`) | Claude Lineage (N=20) | **0 / 20 (0.0%)** | 100% elimination of prior-antibiotic fabrication |
+| **Specificity & Non-Degradation** | Witnessed Fall (N=12) | **0 / 12 (0.0%)** | 100% decisive clinical plans preserved without false confusion |
+| **Cross-Lab Generalization** | OpenAI & Google (N=20) | **0 / 20 (0.0%)** | 0% confabulation across GPT-5.6 Terra/Sol and Gemini 3.1 Pro/3.7 Flash |
 
 *Do not average treat-rates across models — plan choice is a property of the model rather than the chart ([`FINDINGS.md`](FINDINGS.md)).*
 

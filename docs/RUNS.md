@@ -30,3 +30,14 @@ Also on 2026-08-15 pm: Flash×insurance formally ruled — **fires** (WW-preferr
 **Scoring of the 140:** this session (Grok 4.6), codebook v2 + failures overlay, keyword assist then hand review. Not blinded. Not a second judge. Fine for “which error types fired.” Not an independent rate. Phrase-fuse happened once (teen “single” + “follow-through” were two different Sonnet rows).
 
 **Buddy smoke (6 control rows):** `smoke_20260815T160303Z_buddy.json`. Flash r2 plan: buddy treat, Grok was wrong (observe) — corrected. Age band agreed. Fable fights are hall_fu vs ask, and reliability. Gemini Pro r1 still no JSON from Sonnet. Judge now retries once and can `--append`.
+
+---
+
+## September 2026: Multi-Case Generalization, Factorial Ablations & Validation Batteries
+
+| ID / Run Directory | Packet | What | n | Models | Outcome |
+|---|---|---|---:|---|---|
+| `results/all5_cases_claude_cure/` | Multi-case v1 | Cross-condition transfer across all 5 clinical conditions (AOM, Head Trauma, Bronchiolitis, CAP, Febrile Infant) | 20 | Claude lineage | Proves prompt brake transfers beyond ear infections to acute trauma and infant fever. Notes: `all5_cases_results.json` |
+| `results/factorial_2cubed_ablation/` | 2³ factorial | Full 8-cell factorial ablation of the three prompt components (Brake, Branching, Anchor) | 72 | Multi-vendor (Haiku, Sonnet, Opus, Terra, Flash) | Establishes statistical necessity of combining Brake + Branching. Isolated brake produces paralysis; isolated branching produces fabrications. Report: `FACTORIAL_2CUBED_AUDIT_REPORT.md` |
+| `results/brake_branching_validation/` | 4-experiment battery | Replication depth on head trauma (N=40), AOM transfer (N=20), specificity/witnessed fall (N=12), cross-lab OpenAI/Google (N=20) | 92 | 8 models across Anthropic, OpenAI, Google | Zero confabulation holds across Haiku, Fable, Opus, Terra, Sol, Gemini Pro, and Gemini Flash. **Sonnet 5 relapses 8/10** into unstated variable hallucination (LOC / witnessed fall). Report: `BRAKE_BRANCHING_VALIDATION_REPORT.md` |
+| `results/cds/` | Commercial CDS | Empty-chart evaluation on commercial clinical decision tools (OpenEvidence, UpToDate, AMBOSS, Vera, Doximity, Glass) | 16+ | Commercial systems | Establishes commercial CDS baseline on unstated clinical variables. Notes: `results/cds/README.md` |
