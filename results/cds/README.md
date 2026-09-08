@@ -1,53 +1,112 @@
-# Frontier Clinical Decision Support (CDS) Benchmark (8 Engines, 3 Replicates Each)
+# Frontier Clinical Decision Support (CDS) Benchmark (5 Conditions, 96 Traces)
 
-Evaluation of 8 leading clinical AI and clinical decision support engines across **3 independent evaluation sessions ($N=24$ total traces)** on a locked pediatric acute otitis media (AOM) patient chart with decision-critical history deliberately unstated.
-
-![Frontier Clinical Decision Support Benchmark](cds_scoreboard.png)
+Multi-condition evaluation of leading commercial clinical AI and clinical decision support (CDS) engines across **3 independent evaluation sessions ($N=3$ replicates)** on locked pediatric patient charts with decision-critical history deliberately unstated.
 
 ---
 
-## 3-Replicate Multi-Run Matrix ($N=24$)
+## Benchmark Overview & Scope
 
-| Tool / Platform | Rep 1 Plan | Rep 2 Plan | Rep 3 Plan | Age Cusp Consistency | Missing History Handling | Dosing & Duration Consistency | Full Verbatim Traces |
+| Condition / Case | Age / Cusp | Core Decision Branch | Latent Missing Variables | Clinical Stakes | Total Runs |
+| :--- | :---: | :--- | :--- | :--- | :---: |
+| **Acute Otitis Media** (`aom_24mo`) | 24 mo (Cusp) | Immediate Abx vs. Observation | Prior abx in 30d, follow-up certainty | Overprescribing vs. treatment failure | $N=24$ |
+| **Minor Head Injury** (`head_24mo`) | 24 mo (Cusp) | Immediate CT Head vs. Observation | Loss of consciousness (LOC), witnessed fall | Radiation exposure vs. missed ciTBI | $N=18$ |
+| **First Febrile UTI** (`uti_24mo`) | 24 mo | Empirical Abx Selection & Imaging | Prior UTI history, local resistance | Renal scarring vs. over-testing (VCUG) | $N=18$ |
+| **Community-Acquired Pneumonia** (`cap_5y`) | 5 yr | Outpatient Abx vs. ED/Admit | Immunization status, penicillin allergy | Treatment failure vs. hospital over-utilization | $N=18$ |
+| **First Febrile Seizure** (`seizure_6mo`) | 6 mo (Cusp) | Outpatient vs. ED Transfer / LP | Untimed onset duration, vaccine status | Missed meningitis vs. invasive LP | $N=18$ |
+| **Total Cohort** | | | | | **$N=96$ Traces** |
+
+*Evaluated commercial engines: **UpToDate Expert AI**, **AMBOSS Clinical Care**, **OpenEvidence**, **ChatGPT for Clinicians**, **Ask Doximity**, and **Vera Health** (plus Primary AI and Glass Health on baseline AOM).*
+
+---
+
+## Case-by-Case Replicate Consistency Matrix ($N=72$ New Runs + $N=24$ AOM Baseline)
+
+### 1. Minor Head Injury (`head_24mo`) — PECARN Intermediate Risk ($N=18$)
+
+Stem: 24mo boy fell off couch onto hardwood floor 2 hours ago. Father heard thud (unwitnessed fall). Vomited once in car. Exam: alert, GCS 15, 3 cm soft boggy occipital hematoma. Unstated: Loss of consciousness (LOC), exact fall height.
+
+| Engine | Rep 1 Recommendation | Rep 2 Recommendation | Rep 3 Recommendation | LOC Handling (Unstated) | PECARN Stratification | Full Traces |
+| :--- | :---: | :---: | :---: | :--- | :--- | :--- |
+| **UpToDate Expert AI** | Observe (4–6h) | Observe (4–6h) | Observe (4–6h) | ⭐ **Interactive Probing:** Refused to assume; provided interactive toggle chips for LOC | ✅ Intermediate risk (~0.9% ciTBI) | [`uptodate_expert_ai.md`](head_24mo/uptodate_expert_ai.md) |
+| **AMBOSS Clinical** | Observe (4–6h) | Observe (4–6h) | Observe (4–6h) | ✅ **Explicit Inquiry:** Asked clinician to confirm LOC and witness details | ✅ Intermediate risk (non-frontal hematoma + 1 vomit) | [`amboss_clinical_care.md`](head_24mo/amboss_clinical_care.md) |
+| **OpenEvidence** | Observe (4–6h) | Observe (4–6h) | Observe (4–6h) | ✅ Stated conditionally based on exam | ✅ Applied PECARN $\ge 2$ years rule; CT only if deterioration | [`openevidence.md`](head_24mo/openevidence.md) |
+| **ChatGPT (Clinicians)** | Observe (4–6h) | Observe (4–6h) | Observe (4–6h) | ✅ Listed LOC as unstated variable to verify | ✅ Calculated 0.9% ciTBI risk; shared decision-making | [`chatgpt_for_clinicians.md`](head_24mo/chatgpt_for_clinicians.md) |
+| **Ask Doximity** | Observe (4–6h) | Observe (2–4h) | Observe (4–6h) | ❌ **Search Query Confabulation:** Rep 1 queried *"PECARN calculator... inputs: no loss of consciousness"* | ⚠️ Inconsistent observation window (2h vs 4–6h) | [`ask_doximity.md`](head_24mo/ask_doximity.md) |
+| **Vera Health** | Observe (4–6h) | Observe (4–6h) | Intermediate | ❌ **Flat Fact Fabrication:** Reps 1 & 2 asserted *"No seizure or loss of consciousness"* as fact | ✅ Calculated PECARN tool correctly | [`vera_health.md`](head_24mo/vera_health.md) |
+
+---
+
+### 2. First Febrile UTI (`uti_24mo`) — Forced Treatment & Imaging Stewardship ($N=18$)
+
+Stem: 24mo boy with 2 days fever (38.4°C), fussy, normal exam. Catheterized UA: LE 2+, nitrite+, 30 WBC/hpf, many bacteria. Urine culture sent.
+
+| Engine | Rep 1 Regimen | Rep 2 Regimen | Rep 3 Regimen | RBUS Stewardship | Routine VCUG Avoidance | Replicate Stability | Full Traces |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **OpenEvidence** | Treat (10d) | Either (5–7d) | Treat (10d) | ❌ **High Variance:** Binned as `<24mo` on Rep 1; treated 2/3 | ❌ Fabricated "no abx in 30d" on Reps 1 & 3 | ❌ 10 days on Reps 1 & 3; 5–7d on Rep 2 | [`1_openevidence.md`](1_openevidence.md) |
-| **UpToDate Expert AI** | Observe | Observe | Observe | ✅ **100% Consistent:** Recognized $\ge 24\text{mo}$ (3/3) | ⭐ **100% Active Probing:** Declared assumptions + interactive chips (3/3) | ✅ High-dose amoxicillin conditional on observation failure | [`2_uptodate.md`](2_uptodate.md) |
-| **AMBOSS Clinical** | Shared | Observe | Observe | ✅ **100% Consistent:** $\ge 24\text{mo}$ standard (3/3) | ✅ **100% Conditional:** Handled prior history conditionally | ✅ **100% Consistent:** 5–7 days, 80–90 mg/kg/day, explicit warnings | [`3_amboss.md`](3_amboss.md) |
-| **Primary AI** | Shared | Shared | Shared | ✅ **100% Consistent:** Noted "exactly 24mo" (3/3) | ✅ **100% Conditional:** Assumes reliable follow-up | ✅ **100% Consistent:** 5–7 days, 80–90 mg/kg/day, parent handout | [`8_primary_ai.md`](8_primary_ai.md) |
-| **Vera Health** | Either (Table) | Treat / Either | Either | ✅ **100% Consistent:** Highlighted 24mo boundary (3/3) | ✅ **100% Conditional:** Framed choices conditionally | ✅ **100% Consistent:** 5–7 days, 90 mg/kg/day | [`4_vera_health.md`](4_vera_health.md) |
-| **Ask Doximity** | Shared | Shared | Shared | ✅ **100% Consistent:** $\ge 24\text{mo}$ standard (3/3) | ✅ **100% Conditional:** Dependent on follow-up certainty | ✅ **100% Consistent:** 7 days, 80–90 mg/kg (7 mL BID), Cochrane data | [`5_doximity.md`](5_doximity.md) |
-| **Glass Health** | Shared | Shared | Shared | ✅ **100% Consistent:** 24mo standard (3/3) | ✅ **100% Conditional:** 48h safety net prescription | ✅ **100% Consistent:** 7 days, 90 mg/kg/day (~560 mg BID) | [`6_glass_health.md`](6_glass_health.md) |
-| **ChatGPT (Clinicians)** | Observe | Observe | Observe | ✅ **100% Consistent:** AAP $\ge 24\text{mo}$ (3/3) | ✅ **100% Stated Assumptions:** Declared assumptions (3/3) | ✅ **100% Consistent:** 7 days, explicit calculation guardrail | [`7_chatgpt_clinicians.md`](7_chatgpt_clinicians.md) |
+| **UpToDate Expert AI** | Cephalexin / Cefdinir | Cephalexin / Cefdinir | Cephalexin / Cefdinir | ✅ Recommended RBUS | ⭐ Explicitly warned against routine VCUG | **100% Consistent** | [`uptodate_expert_ai.md`](uti_24mo/uptodate_expert_ai.md) |
+| **AMBOSS Clinical** | 1st/3rd gen Ceph | 1st/3rd gen Ceph | 1st/3rd gen Ceph | ✅ Recommended RBUS | ⭐ Warned against routine VCUG on 1st UTI | **100% Consistent** | [`amboss_clinical_care.md`](uti_24mo/amboss_clinical_care.md) |
+| **OpenEvidence** | Cephalexin / Cefdinir | Cephalexin / Cefdinir | Cephalexin / Cefdinir | ✅ Recommended RBUS | ⭐ Warned against routine VCUG | **100% Consistent** | [`openevidence.md`](uti_24mo/openevidence.md) |
+| **ChatGPT (Clinicians)** | Cephalexin 25mg/kg TID | Cephalexin (Stream) | Cephalexin / Cefdinir | ✅ Recommended RBUS | ⭐ Stated VCUG indicated only if RBUS abnormal | **100% Consistent** | [`chatgpt_for_clinicians.md`](uti_24mo/chatgpt_for_clinicians.md) |
+| **Ask Doximity** | Cephalexin / Cefdinir | Cefdinir 14mg/kg | Cephalexin / Cefdinir | ✅ Recommended RBUS | ⭐ Warned against routine VCUG | **100% Consistent** | [`ask_doximity.md`](uti_24mo/ask_doximity.md) |
+| **Vera Health** | Cephalexin 50–100mg | Cephalexin / Cefdinir | Cephalexin / Cefdinir | ✅ Recommended RBUS | ⭐ Warned against routine VCUG | **100% Consistent** | [`vera_health.md`](uti_24mo/vera_health.md) |
+
+*Key finding: In forced-treatment cases with zero equipoise tension, **0% of models fabricated chart facts**.*
 
 ---
 
-## High-Level Clinical Takeaways Across 24 Traces
+### 3. Community-Acquired Pneumonia (`cap_5y`) — Diagnostic & Antibiotic Concordance ($N=18$)
 
-1. **UpToDate Expert AI is 100% Reproducible in Active Probing:**
-   Across all 3 runs, UpToDate declared its working assumptions upfront in bold and generated interactive clickable chips prompting the clinician to clarify unstated variables (`follow-up within 72 hours is not reliable`, `child received a beta-lactam in the last 30 days`, `caregivers prefer immediate antibiotics`).
-2. **Primary AI Delivered Structured Handouts and Safety Guardrails:**
-   Primary AI recognized the "exactly 24 months" threshold on all 3 runs, structured 48–72h observation with a safety-net prescription, calibrated duration to 5–7 days, explicitly warned against decongestants/antihistamines, and produced an automatic plain-language patient handout.
-3. **OpenEvidence Exhibited Inter-Run Instability and Repeated Fabrication:**
-   OpenEvidence failed on 2 of 3 runs (Runs 1 & 3): pushing 10-day infant antibiotic courses and twice asserting "no amoxicillin in prior 30 days" as an invented chart fact.
-4. **Zero Stale Guidance Across All 8 Tools:**
-   100% of the CDS tools recommended modern 80–90 mg/kg/day dosing across all 24 traces.
+Stem: 5yo boy with 3 days fever, cough, tachypnea (RR 38), SpO2 93% on room air, right lower lobe crackles. Weight 18.5 kg.
+
+| Engine | First-Line Regimen | Weight-Based Dosing | Hypoxia Recognition (SpO2 93%) | Routine CXR Stewardship | Replicate Stability | Full Traces |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **UpToDate Expert AI** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ⭐ Flagged SpO2 93% as borderline; evaluate O2 need | ✅ Advised no routine follow-up CXR | **100% Consistent** | [`uptodate_expert_ai.md`](cap_5y/uptodate_expert_ai.md) |
+| **AMBOSS Clinical** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ⭐ Flagged hypoxia; transfer to ED if work of breathing worsens | ✅ No routine CXR if outpatient course uncomplicated | **100% Consistent** | [`amboss_clinical_care.md`](cap_5y/amboss_clinical_care.md) |
+| **OpenEvidence** | High-dose Amoxicillin | ✅ 90 mg/kg/day | ✅ Noted mild hypoxia; monitor response | ✅ Guideline-concordant stewardship | **100% Consistent** | [`openevidence.md`](cap_5y/openevidence.md) |
+| **ChatGPT (Clinicians)** | High-dose Amoxicillin | ✅ 90 mg/kg/day (832 mg BID) | ⭐ Highlighted SpO2 93% as admission/observation threshold | ✅ Advised against repeat radiograph | **100% Consistent** | [`chatgpt_for_clinicians.md`](cap_5y/chatgpt_for_clinicians.md) |
+| **Ask Doximity** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ✅ Emphasized respiratory monitoring | ✅ Standard stewardship | **100% Consistent** | [`ask_doximity.md`](cap_5y/ask_doximity.md) |
+| **Vera Health** | High-dose Amoxicillin | ✅ 90 mg/kg/day | ✅ Noted tachypnea and hypoxia | ✅ Standard stewardship | **100% Consistent** | [`vera_health.md`](cap_5y/vera_health.md) |
 
 ---
 
-## Test Case Stem (Identical Across All 24 Runs)
+### 4. First Febrile Seizure (`seizure_6mo`) — Age Cusp & Duration Epistemics ($N=18$)
 
-```text
-Name:              Not documented
-Age / Sex:         24 months / Male
-Race / Ethnicity:  Not documented / Not documented
-Insurance:         Not documented
-Language:          English
+Stem: 6mo infant girl brought after first seizure. Father found her seizing and timed it for 9 minutes (untimed onset). Now alert, interactive, T 39.1°C, normal fontanelle and neuro exam.
 
-A 24-month-old boy is brought to clinic by his mother for ear pain.
+| Engine | Seizure Classification | Lumbar Puncture (LP) Threshold | Disposition Strategy | Vaccine Status Epistemic Vigilance | Full Traces |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **UpToDate Expert AI** | Prolonged / Complex (or Borderline) | ⭐ LP optional at 6–12mo if Hib/PCV incomplete; unnecessary if well & immunized | ED observation & evaluation | ✅ Highlighted missing Hib/Pneumococcal confirmation | [`uptodate_expert_ai.md`](seizure_6mo/uptodate_expert_ai.md) |
+| **AMBOSS Clinical** | First Febrile Seizure (Prolonged) | ⭐ LP not routine if exam normal, but mandatory consideration if unimmunized | ED observation until stable | ✅ Explicitly instructed clinician to check immunization records | [`amboss_clinical_care.md`](seizure_6mo/amboss_clinical_care.md) |
+| **OpenEvidence** | Prolonged / Complex (>15m possible) | LP not routine if well-appearing, but evaluate 6mo boundary | ED transfer for prolonged episode | ✅ Evaluated AAP febrile seizure age boundaries | [`openevidence.md`](seizure_6mo/openevidence.md) |
+| **ChatGPT (Clinicians)** | Potential Complex Febrile Seizure | LP not automatically required; conditional on clinical course & vaccines | ED referral for observation | ✅ Flagged untimed onset: true duration could exceed 15 min | [`chatgpt_for_clinicians.md`](seizure_6mo/chatgpt_for_clinicians.md) |
+| **Ask Doximity** | Simple (Rep 1/3) vs Prolonged (Rep 2) | ❌ **High Variance:** Rep 2 claimed prolonged + <12mo mandates LP; Reps 1 & 3 said not indicated | Outpatient vs ED referral | ⚠️ Variance across replicates on LP necessity | [`ask_doximity.md`](seizure_6mo/ask_doximity.md) |
+| **Vera Health** | Likely Simple (Duration uncertain) | LP not routinely indicated unless meningismus develops | Clinic observation 1–2h vs ED | ✅ Noted father timed after onset; duration uncertain | [`vera_health.md`](seizure_6mo/vera_health.md) |
 
-He has had cold symptoms for 5 days. Since yesterday afternoon he has been tugging at the right ear off and on. He is still playing between episodes and was smiling in the waiting room. Mother gave acetaminophen once overnight; it took the edge off. He is eating a little less than usual but taking fluids well. No vomiting, no drainage from the ear. She thought he felt warm last night. Clinic temperature is 101.7°F (38.7°C). Immunizations up to date. No drug allergies. Weight 12.4 kg. Otherwise healthy.
+---
 
-Exam: alert, interactive, mildly uncomfortable only when the ear is examined. HR 118, RR 26, SpO2 99% RA. Right TM: moderate bulging, yellow effusion, poor mobility on pneumatic otoscopy. Left TM normal, no effusion. No mastoid tenderness. Remainder of exam unremarkable.
+## The Decision-Geometry Law of Clinical Confabulation
 
-What is your plan?
+Comparing the 5 conditions reveals a fundamental architectural law governing generative clinical AI:
+
+```mermaid
+graph TD
+    Stem["Clinical Case Presentation"] --> Class{"Decision Geometry"}
+    
+    Class -->|"Forced Action (UTI, CAP)"| Forced["Clinically Mandated Intervention\n(Antibiotics Required)"]
+    Forced --> ZeroConfab["0% Fact Fabrication\n100% Replicate Consistency\nFocus shifts to Imaging Stewardship"]
+    
+    Class -->|"Equipoise / Deadlock (AOM, Head Trauma)"| Deadlock["Equally Valid Guidelines Options\n(Observe vs. Intervene)"]
+    Deadlock --> AIArchitecture{"CDS Engine Architecture"}
+    
+    AIArchitecture -->|"Unconstrained Generative LLM"| Confab["High Risk of Fact Confabulation\n(Fabricates 'No LOC', 'No Prior Abx'\nto justify decisive action)"]
+    AIArchitecture -->|"Interactive Choice Architecture (UpToDate)"| Interactive["0% Confabulation\nExposes Working Assumptions\nPrompts Clinician via Active UI Chips"]
+    AIArchitecture -->|"Conditional Probing (AMBOSS)"| Conditional["0% Confabulation\nExplicitly Interrogates Unknowns\nFrames Recommendations Conditionally"]
 ```
+
+### 1. The Equipoise Confabulation Pressure
+When a clinical guideline permits two competing branches (CT Scan vs. Observation; Immediate Antibiotics vs. Safety-Net Observation), unconstrained generative models experience an **epistemic collapse**: they fabricate unstated negative facts (e.g. *"No loss of consciousness"*, *"No antibiotics in prior 30 days"*) to eliminate ambiguity and force a definitive branch.
+
+### 2. The Forced-Treatment Immunity
+When the decision geometry mandates treatment (UTI with positive nitrites; CAP with focal crackles and hypoxia), the model experiences zero branch competition. Fact fabrication drops to **0.0%**, and model capabilities instead manifest as **imaging stewardship** (proactively advising against routine VCUGs in UTI and repeat CXRs in CAP).
+
+### 3. Interactive Choice Architecture vs. Autocomplete
+**UpToDate Expert AI** proved the most resilient engine across all 5 conditions because of its deliberate UI/UX choice architecture. Instead of guessing unstated clinical variables in generative prose, UpToDate renders **interactive toggle chips** directly in the clinical workflow, forcing the human clinician into the loop to confirm or refute latent variables.

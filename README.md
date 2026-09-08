@@ -13,7 +13,7 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 | **Clean Open Datasets (CSV)** | [`data/`](data/) (`main_140_traces.csv`, `identity_contrasts.csv`, `prompt_mitigation.csv`) |
 | **Brake + Branching Validation (92 Traces)** | [`results/brake_branching_validation/`](results/brake_branching_validation/) (Statistical depth, Sonnet 8/10 relapse traces) |
 | **2³ Factorial Prompt Ablation (72 Traces)** | [`results/factorial_2cubed_ablation/`](results/factorial_2cubed_ablation/) (Brake vs Branching vs Anchor components) |
-| **Clinical Decision Support (CDS) Benchmark** | [`results/cds/`](results/cds/) (7 live medical AI tools tested on the case) |
+| **Clinical Decision Support (CDS) Benchmark (96 Traces)** | [`results/cds/`](results/cds/) (5 conditions, 6 commercial engines tested across 3 replicates) |
 | **Data Dictionary & Error Codebook** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
 | **Reproduction Notebook** | [`notebooks/reproduce_findings.ipynb`](notebooks/reproduce_findings.ipynb) |
 | **Full Technical Findings (Baseline AOM)** | [`FINDINGS.md`](FINDINGS.md) |
