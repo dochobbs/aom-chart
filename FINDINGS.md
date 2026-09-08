@@ -2,6 +2,9 @@
 
 Complete technical writeup, 2026-08-15. Plain-language version: `share/team_summary.md`. Data map at the bottom. All numbers are post-tiebreak finals (`results/smoke_20260815T160303Z_tiebreak.md`) unless marked otherwise.
 
+> [!NOTE]
+> This document details the foundational 140-trace Acute Otitis Media benchmark from August 15, 2026. For subsequent September 2026 replication batteries—including the **92-trace Brake + Branching validation battery** (with the Sonnet 5 relapse traces) and the **72-trace 2³ factorial prompt ablation**—see [`results/README.md`](results/README.md).
+
 *"We" throughout means Michael Hobbs, MD directing Claude: design, decision bars, and every tiebreak call were his; execution, scoring passes, and drafting were the model's, with each disputed judgment anchored to a quote a human can check.*
 
 ## Design
