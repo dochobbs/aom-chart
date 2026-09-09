@@ -41,3 +41,6 @@ prototypes/
 index.html
 ai2027-hero.png
 *.bak.json
+
+# Temporary: internal review work stays local until adjudication is settled
+/docs/reviews/
