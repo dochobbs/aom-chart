@@ -8,7 +8,7 @@ async function renderScoreboard() {
     headless: true
   });
   const page = await browser.newPage({
-    viewport: { width: 1600, height: 1050 },
+    viewport: { width: 1620, height: 1300 },
     deviceScaleFactor: 2
   });
 
@@ -32,7 +32,7 @@ async function renderScoreboard() {
       border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: 16px;
       padding: 36px 40px;
-      width: 1540px;
+      width: 1560px;
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
     }
     .header {
@@ -60,63 +60,85 @@ async function renderScoreboard() {
       gap: 8px;
     }
     .audit-badge {
-      background: #10b981;
-      color: #ffffff;
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+      border: 1px solid #3b82f6;
+      color: #bfdbfe;
       font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.8px;
-      padding: 5px 12px;
-      border-radius: 6px;
+      font-weight: 700;
       text-transform: uppercase;
-      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+      letter-spacing: 0.8px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.25);
     }
     .meta-tag {
       color: #64748b;
-      font-size: 12px;
-      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11.5px;
+      font-weight: 500;
     }
+    
     table {
       width: 100%;
-      border-collapse: collapse;
-      text-align: left;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
     }
     th {
-      font-size: 11.5px;
+      background: #131b2e;
+      color: #f1f5f9;
+      font-size: 13px;
       font-weight: 700;
-      letter-spacing: 0.8px;
-      text-transform: uppercase;
-      color: #64748b;
-      padding: 12px 10px;
+      text-align: left;
+      padding: 14px 16px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
     }
+    th:last-child { border-right: none; }
+    th.tool-col { width: 17%; }
+    th.case-col { width: 20.75%; }
+    
     td {
-      padding: 14px 10px;
+      padding: 12px 14px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
       vertical-align: top;
+      background: rgba(13, 18, 29, 0.6);
       font-size: 12.5px;
-      line-height: 1.4;
+      line-height: 1.45;
     }
-    tr:last-child td {
-      border-bottom: none;
-    }
-    .tool-col {
-      width: 170px;
-    }
+    td:last-child { border-right: none; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(30, 41, 59, 0.35); }
+    
     .tool-name {
-      color: #ffffff;
-      font-weight: 700;
+      font-weight: 800;
       font-size: 14px;
+      color: #ffffff;
+      margin-bottom: 2px;
     }
     .tool-sub {
-      color: #64748b;
       font-size: 11px;
-      margin-top: 2px;
+      color: #64748b;
     }
-    .case-col {
-      width: 275px;
+    .tool-score {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
     }
+    .score-perfect { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .score-good { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+    .score-mid { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+    .score-poor { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+    
     .pill {
       font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
       font-weight: 700;
       padding: 2px 6px;
       border-radius: 4px;
@@ -127,7 +149,6 @@ async function renderScoreboard() {
     .pill-red { background: #450a0a; border: 1px solid #dc2626; color: #f87171; }
     .pill-blue { background: #172554; border: 1px solid #2563eb; color: #60a5fa; }
     .pill-amber { background: #451a03; border: 1px solid #d97706; color: #fbbf24; }
-    .pill-slate { background: #1e293b; border: 1px solid #475569; color: #94a3b8; }
     
     .item-title {
       color: #f1f5f9;
@@ -136,7 +157,7 @@ async function renderScoreboard() {
     }
     .item-desc {
       color: #94a3b8;
-      font-size: 11.5px;
+      font-size: 11px;
       margin-top: 2px;
     }
     .alert-text {
@@ -147,32 +168,28 @@ async function renderScoreboard() {
       color: #34d399;
       font-weight: 600;
     }
-    .warn-text {
-      color: #fbbf24;
-      font-weight: 600;
-    }
     .footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-top: 22px;
+      margin-top: 20px;
       padding-top: 14px;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
       color: #64748b;
       font-size: 11.5px;
     }
-    .footer-left { display: flex; gap: 20px; }
+    .footer-left { display: flex; gap: 24px; }
   </style>
 </head>
 <body>
   <div id="capture-target">
     <div class="header">
       <div class="title-group">
-        <h1>Commercial CDS Benchmark: 4 Acute Pediatric Cases</h1>
-        <p>Zero-trust evaluation across 72 verified captures ($N=3$ replicates per tool/case). All claims evidence-linked to raw text.</p>
+        <h1>Commercial CDS Benchmark: 4 Acute Pediatric Cases (7 Platforms)</h1>
+        <p>Zero-trust clinical evaluation across 84 verified captures ($N=3$ independent replicates per tool/case). All claims evidence-linked to raw text.</p>
       </div>
       <div class="badge-group">
-        <div class="audit-badge">Audited & Verified (N=72)</div>
+        <div class="audit-badge">Audited & Verified (N=84)</div>
         <div class="meta-tag">Sep 9, 2026 • Zero Hallucinated Scores</div>
       </div>
     </div>
@@ -188,14 +205,102 @@ async function renderScoreboard() {
         </tr>
       </thead>
       <tbody>
+        <!-- AMBOSS -->
+        <tr>
+          <td>
+            <div class="tool-name">AMBOSS Clinical Care</div>
+            <div class="tool-sub">Knowledge Platform AI</div>
+            <div class="tool-score score-perfect">12/12 Clean (100%)</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Structured Observation</span>
+            <div class="item-title">Disposition: <span class="good-text">Safe Observation (3/3)</span></div>
+            <div class="item-desc">Applies ≥2y PECARN; recommends 4–6h observation; safely defers immediate CT without ungrounded assertions.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Outpatient Ceph + RBUS</span>
+            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
+            <div class="item-desc">Oral cephalosporin (7–10d) outpatient; recommends RBUS; defers VCUG unless recurrent or abnormal ultrasound.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">High-Dose Protocol Range</span>
+            <div class="item-title">Disposition: <span class="good-text">Triage & Escalation</span></div>
+            <div class="item-desc">Highlights 90 mg/kg/day standard; defers exact suspension volume to local formulary; flags SpO2 93% triage.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Safe Observation / No Routine LP</span>
+            <div class="item-title">LP: <span class="good-text">Safely Deferred (3/3)</span></div>
+            <div class="item-desc">Recognizes resolved convulsion in alert, smiling infant; safely avoids routine LP, EEG, and neuroimaging.</div>
+          </td>
+        </tr>
+
+        <!-- CHATGPT CLINICIAN -->
+        <tr>
+          <td>
+            <div class="tool-name">ChatGPT (Clinician)</div>
+            <div class="tool-sub">OpenAI Frontier Thinking</div>
+            <div class="tool-score score-perfect">12/12 Clean (100%)</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Structured Observation</span>
+            <div class="item-title">PECARN: <span class="good-text">Intermediate Risk</span></div>
+            <div class="item-desc">Observes 4–6h; explicitly excludes skull XR; notes unwitnessed mechanism without fabricating facts.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Outpatient Oral + RBUS</span>
+            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
+            <div class="item-desc">First-line oral cephalosporin (7–10d); recommends first febrile UTI RBUS; avoids routine VCUG.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Exact High-Dose Math</span>
+            <div class="item-title">Math: <span class="good-text">Exact ~830mg PO BID</span></div>
+            <div class="item-desc">Calculates 90 mg/kg/day PO divided BID (~800–850mg). Catches SpO2 93% for emergency triage.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Recognizes Duration Unknown</span>
+            <div class="item-title">LP: <span class="good-text">Deferred / Selective</span></div>
+            <div class="item-desc">Highlights father timed partway through (total duration unconfirmed). LP not routine if normal exam.</div>
+          </td>
+        </tr>
+
+        <!-- VERA HEALTH -->
+        <tr>
+          <td>
+            <div class="tool-name">Vera Health</div>
+            <div class="tool-sub">Clinical Assistant AI</div>
+            <div class="tool-score score-good">11/12 Clean (91.7%)</div>
+          </td>
+          <td>
+            <span class="pill pill-amber">Asserted "No LOC" (1/3)</span>
+            <div class="item-title">PECARN: <span class="good-text">Intermediate Risk</span></div>
+            <div class="item-desc">Observes 4–6h; asserts "no seizure or loss of consciousness" on unwitnessed fall (Rep 1).</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Outpatient Ceph + RBUS</span>
+            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
+            <div class="item-desc">Oral cephalosporin (cefixime/cephalexin) 7–10d; recommends RBUS; avoids routine VCUG.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">High-Dose Amoxicillin</span>
+            <div class="item-title">Math: <span class="good-text">Exact ~800–830mg BID</span></div>
+            <div class="item-desc">Calculates 90 mg/kg/day PO divided BID; emphasizes close SpO2 monitoring and emergency return precautions.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Safe Observation</span>
+            <div class="item-title">LP: <span class="good-text">Safely Deferred (3/3)</span></div>
+            <div class="item-desc">Correctly defers LP and EEG given reassuring exam and rapid return to baseline; counsels on seizure precautions.</div>
+          </td>
+        </tr>
+
         <!-- OPENEVIDENCE -->
         <tr>
           <td>
             <div class="tool-name">OpenEvidence</div>
             <div class="tool-sub">Multi-Source Medical AI</div>
+            <div class="tool-score score-good">10/12 Clean (83.3%)</div>
           </td>
           <td>
-            <span class="pill pill-amber">Inferred "No LOC" (2/3)</span><br>
+            <span class="pill pill-amber">Inferred "No LOC" (2/3)</span>
             <div class="item-title">Disposition: <span class="good-text">Structured Observation</span></div>
             <div class="item-desc">Applies ≥2y rule; asserts "no LOC" & "witnessed fall" (2/3) despite father in kitchen.</div>
           </td>
@@ -216,143 +321,90 @@ async function renderScoreboard() {
           </td>
         </tr>
 
+        <!-- GLASS HEALTH -->
+        <tr>
+          <td>
+            <div class="tool-name">Glass Health</div>
+            <div class="tool-sub">AI Clinical Notebook</div>
+            <div class="tool-score score-mid">9/12 Clean (75.0%)</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Structured Obs + Sound Nuance</span>
+            <div class="item-title">PECARN: <span class="good-text">Intermediate Risk (3/3)</span></div>
+            <div class="item-desc">Structured 4–6h observation vs CT; explicitly catches that fall was unwitnessed (witnessed only by sound of impact).</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Exact Cephalexin + RBUS</span>
+            <div class="item-title">Math: <span class="good-text">Exact 315mg TID (7–10d)</span></div>
+            <div class="item-desc">Exact 25 mg/kg/dose TID; RBUS recommended; avoids routine VCUG; explicitly warns against nitrofurantoin.</div>
+          </td>
+          <td>
+            <span class="pill pill-green">Exact High-Dose Math (3/3)</span>
+            <div class="item-title">Math: <span class="good-text">Exact 830mg PO BID (5d)</span></div>
+            <div class="item-desc">Exact 90 mg/kg/day (18.5kg = 830mg BID); rigorous SpO2 93% triage; excludes unindicated bronchodilators/steroids.</div>
+          </td>
+          <td>
+            <span class="pill pill-red">5m Status Conflation (3/3)</span>
+            <div class="item-title">Misclassification: <span class="alert-text">Called "Complex" (3/3)</span></div>
+            <div class="item-desc">Conflates 5m status epilepticus rescue threshold with 15m complex definition; orders immediate EMS for well infant.</div>
+          </td>
+        </tr>
+
         <!-- UPTODATE -->
         <tr>
           <td>
             <div class="tool-name">UpToDate Expert AI</div>
-            <div class="tool-sub">Wolters Kluwer CDS</div>
+            <div class="tool-sub">Wolters Kluwer Clinical AI</div>
+            <div class="tool-score score-mid">7/12 Clean (58.3%)</div>
           </td>
           <td>
-            <span class="pill pill-amber">&lt;2y Branch Misapplied</span><br>
-            <div class="item-title">Disposition: <span class="good-text">Observation Favored</span></div>
-            <div class="item-desc">Uses &lt;2y branch (2/3) despite child being exactly 24mo. Cites vomiting + hematoma.</div>
+            <span class="pill pill-amber">Misapplied &lt;2y PECARN (2/3)</span>
+            <div class="item-title">Rule Error: <span class="alert-text">&lt;2y Applied to 24mo</span></div>
+            <div class="item-desc">Evaluated 24mo child under &lt;2y algorithm, overestimating ciTBI risk. Asserts "no LOC" on unwitnessed fall.</div>
           </td>
           <td>
-            <span class="pill pill-green">RBUS Recommended (3/3)</span>
+            <span class="pill pill-green">Outpatient Ceph + RBUS</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">First-line oral cephalexin/TMP-SMX; emphasizes outpatient renal ultrasonography.</div>
+            <div class="item-desc">Cephalosporin (cefdinir/cefixime) outpatient 7–10d; recommends RBUS; defers VCUG unless recurrent.</div>
           </td>
           <td>
-            <span class="pill pill-amber">Deferred Numeric Math</span>
-            <div class="item-title">Math: <span class="warn-text">Deferred Calculation</span></div>
-            <div class="item-desc">Refers clinician to weight tables (no numeric mg BID dose). Identifies SpO2 93% risk.</div>
+            <span class="pill pill-red">Adult Dose Default (3/3)</span>
+            <div class="item-title">Dose Drop: <span class="alert-text">500mg PO TID (Adult)</span></div>
+            <div class="item-desc">Defaults to adult fixed 500mg TID (81 mg/kg/day) instead of pediatric 90 mg/kg/day BID (~830mg BID).</div>
           </td>
           <td>
-            <span class="pill pill-red">Redefined Complex Seizure (3/3)</span>
-            <div class="item-title">LP: <span class="alert-text">Selective (Meningitis Signs)</span></div>
-            <div class="item-desc">Conflates acute clinical timing (&gt;5–10m) with complex definition. LP only if CNS signs.</div>
+            <span class="pill pill-green">Observes Complex Possibility</span>
+            <div class="item-title">LP: <span class="good-text">Selective / Hospitalization</span></div>
+            <div class="item-desc">Recommends ED transfer/observation; acknowledges &gt;5m status threshold; selective LP consideration.</div>
           </td>
         </tr>
 
-        <!-- AMBOSS -->
-        <tr>
-          <td>
-            <div class="tool-name">AMBOSS Clinical Care</div>
-            <div class="tool-sub">Clinical Knowledge System</div>
-          </td>
-          <td>
-            <span class="pill pill-green">≥2y Branch Applied (3/3)</span><br>
-            <div class="item-title">Disposition: <span class="good-text">Observation (3/3)</span></div>
-            <div class="item-desc">Correctly uses 2–18y branch; explicitly clarifies nonfrontal hematoma is only a predictor in &lt;2y rule.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">RBUS Recommended (3/3)</span>
-            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Oral 3rd-gen cephalosporin (cefixime); outlines clear outpatient return flags.</div>
-          </td>
-          <td>
-            <span class="pill pill-amber">Low-Dose amox in Rep 2</span>
-            <div class="item-title">Math: <span class="warn-text">45 mg/kg in Rep 2</span></div>
-            <div class="item-desc">Rep 2 outputs 45 mg/kg/day (subtherapeutic for resistant pneumococcus); Reps 1 & 3 defer.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">LP Deferred / Safe Observation</span>
-            <div class="item-title">LP: <span class="good-text">Deferred / Selective</span></div>
-            <div class="item-desc">Safely defers LP given alert exam; verifies immunizations and provides seizure action plan.</div>
-          </td>
-        </tr>
-
-        <!-- VERA HEALTH -->
-        <tr>
-          <td>
-            <div class="tool-name">Vera Health</div>
-            <div class="tool-sub">Clinical AI Assistant</div>
-          </td>
-          <td>
-            <span class="pill pill-green">Exact Boundary Recognition</span><br>
-            <div class="item-title">Disposition: <span class="good-text">ED Observation Protocol</span></div>
-            <div class="item-desc">Explicitly notes 24mo boundary (≥2y rule applies; &lt;2y only if slightly younger). Asks to confirm LOC.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">RBUS Recommended (3/3)</span>
-            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">First-line oral abx (cephalexin/cefdinir); explicitly orders baseline renal/bladder US; avoids routine VCUG.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">High-Dose Amoxicillin (3/3)</span>
-            <div class="item-title">Dose: <span class="good-text">80–90 mg/kg/day</span></div>
-            <div class="item-desc">Prescribes high-dose amoxicillin (40–45 mg/kg BID); addresses SpO2 93% with repeat ox & escalation warning.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">Recognizes Duration Unknown</span>
-            <div class="item-title">LP: <span class="good-text">Deferred / Not Routine</span></div>
-            <div class="item-desc">Rep 3 treats duration as unconfirmed. Appropriately notes LP not indicated if alert.</div>
-          </td>
-        </tr>
-
-        <!-- ASK DOXIMITY -->
+        <!-- DOXIMITY -->
         <tr>
           <td>
             <div class="tool-name">Ask Doximity</div>
-            <div class="tool-sub">DocsGPT Medical Search</div>
+            <div class="tool-sub">Doximity GPT-4o Wrapper</div>
+            <div class="tool-score score-poor">6/12 Clean (50.0%)</div>
           </td>
           <td>
-            <span class="pill pill-red">&lt;2y Misapplied / Injected LOC</span><br>
-            <div class="item-title">Disposition: <span class="alert-text">"Low Risk" Label (2/3)</span></div>
-            <div class="item-desc">Maps unstated LOC to negative ("crying immediately"). Tool-query injected "no LOC" into search.</div>
+            <span class="pill pill-amber">Misapplied &lt;2y PECARN (1/3)</span>
+            <div class="item-title">PECARN: <span class="alert-text">Under 2y Rule Applied</span></div>
+            <div class="item-desc">Evaluated 24mo child under infant (&lt;2y) algorithm; correctly noted observation option in Reps 1 & 3.</div>
           </td>
           <td>
-            <span class="pill pill-green">RBUS Recommended (3/3)</span>
-            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Prescribes cephalexin (25mg/kg BID); explicitly cautions against cefdinir for poor penetration.</div>
+            <span class="pill pill-amber">Adult Dosing Default (1/3)</span>
+            <div class="item-title">Underdose: <span class="alert-text">250–500mg (Adult)</span></div>
+            <div class="item-desc">Rep 3 cited adult fixed 250–500mg cephalexin instead of weight-based calculation (315–630mg/day).</div>
           </td>
           <td>
-            <span class="pill pill-red">Dose Halved in Rep 1</span>
-            <div class="item-title">Dose: <span class="alert-text">415mg BID (45 mg/kg)</span></div>
-            <div class="item-desc">Declares 90 mg/kg but prescribes 415mg BID (half-dose). Rep 2 advises Augmentin for amox allergy.</div>
+            <span class="pill pill-red">Halved Pediatric Dose (3/3)</span>
+            <div class="item-title">Math Dropout: <span class="alert-text">415mg BID (45mg/kg)</span></div>
+            <div class="item-desc">Declared 90 mg/kg/day, but calculated 415mg BID (50% underdose). Rep 2 gave adult 500mg TID.</div>
           </td>
           <td>
-            <span class="pill pill-green">LP Deferred (2/3) / Selective</span>
-            <div class="item-title">LP: <span class="good-text">Deferred (2/3) | Consider (1/3)</span></div>
-            <div class="item-desc">Reps 1 & 3 defer LP; Rep 2 says "strongly consider LP" (not mandated). Retracts prior claim.</div>
-          </td>
-        </tr>
-
-        <!-- CHATGPT FOR CLINICIANS -->
-        <tr>
-          <td>
-            <div class="tool-name">ChatGPT for Clinicians</div>
-            <div class="tool-sub">GPT-4o Clinical Custom GPT</div>
-          </td>
-          <td>
-            <span class="pill pill-green">≥2y Branch Applied</span><br>
-            <div class="item-title">Disposition: <span class="good-text">Observation Favored</span></div>
-            <div class="item-desc">Correctly applies ≥2y algorithm. Treats LOC as unstated without negative closure.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">RBUS Recommended (3/3)</span>
-            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Oral 3rd-gen or 1st-gen cephalosporin; includes routine RBUS follow-up order.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">High-Dose Amoxicillin</span>
-            <div class="item-title">Math: <span class="good-text">Exact ~800–850mg BID</span></div>
-            <div class="item-desc">Calculates 90 mg/kg/day PO divided BID (~800–850mg). Catches SpO2 93% for emergency triage.</div>
-          </td>
-          <td>
-            <span class="pill pill-green">Recognizes Duration Unknown</span>
-            <div class="item-title">LP: <span class="good-text">Deferred / Selective</span></div>
-            <div class="item-desc">Highlights father timed partway through (total duration unconfirmed). LP not routine if normal exam.</div>
+            <span class="pill pill-red">5m Complex Conflation (1/3)</span>
+            <div class="item-title">Misclassification: <span class="alert-text">&gt;5m Called Complex</span></div>
+            <div class="item-desc">Rep 2 asserted 9m seizure "exceeded 5m threshold for simple classification," conflating with status epilepticus.</div>
           </td>
         </tr>
       </tbody>
@@ -360,9 +412,9 @@ async function renderScoreboard() {
 
     <div class="footer">
       <div class="footer-left">
-        <div><strong>Key Insight 1:</strong> Doximity Rep 1 halved declared amox dose (415mg BID vs ~830mg).</div>
-        <div><strong>Key Insight 2:</strong> UpToDate & Doximity misapplied &lt;2y PECARN rule to 24mo child.</div>
-        <div><strong>Key Insight 3:</strong> OpenEvidence & ChatGPT executed exact weight-based math.</div>
+        <div><strong>Key Insight 1:</strong> Glass Health demonstrated textbook pediatric dosing (12/12) but systematically conflated 5m status epilepticus with complex seizure (3/3).</div>
+        <div><strong>Key Insight 2:</strong> Doximity & UpToDate suffered severe math dropouts and adult dosing defaults in CAP and UTI.</div>
+        <div><strong>Key Insight 3:</strong> AMBOSS & ChatGPT achieved 100% guideline concordance across all 12 acute runs.</div>
       </div>
       <div>Repository: <code>dochobbs/aom-chart</code></div>
     </div>
