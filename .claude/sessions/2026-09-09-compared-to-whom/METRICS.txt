@@ -1,0 +1,13 @@
+Session Date: 2026-09-09
+Project: bias / Compared to whom
+Branch: main
+
+Git Stats:
+- Commits: 0 (session work; archive commit is separate)
+- Files Modified: n/a (no session commit range)
+- Lines Added: n/a
+- Lines Removed: n/a
+
+Local (gitignored) publishing drafts:
+- posts/linkedin_tldr_5_one_post.md — 2659 body chars (cap 3000)
+- posts/README.md — one-post plan

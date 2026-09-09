@@ -1,5 +1,14 @@
 # Changelog
 
+## LinkedIn — one post for Compared to whom (2026-09-04, archived 2026-09-09)
+
+Ship a single feed post, not TLDRs 1–4. Live draft: `posts/linkedin_tldr_5_one_post.md` (gitignored; Register 6; cap 3,000). The post does the comparison (human literature, Goh 76/74/92, Vaccaro, grader 11/14, designed combination). Measurement of the 140 stays in the essay.
+
+- Essay (already live, Aug 31): https://www.linkedin.com/pulse/compared-whom-michael-hobbs-md-wu0xc/
+- Packet: https://github.com/dochobbs/aom-chart
+- Canonical source: `posts/compared_to_whom_final.md` (Gemini 5.5 long). Do not overwrite originals; parallel model edits get the model in the filename.
+- Do not post without review.
+
 ## essay editorial review (2026-08-29, filed 2026-09-04)
 
 Citation and version review of the anchor essay. Writeup: `essay_editorial_review.md`.
