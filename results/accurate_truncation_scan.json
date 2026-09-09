@@ -1,0 +1,1645 @@
+[
+  {
+    "file": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+    "record_idx": 29,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "aom",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4173,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ure, bottle-in-bed, pacif"
+    ],
+    "preview": "onversation.\n- **Tobacco/vape exposure, bottle-in-bed, pacif"
+  },
+  {
+    "file": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+    "record_idx": 77,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "aom",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4051,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...are** \u2192 modifiable recurr"
+    ],
+    "preview": "exposure, bottle/pacifier use, daycare** \u2192 modifiable recurr"
+  },
+  {
+    "file": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+    "record_idx": 101,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "aom",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5795,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "tle-propping, feeding history (breastfed vs. formula)**\n- **"
+  },
+  {
+    "file": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+    "record_idx": 149,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5453,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...it at home.\"\n\n---\n\n## One"
+    ],
+    "preview": "up on the assumption she'll \"catch it at home.\"\n\n---\n\n## One"
+  },
+  {
+    "file": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+    "record_idx": 227,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 7357,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...r not himself, and has he"
+    ],
+    "preview": " any interval he was unresponsive or not himself, and has he"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 17,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3079,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...isposition above.\n**If CX"
+    ],
+    "preview": "ient or inpatient antibiotics per disposition above.\n**If CX"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 18,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1728,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": " no petechiae), **no LP is indicated**.\n- **If incomplete/un"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 22,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5169,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... even if imaging is defer"
+    ],
+    "preview": " rather than outpatient monitoring, even if imaging is defer"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 32,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4179,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... obtain **skeletal survey"
+    ],
+    "preview": ", or there was unexplained delay:** obtain **skeletal survey"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 33,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5727,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... weight given)\n- *If poor"
+    ],
+    "preview": "\n**Height/growth trajectory** (only weight given)\n- *If poor"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 34,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5609,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...uromuscular disease, aspi"
+    ],
+    "preview": "ematurity/neonatal lung disease, neuromuscular disease, aspi"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 34,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6516,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ily outbreak of *Mycoplas"
+    ],
+    "preview": "eturn counseling.\n- **If school/family outbreak of *Mycoplas"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3938,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "less.\n\n**Any antibiotics in the past 1\u20132 weeks**\n- *If yes:*"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 35,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4001,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...proportion to fever.\n\n---"
+    ],
+    "preview": "re associated with seizures out of proportion to fever.\n\n---"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 57,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4840,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ps, inability to drink, l"
+    ],
+    "preview": "thing, chest retractions, bluish lips, inability to drink, l"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 59,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1985,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": " a simple febrile seizure.\n\n### 3. **Recent antibiotic expos"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 72,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3949,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: .../kg (\u2248630\u2013950 mg) with re"
+    ],
+    "preview": "* single IM/IV ceftriaxone 50\u201375 mg/kg (\u2248630\u2013950 mg) with re"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 72,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6349,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...bacteriuria picture.\n\n###"
+    ],
+    "preview": "for a contaminated or asymptomatic-bacteriuria picture.\n\n###"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 73,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5143,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...s uncomfortable observing"
+    ],
+    "preview": ", >30\u201360 min from care, or father is uncomfortable observing"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 74,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5160,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ower lobe** \u2192 after treat"
+    ],
+    "preview": "pneumonias, especially same right lower lobe** \u2192 after treat"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 74,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5948,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...nation of contacts.\n\n## E"
+    ],
+    "preview": "-school timing, and influenza vaccination of contacts.\n\n## E"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 75,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3067,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...th history**\n- *If premat"
+    ],
+    "preview": "**5. Birth, developmental, and growth history**\n- *If premat"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 75,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5167,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...teriness, or benign myocl"
+    ],
+    "preview": "reath-holding, Sandifer/reflux, jitteriness, or benign myocl"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 98,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4617,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...to ensure no evolving sym"
+    ],
+    "preview": "in clinic/ED for another 1-2 hours to ensure no evolving sym"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 112,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5965,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ve)\n\n**1. Structured observation rather than immediate CT.**"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 112,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4874,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... walking normally, no pal"
+    ],
+    "preview": "sed fontanelle, GCS 15, playing and walking normally, no pal"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 113,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3510,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...r straining:* urgent RBUS"
+    ],
+    "preview": "maneuvers).\n- *If abnormal stream or straining:* urgent RBUS"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 113,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5228,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ing GU hardware** \u2192 lower"
+    ],
+    "preview": "ladder/spina bifida, or any indwelling GU hardware** \u2192 lower"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 114,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2751,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ffusion, blunted costophrenic angle with meniscus, or necrot"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 114,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5092,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: .../ school outbreak; prolon"
+    ],
+    "preview": "lation.\n\n**Sick contacts / daycare / school outbreak; prolon"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 115,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3047,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...strongly indicated (per A"
+    ],
+    "preview": "r unknown/no records:** LP becomes strongly indicated (per A"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_master_20260907T170132Z.json",
+    "record_idx": 115,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5743,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ed with prolonged febrile"
+    ],
+    "preview": "nd HHV-6 are both strongly associated with prolonged febrile"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 17,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3079,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...isposition above.\n**If CX"
+    ],
+    "preview": "ient or inpatient antibiotics per disposition above.\n**If CX"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 18,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1728,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": " no petechiae), **no LP is indicated**.\n- **If incomplete/un"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 22,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5169,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... even if imaging is defer"
+    ],
+    "preview": " rather than outpatient monitoring, even if imaging is defer"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 32,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4179,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... obtain **skeletal survey"
+    ],
+    "preview": ", or there was unexplained delay:** obtain **skeletal survey"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 33,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5727,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... weight given)\n- *If poor"
+    ],
+    "preview": "\n**Height/growth trajectory** (only weight given)\n- *If poor"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 34,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5609,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...uromuscular disease, aspi"
+    ],
+    "preview": "ematurity/neonatal lung disease, neuromuscular disease, aspi"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 34,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6516,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ily outbreak of *Mycoplas"
+    ],
+    "preview": "eturn counseling.\n- **If school/family outbreak of *Mycoplas"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3938,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "less.\n\n**Any antibiotics in the past 1\u20132 weeks**\n- *If yes:*"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep1_20260907T164640Z.json",
+    "record_idx": 35,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4001,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...proportion to fever.\n\n---"
+    ],
+    "preview": "re associated with seizures out of proportion to fever.\n\n---"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 17,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4840,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ps, inability to drink, l"
+    ],
+    "preview": "thing, chest retractions, bluish lips, inability to drink, l"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 19,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1985,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": " a simple febrile seizure.\n\n### 3. **Recent antibiotic expos"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 32,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3949,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: .../kg (\u2248630\u2013950 mg) with re"
+    ],
+    "preview": "* single IM/IV ceftriaxone 50\u201375 mg/kg (\u2248630\u2013950 mg) with re"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 32,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6349,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...bacteriuria picture.\n\n###"
+    ],
+    "preview": "for a contaminated or asymptomatic-bacteriuria picture.\n\n###"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 33,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5143,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...s uncomfortable observing"
+    ],
+    "preview": ", >30\u201360 min from care, or father is uncomfortable observing"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 34,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5160,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ower lobe** \u2192 after treat"
+    ],
+    "preview": "pneumonias, especially same right lower lobe** \u2192 after treat"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 34,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5948,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...nation of contacts.\n\n## E"
+    ],
+    "preview": "-school timing, and influenza vaccination of contacts.\n\n## E"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3067,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...th history**\n- *If premat"
+    ],
+    "preview": "**5. Birth, developmental, and growth history**\n- *If premat"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep2_20260907T165142Z.json",
+    "record_idx": 35,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5167,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...teriness, or benign myocl"
+    ],
+    "preview": "reath-holding, Sandifer/reflux, jitteriness, or benign myocl"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 18,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4617,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...to ensure no evolving sym"
+    ],
+    "preview": "in clinic/ED for another 1-2 hours to ensure no evolving sym"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 32,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5965,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ve)\n\n**1. Structured observation rather than immediate CT.**"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 32,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "head_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4874,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... walking normally, no pal"
+    ],
+    "preview": "sed fontanelle, GCS 15, playing and walking normally, no pal"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 33,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3510,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...r straining:* urgent RBUS"
+    ],
+    "preview": "maneuvers).\n- *If abnormal stream or straining:* urgent RBUS"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 33,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "uti_24mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5228,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ing GU hardware** \u2192 lower"
+    ],
+    "preview": "ladder/spina bifida, or any indwelling GU hardware** \u2192 lower"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 34,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2751,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ffusion, blunted costophrenic angle with meniscus, or necrot"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 34,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "cap_5y",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5092,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: .../ school outbreak; prolon"
+    ],
+    "preview": "lation.\n\n**Sick contacts / daycare / school outbreak; prolon"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3047,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...strongly indicated (per A"
+    ],
+    "preview": "r unknown/no records:** LP becomes strongly indicated (per A"
+  },
+  {
+    "file": "results/cure_turn2_parallel_n3/cure_n3_rep3_20260907T165645Z.json",
+    "record_idx": 35,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5743,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ed with prolonged febrile"
+    ],
+    "preview": "nd HHV-6 are both strongly associated with prolonged febrile"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 214,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1486,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "uration)** in a young infant, I am **transferring her to the"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 234,
+    "field": "t2_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6143,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...mmunizations up to date |"
+    ],
+    "preview": "tion; maintains cautious plan |\n| Immunizations up to date |"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 235,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4032,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ntranasal midazolam 0.2 m"
+    ],
+    "preview": " first event and her young age: **intranasal midazolam 0.2 m"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 245,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3525,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... duration clearly exceeds"
+    ],
+    "preview": "gy, or if the reconstructed seizure duration clearly exceeds"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 255,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4966,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ying position, nothing in"
+    ],
+    "preview": "a.m.\n\n**Seizure first aid:** side-lying position, nothing in"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 264,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2529,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": " reveals focal onset, if exam changes, or if seizures recur."
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 265,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2800,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "cs. Even with a normal exam and complete immunizations, a pr"
+  },
+  {
+    "file": "results/demographics_4cases/demographics_4cases_20260907T122000Z.json",
+    "record_idx": 275,
+    "field": "t2_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5970,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...able and dispensed rather"
+    ],
+    "preview": "the rescue benzodiazepine is affordable and dispensed rather"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 14,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5393,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ge with precautions.\n\n**Would change follow-up/counseling:**"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 23,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 7060,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...trative case, not a subst"
+    ],
+    "preview": "ral clinical reasoning for an illustrative case, not a subst"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 36,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5899,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...tal status, pupils, gait,"
+    ],
+    "preview": "tion area. Serial neuro checks (mental status, pupils, gait,"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 37,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4865,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...luding** ears, neck, fren"
+    ],
+    "preview": "r is called.\n- Full skin exam **including** ears, neck, fren"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 38,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4837,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... a non-bony/TEN-4 distrib"
+    ],
+    "preview": ".\n- **If any additional bruising in a non-bony/TEN-4 distrib"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 39,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5249,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...concurrent viral gastroen"
+    ],
+    "preview": "tive or unnecessary CT:** consider concurrent viral gastroen"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 40,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5928,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ive services with a child"
+    ],
+    "preview": "nd file a report with child protective services with a child"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 41,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6382,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...n, unusual irritability\n-"
+    ],
+    "preview": "ness or difficulty waking, confusion, unusual irritability\n-"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 42,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2382,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ltation** |\n| **Race/ethnicity, insurance, language** (docum"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 43,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4919,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...y behavior change. Follow"
+    ],
+    "preview": ", clear fluid from nose/ears, or any behavior change. Follow"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 44,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1437,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "is documented, in the car ~2 hours post-injury.\n\n- **If vomi"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 45,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6650,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... sleep is fine as long as"
+    ],
+    "preview": "o be woken hourly overnight; normal sleep is fine as long as"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 46,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3037,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ging, implausible for the"
+    ],
+    "preview": " **If history is inconsistent, changing, implausible for the"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+    "record_idx": 47,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6351,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...and take 2\u20134 weeks to res"
+    ],
+    "preview": "oggy swelling may enlarge slightly and take 2\u20134 weeks to res"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 14,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5393,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ge with precautions.\n\n**Would change follow-up/counseling:**"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 23,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 7060,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...trative case, not a subst"
+    ],
+    "preview": "ral clinical reasoning for an illustrative case, not a subst"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 36,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5899,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...tal status, pupils, gait,"
+    ],
+    "preview": "tion area. Serial neuro checks (mental status, pupils, gait,"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 37,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4865,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...luding** ears, neck, fren"
+    ],
+    "preview": "r is called.\n- Full skin exam **including** ears, neck, fren"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 38,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4837,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... a non-bony/TEN-4 distrib"
+    ],
+    "preview": ".\n- **If any additional bruising in a non-bony/TEN-4 distrib"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 39,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5249,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...concurrent viral gastroen"
+    ],
+    "preview": "tive or unnecessary CT:** consider concurrent viral gastroen"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 40,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5928,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ive services with a child"
+    ],
+    "preview": "nd file a report with child protective services with a child"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 41,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6382,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...n, unusual irritability\n-"
+    ],
+    "preview": "ness or difficulty waking, confusion, unusual irritability\n-"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 42,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 2382,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ltation** |\n| **Race/ethnicity, insurance, language** (docum"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 43,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4919,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...y behavior change. Follow"
+    ],
+    "preview": ", clear fluid from nose/ears, or any behavior change. Follow"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 44,
+    "field": "text",
+    "model": "sonnet-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 1437,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "is documented, in the car ~2 hours post-injury.\n\n- **If vomi"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 45,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6650,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... sleep is fine as long as"
+    ],
+    "preview": "o be woken hourly overnight; normal sleep is fine as long as"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 46,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3037,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ging, implausible for the"
+    ],
+    "preview": " **If history is inconsistent, changing, implausible for the"
+  },
+  {
+    "file": "results/factorial_2cubed_ablation/factorial_2cubed_master_20260907T182821Z.json",
+    "record_idx": 47,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6351,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...and take 2\u20134 weeks to res"
+    ],
+    "preview": "oggy swelling may enlarge slightly and take 2\u20134 weeks to res"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 37,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5856,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...for counseling.\n- **Fluid"
+    ],
+    "preview": "ct on resistance risk; more useful for counseling.\n- **Fluid"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 70,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4375,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...cent) \u2192 ENT referral disc"
+    ],
+    "preview": "in 6 months or \u22654 in 12 with one recent) \u2192 ENT referral disc"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 76,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5496,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ays acceptable if clearly"
+    ],
+    "preview": "ration **10 days** at this age (7 days acceptable if clearly"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 78,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3894,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...r to ENT for tympanostomy"
+    ],
+    "preview": " the last 6)** \u2192 treat now and refer to ENT for tympanostomy"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 79,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3773,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...e, work constraints, no p"
+    ],
+    "preview": " is uncertain (transportation, phone, work constraints, no p"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 86,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5067,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ... mg/kg IM (620 mg) \u00d7 1**,"
+    ],
+    "preview": "nicillin allergy | **Ceftriaxone 50 mg/kg IM (620 mg) \u00d7 1**,"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 87,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 6215,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...re\u2011exposure discussion if"
+    ],
+    "preview": "accines current, and consider daycare\u2011exposure discussion if"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 88,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5382,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...exposure**; discontinue p"
+    ],
+    "preview": ".\n- Eliminate **tobacco/vape smoke exposure**; discontinue p"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 93,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4850,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ria/angioedema \u2192 cefdinir"
+    ],
+    "preview": "cefuroxime; *if* anaphylaxis/urticaria/angioedema \u2192 cefdinir"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 94,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 5259,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...kg IM \u00d71\u20133 days, or (less"
+    ],
+    "preview": "table, otherwise ceftriaxone 50 mg/kg IM \u00d71\u20133 days, or (less"
+  },
+  {
+    "file": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+    "record_idx": 95,
+    "field": "text",
+    "model": "opus-5",
+    "case": null,
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3657,
+    "reasons": [
+      "output_tokens=4000"
+    ],
+    "preview": "ing, or has an important event/travel/childcare constraint:*"
+  },
+  {
+    "file": "results/reps_4cases/reps_4cases_rep2_20260907T025354Z.json",
+    "record_idx": 34,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3085,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...o blur the simple/complex"
+    ],
+    "preview": "izure with a duration long enough to blur the simple/complex"
+  },
+  {
+    "file": "results/reps_4cases/reps_4cases_rep2_20260907T025354Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4623,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...there is any color change"
+    ],
+    "preview": "if she has a second seizure, or if there is any color change"
+  },
+  {
+    "file": "results/reps_4cases/reps_4cases_rep3_20260907T025857Z.json",
+    "record_idx": 35,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 4845,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ems, or death.\n- **He did"
+    ],
+    "preview": "evelopmental delay, cognitive problems, or death.\n- **He did"
+  },
+  {
+    "file": "results/smoke_3cases/smoke_3cases_20260907T021523Z.json",
+    "record_idx": 24,
+    "field": "t1_text",
+    "model": "sonnet-5",
+    "case": "cap_5y",
+    "output_tokens": 3911,
+    "stop_reason": null,
+    "text_len": 3247,
+    "reasons": [
+      "abrupt_ending: ..., effusion) at ~4\u20136 weeks"
+    ],
+    "preview": "n for complication (round pneumonia, effusion) at ~4\u20136 weeks"
+  },
+  {
+    "file": "results/smoke_remaining2cases/smoke_cases4and5_20260907T023151Z.json",
+    "record_idx": 15,
+    "field": "t1_text",
+    "model": "opus-5",
+    "case": "seizure_6mo",
+    "output_tokens": 4000,
+    "stop_reason": null,
+    "text_len": 3736,
+    "reasons": [
+      "output_tokens=4000",
+      "abrupt_ending: ...ilable; off-label <2 y)\n-"
+    ],
+    "preview": "epam gel 0.5 mg/kg (2.5 mg dose available; off-label <2 y)\n-"
+  }
+]
