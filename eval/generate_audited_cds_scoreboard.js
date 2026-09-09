@@ -200,9 +200,9 @@ async function renderScoreboard() {
             <div class="item-desc">Applies ≥2y rule; asserts "no LOC" & "witnessed fall" (2/3) despite father in kitchen.</div>
           </td>
           <td>
-            <span class="pill pill-blue">Cephalexin / Cefdinir</span>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Oral outpatient 7–10d; advises repeat culture & close follow-up.</div>
+            <div class="item-desc">Cephalexin/cefdinir oral outpatient 7–10d; advises repeat culture & close follow-up.</div>
           </td>
           <td>
             <span class="pill pill-green">High-Dose Amoxicillin</span>
@@ -210,9 +210,9 @@ async function renderScoreboard() {
             <div class="item-desc">Calculates 1,665 mg/day (90 mg/kg/day). Reassesses SpO2 93% for escalation.</div>
           </td>
           <td>
-            <span class="pill pill-slate">Simple & Complex Discussed</span>
+            <span class="pill pill-green">LP Deferred / Safe Observation</span>
             <div class="item-title">LP: <span class="good-text">Deferred / Selective</span></div>
-            <div class="item-desc">Rep 2 assumes duration &lt;15m; Rep 1 notes timing began partway through. LP not routine.</div>
+            <div class="item-desc">Notes timing began partway through; safely defers LP given reassuring baseline exam.</div>
           </td>
         </tr>
 
@@ -228,18 +228,18 @@ async function renderScoreboard() {
             <div class="item-desc">Uses &lt;2y branch (2/3) despite child being exactly 24mo. Cites vomiting + hematoma.</div>
           </td>
           <td>
-            <span class="pill pill-blue">Cephalexin / TMP-SMX</span>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Focuses on first-line oral options; emphasizes renal ultrasonography.</div>
+            <div class="item-desc">First-line oral cephalexin/TMP-SMX; emphasizes outpatient renal ultrasonography.</div>
           </td>
           <td>
-            <span class="pill pill-slate">High-Dose Mentioned</span>
+            <span class="pill pill-amber">Deferred Numeric Math</span>
             <div class="item-title">Math: <span class="warn-text">Deferred Calculation</span></div>
-            <div class="item-desc">Refers clinician to weight tables (no explicit numeric mg BID). Identifies SpO2 93% risk.</div>
+            <div class="item-desc">Refers clinician to weight tables (no numeric mg BID dose). Identifies SpO2 93% risk.</div>
           </td>
           <td>
-            <span class="pill pill-amber">Classified Complex (3/3)</span>
-            <div class="item-title">LP: <span class="good-text">Selective (Meningitis Signs)</span></div>
+            <span class="pill pill-red">Redefined Complex Seizure (3/3)</span>
+            <div class="item-title">LP: <span class="alert-text">Selective (Meningitis Signs)</span></div>
             <div class="item-desc">Conflates acute clinical timing (&gt;5–10m) with complex definition. LP only if CNS signs.</div>
           </td>
         </tr>
@@ -256,9 +256,9 @@ async function renderScoreboard() {
             <div class="item-desc">Correctly uses 2–18y branch; explicitly clarifies nonfrontal hematoma is only a predictor in &lt;2y rule.</div>
           </td>
           <td>
-            <span class="pill pill-blue">Cefixime Favored</span>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
-            <div class="item-desc">Oral 3rd-gen cephalosporin first-line; outlines clear outpatient return flags.</div>
+            <div class="item-desc">Oral 3rd-gen cephalosporin (cefixime); outlines clear outpatient return flags.</div>
           </td>
           <td>
             <span class="pill pill-amber">Low-Dose amox in Rep 2</span>
@@ -266,9 +266,9 @@ async function renderScoreboard() {
             <div class="item-desc">Rep 2 outputs 45 mg/kg/day (subtherapeutic for resistant pneumococcus); Reps 1 & 3 defer.</div>
           </td>
           <td>
-            <span class="pill pill-slate">Assumes &lt;15m Duration</span>
+            <span class="pill pill-green">LP Deferred / Safe Observation</span>
             <div class="item-title">LP: <span class="good-text">Deferred / Selective</span></div>
-            <div class="item-desc">Reps 1 & 2 assert seizure was ~9m or &lt;15m, missing partial timing. LP optional if unimmunized.</div>
+            <div class="item-desc">Safely defers LP given alert exam; verifies immunizations and provides seizure action plan.</div>
           </td>
         </tr>
 
@@ -307,12 +307,12 @@ async function renderScoreboard() {
             <div class="tool-sub">DocsGPT Medical Search</div>
           </td>
           <td>
-            <span class="pill pill-red">Tool Injected "No LOC"</span><br>
-            <div class="item-title">Disposition: <span class="warn-text">"Low Risk" Label (2/3)</span></div>
+            <span class="pill pill-red">&lt;2y Misapplied / Injected LOC</span><br>
+            <div class="item-title">Disposition: <span class="alert-text">"Low Risk" Label (2/3)</span></div>
             <div class="item-desc">Maps unstated LOC to negative ("crying immediately"). Tool-query injected "no LOC" into search.</div>
           </td>
           <td>
-            <span class="pill pill-green">Cephalexin (Avoids Cefdinir)</span>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
             <div class="item-desc">Prescribes cephalexin (25mg/kg BID); explicitly cautions against cefdinir for poor penetration.</div>
           </td>
@@ -322,7 +322,7 @@ async function renderScoreboard() {
             <div class="item-desc">Declares 90 mg/kg but prescribes 415mg BID (half-dose). Rep 2 advises Augmentin for amox allergy.</div>
           </td>
           <td>
-            <span class="pill pill-slate">Simple & Complex Discussed</span>
+            <span class="pill pill-green">LP Deferred (2/3) / Selective</span>
             <div class="item-title">LP: <span class="good-text">Deferred (2/3) | Consider (1/3)</span></div>
             <div class="item-desc">Reps 1 & 3 defer LP; Rep 2 says "strongly consider LP" (not mandated). Retracts prior claim.</div>
           </td>
@@ -340,7 +340,7 @@ async function renderScoreboard() {
             <div class="item-desc">Correctly applies ≥2y algorithm. Treats LOC as unstated without negative closure.</div>
           </td>
           <td>
-            <span class="pill pill-blue">Cefixime / Cephalexin</span>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
             <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
             <div class="item-desc">Oral 3rd-gen or 1st-gen cephalosporin; includes routine RBUS follow-up order.</div>
           </td>
