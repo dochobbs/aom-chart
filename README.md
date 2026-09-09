@@ -10,6 +10,7 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 
 | You want | Resource |
 |---|---|
+| **Methodological Audit & Addendum (Sept 9)** | [`docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md`](docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md) (Directional classifier nuance, 8k token healing, commercial CDS 12-error reconciliation) |
 | **Clean Open Datasets (CSV)** | [`data/`](data/) (`main_140_traces.csv`, `identity_contrasts.csv`, `prompt_mitigation.csv`) |
 | **Brake + Branching Validation (92 Traces)** | [`results/brake_branching_validation/`](results/brake_branching_validation/) (Statistical depth, Sonnet 8/10 relapse traces) |
 | **2³ Factorial Prompt Ablation (72 Traces)** | [`results/factorial_2cubed_ablation/`](results/factorial_2cubed_ablation/) (Brake vs Branching vs Anchor components) |
