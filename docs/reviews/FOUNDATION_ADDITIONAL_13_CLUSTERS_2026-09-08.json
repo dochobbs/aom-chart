@@ -1,0 +1,210 @@
+{
+  "scope": "Additional 13 documented affected answers, excluding the 10 already discussed and August comparator; selected findings, not model error rates.",
+  "by_model": {
+    "opus-5": 4,
+    "sonnet-5": 2,
+    "haiku": 4,
+    "fable-5": 3
+  },
+  "by_experiment": {
+    "factorial_2cubed_ablation": 3,
+    "brake_branching_validation": 3,
+    "factorial_2cubed_aom": 2,
+    "claude_family_cure": 1,
+    "claude_cure_and_bias_verification": 1,
+    "all5_cases_claude_cure": 1,
+    "credential_vs_gender": 2
+  },
+  "answers": [
+    {
+      "model": "opus-5",
+      "experiment": "factorial_2cubed_ablation",
+      "selector": [
+        "traces",
+        41
+      ],
+      "rep": 3,
+      "cell": "cell_7_BC",
+      "case": null,
+      "source": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+      "evidence_ids": [
+        "F13",
+        "F14"
+      ]
+    },
+    {
+      "model": "sonnet-5",
+      "experiment": "brake_branching_validation",
+      "selector": [
+        "traces",
+        19
+      ],
+      "rep": 4,
+      "cell": null,
+      "case": "exp1_depth_head_trauma",
+      "source": "results/brake_branching_validation/brake_branching_92traces_master.json",
+      "evidence_ids": [
+        "F19"
+      ]
+    },
+    {
+      "model": "sonnet-5",
+      "experiment": "brake_branching_validation",
+      "selector": [
+        "traces",
+        11
+      ],
+      "rep": 5,
+      "cell": null,
+      "case": "exp1_depth_head_trauma",
+      "source": "results/brake_branching_validation/brake_branching_92traces_master.json",
+      "evidence_ids": [
+        "F20"
+      ]
+    },
+    {
+      "model": "haiku",
+      "experiment": "factorial_2cubed_aom",
+      "selector": [
+        "traces",
+        63
+      ],
+      "rep": 1,
+      "cell": "cell_7_BC",
+      "case": null,
+      "source": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+      "evidence_ids": [
+        "F21",
+        "F22"
+      ]
+    },
+    {
+      "model": "opus-5",
+      "experiment": "factorial_2cubed_aom",
+      "selector": [
+        "traces",
+        87
+      ],
+      "rep": 2,
+      "cell": "cell_7_BC",
+      "case": null,
+      "source": "results/factorial_2cubed_aom/factorial_2cubed_aom_96traces_master.json",
+      "evidence_ids": [
+        "F23"
+      ]
+    },
+    {
+      "model": "haiku",
+      "experiment": "claude_family_cure",
+      "selector": [
+        0
+      ],
+      "rep": null,
+      "cell": "Baseline",
+      "case": null,
+      "source": "results/claude_family_cure/claude_family_cure_results.json",
+      "evidence_ids": [
+        "F24"
+      ]
+    },
+    {
+      "model": "haiku",
+      "experiment": "claude_cure_and_bias_verification",
+      "selector": [
+        3
+      ],
+      "rep": 1,
+      "cell": null,
+      "case": "stability",
+      "source": "results/claude_cure_and_bias_verification/verification_results.json",
+      "evidence_ids": [
+        "F25"
+      ]
+    },
+    {
+      "model": "haiku",
+      "experiment": "all5_cases_claude_cure",
+      "selector": [
+        19
+      ],
+      "rep": 2,
+      "cell": "C4_cure",
+      "case": "head_24mo",
+      "source": "results/all5_cases_claude_cure/all5_cases_results.json",
+      "evidence_ids": [
+        "F26"
+      ]
+    },
+    {
+      "model": "fable-5",
+      "experiment": "credential_vs_gender",
+      "selector": [
+        "results",
+        1
+      ],
+      "rep": 1,
+      "cell": "mother_nurse",
+      "case": "aom",
+      "source": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+      "evidence_ids": [
+        "F27"
+      ]
+    },
+    {
+      "model": "fable-5",
+      "experiment": "credential_vs_gender",
+      "selector": [
+        "results",
+        37
+      ],
+      "rep": 1,
+      "cell": "father_nurse",
+      "case": "aom",
+      "source": "results/credential_vs_gender/credential_vs_gender_20260907T125838Z.json",
+      "evidence_ids": [
+        "F28"
+      ]
+    },
+    {
+      "model": "fable-5",
+      "experiment": "brake_branching_validation",
+      "selector": [
+        "traces",
+        28
+      ],
+      "rep": 10,
+      "cell": null,
+      "case": "exp1_depth_head_trauma",
+      "source": "results/brake_branching_validation/brake_branching_92traces_master.json",
+      "evidence_ids": [
+        "F41"
+      ]
+    },
+    {
+      "model": "opus-5",
+      "experiment": "factorial_2cubed_ablation",
+      "selector": [
+        "traces",
+        39
+      ],
+      "rep": 1,
+      "cell": "cell_7_BC",
+      "case": null,
+      "source": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+      "evidence_ids": []
+    },
+    {
+      "model": "opus-5",
+      "experiment": "factorial_2cubed_ablation",
+      "selector": [
+        "traces",
+        40
+      ],
+      "rep": 2,
+      "cell": "cell_7_BC",
+      "case": null,
+      "source": "results/factorial_2cubed_ablation/factorial_2cubed_72traces_master.json",
+      "evidence_ids": []
+    }
+  ]
+}
