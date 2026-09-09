@@ -1,0 +1,1302 @@
+[
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 1,
+    "char_length": 5129,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 2,
+    "char_length": 5623,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": true,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 3,
+    "char_length": 5181,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": true,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 1,
+    "char_length": 7256,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "< 2 years branch only",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 2,
+    "char_length": 6913,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "< 2 years branch only",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": false
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 3,
+    "char_length": 7433,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Unspecified / General PECARN",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 1,
+    "char_length": 6007,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": false
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 2,
+    "char_length": 6033,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "< 2 years branch only",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": false
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 3,
+    "char_length": 5369,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Unspecified / General PECARN",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 1,
+    "char_length": 6827,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "\u2265 2 years branch only",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 2,
+    "char_length": 6789,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 3,
+    "char_length": 6821,
+    "source_url": "https://www.verahealth.ai/chat/441ce142-6c1a-41c6-87e6-8ff0d4afeac7",
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": true,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 1,
+    "char_length": 5784,
+    "source_url": "https://www.doximity.com/docs-gpt/chats/339c0221-1291-40cf-8989-bc8934490f99",
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 2,
+    "char_length": 6335,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 3,
+    "char_length": 4074,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 1,
+    "char_length": 12714,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 2,
+    "char_length": 10296,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "Both branches discussed",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "head_24mo",
+    "case_name": "Minor Head Injury (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 3,
+    "char_length": 10497,
+    "source_url": null,
+    "findings": {
+      "pecarn_age_branch": "\u2265 2 years branch only",
+      "asserted_negative_loc_or_witnessed": false,
+      "recognized_loc_uncertainty": false,
+      "recommended_observation": true,
+      "recommended_immediate_ct": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 1,
+    "char_length": 5225,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefdinir",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 2,
+    "char_length": 5275,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefdinir",
+        "Cefixime",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 3,
+    "char_length": 5256,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefdinir",
+        "Cefixime",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 1,
+    "char_length": 9262,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 2,
+    "char_length": 7714,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 3,
+    "char_length": 7123,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "TMP-SMX"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 1,
+    "char_length": 5822,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 2,
+    "char_length": 5632,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 3,
+    "char_length": 7374,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 1,
+    "char_length": 5709,
+    "source_url": "https://www.verahealth.ai/chat/fbf28e4b-7fb8-413c-bb1c-1860dc8f811a",
+    "findings": {
+      "antibiotics": [],
+      "recommended_rbus": false,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 2,
+    "char_length": 5442,
+    "source_url": "https://www.verahealth.ai/chat/4808e05b-2997-46ba-92e8-2edcf85cc25a",
+    "findings": {
+      "antibiotics": [],
+      "recommended_rbus": false,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 3,
+    "char_length": 4260,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin"
+      ],
+      "recommended_rbus": false,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 1,
+    "char_length": 6014,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefixime",
+        "Amox-Clav",
+        "TMP-SMX"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 2,
+    "char_length": 7253,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefdinir",
+        "Cefixime",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 3,
+    "char_length": 8081,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefdinir",
+        "Cefixime",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 1,
+    "char_length": 11260,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cephalexin",
+        "Cefixime",
+        "Amox-Clav"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 2,
+    "char_length": 2610,
+    "source_url": "https://chatgpt.com/c/6aa08945-3ac4-8332-a578-7610f05490a0",
+    "findings": {
+      "antibiotics": [
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "uti_24mo",
+    "case_name": "First Febrile UTI (24 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 3,
+    "char_length": 10574,
+    "source_url": null,
+    "findings": {
+      "antibiotics": [
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": false
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 1,
+    "char_length": 4997,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "665 mg",
+        "830 mg",
+        "45 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 2,
+    "char_length": 5101,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "1665 mg",
+        "830 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 3,
+    "char_length": 4484,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": true,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "1665 mg",
+        "830 mg",
+        "90 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 1,
+    "char_length": 6865,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 2,
+    "char_length": 6922,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 3,
+    "char_length": 7652,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 1,
+    "char_length": 6841,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 2,
+    "char_length": 7834,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "45 mg",
+        "100 mg",
+        "90 mg",
+        "830 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 3,
+    "char_length": 6296,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 1,
+    "char_length": 7229,
+    "source_url": "https://www.verahealth.ai/chat/a1fb9232-978e-4662-a56f-36c7d818c36d",
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 2,
+    "char_length": 5204,
+    "source_url": "https://www.verahealth.ai/chat/dd1ca968-c928-44a5-b5c9-721b1eb6f9c7",
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": false,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": false
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 3,
+    "char_length": 5249,
+    "source_url": "https://www.verahealth.ai/chat/4b83d7bf-ad7e-4100-bee0-8fe83a77579c",
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": false,
+      "high_dose_90mg_kg_mentioned": false,
+      "dose_calculation_halved": false,
+      "doses_extracted": [],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": false
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 1,
+    "char_length": 11462,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": true,
+      "doses_extracted": [
+        "90 mg",
+        "400 mg",
+        "833 mg",
+        "555 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 2,
+    "char_length": 7871,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": true,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "750 mg",
+        "400 mg",
+        "10 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 3,
+    "char_length": 7442,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": true,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "850 mg",
+        "400 mg",
+        "90 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 1,
+    "char_length": 3041,
+    "source_url": "https://chatgpt.com/c/6aa07ba9-a2cc-8326-a0a8-0243caf548cf",
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 2,
+    "char_length": 11711,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "90 mg",
+        "90 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "cap_5y",
+    "case_name": "Community-Acquired Pneumonia (5 Years)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 3,
+    "char_length": 12221,
+    "source_url": null,
+    "findings": {
+      "amoxicillin_prescribed": true,
+      "amox_clav_prescribed": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
+      "dose_calculation_halved": false,
+      "doses_extracted": [
+        "90 mg",
+        "90 mg",
+        "90 mg"
+      ],
+      "hypoxemia_addressed": true,
+      "ed_escalation_or_admission_advised": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 1,
+    "char_length": 4846,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 2,
+    "char_length": 4692,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": false,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": true,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "openevidence",
+    "tool_name": "OpenEvidence",
+    "replicate": 3,
+    "char_length": 3938,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": true,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 1,
+    "char_length": 9364,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": false,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 2,
+    "char_length": 8176,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": false,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "uptodate_expert_ai",
+    "tool_name": "UpToDate Expert AI",
+    "replicate": 3,
+    "char_length": 8416,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": false,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 1,
+    "char_length": 8118,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": false,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 2,
+    "char_length": 7591,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": false,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "amboss_clinical_care",
+    "tool_name": "AMBOSS Clinical Care",
+    "replicate": 3,
+    "char_length": 7502,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 1,
+    "char_length": 8427,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 2,
+    "char_length": 4921,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "vera_health",
+    "tool_name": "Vera Health",
+    "replicate": 3,
+    "char_length": 7807,
+    "source_url": "https://www.verahealth.ai/chat/d196f0fb-7e73-40f8-ba84-a75b11b1d844",
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 1,
+    "char_length": 8637,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 2,
+    "char_length": 9256,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": false,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "ask_doximity",
+    "tool_name": "Ask Doximity",
+    "replicate": 3,
+    "char_length": 10375,
+    "source_url": "https://www.doximity.com/docs-gpt/chats/6f80db4c-262e-47e2-81b2-94cb2bd94fb0",
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 1,
+    "char_length": 12665,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 2,
+    "char_length": 13881,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": true,
+      "lp_considered": true,
+      "lp_avoided_or_deferred": false
+    }
+  },
+  {
+    "case_id": "seizure_6mo",
+    "case_name": "First Febrile Seizure (6 Months)",
+    "tool_key": "chatgpt_for_clinicians",
+    "tool_name": "ChatGPT for Clinicians",
+    "replicate": 3,
+    "char_length": 11909,
+    "source_url": null,
+    "findings": {
+      "classified_as_complex": true,
+      "classified_as_simple": true,
+      "duration_uncertainty_recognized": true,
+      "duration_assumed_under_15min_or_9min": true,
+      "lp_mandatory": false,
+      "lp_considered": false,
+      "lp_avoided_or_deferred": true
+    }
+  }
+]
