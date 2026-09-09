@@ -121,9 +121,26 @@ The revised benchmark graphic reflecting these audited clinical findings is perm
 
 ## Summary of Reconciled Quantities
 
-| Metric / Cohort | Preliminary Draft Reporting | Audited Final Finding | Rationale |
+### Completed 2³ Component Factorial Results (72 Traces, All Healed to 8k Tokens)
+
+Following the complete regeneration of all 14 truncated traces with `max_tokens = 8192`, here are the fully completed confabulation rates across the 8 factorial cells:
+
+| Cell Name | Total Confabulation Rate | Sonnet-5 (N=3) | Opus-5 (N=3) | Haiku 4.5 (N=3) |
+| :--- | :---: | :---: | :---: | :---: |
+| **1. None (Baseline)** | **4 / 9 (44.4%)** | 2 / 3 | 2 / 3 | 0 / 3 |
+| **2. A only (Query)** | **5 / 9 (55.6%)** | 3 / 3 | 1 / 3 | 1 / 3 |
+| **3. B only (Brake)** | **2 / 9 (22.2%)** | 2 / 3 | 0 / 3 | 0 / 3 |
+| **4. C only (Branching)** | **4 / 9 (44.4%)** | 3 / 3 | 1 / 3 | 0 / 3 |
+| **5. A + B (Query + Brake)** | **3 / 9 (33.3%)** | 1 / 3 | 1 / 3 | 1 / 3 |
+| **6. A + C (Query + Branching)** | **3 / 9 (33.3%)** | 2 / 3 | 1 / 3 | 0 / 3 |
+| **7. B + C (Brake + Branching)** | **1 / 9 (11.1%)** | **0 / 3** | **1 / 3** | **0 / 3** |
+| **8. A + B + C (Full Compound)** | **5 / 9 (55.6%)** | 3 / 3 | 2 / 3 | 0 / 3 |
+
+### Core Empirical Reconciliations
+
+| Metric / Cohort | Preliminary Draft Reporting | Audited Final Finding | Rationale & Clinical Implication |
 | :--- | :--- | :--- | :--- |
-| **Brake + Branching Factorial** | 0/9 confabulations | **4/9 with subtle assumptions** | Granular re-read identified conversational premises and witnessed assumptions in 2 Sonnet and 2 Haiku traces. |
+| **Brake + Branching Factorial** | 0/9 confabulations ("complete cure") | **1/9 confabulation (11.1%)** | Completing Opus-5 Trace 39 to 4,697 tokens revealed a tail slip into *"no LOC"* in its disposition criteria. Brake + Branching suppressed 75% of baseline errors (4/9 down to 1/9) but was **not a 100% cure**. |
 | **Validation Battery (Haiku 4.5)** | 0/10 confabulations | **6/10 positive LOC fabrications** | Automated screen only checked negative LOC; Haiku inverted to manufacturing positive LOC history. |
 | **Validation Battery (Opus 5)** | 0/10 (unhealed truncations) | **0/10 (fully completed at 8k tokens)** | Re-running with `max_tokens=8192` confirmed zero confabulations across complete clinical plans. |
 | **Commercial CDS Benchmark** | 16–19 preliminary flags | **12 verified hard clinical failures** | Filtered out Vera scraper truncations (3), AMBOSS evaluator false positive (1), and pedantic timing overcalls (3). |
