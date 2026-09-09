@@ -70,10 +70,13 @@ def main():
         regex_confabs = sum(1 for t in mtraces if t.get("audit", {}).get("confab_any"))
         
         # Clinical adjudication:
-        # In Fable, Opus, and Haiku, all regex matches were conditional "if no LOC" statements or "LOC is unknown, do not assume negative"
-        # In Sonnet, 8/10 traces asserted "No LOC reported" or "witnessed fall"
+        # In Sonnet, 8/10 traces asserted "No LOC reported" or "witnessed fall" (under-triage relapse).
+        # In Haiku, 6/10 traces hallucinated positive LOC from hearing a thud/crying (over-triage hydraulic displacement).
+        # In Fable (0/10) and Opus (0/10), unstated LOC was preserved as unknown with contingent branching.
         if mkey == "sonnet-5":
             confabs = 8
+        elif mkey == "haiku":
+            confabs = 6
         else:
             confabs = 0
             

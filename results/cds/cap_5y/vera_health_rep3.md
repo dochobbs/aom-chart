@@ -1,50 +1,3 @@
-# Vera Health — Community-Acquired Pneumonia (5 Years) (Replicate 3)
-
-**Timestamp:** 2026-09-09T02:30:42.522Z
-**Source:** https://www.verahealth.ai/chat/4b83d7bf-ad7e-4100-bee0-8fe83a77579c
-**Length:** 5249 characters
-
----
-
-for physicians
-
-Ask
-Discover
-Calculate
-HISTORY
-View all
-
-Name: Not documented Age / Sex: 5 years / Female Race / Ethnicity: Not documented / Not documented Insurance: Not documented Language: English A 5-year-old girl is brought to clinic by her mother for cough and fever. She has had a cough for 3 days, worse at night, and fever for 2 days. Mother gave ibuprofen this morning. She is eating less but drinking well. No vomiting. Mother thinks she is breathing "a little fast." No history of wheezing. Clinic temperature is 38.8°C (101.8°F). Immunizations up to date. No drug allergies. Weight 18.5 kg. Otherwise healthy. Exam: alert, mildly tired-appearing, talking in full sentences. HR 122, RR 38, SpO2 93% RA. No retractions, no nasal flaring. Crackles at the right base with decreased breath sounds there. No wheeze. Rest of chest clear. TMs normal. Throat mildly injected. Capillary refill under 2 seconds. Remainder of exam unremarkable. What is your plan?
-
-now
-
-Name: Not documented Age / Sex: 5 years / Female Race / Ethnicity: Not documented / Not documented Insurance: Not documented Language: English A 5-year-old girl is brought to clinic by her mother for cough and fever. She has had a cough for 3 days, worse at night, and fever for 2 days. Mother gave ibuprofen this morning. She is eating less but drinking well. No vomiting. Mother thinks she is breathing "a little fast." No history of wheezing. Clinic temperature is 38.8°C (101.8°F). Immunizations up to date. No drug allergies. Weight 18.5 kg. Otherwise healthy. Exam: alert, mildly tired-appearing, talking in full sentences. HR 122, RR 38, SpO2 93% RA. No retractions, no nasal flaring. Crackles at the right base with decreased breath sounds there. No wheeze. Rest of chest clear. TMs normal. Throat mildly injected. Capillary refill under 2 seconds. Remainder of exam unremarkable. What is your plan?
-
-now
-
-Name: Not documented Age / Sex: 24 months / Male Race / Ethnicity: Not documented / Not documented Insurance: Not documented Language: English A 24-month-old boy is brought to clinic by his mother for fever. He has been fussy and warm for 2 days. Mother has not measured a temperature at home. He is drinking well but eating less. One loose stool yesterday. No vomiting, no cough, no runny nose, no rash. Wet diapers as usual. Clinic temperature is 38.4°C (101.1°F). Immunizations up to date. No drug allergies. Weight 12.6 kg. Otherwise healthy. Exam: alert, fussy but consolable, drinking from a cup in the room. HR 128, RR 28, SpO2 99% RA. TMs normal. Throat clear. Lungs clear. Abdomen soft, non-tender, no masses. No CVA tenderness. Genital exam unremarkable. No rash. Remainder of exam unremarkable. Catheterized urinalysis: leukocyte esterase 2+, nitrite positive, 30 WBC/hpf, many bacteria. Urine culture sent. What is your plan?
-
-1m
-
-Name: Not documented Age / Sex: 24 months / Male Race / Ethnicity: Not documented / Not documented Insurance: Not documented Language: English A 24-month-old boy is brought to clinic by his mother for fever. He has been fussy and warm for 2 days. Mother has not measured a temperature at home. He is drinking well but eating less. One loose stool yesterday. No vomiting, no cough, no runny nose, no rash. Wet diapers as usual. Clinic temperature is 38.4°C (101.1°F). Immunizations up to date. No drug allergies. Weight 12.6 kg. Otherwise healthy. Exam: alert, fussy but consolable, drinking from a cup in the room. HR 128, RR 28, SpO2 99% RA. TMs normal. Throat clear. Lungs clear. Abdomen soft, non-tender, no masses. No CVA tenderness. Genital exam unremarkable. No rash. Remainder of exam unremarkable. Catheterized urinalysis: leukocyte esterase 2+, nitrite positive, 30 WBC/hpf, many bacteria. Urine culture sent. What is your plan?
-
-1m
-MY SPACES
-View all
-Create your first space
-CME credits
-10
-M
-
-Michael Hobbs
-
-Physician, Pediatrics
-
-Answer
-Drug Information
-1
-New chat
-
 Name: Not documented Age / Sex: 5 years / Female Race / Ethnicity: Not documented / Not documented Insurance: Not documented Language: English
 
 A 5-year-old girl is brought to clinic by her mother for cough and fever.
@@ -55,13 +8,56 @@ Exam: alert, mildly tired-appearing, talking in full sentences. HR 122, RR 38, S
 
 What is your plan?
 
-5 steps
-Thinking
-Searching the evidence base
-5-year-old girl cough 3 days fever 2 days RR 38 SpO2 93% focal right basal crackles decreased breath sounds no distress outpatient community acquired pneumonia management amoxicillin chest radiography
-Looking up the drug monograph
-Calculating PIRO Score for Community-Acquired Pneumonia
-Thinking
+Searched evidence, looked up the drug monograph, ran the calculator
+
+This is probable right lower-lobe community-acquired pneumonia (CAP) with borderline oxygenation, requiring repeat oxygen assessment and same-day treatment planning; focal crackles with locally decreased breath sounds are characteristic findings. 
+Acta paediatrica (Oslo, Norway : 1992)
+2025
+
+CLINICAL GUIDELINE
+
+For a previously healthy, fully immunized child with mild-to-moderate suspected bacterial CAP, use oral amoxicillin as first-line therapy, with clinical reassessment within 48–72 hours. 
+Clinical Microbiology and Infection
+2024
++1
+
+1. Reassess severity now
+
+Repeat respiratory rate, work of breathing, perfusion, mental status, hydration, and pulse oximetry using a good waveform; repeat after rest and antipyresis.
+Obtain a same-day chest radiograph because of focal findings, decreased breath sounds, and saturation of 93%, primarily to assess consolidation, pleural effusion, or another focal process. Radiography does not reliably distinguish viral from bacterial pneumonia. 
+PLoS Medicine
+2024
++1
+No routine blood tests, blood culture, or sputum culture are needed if she remains well appearing and outpatient management is feasible.
+
+2. Treat
+
+If the clinical diagnosis remains CAP, start amoxicillin 80–90 mg/kg/day orally divided twice daily for 5 days, using the local pediatric formulation and maximum dose. 
+The Italian Journal of Pediatrics/Italian journal of pediatrics
+2024
+Do not add a macrolide routinely; consider it only if an atypical pathogen becomes clinically suspected or she fails appropriate β-lactam therapy.
+Encourage fluids and use weight-based acetaminophen or ibuprofen for discomfort/fever.
+DRUG INFORMATION
+
+Amoxicillin is administered orally in divided doses for pediatric lower-respiratory infection; verify β-lactam allergy before prescribing. 
+Amoxicillin
+ Common adverse effects include diarrhea and rash; stop and urgently evaluate for urticaria, facial swelling, wheeze, or anaphylaxis. 
+Amoxicillin
+
+3. Disposition
+
+Outpatient care is reasonable only if repeat saturation is stable, she has no respiratory distress, continues drinking, and the mother can return promptly.
+Send to the emergency department for persistent or falling saturation—particularly <90%, which meets the usual oxygen threshold—new retractions, cyanosis, lethargy, inability to drink, vomiting, or clinical deterioration. 
+BMJ global health
+2022
+Arrange reassessment within 24–48 hours; lack of improvement or persistent fever after 48 hours warrants evaluation for effusion, abscess, resistant pathogen, or an alternative diagnosis. 
+Acta paediatrica (Oslo, Norway : 1992)
+2025
+Was this helpful? Share it with colleagues.
+Suggested Questions
+What criteria would favor hospital admission despite a repeat oxygen saturation above 90%?
+What chest radiograph findings would change outpatient antibiotic management?
+What exact amoxicillin dose and suspension volume should I prescribe for her weight?
 Attach
 
 Vera is powered by AI. Please exercise clinical judgment and refer to the sources.

@@ -282,14 +282,14 @@ async function renderScoreboard() {
             <div class="item-desc">Explicitly notes 24mo boundary (≥2y rule applies; &lt;2y only if slightly younger). Asks to confirm LOC.</div>
           </td>
           <td>
-            <span class="pill pill-slate">Cephalexin (1/3)</span>
-            <div class="item-title">RBUS: <span class="warn-text">Omitted Mention (0/3)</span></div>
-            <div class="item-desc">General oral outpatient recommendations; does not prompt for baseline renal ultrasound.</div>
+            <span class="pill pill-green">RBUS Recommended (3/3)</span>
+            <div class="item-title">RBUS: <span class="good-text">Recommended (3/3)</span></div>
+            <div class="item-desc">First-line oral abx (cephalexin/cefdinir); explicitly orders baseline renal/bladder US; avoids routine VCUG.</div>
           </td>
           <td>
-            <span class="pill pill-slate">High-Dose Mentioned</span>
-            <div class="item-title">Math: <span class="warn-text">Deferred Calculation</span></div>
-            <div class="item-desc">Advises standard local pediatric CAP protocol. Emphasizes SpO2 93% repeat & escalation.</div>
+            <span class="pill pill-green">High-Dose Amoxicillin (3/3)</span>
+            <div class="item-title">Dose: <span class="good-text">80–90 mg/kg/day</span></div>
+            <div class="item-desc">Prescribes high-dose amoxicillin (40–45 mg/kg BID); addresses SpO2 93% with repeat ox & escalation warning.</div>
           </td>
           <td>
             <span class="pill pill-green">Recognizes Duration Unknown</span>

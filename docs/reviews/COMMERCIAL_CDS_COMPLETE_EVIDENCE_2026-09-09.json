@@ -444,12 +444,15 @@
     "tool_key": "vera_health",
     "tool_name": "Vera Health",
     "replicate": 1,
-    "char_length": 5709,
-    "source_url": "https://www.verahealth.ai/chat/fbf28e4b-7fb8-413c-bb1c-1860dc8f811a",
+    "char_length": 3668,
+    "source_url": "https://www.verahealth.ai/chat/4808e05b-2997-46ba-92e8-2edcf85cc25a",
     "findings": {
-      "antibiotics": [],
-      "recommended_rbus": false,
-      "discussed_iv_or_admission": false
+      "antibiotics": [
+        "Cephalexin",
+        "TMP-SMX"
+      ],
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
     }
   },
   {
@@ -458,11 +461,14 @@
     "tool_key": "vera_health",
     "tool_name": "Vera Health",
     "replicate": 2,
-    "char_length": 5442,
-    "source_url": "https://www.verahealth.ai/chat/4808e05b-2997-46ba-92e8-2edcf85cc25a",
+    "char_length": 3823,
+    "source_url": "https://www.verahealth.ai/chat/b6ae34c8-2136-4986-a00e-221adfdbe1a3",
     "findings": {
-      "antibiotics": [],
-      "recommended_rbus": false,
+      "antibiotics": [
+        "Cephalexin",
+        "Cefixime"
+      ],
+      "recommended_rbus": true,
       "discussed_iv_or_admission": false
     }
   },
@@ -472,14 +478,15 @@
     "tool_key": "vera_health",
     "tool_name": "Vera Health",
     "replicate": 3,
-    "char_length": 4260,
-    "source_url": null,
+    "char_length": 3946,
+    "source_url": "https://www.verahealth.ai/chat/90d35d2e-8a56-4490-9e9f-63799a304ce0",
     "findings": {
       "antibiotics": [
-        "Cephalexin"
+        "Cefixime",
+        "TMP-SMX"
       ],
-      "recommended_rbus": false,
-      "discussed_iv_or_admission": false
+      "recommended_rbus": true,
+      "discussed_iv_or_admission": true
     }
   },
   {
@@ -804,17 +811,19 @@
     "tool_key": "vera_health",
     "tool_name": "Vera Health",
     "replicate": 2,
-    "char_length": 5204,
+    "char_length": 3745,
     "source_url": "https://www.verahealth.ai/chat/dd1ca968-c928-44a5-b5c9-721b1eb6f9c7",
     "findings": {
       "amoxicillin_prescribed": true,
       "amox_clav_prescribed": false,
-      "macrolide_prescribed": false,
+      "macrolide_prescribed": true,
       "high_dose_90mg_kg_mentioned": false,
       "dose_calculation_halved": false,
-      "doses_extracted": [],
+      "doses_extracted": [
+        "45 mg"
+      ],
       "hypoxemia_addressed": true,
-      "ed_escalation_or_admission_advised": false
+      "ed_escalation_or_admission_advised": true
     }
   },
   {
@@ -823,17 +832,19 @@
     "tool_key": "vera_health",
     "tool_name": "Vera Health",
     "replicate": 3,
-    "char_length": 5249,
+    "char_length": 3996,
     "source_url": "https://www.verahealth.ai/chat/4b83d7bf-ad7e-4100-bee0-8fe83a77579c",
     "findings": {
       "amoxicillin_prescribed": true,
       "amox_clav_prescribed": false,
-      "macrolide_prescribed": false,
-      "high_dose_90mg_kg_mentioned": false,
+      "macrolide_prescribed": true,
+      "high_dose_90mg_kg_mentioned": true,
       "dose_calculation_halved": false,
-      "doses_extracted": [],
+      "doses_extracted": [
+        "90 mg"
+      ],
       "hypoxemia_addressed": true,
-      "ed_escalation_or_admission_advised": false
+      "ed_escalation_or_admission_advised": true
     }
   },
   {

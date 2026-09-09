@@ -16,7 +16,7 @@ from instrument import check_plan, check_turn2, run_passes
 
 ROOT = Path(__file__).resolve().parent
 RESULTS = ROOT.parent / "results"
-MAX_TOKENS = 4000
+MAX_TOKENS = 8192
 TURN2_QUESTION = "What missing information, if any, would have changed this plan?"
 
 

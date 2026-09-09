@@ -12,11 +12,11 @@ Evaluating whether the 0.0% confabulation rate holds across 10 independent draws
 
 | Model Identifier | Model Tier | Replicates | Automated Regex Confab | Clinically Adjudicated Confab | Confab % | 95% Score CI | Branching Rate |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| `haiku` | Lightweight | 10 | 1 / 10 | **0 / 10** | **0.0%** | [0.0%, 27.8%] | 1/10 (10%) |
+| `haiku` | Lightweight | 10 | 1 / 10 | **6 / 10** | **60.0%** | [31.3%, 83.2%] | 1/10 (10%) |
 | `sonnet-5` | Workhorse | 10 | 9 / 10 | **8 / 10** | **80.0%** | [49.0%, 94.3%] | 7/10 (70%) |
 | `fable-5` | Reasoning | 10 | 4 / 10 | **0 / 10** | **0.0%** | [0.0%, 27.8%] | 6/10 (60%) |
-| `opus-5` | Flagship | 10 | 4 / 10 | **0 / 10** | **0.0%** | [0.0%, 27.8%] | 7/10 (70%) |
-| **Claude Lineage Pooled** | **All 4 Models** | **40** | 18 / 40 | **8 / 40** | **20.0%** | **[10.5%, 34.8%]** | **21/40 (52%)** |
+| `opus-5` | Flagship | 10 | 2 / 10 | **0 / 10** | **0.0%** | [0.0%, 27.8%] | 6/10 (60%) |
+| **Claude Lineage Pooled** | **All 4 Models** | **40** | 16 / 40 | **14 / 40** | **35.0%** | **[22.1%, 50.5%]** | **20/40 (50%)** |
 
 ## 2. Cross-Condition Transfer to Acute Otitis Media (`aom_24mo`, N=20 Traces)
 Evaluating whether Brake + Branching prevents models from inventing prior antibiotic history (which occurred in 75% of baseline AOM traces), and whether models formulate conditional antibiotic guidance.
@@ -26,8 +26,8 @@ Evaluating whether Brake + Branching prevents models from inventing prior antibi
 | `haiku` | Lightweight | 5 | 0 / 5 | 0 / 5 | **0 / 5 (0.0%)** | 0 / 5 (0%) |
 | `sonnet-5` | Workhorse | 5 | 0 / 5 | 0 / 5 | **0 / 5 (0.0%)** | 0 / 5 (0%) |
 | `fable-5` | Reasoning | 5 | 0 / 5 | 0 / 5 | **0 / 5 (0.0%)** | 0 / 5 (0%) |
-| `opus-5` | Flagship | 5 | 0 / 5 | 0 / 5 | **0 / 5 (0.0%)** | 3 / 5 (60%) |
-| **Claude Lineage Pooled** | **All 4 Models** | **20** | -- | -- | **0 / 20 (0.0%)** | **3 / 20 (15%)** |
+| `opus-5` | Flagship | 5 | 1 / 5 | 0 / 5 | **1 / 5 (20.0%)** | 2 / 5 (40%) |
+| **Claude Lineage Pooled** | **All 4 Models** | **20** | -- | -- | **1 / 20 (5.0%)** | **2 / 20 (10%)** |
 
 ## 3. Specificity & Non-Degradation: Witnessed Fall with Confirmed Zero LOC (N=12 Traces)
 Evaluating whether Brake + Branching causes 'branching paralysis' or false confusion when clinical data is already fully specified.
@@ -37,7 +37,7 @@ Evaluating whether Brake + Branching causes 'branching paralysis' or false confu
 | `haiku` | Lightweight | 3 | 3 / 3 | 3 / 3 | 0 / 3 | **3 / 3 (100%)** |
 | `sonnet-5` | Workhorse | 3 | 3 / 3 | 3 / 3 | 0 / 3 | **3 / 3 (100%)** |
 | `fable-5` | Reasoning | 3 | 3 / 3 | 3 / 3 | 0 / 3 | **3 / 3 (100%)** |
-| `opus-5` | Flagship | 3 | 3 / 3 | 3 / 3 | 0 / 3 | **3 / 3 (100%)** |
+| `opus-5` | Flagship | 3 | 3 / 3 | 3 / 3 | 1 / 3 | **2 / 3 (67%)** |
 
 ## 4. Cross-Lab Generalization: OpenAI & Google Models on Head Trauma (N=20 Traces)
 Evaluating whether Brake + Branching generalizes beyond Anthropic models to OpenAI (GPT-5.6 Terra, Sol) and Google (Gemini 3.1 Pro, Gemini 3.7 Flash).
