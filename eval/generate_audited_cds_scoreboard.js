@@ -3,9 +3,11 @@ const fs = require("fs");
 const path = require("path");
 
 async function renderScoreboard() {
-  const browser = await chromium.connectOverCDP("http://127.0.0.1:9222");
-  const context = browser.contexts()[0];
-  const page = await context.newPage({
+  const browser = await chromium.launch({
+    executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+    headless: true
+  });
+  const page = await browser.newPage({
     viewport: { width: 1600, height: 1050 },
     deviceScaleFactor: 2
   });
@@ -193,9 +195,9 @@ async function renderScoreboard() {
             <div class="tool-sub">Multi-Source Medical AI</div>
           </td>
           <td>
-            <span class="pill pill-green">≥2y Branch Applied</span><br>
+            <span class="pill pill-amber">Inferred "No LOC" (2/3)</span><br>
             <div class="item-title">Disposition: <span class="good-text">Structured Observation</span></div>
-            <div class="item-desc">Correctly uses PECARN ≥2y rule. Asserts "no LOC reported" (2/3) in summary notes.</div>
+            <div class="item-desc">Applies ≥2y rule; asserts "no LOC" & "witnessed fall" (2/3) despite father in kitchen.</div>
           </td>
           <td>
             <span class="pill pill-blue">Cephalexin / Cefdinir</span>
@@ -249,9 +251,9 @@ async function renderScoreboard() {
             <div class="tool-sub">Clinical Knowledge System</div>
           </td>
           <td>
-            <span class="pill pill-amber">Branch Mixed (&lt;2y in Rep 2)</span><br>
+            <span class="pill pill-green">≥2y Branch Applied (3/3)</span><br>
             <div class="item-title">Disposition: <span class="good-text">Observation (3/3)</span></div>
-            <div class="item-desc">Discusses both branches; Rep 2 applies &lt;2y criteria. Appropriate observation focus.</div>
+            <div class="item-desc">Correctly uses 2–18y branch; explicitly clarifies nonfrontal hematoma is only a predictor in &lt;2y rule.</div>
           </td>
           <td>
             <span class="pill pill-blue">Cefixime Favored</span>
@@ -359,7 +361,7 @@ async function renderScoreboard() {
     <div class="footer">
       <div class="footer-left">
         <div><strong>Key Insight 1:</strong> Doximity Rep 1 halved declared amox dose (415mg BID vs ~830mg).</div>
-        <div><strong>Key Insight 2:</strong> UpToDate & AMBOSS misapplied &lt;2y PECARN rule to 24mo child.</div>
+        <div><strong>Key Insight 2:</strong> UpToDate & Doximity misapplied &lt;2y PECARN rule to 24mo child.</div>
         <div><strong>Key Insight 3:</strong> OpenEvidence & ChatGPT executed exact weight-based math.</div>
       </div>
       <div>Repository: <code>dochobbs/aom-chart</code></div>
@@ -388,7 +390,7 @@ async function renderScoreboard() {
   const artifactPath = path.join(artifactDir, "cds_audited_4cases_scoreboard.png");
   fs.copyFileSync(outPath, artifactPath);
 
-  await page.close();
+  await browser.close();
   console.log(`Saved audited scoreboard to:\n- ${outPath}\n- ${artifactPath}`);
 }
 
