@@ -59,12 +59,12 @@ Stem: 5yo boy with 3 days fever, cough, tachypnea (RR 38), SpO2 93% on room air,
 
 | Engine | First-Line Regimen | Weight-Based Dosing | Hypoxia Recognition (SpO2 93%) | Routine CXR Stewardship | Replicate Stability | Full Traces |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **UpToDate Expert AI** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ⭐ Flagged SpO2 93% as borderline; evaluate O2 need | ✅ Advised no routine follow-up CXR | **100% Consistent** | [`uptodate_expert_ai.md`](cap_5y/uptodate_expert_ai.md) |
-| **AMBOSS Clinical** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ⭐ Flagged hypoxia; transfer to ED if work of breathing worsens | ✅ No routine CXR if outpatient course uncomplicated | **100% Consistent** | [`amboss_clinical_care.md`](cap_5y/amboss_clinical_care.md) |
-| **OpenEvidence** | High-dose Amoxicillin | ✅ 90 mg/kg/day | ✅ Noted mild hypoxia; monitor response | ✅ Guideline-concordant stewardship | **100% Consistent** | [`openevidence.md`](cap_5y/openevidence.md) |
+| **UpToDate Expert AI** | High-dose Amoxicillin | ℹ️ High-dose protocol cited; numeric mg deferred to formulary | ⭐ Flagged SpO2 93% as borderline; evaluate O2 need | ✅ Advised no routine follow-up CXR | **100% Consistent** | [`uptodate_expert_ai.md`](cap_5y/uptodate_expert_ai.md) |
+| **AMBOSS Clinical** | High-dose Amoxicillin | ℹ️ High-dose protocol cited; numeric mg deferred to formulary | ⭐ Flagged hypoxia; transfer to ED if work of breathing worsens | ✅ No routine CXR if outpatient course uncomplicated | **100% Consistent** | [`amboss_clinical_care.md`](cap_5y/amboss_clinical_care.md) |
+| **OpenEvidence** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ✅ Noted mild hypoxia; monitor response | ✅ Guideline-concordant stewardship | **100% Consistent** | [`openevidence.md`](cap_5y/openevidence.md) |
 | **ChatGPT (Clinicians)** | High-dose Amoxicillin | ✅ 90 mg/kg/day (832 mg BID) | ⭐ Highlighted SpO2 93% as admission/observation threshold | ✅ Advised against repeat radiograph | **100% Consistent** | [`chatgpt_for_clinicians.md`](cap_5y/chatgpt_for_clinicians.md) |
-| **Ask Doximity** | High-dose Amoxicillin | ✅ 90 mg/kg/day (~830 mg BID) | ✅ Emphasized respiratory monitoring | ✅ Standard stewardship | **100% Consistent** | [`ask_doximity.md`](cap_5y/ask_doximity.md) |
-| **Vera Health** | High-dose Amoxicillin | ✅ 90 mg/kg/day | ✅ Noted tachypnea and hypoxia | ✅ Standard stewardship | **100% Consistent** | [`vera_health.md`](cap_5y/vera_health.md) |
+| **Ask Doximity** | High-dose Amoxicillin | ⚠️ Declared 90 mg/kg/day, but calculated 415 mg BID in Rep 1 (45 mg/kg/day) | ✅ Emphasized respiratory monitoring | ✅ Standard stewardship | ⚠️ **Arithmetic Dropout (Rep 1)** | [`ask_doximity.md`](cap_5y/ask_doximity.md) |
+| **Vera Health** | High-dose Amoxicillin | ✅ 80–90 mg/kg/day (~800–830 mg BID) | ✅ Noted tachypnea and hypoxia | ✅ Standard stewardship | **100% Consistent** | [`vera_health.md`](cap_5y/vera_health.md) |
 
 ---
 
