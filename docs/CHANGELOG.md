@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository Audit, Documentation Harmonization & Partner Sanitization (2026-09-09)
+
+- **Partner & Commercial Memo Quarantine:** Quarantined all company memos, advisory documents, and correspondence (Doximity, Anthropic, etc.) to gitignored `docs/internal_review/`; untracked `docs/MEMO_FOR_DOXIMITY_ASK_DOXIMITY.*`.
+- **Exclusion Boundaries:** Hardened `.gitignore` and `AGENTS.md` to permanently exclude partner materials across all commercial entities (OpenEvidence, UpToDate, AMBOSS, Glass Health, OpenAI, Google, etc.) and restrict public repository scope to basic shareable docs, reproducible benchmarks, and raw datasets.
+- **Commercial CDS Harmonization:** Synchronized all benchmark documentation to reflect the audited 7-platform, 84-encounter benchmark with 15 hard clinical failures (Doximity 5, UpToDate 5, Glass Health 3, AMBOSS 1, OpenEvidence 1, Vera 0, ChatGPT 0), matching the audited scoreboard graphic.
+- **Factorial & Validation Reconciliations:** Standardized 2³ component factorial Cell 7 (Brake + Branching) confabulation rate to 1/9 (11.1%) post-8k token healing; documented Haiku 4.5 directional failure inversion (0/10 negative LOC screen, but 6/10 positive LOC premise fabrication).
+
 ## LinkedIn — one post for Compared to whom (2026-09-04, archived 2026-09-09)
 
 Ship a single feed post, not TLDRs 1–4. Live draft: `posts/linkedin_tldr_5_one_post.md` (gitignored; Register 6; cap 3,000). The post does the comparison (human literature, Goh 76/74/92, Vaccaro, grader 11/14, designed combination). Measurement of the 140 stays in the essay.
