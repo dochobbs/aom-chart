@@ -207,8 +207,8 @@ async function renderGraphic() {
         <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">5 of 6 Evaluated Modes Observed</div>
-        <div class="stat-badge-green">Mode 5 Not Observed (0 / 7)</div>
+        <div class="stat-badge-red">4 of 6 Evaluated Modes Observed</div>
+        <div class="stat-badge-green">Modes 1 &amp; 5 Not Observed</div>
         <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
       </div>
     </div>
@@ -230,13 +230,13 @@ async function renderGraphic() {
             <div class="mode-desc">Omits required baseline clinical stewardship</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Observed in Audit</span>
+            <span class="pill pill-suppressed">🛡️ Not Observed (0 / 7)</span>
           </td>
           <td>
-            Routine imaging omitted contrary to pediatric guidelines (e.g. omitting ultrasound after first febrile UTI in toddler).
+            Commercial CDS tools are hyper-thorough; required return precautions, red flags, and safety stewardship were consistently supplied.
           </td>
           <td>
-            <span class="evidence-text">Febrile UTI imaging:</span> <span class="evidence-quote-red">"No immediate renal/bladder ultrasound... for uncomplicated first febrile UTI"</span> <span style="color:#64748b;">(AAP mandates RBUS in all febrile infants 2–24m).</span>
+            <span class="evidence-text">Exhaustive stewardship:</span> Zero baseline omission errors across all encounters. Tools consistently provided full safety-netting and follow-up guidance.
           </td>
         </tr>
 
@@ -345,7 +345,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>5 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (omission, chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Obsolete guideline citations (Mode 5) were not observed.</div>
+      <div><strong>Key Discovery:</strong> <strong>4 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Baseline omissions and obsolete guidelines were not observed.</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
