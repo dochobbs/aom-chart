@@ -191,8 +191,8 @@ async function renderGraphic() {
         <p>Standardized clinical audit across 84 acute pediatric encounters + 84 demographic equity controls (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">6 of 7 Error Modes Observed</div>
-        <div class="stat-badge-green">1 Mode Eliminated (Bias: 0%)</div>
+        <div class="stat-badge-red">5 of 7 Error Modes Observed</div>
+        <div class="stat-badge-green">2 Modes Eliminated (Stale Guidance &amp; Bias)</div>
       </div>
     </div>
 
@@ -250,10 +250,10 @@ async function renderGraphic() {
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Severe antibiotic underdosing in acute pneumonia; triggering unindicated 911/EMS activation for a recovered infant.
+            Severe antibiotic underdosing delivered in acute pneumonia; triggering unindicated 911/EMS activation for a recovered infant.
           </td>
           <td>
-            <span class="evidence-text">Pneumonia dosing:</span> Prescribed <span class="evidence-quote-red">415 mg BID</span> (cuts target 90 mg/kg dose in half). <span class="evidence-text">Well-infant triage:</span> <span class="evidence-quote">"Activate EMS now"</span> for non-emergent post-ictal infant.
+            <span class="evidence-text">Subtherapeutic prescription:</span> Prescribed <span class="evidence-quote-red">415 mg BID</span> (underdoses child to 45 mg/kg/day). <span class="evidence-text">Triage escalation:</span> Recommended <span class="evidence-quote">"Activate EMS now"</span> for well infant.
           </td>
         </tr>
 
@@ -278,16 +278,16 @@ async function renderGraphic() {
         <tr>
           <td>
             <div class="mode-title">Mode 5: Stale Guidance</div>
-            <div class="mode-desc">Superseded historical dosing heuristics leak through</div>
+            <div class="mode-desc">Superseded historical guidelines or obsolete dosing</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Observed in Audit</span>
+            <span class="pill pill-suppressed">🛡️ Eliminated (0 / 7)</span>
           </td>
           <td>
-            Historical 1990s standard-dose amoxicillin heuristics (40–45 mg/kg) leak into arithmetic generation despite modern RAG retrieval.
+            Solved by RAG: Commercial retrieval pipelines consistently fetched current IDSA (2023) and AAP guidelines; zero obsolete protocols cited.
           </td>
           <td>
-            <span class="evidence-text">Guideline vs arithmetic:</span> Cited 2023 IDSA high-dose guidance (90 mg/kg), but arithmetic execution defaulted to historical <span class="evidence-quote-red">45 mg/kg/day standard dose</span>.
+            <span class="evidence-text">Recency retrieval verified:</span> 100% of tools retrieved current high-dose (90 mg/kg) guidance and modern criteria. Low-dose outputs were arithmetic halving, not stale retrieval.
           </td>
         </tr>
 
@@ -304,7 +304,7 @@ async function renderGraphic() {
             Arithmetic dropouts during single-dose division; evaluating a 24-month-old child under the infant (&lt;2y) PECARN rule.
           </td>
           <td>
-            <span class="evidence-text">Age-rule boundary:</span> Evaluated 24mo child under &lt;2y infant branch (over-scoring nonfrontal scalp hematoma). <span class="evidence-text">Arithmetic:</span> <span class="evidence-quote-red">50% math division dropout</span>.
+            <span class="evidence-text">Arithmetic halving:</span> Calculated 1,665 mg/day correctly, but outputted <span class="evidence-quote-red">415 mg BID</span> (cutting target in half). <span class="evidence-text">Age boundary:</span> Scored 24mo under &lt;2y infant branch.
           </td>
         </tr>
 
@@ -328,7 +328,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> Commercial medical tuning (RAG + safety guardrails) successfully solved <strong>Mode 7 demographic bias</strong>, but inherited the underlying LLMs' <strong>core cognitive and arithmetic failure modes</strong>.</div>
+      <div><strong>Key Discovery:</strong> Commercial tuning (RAG + safety guardrails) successfully eliminated <strong>Mode 5 (Stale Guidance)</strong> and <strong>Mode 7 (Demographic Bias)</strong>, but inherited the underlying LLMs' <strong>core cognitive and arithmetic failure modes</strong>.</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
