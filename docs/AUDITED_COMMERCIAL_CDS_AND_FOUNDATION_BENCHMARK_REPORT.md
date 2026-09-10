@@ -1,12 +1,12 @@
 # The Clinical AI Decision Support Benchmark: Multi-Platform Pediatric Evaluation & Foundation Architecture Audit
 
-**A Zero-Trust Forensic Analysis of 72 Commercial CDS Encounters, 1,324 Foundation Model Traces, and the Mechanics of Generative Clinical Reasoning**
+**A Zero-Trust Forensic Analysis of 84 Commercial CDS Encounters, 1,324 Foundation Model Traces, and the Mechanics of Generative Clinical Reasoning**
 
 **Author:** Michael Hobbs, MD  
 **Repository:** [`dochobbs/aom-chart`](https://github.com/dochobbs/aom-chart)  
 **Date:** September 9, 2026  
 **Audited Datasets:** 
-* Commercial CDS: `docs/reviews/COMMERCIAL_CDS_COMPLETE_EVIDENCE_2026-09-09.json` ($N=72$ verified runs)
+* Commercial CDS: `results/cds/` ($N=84$ verified runs across 7 platforms)
 * Foundation Validation: `results/brake_branching_validation/brake_branching_92traces_master.json` ($N=92$ traces, 0 truncations)
 * Foundation Mitigations: `results/mitigation_4cases/mitigation_4cases_20260907T030903Z.json` ($N=36$ traces, 0 truncations)
 
@@ -17,7 +17,7 @@
 When generative AI models evaluate complex pediatric patient charts, clinical accuracy depends on how the software handles ambiguity, rule boundaries, and arithmetic. In clinical medicine, critical patient history is frequently unstated, untimed, or unwitnessed. A safe clinical decision support (CDS) system must operate under an **open-world epistemic model**: identifying what is missing, preserving uncertainty, and providing conditional guidance without manufacturing premises or misapplying finite guideline rules.
 
 This report synthesizes an intensive, zero-trust audit across two complementary evaluation batteries:
-1. **The Commercial CDS Benchmark ($N=72$ live captures):** 6 commercial clinical AI platforms (**OpenEvidence**, **UpToDate Expert AI**, **AMBOSS Clinical Care**, **Vera Health**, **Ask Doximity**, and **ChatGPT for Clinicians**) evaluated across 4 locked acute pediatric vignettes with 3 independent replicates per cell.
+1. **The Commercial CDS Benchmark ($N=84$ live captures):** 7 commercial clinical AI platforms (**OpenEvidence**, **UpToDate Expert AI**, **AMBOSS Clinical Care**, **Vera Health**, **Ask Doximity**, **ChatGPT for Clinicians**, and **Glass Health**) evaluated across 4 locked acute pediatric vignettes with 3 independent replicates per cell.
 2. **The Foundation Model Engineering Audit ($N=1,324$ primary traces + 92-trace validation battery):** 10 frontier models from Anthropic, OpenAI, Google, and xAI evaluated under systematic epistemic prompting directives, including a complete forensic resolution of output truncation artifacts.
 
 ### The Audited Scoreboard
@@ -26,15 +26,15 @@ The full-resolution audited benchmark scoreboard is shown below, rendered under 
 
 ![Audited Commercial CDS Scoreboard](/Users/dochobbs/consult/random/bias/results/cds/cds_audited_4cases_scoreboard.png)
 
-### The Reconciled Commercial Error Count: 12 Hard Clinical Failures
+### The Reconciled Commercial Error Count: 15 Hard Clinical Failures
 
-Initial automated passes and raw screening drafts suggested between 16 and 19 errors across the commercial tools. A forensic line-by-line audit grounded directly in raw disk captures revealed that several initial flags were **scraper artifacts**, **evaluator false positives**, or **pedantic outpatient timing calls**.
+Initial automated passes and raw screening drafts suggested between 16 and 19 errors across the initial commercial tools. A forensic line-by-line audit grounded directly in raw disk captures revealed that several initial flags were **scraper artifacts**, **evaluator false positives**, or **pedantic outpatient timing calls**. 
 
-Filtering out these defects leaves **12 defensible, hard clinical failures** across 72 encounters:
+Filtering out these defects and integrating Glass Health leaves **15 defensible, hard clinical failures** across 84 encounters:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│                    RECONCILED COMMERCIAL CDS HARD CLINICAL FAILURES (N=12)                  │
+│                    RECONCILED COMMERCIAL CDS HARD CLINICAL FAILURES (N=15)                  │
 ├──────────────────────────┬───────┬──────────────────────────────────────────────────────────┤
 │ Platform                 │ Count │ Primary Failure Modes                                    │
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
@@ -44,6 +44,8 @@ Filtering out these defects leaves **12 defensible, hard clinical failures** acr
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
 │ UpToDate Expert AI       │   5   │ • 2 PECARN <2y Rule Misapplications (applied to 24mo)    │
 │                          │       │ • 3 Complex Febrile Seizure Redefinitions (>5–10 min)    │
+├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
+│ Glass Health             │   3   │ • 3 Complex Febrile Seizure Redefinitions (5m conflation)│
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
 │ AMBOSS Clinical Care     │   1   │ • 1 Subtherapeutic Low-Dose Amoxicillin (45 mg/kg in CAP)│
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤

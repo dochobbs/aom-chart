@@ -2,9 +2,36 @@
 
 - **Theme:** compared-to-whom
 - **Resume aliases:** compared to whom, compared to whom article, article design, AI-2027 article, bias article prototype
-- **Status:** Complete and archived at a safe decision boundary
+- **Status:** Complete and re-archived at a safe decision boundary on 2026-09-09
 - **Canonical handoff:** `/Users/dochobbs/consult/random/bias/docs/sessions/2026-09-04-compared-to-whom-design-handoff.md`
-- **Best next move:** If this work resumes, choose one of the three AI-2027-inspired directions and rebase it on the current local `posts/compared_to_whom_final.md`; first decide whether that final Markdown source should remain local-only or be restored to tracked source control.
+- **Best next move:** If this work resumes, verify the current publication target, choose one of the three AI-2027-inspired directions, and rebase it on the latest article source; `posts/` and `prototypes/` are now intentionally local-only.
+
+## Re-closeout snapshot — 2026-09-09
+
+The user requested the complete control case again. It was read directly from the locked packet-v5 source at `docs/STEM.md` and returned verbatim with the system instruction from `eval/models.json`. No case, evaluation, article, or prototype files were changed.
+
+Repository state advanced after the original closeout:
+
+- **Branch:** `main`
+- **HEAD:** `d58f9a65b71a902f383eab57f190ffbd6cd66c3e`
+- **Upstream:** `origin/main`, 0 behind / 0 ahead
+- **Canonical handoff:** tracked since `ca6fd2b0f94599e07a48c305e0410d290765b7c6`
+- **Concurrent change observed during closeout:** `d58f9a6` committed the previously untracked `eval/run_doximity_aom_fresh3.js`; this re-closeout did not author or modify that runner
+- **Current dirty state:** only this refreshed handoff is modified and intentionally uncommitted
+- **Design artifact policy:** commit `dfda938` removed the prototype from tracking and `.gitignore` now excludes `prototypes/`; the local files remain present
+- **Article artifact policy:** `posts/` remains ignored; `posts/compared_to_whom_final.md` remains present locally
+- **Live process/deployment:** no preview server retained; no deployment, PR, push, or commit was performed by this re-closeout
+
+Re-closeout verification:
+
+- `python3 -m pytest eval/tests/test_render.py -q` — 7 passed; pytest could not write its global cache under the sandbox, which does not affect the tests
+- `node --check` for `concepts.js` and `gallery.js` — passed
+- `git diff --check` — passed
+- Canonical handoff, locked case, model configuration, prototype gallery, and latest local article source — present
+- Resume resolver — exact match for `compared-to-whom` and strong match for `AI-2027 article`
+- Secret-pattern scan of the refreshed handoff and registry card — no matches
+
+The historical September 4 snapshot below is retained for provenance. Where it differs, this September 9 snapshot is current.
 
 ## Outcome and decision boundary
 

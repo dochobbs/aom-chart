@@ -25,12 +25,27 @@ results/cds_eval/
 share/node_modules/
 share/slides/
 
-# Anthropic memos & follow-ups
-docs/ANTHROPIC_*
-docs/anthropic_followup_*
+# Company memos, advisory briefs & partner correspondence (private / non-public across all companies)
+docs/MEMO_*
+docs/*MEMO*
+docs/*_memo*
+docs/*_brief*
+docs/*_advisory*
+docs/*_letter*
+docs/*_feedback*
+docs/*_correspondence*
+docs/*DOXIMITY*
+docs/*doximity*
+docs/*ANTHROPIC*
+docs/*anthropic*
+docs/*_followup*
+docs/*_followup/
 docs/*.zip
+*MEMO_*
+*_memo.*
+*_MEMO.*
 
-# Manuscript & Supplementary materials
+# Manuscript & Supplementary materials (private / internal-review)
 docs/MANUSCRIPT_*
 docs/SUPPLEMENTARY_APPENDIX_*
 docs/REVIEW_MANUSCRIPT_*
@@ -42,5 +57,6 @@ index.html
 ai2027-hero.png
 *.bak.json
 
-# Temporary: internal review work stays local until adjudication is settled
+# Internal review directory (all private/internal research, drafts, and memos)
+docs/internal_review/
 /docs/internal_review/

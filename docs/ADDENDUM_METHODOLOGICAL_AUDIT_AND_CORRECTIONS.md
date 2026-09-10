@@ -17,7 +17,7 @@ When evaluating large corpora of clinical AI generations ($N > 1,300$ traces), r
 This document details three specific methodological insights uncovered during our audit:
 1. **Directional Failure Inversion (Classifier Blindness):** How prompt interventions caused models to invert the polarity of confabulations, evading one-sided automated keyword filters.
 2. **Resolution of the 4,000-Token Output Limit:** The technical root cause of token truncation across foundation models and the results of our systematic re-running pipeline with `max_tokens = 8192`.
-3. **Reconciled Commercial CDS Benchmark:** Resolving web-scraper artifacts (e.g., Vera Health's intermediate accordion state) and evaluator false positives to establish a defensible ledger of **12 hard clinical failures** across 72 verified commercial encounters.
+3. **Reconciled Commercial CDS Benchmark:** Resolving web-scraper artifacts (e.g., Vera Health's intermediate accordion state) and evaluator false positives to establish a defensible ledger of **15 hard clinical failures** across 84 verified commercial encounters (7 platforms).
 
 ---
 
@@ -72,15 +72,15 @@ Full verification confirmed that increasing output headroom allows reasoning mod
 
 ---
 
-## 3. Reconciled Commercial CDS Benchmark ($N=72$ Verified Runs)
+## 3. Reconciled Commercial CDS Benchmark ($N=84$ Verified Runs across 7 Platforms)
 
-Our evaluation of 6 commercial CDS platforms (**OpenEvidence**, **UpToDate Expert AI**, **AMBOSS Clinical Care**, **Vera Health**, **Ask Doximity**, and **ChatGPT for Clinicians**) across 4 locked acute pediatric vignettes was subjected to the same zero-trust manual audit.
+Our evaluation of 7 commercial CDS platforms (**OpenEvidence**, **UpToDate Expert AI**, **AMBOSS Clinical Care**, **Glass Health**, **Vera Health**, **Ask Doximity**, and **ChatGPT for Clinicians**) across 4 locked acute pediatric vignettes was subjected to the same zero-trust manual audit.
 
-Initial automated passes suggested between 16 and 19 errors. Grounding every flag directly in raw verbatim text filtered out three categories of evaluator artifacts, leaving **12 defensible, hard clinical failures**:
+Initial automated passes suggested between 16 and 19 errors across the initial tools. Grounding every flag directly in raw verbatim text filtered out three categories of evaluator artifacts and integrated Glass Health, leaving **15 defensible, hard clinical failures** across 84 encounters:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│                    RECONCILED COMMERCIAL CDS HARD CLINICAL FAILURES (N=12)                  │
+│                    RECONCILED COMMERCIAL CDS HARD CLINICAL FAILURES (N=15)                  │
 ├──────────────────────────┬───────┬──────────────────────────────────────────────────────────┤
 │ Platform                 │ Count │ Primary Failure Modes                                    │
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
@@ -90,6 +90,8 @@ Initial automated passes suggested between 16 and 19 errors. Grounding every fla
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
 │ UpToDate Expert AI       │   5   │ • 2 PECARN <2y Rule Misapplications (applied to 24mo)    │
 │                          │       │ • 3 Complex Febrile Seizure Redefinitions (>5–10 min)    │
+├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
+│ Glass Health             │   3   │ • 3 Complex Febrile Seizure Redefinitions (5m conflation)│
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
 │ AMBOSS Clinical Care     │   1   │ • 1 Subtherapeutic Low-Dose Amoxicillin (45 mg/kg in CAP)│
 ├──────────────────────────┼───────┼──────────────────────────────────────────────────────────┤
@@ -143,7 +145,7 @@ Following the complete regeneration of all 14 truncated traces with `max_tokens 
 | **Brake + Branching Factorial** | 0/9 confabulations ("complete cure") | **1/9 confabulation (11.1%)** | Completing Opus-5 Trace 39 to 4,697 tokens revealed a tail slip into *"no LOC"* in its disposition criteria. Brake + Branching suppressed 75% of baseline errors (4/9 down to 1/9) but was **not a 100% cure**. |
 | **Validation Battery (Haiku 4.5)** | 0/10 confabulations | **6/10 positive LOC fabrications** | Automated screen only checked negative LOC; Haiku inverted to manufacturing positive LOC history. |
 | **Validation Battery (Opus 5)** | 0/10 (unhealed truncations) | **0/10 (fully completed at 8k tokens)** | Re-running with `max_tokens=8192` confirmed zero confabulations across complete clinical plans. |
-| **Commercial CDS Benchmark** | 16–19 preliminary flags | **12 verified hard clinical failures** | Filtered out Vera scraper truncations (3), AMBOSS evaluator false positive (1), and pedantic timing overcalls (3). |
+| **Commercial CDS Benchmark** | 16–19 preliminary flags | **15 verified hard clinical failures** (84 runs, 7 platforms) | Filtered out Vera scraper truncations (3), AMBOSS evaluator false positive (1), and pedantic timing overcalls (3); integrated Glass Health (3). |
 
 ---
 

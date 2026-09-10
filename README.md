@@ -10,11 +10,12 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 
 | You want | Resource |
 |---|---|
-| **Methodological Audit & Addendum (Sept 9)** | [`docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md`](docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md) (Directional classifier nuance, 8k token healing, commercial CDS 12-error reconciliation) |
+| **Methodological Audit & Addendum (Sept 9)** | [`docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md`](docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md) (Directional classifier nuance, 8k token healing, commercial CDS reconciliation) |
+| **Commercial CDS & Foundation Audit Report** | [`docs/AUDITED_COMMERCIAL_CDS_AND_FOUNDATION_BENCHMARK_REPORT.md`](docs/AUDITED_COMMERCIAL_CDS_AND_FOUNDATION_BENCHMARK_REPORT.md) (7 platforms, 84 acute runs, 15 reconciled hard errors) |
 | **Clean Open Datasets (CSV)** | [`data/`](data/) (`main_140_traces.csv`, `identity_contrasts.csv`, `prompt_mitigation.csv`) |
 | **Brake + Branching Validation (92 Traces)** | [`results/brake_branching_validation/`](results/brake_branching_validation/) (Statistical depth, Sonnet 8/10 relapse traces) |
 | **2³ Factorial Prompt Ablation (72 Traces)** | [`results/factorial_2cubed_ablation/`](results/factorial_2cubed_ablation/) (Brake vs Branching vs Anchor components) |
-| **Clinical Decision Support (CDS) Benchmark (96 Traces)** | [`results/cds/`](results/cds/) (5 conditions, 6 commercial engines tested across 3 replicates) |
+| **Clinical Decision Support (CDS) Benchmark (108 Traces)** | [`results/cds/`](results/cds/) (5 conditions, 7 commercial engines tested across 3 replicates; audited scoreboard) |
 | **Data Dictionary & Error Codebook** | [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) |
 | **Reproduction Notebook** | [`notebooks/reproduce_findings.ipynb`](notebooks/reproduce_findings.ipynb) |
 | **Full Technical Findings (Baseline AOM)** | [`FINDINGS.md`](FINDINGS.md) |
@@ -45,10 +46,13 @@ Built by Michael Hobbs, MD; every disputed judgment is anchored to a verbatim qu
 
 | Dimension / Test | Cohort & Replicates | Adjudicated Confabulation | Clinical Significance |
 |---|:---:|:---:|---|
-| **Head Trauma Statistical Depth** (`head_24mo`) | Claude Lineage (N=40) | Haiku 0/10, Fable 0/10, Opus 0/10, **Sonnet 8/10 (80%)** | Workhorse model relapses into unstated variable hallucination (LOC, witnessed) |
+| **Head Trauma Statistical Depth** (`head_24mo`) | Claude Lineage (N=40) | Haiku 0/10\*, Fable 0/10, Opus 0/10, **Sonnet 8/10 (80%)** | Workhorse model relapses into unstated variable hallucination (LOC, witnessed) |
+| **2³ Component Factorial** (`head_24mo`) | Multi-Vendor (N=72) | Brake + Branching (Cell 7): **1 / 9 (11.1%)** | 75% reduction vs baseline (4/9); prompt brake alone does not eliminate confabulation |
 | **Cross-Condition Transfer** (`aom_24mo`) | Claude Lineage (N=20) | **0 / 20 (0.0%)** | 100% elimination of prior-antibiotic fabrication |
 | **Specificity & Non-Degradation** | Witnessed Fall (N=12) | **0 / 12 (0.0%)** | 100% decisive clinical plans preserved without false confusion |
 | **Cross-Lab Generalization** | OpenAI & Google (N=20) | **0 / 20 (0.0%)** | 0% confabulation across GPT-5.6 Terra/Sol and Gemini 3.1 Pro/3.7 Flash |
+
+*\*Note: Haiku passed the automated negative-LOC keyword screen 0/10, but clinician audit revealed a directional failure inversion to 6/10 positive LOC premise fabrications ([Addendum](docs/ADDENDUM_METHODOLOGICAL_AUDIT_AND_CORRECTIONS.md)).*
 
 *Do not average treat-rates across models — plan choice is a property of the model rather than the chart ([`FINDINGS.md`](FINDINGS.md)).*
 

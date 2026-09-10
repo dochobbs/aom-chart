@@ -13,7 +13,7 @@
 This document provides a comprehensive audit of all documentation across the `dochobbs/aom-chart` repository. 
 
 Our guiding philosophy is grounded in **uncompromising intellectual honesty and peer-scientist rigor**:
-* **We do not fall on our sword:** The core scientific thesis of this project—**The Completed Chart Illusion** (models converting unstated clinical variables into assumed facts) and the finding that simple prompt interventions fail to universally solve the problem—is completely solid, reproducible, and verifiable on disk across 1,324 foundation traces and 72 commercial CDS runs.
+* **We do not fall on our sword:** The core scientific thesis of this project—**The Completed Chart Illusion** (models converting unstated clinical variables into assumed facts) and the finding that simple prompt interventions fail to universally solve the problem—is completely solid, reproducible, and verifiable on disk across 1,324 foundation traces and 84 commercial CDS encounters.
 * **We do not sweep errors under the rug:** We transparently document where automated screening tools were blind (directional failure inversion), where legacy API ceilings caused output truncations, and how deep manual clinician adjudication reconciled preliminary draft numbers into rock-solid, verified clinical findings.
 * **We do the hard work to ensure our data is usable by others:** Every disputed claim is evidence-linked to immutable JSON records on disk with character offsets, SHA-256 hashes, and verbatim clinical transcripts.
 
@@ -33,11 +33,8 @@ Our guiding philosophy is grounded in **uncompromising intellectual honesty and 
 │ docs/ADDENDUM_METHODOLOGICAL_AUDIT   │ Tier 1     │ ✅ Gold Standard: Complete record of    │
 │ _AND_CORRECTIONS.md                  │ (Public)   │    directional inversion & 8k healing.  │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/AUDITED_COMMERCIAL_CDS_AND      │ Tier 1     │ ✅ Gold Standard: Master report on 72   │
-│ _FOUNDATION_BENCHMARK_REPORT.md      │ (Public)   │    commercial runs & 12 hard errors.    │
-├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/MEMO_FOR_DOXIMITY_ASK_DOXIMITY  │ Tier 1     │ ✅ Reconciled: Updated to 5 audited     │
-│ .md                                  │ (Partner)  │    defects (dose halving, allergy).     │
+│ docs/AUDITED_COMMERCIAL_CDS_AND      │ Tier 1     │ ✅ Gold Standard: Master report on 84   │
+│ _FOUNDATION_BENCHMARK_REPORT.md      │ (Public)   │    commercial runs & 15 hard errors.    │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
 │ posts/linkedin_article_part2_anatomy │ Tier 1     │ 🔄 Reconciled: Added Methodological     │
 │ _of_an_ai_error.md                   │ (Article)  │    Update callout on 1/9 & Haiku LOC.   │
@@ -45,22 +42,22 @@ Our guiding philosophy is grounded in **uncompromising intellectual honesty and 
 │ FINDINGS.md                          │ Tier 1     │ ✅ Validated: Baseline AOM 140-trace    │
 │                                      │ (Technical)│    catalogue is 100% reproducible.      │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/MANUSCRIPT_CHECKLIST_CONFAB     │ Tier 2     │ 🔄 Reconciled: Updated 0/9 to 1/9 in    │
-│ _ULATION_AND_BIAS_CURE.md            │ (Academic) │    Cell 7; added directional inversion. │
-├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/SUPPLEMENTARY_APPENDIX_STATIST  │ Tier 2     │ 🔄 Reconciled: Updated Table S1 Cell 7; │
-│ ICAL_SYNTHESIS.md                    │ (Academic) │    noted 8k token expansion on Opus.    │
-├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/STEM.md + 5 Acute Case Stems    │ Tier 3     │ ✅ Gold Standard: Locked clinical cases │
+│ docs/STEM.md + 5 Acute Case Stems    │ Tier 2     │ ✅ Gold Standard: Locked clinical cases │
 │ (`STEM_head_24mo.md`, etc.)          │ (Protocol) │    with zero PHI; 100% reproducible.    │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/DATA_DICTIONARY.md              │ Tier 3     │ ✅ Validated: Clear column definitions  │
+│ docs/DATA_DICTIONARY.md              │ Tier 2     │ ✅ Validated: Clear column definitions  │
 │                                      │ (Protocol) │    and cohort identifiers.              │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/RUNS.md & docs/JUDGE.md         │ Tier 3     │ ✅ Validated: Clear run chronology and  │
+│ docs/RUNS.md & docs/JUDGE.md         │ Tier 2     │ ✅ Validated: Clear run chronology and  │
 │                                      │ (Protocol) │    automated judging prompt schemas.    │
 ├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
-│ docs/internal_review/                │ Tier 4     │ 🔒 Internal Archive: Preserved as local │
+│ docs/internal_review/manuscript/     │ Tier 3     │ 🔒 Private Drafts: Reconciled 1/9 rate; │
+│ (MANUSCRIPT_*, SUPPLEMENTARY_*)      │ (Academic) │    held in gitignored internal_review.  │
+├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
+│ docs/internal_review/memos/          │ Tier 3     │ 🔒 Private Partner Memos: Non-public    │
+│ (Doximity, Anthropic memoranda)      │ (Partners) │    feedback held out from repository.   │
+├──────────────────────────────────────┼────────────┼─────────────────────────────────────────┤
+│ docs/internal_review/                │ Tier 3     │ 🔒 Internal Archive: Preserved as local │
 │ (Internal post-mortems & worklogs)   │ (Internal) │    working files (ignored by git).      │
 └──────────────────────────────────────┴────────────┴─────────────────────────────────────────┘
 ```
@@ -79,13 +76,14 @@ Our guiding philosophy is grounded in **uncompromising intellectual honesty and 
 * **The Audit Finding:** The automated screening classifier was one-sided, hunting exclusively for *negative* LOC assertions. Manual clinician audit revealed that Haiku did not eliminate confabulation—it inverted the polarity, manufacturing a *positive* history of loss of consciousness in 6 of 10 runs.
 * **Reconciliation Across Docs:** The Addendum, README, and Manuscript are updated to document this **Directional Failure Inversion**. Rather than a flaw in the research, this is highlighted as a major methodological discovery: models evade one-sided negative filters by asserting positive premises.
 
-### 3. Commercial CDS Benchmark: 16–19 Flags vs. 12 Hard Clinical Failures
-* **The Historical Draft Claim:** Preliminary screening drafts recorded 16–19 errors across the 6 commercial CDS tools, with Vera Health appearing as the worst performer (0% pass rate in several categories).
+### 3. Commercial CDS Benchmark: 16–19 Flags vs. 15 Hard Clinical Failures
+* **The Historical Draft Claim:** Preliminary screening drafts recorded 16–19 errors across the commercial CDS tools, with Vera Health appearing as the worst performer (0% pass rate in several categories).
 * **The Audit Finding:**
   1. *Vera Health:* Truncated by a browser scraper artifact that triggered during its intermediate web accordion ("Thinking..."). Complete captures demonstrated 100% guideline concordance (0 hard errors).
   2. *AMBOSS Care:* Scored as an error in Head Trauma due to an evaluator false positive; raw text confirmed AMBOSS correctly noted hematoma was only predictive in children $<2\text{y}$.
   3. *Seizure Timing:* Penalizing outpatient tools for treating a 9-minute timed seizure as simple in a smiling, alert infant was dismissed as pedantic.
-* **Reconciliation Across Docs:** Standardized to the **12 verified hard clinical failures** (Doximity 5, UpToDate 5, AMBOSS 1, OpenEvidence 1, Vera 0, ChatGPT 0). The scoreboard graphic was re-rendered to eliminate ambiguous slate-grey pills, adopting a crisp 3-tier clinical traffic light.
+  4. *Glass Health Integration:* Added 12 verified runs across 4 acute conditions (3 hard errors: conflation of 5-minute acute rescue threshold with complex seizure definition).
+* **Reconciliation Across Docs:** Standardized to the **15 verified hard clinical failures** across 84 encounters (Doximity 5, UpToDate 5, Glass Health 3, AMBOSS 1, OpenEvidence 1, Vera 0, ChatGPT 0). The scoreboard graphic was re-rendered to eliminate ambiguous slate-grey pills, adopting a crisp 3-tier clinical traffic light.
 
 ### 4. Resolution of the 4,000-Token Output Ceiling
 * **The Historical Draft Claim:** Early notes speculated about mysterious "incomplete endings" or provider capture losses.
