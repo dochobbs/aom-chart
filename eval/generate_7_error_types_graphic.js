@@ -82,6 +82,17 @@ async function renderGraphic() {
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
+    .stat-badge-slate {
+      background: rgba(148, 163, 184, 0.15);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      color: #94a3b8;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
     table {
       width: 100%;
@@ -153,6 +164,11 @@ async function renderGraphic() {
       border: 1px solid rgba(16, 185, 129, 0.35);
       color: #34d399;
     }
+    .pill-untested {
+      background: rgba(148, 163, 184, 0.15);
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      color: #94a3b8;
+    }
 
     .evidence-text {
       color: #cbd5e1;
@@ -188,11 +204,12 @@ async function renderGraphic() {
     <div class="header">
       <div class="title-group">
         <h1>The 7 AI Error Modes: Did Commercial CDS Tools Fix Them?</h1>
-        <p>Standardized clinical audit across 84 acute pediatric encounters + 84 demographic equity controls (7 commercial platforms).</p>
+        <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">5 of 7 Error Modes Observed</div>
-        <div class="stat-badge-green">2 Modes Eliminated (Stale Guidance &amp; Bias)</div>
+        <div class="stat-badge-red">5 Modes Observed in Audit</div>
+        <div class="stat-badge-green">1 Solved by RAG (Mode 5)</div>
+        <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
       </div>
     </div>
 
@@ -250,10 +267,10 @@ async function renderGraphic() {
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            False emergency escalation: triggering immediate 911/EMS dispatch for an alert, fully recovered infant.
+            Unwarranted critical-care transport mobilization: triggering immediate 911/EMS dispatch for an alert, stable outpatient.
           </td>
           <td>
-            <span class="evidence-text">Well-infant triage:</span> Recommended <span class="evidence-quote-red">"Activate EMS now"</span> for an alert, nursing infant whose brief febrile seizure resolved at home.
+            <span class="evidence-text">Triage safety:</span> Told clinic staff to <span class="evidence-quote-red">"Activate EMS now"</span> for an infant who was already alert, nursing, and 20+ minutes post-ictal.
           </td>
         </tr>
 
@@ -315,20 +332,20 @@ async function renderGraphic() {
             <div class="mode-desc">Disparate care, revoked options, or identity assumptions</div>
           </td>
           <td>
-            <span class="pill pill-suppressed">🛡️ Eliminated (0 / 7)</span>
+            <span class="pill pill-untested">⚪ Not Evaluated in Part 2</span>
           </td>
           <td>
-            Zero prescription shifts, zero identity-linked barrier assumptions; watchful waiting access universally preserved.
+            Audit stems utilized neutral demographic baselines; systematic equity permutations from Part 1 were not re-tested in this cohort.
           </td>
           <td>
-            <span class="evidence-text">Equity controls:</span> 100% antibiotic parity across Medicaid, uninsured, teen mom, and nurse. Proactive Spanish language safety guardrails.
+            <span class="evidence-text">Scope boundary:</span> Evaluated acute clinical reasoning across 4 cases. Systematic demographic equity testing deferred to Part 3.
           </td>
         </tr>
       </tbody>
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> Commercial tuning (RAG + safety guardrails) successfully eliminated <strong>Mode 5 (Stale Guidance)</strong> and <strong>Mode 7 (Demographic Bias)</strong>, but inherited the underlying LLMs' <strong>core cognitive and arithmetic failure modes</strong>.</div>
+      <div><strong>Key Discovery:</strong> Commercial tuning (RAG + safety guardrails) successfully eliminated <strong>Mode 5 (Stale Guidance)</strong> via live retrieval, but inherited the underlying LLMs' <strong>core cognitive, reasoning, and arithmetic failure modes</strong>.</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
