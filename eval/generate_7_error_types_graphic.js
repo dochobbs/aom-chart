@@ -207,9 +207,8 @@ async function renderGraphic() {
         <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">5 Modes Observed in Audit</div>
-        <div class="stat-badge-green">1 Solved by RAG (Mode 5)</div>
-        <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
+        <div class="stat-badge-red">5 of 7 Failure Modes Observed</div>
+        <div class="stat-badge-slate">Modes 5 &amp; 7 Not Evaluated in This Cohort</div>
       </div>
     </div>
 
@@ -298,13 +297,13 @@ async function renderGraphic() {
             <div class="mode-desc">Superseded historical guidelines or obsolete dosing</div>
           </td>
           <td>
-            <span class="pill pill-suppressed">🛡️ Eliminated (0 / 7)</span>
+            <span class="pill pill-untested">⚪ Not Evaluated</span>
           </td>
           <td>
-            Solved by RAG: Commercial retrieval pipelines consistently fetched current IDSA (2023) and AAP guidelines.
+            Evaluating guideline latency requires active revision probes; this 4-case cohort did not probe superseded vs. updated protocols.
           </td>
           <td>
-            <span class="evidence-text">Guideline recency:</span> 100% of platforms retrieved modern high-dose (90 mg/kg) or current AAP criteria. Zero obsolete 1990s protocols cited.
+            <span class="evidence-text">Scope boundary:</span> Stems did not evaluate active guideline revision latency (e.g. pre- vs. post-cutoff guideline shifts).
           </td>
         </tr>
 
@@ -332,20 +331,20 @@ async function renderGraphic() {
             <div class="mode-desc">Disparate care, revoked options, or identity assumptions</div>
           </td>
           <td>
-            <span class="pill pill-untested">⚪ Not Evaluated in Part 2</span>
+            <span class="pill pill-untested">⚪ Not Evaluated</span>
           </td>
           <td>
             Audit stems utilized neutral demographic baselines; systematic equity permutations from Part 1 were not re-tested in this cohort.
           </td>
           <td>
-            <span class="evidence-text">Scope boundary:</span> Evaluated acute clinical reasoning across 4 cases. Systematic demographic equity testing deferred to Part 3.
+            <span class="evidence-text">Scope boundary:</span> Evaluated acute clinical reasoning across 4 cases. Demographic equity permutations deferred to Part 3.
           </td>
         </tr>
       </tbody>
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> Commercial tuning (RAG + safety guardrails) successfully eliminated <strong>Mode 5 (Stale Guidance)</strong> via live retrieval, but inherited the underlying LLMs' <strong>core cognitive, reasoning, and arithmetic failure modes</strong>.</div>
+      <div><strong>Key Discovery:</strong> <strong>5 of the 7 AI failure modes</strong> actively recurred across commercial CDS platforms, driven by shared cognitive habits (omission, chart confabulation, threshold conflation, and arithmetic dropouts).</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
