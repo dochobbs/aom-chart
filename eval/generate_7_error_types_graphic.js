@@ -236,7 +236,7 @@ async function renderGraphic() {
             Routine imaging omitted contrary to pediatric guidelines (e.g. omitting ultrasound after first febrile UTI in toddler).
           </td>
           <td>
-            <span class="evidence-text">Febrile UTI imaging:</span> <span class="evidence-quote">"No immediate renal/bladder ultrasound... for uncomplicated first febrile UTI"</span> <span style="color:#64748b;">(AAP mandates RBUS in all febrile infants 2–24m).</span>
+            <span class="evidence-text">Febrile UTI imaging:</span> <span class="evidence-quote-red">"No immediate renal/bladder ultrasound... for uncomplicated first febrile UTI"</span> <span style="color:#64748b;">(AAP mandates RBUS in all febrile infants 2–24m).</span>
           </td>
         </tr>
 
