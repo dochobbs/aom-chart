@@ -188,10 +188,10 @@ async function renderGraphic() {
     <div class="header">
       <div class="title-group">
         <h1>The 7 AI Error Modes: Did Commercial CDS Tools Fix Them?</h1>
-        <p>Zero-trust clinical evaluation across 84 acute pediatric encounters + 84 demographic equity controls (7 commercial platforms).</p>
+        <p>Standardized clinical audit across 84 acute pediatric encounters + 84 demographic equity controls (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">6 of 7 Error Modes Active</div>
+        <div class="stat-badge-red">6 of 7 Error Modes Observed</div>
         <div class="stat-badge-green">1 Mode Eliminated (Bias: 0%)</div>
       </div>
     </div>
@@ -213,13 +213,13 @@ async function renderGraphic() {
             <div class="mode-desc">Omits required baseline clinical stewardship</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Routine imaging deferred contrary to pediatric guidelines (e.g. routine ultrasound after first febrile UTI in toddler).
           </td>
           <td>
-            <span class="evidence-text">Glass Health (2/3 runs):</span> <span class="evidence-quote">"No immediate renal/bladder ultrasound... for uncomplicated first febrile UTI"</span> <span style="color:#64748b;">(AAP mandates RBUS).</span>
+            <span class="evidence-text">Febrile UTI encounters:</span> <span class="evidence-quote">"No immediate renal/bladder ultrasound... for uncomplicated first febrile UTI"</span> <span style="color:#64748b;">(AAP guidelines mandate RBUS in all febrile infants 2–24m).</span>
           </td>
         </tr>
 
@@ -230,13 +230,13 @@ async function renderGraphic() {
             <div class="mode-desc">Closed-World Assumption: converts unknown to negative</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Silently manufactures unstated patient facts ("no LOC", "witnessed fall") to force a decisive guideline branch.
           </td>
           <td>
-            <span class="evidence-text">OpenEvidence & Vera (Head Injury):</span> <span class="evidence-quote-red">"He has isolated vomiting and no LOC... The history (witnessed short fall) is reassuring"</span> <span style="color:#64748b;">(Fall was unwitnessed).</span>
+            <span class="evidence-text">Head trauma triage:</span> <span class="evidence-quote-red">"He has isolated vomiting and no LOC... The history (witnessed short fall) is reassuring"</span> <span style="color:#64748b;">(Case explicitly stated fall was unwitnessed).</span>
           </td>
         </tr>
 
@@ -247,13 +247,13 @@ async function renderGraphic() {
             <div class="mode-desc">Subtherapeutic underdose or dangerous clinical action</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Severe antibiotic underdosing in acute pneumonia; triggering unindicated 911/EMS activation for a recovered infant.
           </td>
           <td>
-            <span class="evidence-text">Ask Doximity (Pneumonia Rep 1):</span> Prescribed <span class="evidence-quote-red">415 mg BID</span> (cutting target dose in half to 45 mg/kg). Glass Health: <span class="evidence-quote">"Activate EMS now"</span> for well infant.
+            <span class="evidence-text">Pneumonia dosing:</span> Prescribed <span class="evidence-quote-red">415 mg BID</span> (cuts target 90 mg/kg dose in half). <span class="evidence-text">Well-infant triage:</span> <span class="evidence-quote">"Activate EMS now"</span> for non-emergent post-ictal infant.
           </td>
         </tr>
 
@@ -264,13 +264,13 @@ async function renderGraphic() {
             <div class="mode-desc">Misciting guidelines or conflating criteria thresholds</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Conflates the active 5m status epilepticus rescue threshold with the 15m diagnostic definition of complex febrile seizure.
           </td>
           <td>
-            <span class="evidence-text">UpToDate, Glass, Doximity:</span> <span class="evidence-quote-red">"This is a complex febrile seizure because it lasted approximately 9 minutes... exceeding 5m threshold"</span> <span style="color:#64748b;">(AAP diagnostic definition: ≥15m).</span>
+            <span class="evidence-text">Febrile seizure triage:</span> <span class="evidence-quote-red">"This is a complex febrile seizure because it lasted approximately 9 minutes... exceeding 5m threshold"</span> <span style="color:#64748b;">(AAP diagnostic definition: ≥15m; 5m is rescue threshold).</span>
           </td>
         </tr>
 
@@ -281,13 +281,13 @@ async function renderGraphic() {
             <div class="mode-desc">Superseded historical dosing heuristics leak through</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Historical 1990s standard-dose amoxicillin heuristics (40–45 mg/kg) leak into arithmetic generation despite modern RAG retrieval.
           </td>
           <td>
-            <span class="evidence-text">Ask Doximity (Pneumonia Rep 1):</span> Cited 2023 IDSA high-dose guidance, but arithmetic output defaulted to <span class="evidence-quote-red">45 mg/kg/day standard dose</span>.
+            <span class="evidence-text">Guideline vs arithmetic:</span> Cited 2023 IDSA high-dose guidance (90 mg/kg), but arithmetic execution defaulted to historical <span class="evidence-quote-red">45 mg/kg/day standard dose</span>.
           </td>
         </tr>
 
@@ -298,13 +298,13 @@ async function renderGraphic() {
             <div class="mode-desc">Cusp boundary misclassification and arithmetic halving</div>
           </td>
           <td>
-            <span class="pill pill-active">⚠️ Active in CDS</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
             Arithmetic dropouts during single-dose division; evaluating a 24-month-old child under the infant (&lt;2y) PECARN rule.
           </td>
           <td>
-            <span class="evidence-text">UpToDate & Doximity:</span> Evaluated 24mo under infant branch (scoring nonfrontal scalp hematoma). Doximity: <span class="evidence-quote-red">50% math division dropout</span>.
+            <span class="evidence-text">Age-rule boundary:</span> Evaluated 24mo child under &lt;2y infant branch (over-scoring nonfrontal scalp hematoma). <span class="evidence-text">Arithmetic:</span> <span class="evidence-quote-red">50% math division dropout</span>.
           </td>
         </tr>
 
