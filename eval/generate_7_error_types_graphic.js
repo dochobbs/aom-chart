@@ -207,8 +207,8 @@ async function renderGraphic() {
         <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">4 of 6 Evaluated Modes Observed</div>
-        <div class="stat-badge-green">Modes 1 &amp; 5 Not Observed</div>
+        <div class="stat-badge-red">5 of 6 Evaluated Modes Observed</div>
+        <div class="stat-badge-green">Mode 5 Not Observed (0 / 7)</div>
         <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
       </div>
     </div>
@@ -227,16 +227,16 @@ async function renderGraphic() {
         <tr>
           <td>
             <div class="mode-title">Mode 1: Omission</div>
-            <div class="mode-desc">Omits required baseline clinical stewardship</div>
+            <div class="mode-desc">Omits indicated workup or actionable therapeutic dosing</div>
           </td>
           <td>
-            <span class="pill pill-suppressed">🛡️ Not Observed (0 / 7)</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Commercial CDS tools are hyper-thorough; required return precautions, red flags, and safety stewardship were consistently supplied.
+            Transnational guideline conflict: omits US-mandated imaging by citing UK rules; abstains from calculating practical milligram doses.
           </td>
           <td>
-            <span class="evidence-text">Exhaustive stewardship:</span> Zero baseline omission errors across all encounters. Tools consistently provided full safety-netting and follow-up guidance.
+            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP mandates RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> (AMBOSS); <span class="evidence-quote-red">"No dose widget available"</span> (ChatGPT).
           </td>
         </tr>
 
@@ -345,7 +345,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>4 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Baseline omissions and obsolete guidelines were not observed.</div>
+      <div><strong>Key Discovery:</strong> <strong>5 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Obsolete guidelines were not observed.</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
