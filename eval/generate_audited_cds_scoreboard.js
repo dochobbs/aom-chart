@@ -383,28 +383,28 @@ async function renderScoreboard() {
         <tr>
           <td>
             <div class="tool-name">Ask Doximity</div>
-            <div class="tool-sub">Doximity GPT-4o Wrapper</div>
-            <div class="tool-score score-poor">6/12 Clean (50.0%)</div>
+            <div class="tool-sub">Physician Network AI</div>
+            <div class="tool-score score-mid">6/12 Clean (50.0%)</div>
           </td>
           <td>
-            <span class="pill pill-amber">Misapplied &lt;2y PECARN (1/3)</span>
-            <div class="item-title">PECARN: <span class="alert-text">Under 2y Rule Applied</span></div>
-            <div class="item-desc">Evaluated 24mo child under infant (&lt;2y) algorithm; correctly noted observation option in Reps 1 & 3.</div>
+            <span class="pill pill-amber">Observation Option (2/3 Clean)</span>
+            <div class="item-title">PECARN: <span class="good-text">Safe Observation</span> <span style="font-size:10.5px;color:#fbbf24;">(1/3 &lt;2y)</span></div>
+            <div class="item-desc">Correctly advised 4–6h observation over CT (Reps 1 &amp; 3); Rep 2 evaluated under &lt;2y infant criteria.</div>
           </td>
           <td>
-            <span class="pill pill-amber">Adult Dosing Default (1/3)</span>
-            <div class="item-title">Underdose: <span class="alert-text">250–500mg (Adult)</span></div>
-            <div class="item-desc">Rep 3 cited adult fixed 250–500mg cephalexin instead of weight-based calculation (315–630mg/day).</div>
+            <span class="pill pill-amber">Outpatient Ceph (2/3 Clean)</span>
+            <div class="item-title">RBUS: <span class="good-text">Recommended</span> <span style="font-size:10.5px;color:#fbbf24;">(1/3 Adult Dose)</span></div>
+            <div class="item-desc">Oral cephalosporin &amp; RBUS recommended (Reps 1 &amp; 2); Rep 3 defaulted to adult fixed 250–500mg.</div>
           </td>
           <td>
-            <span class="pill pill-red">Halved Pediatric Dose (3/3)</span>
+            <span class="pill pill-red">Halved Dose / Adult Default (3/3)</span>
             <div class="item-title">Math Dropout: <span class="alert-text">415mg BID (45mg/kg)</span></div>
             <div class="item-desc">Declared 90 mg/kg/day, but calculated 415mg BID (50% underdose). Rep 2 gave adult 500mg TID.</div>
           </td>
           <td>
-            <span class="pill pill-red">5m Complex Conflation (1/3)</span>
-            <div class="item-title">Misclassification: <span class="alert-text">&gt;5m Called Complex</span></div>
-            <div class="item-desc">Rep 2 asserted 9m seizure "exceeded 5m threshold for simple classification," conflating with status epilepticus.</div>
+            <span class="pill pill-amber">LP Deferred (2/3 Clean)</span>
+            <div class="item-title">Disposition: <span class="good-text">Safe Observation</span> <span style="font-size:10.5px;color:#fbbf24;">(1/3 Conflation)</span></div>
+            <div class="item-desc">Safely defers LP in reassuring infant (Reps 1 &amp; 3); Rep 2 cited &gt;5m status threshold as complex criteria.</div>
           </td>
         </tr>
       </tbody>
@@ -413,8 +413,8 @@ async function renderScoreboard() {
     <div class="footer">
       <div class="footer-left">
         <div><strong>Key Insight 1:</strong> Glass Health demonstrated textbook pediatric dosing (12/12) but systematically conflated 5m status epilepticus with complex seizure (3/3).</div>
-        <div><strong>Key Insight 2:</strong> Doximity & UpToDate suffered severe math dropouts and adult dosing defaults in CAP and UTI.</div>
-        <div><strong>Key Insight 3:</strong> AMBOSS & ChatGPT achieved 100% guideline concordance across all 12 acute runs.</div>
+        <div><strong>Key Insight 2:</strong> Doximity &amp; UpToDate exhibited adult dosing defaults and arithmetic dropouts under acute pediatric dosing guidelines.</div>
+        <div><strong>Key Insight 3:</strong> AMBOSS &amp; ChatGPT achieved 100% guideline concordance across all 12 acute runs.</div>
       </div>
       <div>Repository: <code>dochobbs/aom-chart</code></div>
     </div>
@@ -437,13 +437,20 @@ async function renderScoreboard() {
     await page.screenshot({ path: outPath, fullPage: true });
   }
 
-  // Also copy to artifact directory for presentation
-  const artifactDir = "/Users/dochobbs/.gemini/antigravity-cli/brain/446074dc-818d-42c0-a67c-6f28064c432b";
+  // Copy to results, Desktop, and active conversation artifacts directory
+  const resultsPath = path.join(__dirname, "../results/cds/cds_audited_4cases_scoreboard.png");
+  fs.copyFileSync(outPath, resultsPath);
+
+  const desktopPath = "/Users/dochobbs/Desktop/cds_audited_4cases_scoreboard.png";
+  fs.copyFileSync(outPath, desktopPath);
+
+  const artifactDir = "/Users/dochobbs/.gemini/antigravity-cli/brain/848e8396-385e-4483-b378-b981fc22610e";
+  fs.mkdirSync(artifactDir, { recursive: true });
   const artifactPath = path.join(artifactDir, "cds_audited_4cases_scoreboard.png");
   fs.copyFileSync(outPath, artifactPath);
 
   await browser.close();
-  console.log(`Saved audited scoreboard to:\n- ${outPath}\n- ${artifactPath}`);
+  console.log(`Saved audited scoreboard to:\n- ${outPath}\n- ${resultsPath}\n- ${desktopPath}\n- ${artifactPath}`);
 }
 
 renderScoreboard().catch(err => {
