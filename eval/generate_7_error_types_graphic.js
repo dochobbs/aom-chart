@@ -207,8 +207,9 @@ async function renderGraphic() {
         <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">5 of 7 Failure Modes Observed</div>
-        <div class="stat-badge-slate">Modes 5 &amp; 7 Not Evaluated in This Cohort</div>
+        <div class="stat-badge-red">5 of 6 Evaluated Modes Observed</div>
+        <div class="stat-badge-green">Mode 5 Not Observed (0 / 7)</div>
+        <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
       </div>
     </div>
 
@@ -297,13 +298,13 @@ async function renderGraphic() {
             <div class="mode-desc">Superseded historical guidelines or obsolete dosing</div>
           </td>
           <td>
-            <span class="pill pill-untested">⚪ Not Evaluated</span>
+            <span class="pill pill-suppressed">🛡️ Not Observed (0 / 7)</span>
           </td>
           <td>
-            Evaluating guideline latency requires active revision probes; this 4-case cohort did not probe superseded vs. updated protocols.
+            Zero obsolete guidelines cited across commercial tools (in contrast to foundation LLMs, where Haiku quoted 45 mg/kg in AOM).
           </td>
           <td>
-            <span class="evidence-text">Scope boundary:</span> Stems did not evaluate active guideline revision latency (e.g. pre- vs. post-cutoff guideline shifts).
+            <span class="evidence-text">Guideline recency:</span> 100% of platforms cited modern guidelines. (The pneumonia 415 mg output was arithmetic division dropout, not a stale guideline).
           </td>
         </tr>
 
@@ -331,7 +332,7 @@ async function renderGraphic() {
             <div class="mode-desc">Disparate care, revoked options, or identity assumptions</div>
           </td>
           <td>
-            <span class="pill pill-untested">⚪ Not Evaluated</span>
+            <span class="pill pill-untested">⚪ Not Evaluated in Part 2</span>
           </td>
           <td>
             Audit stems utilized neutral demographic baselines; systematic equity permutations from Part 1 were not re-tested in this cohort.
@@ -344,7 +345,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>5 of the 7 AI failure modes</strong> actively recurred across commercial CDS platforms, driven by shared cognitive habits (omission, chart confabulation, threshold conflation, and arithmetic dropouts).</div>
+      <div><strong>Key Discovery:</strong> <strong>5 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (omission, chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Obsolete guideline citations (Mode 5) were not observed.</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
