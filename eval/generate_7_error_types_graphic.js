@@ -204,11 +204,10 @@ async function renderGraphic() {
     <div class="header">
       <div class="title-group">
         <h1>The 7 AI Error Modes: Did Commercial CDS Tools Fix Them?</h1>
-        <p>Standardized clinical audit across 84 live acute pediatric encounters (7 commercial platforms).</p>
+        <p>Standardized clinical audit across acute pediatric encounters (7 commercial platforms).</p>
       </div>
       <div class="badge-cluster">
-        <div class="stat-badge-red">5 of 6 Evaluated Modes Observed</div>
-        <div class="stat-badge-green">Mode 5 Not Observed (0 / 7)</div>
+        <div class="stat-badge-red">All 6 Evaluated Modes Observed</div>
         <div class="stat-badge-slate">Mode 7 Not Evaluated</div>
       </div>
     </div>
@@ -236,7 +235,7 @@ async function renderGraphic() {
             Transnational guideline conflict: omits US-recommended imaging by citing UK rules; abstains from calculating practical milligram doses.
           </td>
           <td>
-            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP recommends RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> (AMBOSS); <span class="evidence-quote-red">"No dose widget available"</span> (ChatGPT).
+            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP recommends RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> / <span class="evidence-quote-red">"No dose widget available"</span>.
           </td>
         </tr>
 
@@ -298,13 +297,13 @@ async function renderGraphic() {
             <div class="mode-desc">Superseded historical guidelines or obsolete dosing</div>
           </td>
           <td>
-            <span class="pill pill-suppressed">🛡️ Not Observed (0 / 7)</span>
+            <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Zero obsolete guidelines cited across commercial tools (in contrast to foundation LLMs, where Haiku quoted 45 mg/kg in AOM).
+            Resurrects superseded historical guidelines; recommends obsolete low-dose regimens (45 mg/kg/day) for acute infection.
           </td>
           <td>
-            <span class="evidence-text">Guideline recency:</span> 100% of platforms cited modern guidelines. (The pneumonia 415 mg output was arithmetic division dropout, not a stale guideline).
+            <span class="evidence-text">AOM guideline retrieval:</span> Cited 2004 AAP guideline to prescribe <span class="evidence-quote-red">"Amoxicillin 45 mg/kg/day"</span> as standard therapy, relegating high-dose (90 mg/kg/day) to an alternative for severe cases.
           </td>
         </tr>
 
@@ -338,14 +337,14 @@ async function renderGraphic() {
             Audit stems utilized neutral demographic baselines; systematic equity permutations from Part 1 were not re-tested in this cohort.
           </td>
           <td>
-            <span class="evidence-text">Scope boundary:</span> Evaluated acute clinical reasoning across 4 cases. Demographic equity permutations deferred to Part 3.
+            <span class="evidence-text">Scope boundary:</span> Evaluated acute clinical reasoning across cases. Demographic equity permutations deferred to Part 3.
           </td>
         </tr>
       </tbody>
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>5 of the 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, threshold conflation, and arithmetic dropouts). Obsolete guidelines were not observed.</div>
+      <div><strong>Key Discovery:</strong> <strong>All 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, threshold conflation, obsolete 2004 guidelines, and arithmetic dropouts).</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
