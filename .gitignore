@@ -21,6 +21,7 @@ __pycache__/
 
 # generated / local scratch
 posts/
+docs/sessions/
 results/cds_eval/
 share/node_modules/
 share/slides/
