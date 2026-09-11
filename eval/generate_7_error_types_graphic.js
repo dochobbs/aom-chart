@@ -226,33 +226,33 @@ async function renderGraphic() {
         <tr>
           <td>
             <div class="mode-title">Mode 1: Omission</div>
-            <div class="mode-desc">Omits indicated workup or actionable therapeutic dosing</div>
+            <div class="mode-desc">Omits indicated imaging, actionable dosing, or key history</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Transnational guideline conflict: omits US-recommended imaging by citing UK rules; abstains from calculating practical milligram doses.
+            Transnational guideline conflict: omits US-indicated ultrasound via UK rules; punts weight-based milligram calculations to clinicians.
           </td>
           <td>
-            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP recommends RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> / <span class="evidence-quote-red">"No dose widget available"</span>.
+            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> in 24mo US chart (AAP recommends RBUS). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> / <span class="evidence-quote-red">"No dose widget available"</span>.
           </td>
         </tr>
 
         <!-- MODE 2 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 2: Invented Facts</div>
-            <div class="mode-desc">Closed-World Assumption: converts unknown to negative</div>
+            <div class="mode-title">Mode 2: Chart Confabulation</div>
+            <div class="mode-desc">Closed-world assumption: fabricates unstated patient history to force a branch</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Silently manufactures unstated patient facts ("no LOC", "witnessed fall") to force a decisive guideline branch.
+            Silently manufactures unstated patient facts ("no LOC", "witnessed fall") to eliminate ambiguity and force a decisive guideline branch.
           </td>
           <td>
-            <span class="evidence-text">Head trauma triage:</span> <span class="evidence-quote-red">"He has isolated vomiting and no LOC... The history (witnessed short fall) is reassuring"</span> <span style="color:#64748b;">(Prompt stated fall was unwitnessed).</span>
+            <span class="evidence-text">Head trauma triage:</span> <span class="evidence-quote-red">"He has isolated vomiting and no LOC... The history (witnessed short fall) is reassuring"</span> <span style="color:#64748b;">(Prompt stated fall was unwitnessed, LOC unknown).</span>
           </td>
         </tr>
 
@@ -266,24 +266,24 @@ async function renderGraphic() {
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Unwarranted critical-care transport mobilization: triggering immediate 911/EMS dispatch for an alert, stable outpatient.
+            Unwarranted critical-care transport mobilization: triggering immediate 911/EMS dispatch for an alert, stable, nursing outpatient.
           </td>
           <td>
-            <span class="evidence-text">Triage safety:</span> Told clinic staff to <span class="evidence-quote-red">"Activate EMS now"</span> for an infant who was already alert, nursing, and 20+ minutes post-ictal.
+            <span class="evidence-text">Triage escalation:</span> Advised clinic staff to <span class="evidence-quote-red">"Activate EMS now"</span> for an infant who was already alert, nursing, and 20+ minutes post-ictal.
           </td>
         </tr>
 
         <!-- MODE 4 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 4: Citation Failure</div>
-            <div class="mode-desc">Misciting guidelines or conflating criteria thresholds</div>
+            <div class="mode-title">Mode 4: Rule & Threshold Conflation</div>
+            <div class="mode-desc">Scrambles diagnostic criteria, mutates decision thresholds, and invents clinical rules</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Conflates the active 5-minute resuscitation trigger with the 15-minute diagnostic definition of complex febrile seizure.
+            Conflates the active 5-minute resuscitation trigger with the 15-minute diagnostic definition of complex febrile seizure; mutates PECARN age bands.
           </td>
           <td>
             <span class="evidence-text">Febrile seizure criteria:</span> <span class="evidence-quote-red">"This is a complex febrile seizure because it lasted approximately 9 minutes... exceeding 5m threshold"</span> <span style="color:#64748b;">(AAP diagnostic threshold: ≥15m).</span>
@@ -310,17 +310,17 @@ async function renderGraphic() {
         <!-- MODE 6 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 6: Finite-Rule & Math</div>
-            <div class="mode-desc">Arithmetic dropouts and single-dose division errors</div>
+            <div class="mode-title">Mode 6: Calculation & Math Errors</div>
+            <div class="mode-desc">Dosing division errors, contradictory milligram orders, and toxic ceiling inflation</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Arithmetic halving: cuts target daily dose in half during single-dose BID division despite correct initial calculation.
+            Fails basic clinical arithmetic: cuts daily targets in half during interval division, outputs conflicting orders across lines, or inflates toxicity ceilings.
           </td>
           <td>
-            <span class="evidence-text">Pneumonia arithmetic:</span> Prescribed <span class="evidence-quote-red">"415 mg PO every 12 hours"</span> (45 mg/kg/day) after correctly calculating target 1,665 mg/day (90 mg/kg).
+            <span class="evidence-text">Multiple arithmetic failures:</span> (1) Prescribed <span class="evidence-quote-red">"415 mg PO BID"</span> (45 mg/kg/day) after computing 1,665 mg daily target (90 mg/kg); (2) Conflicting 560 mg vs. 280 mg BID orders on adjacent lines; (3) Inflated acetaminophen ceiling to <span class="evidence-quote-red">"maximum 100 mg/kg/day"</span> (max 75 mg/kg).
           </td>
         </tr>
 
@@ -344,7 +344,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>All 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, threshold conflation, obsolete 2004 guidelines, and arithmetic dropouts).</div>
+      <div><strong>Key Discovery:</strong> <strong>All 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, rule/threshold conflation, obsolete 2004 guidelines, and calculation/math errors).</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
