@@ -233,10 +233,10 @@ async function renderGraphic() {
             <span class="pill pill-active">⚠️ Observed in Audit</span>
           </td>
           <td>
-            Transnational guideline conflict: omits US-mandated imaging by citing UK rules; abstains from calculating practical milligram doses.
+            Transnational guideline conflict: omits US-recommended imaging by citing UK rules; abstains from calculating practical milligram doses.
           </td>
           <td>
-            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP mandates RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> (AMBOSS); <span class="evidence-quote-red">"No dose widget available"</span> (ChatGPT).
+            <span class="evidence-text">Ultrasound omission:</span> Cited UK NICE 224 to advise <span class="evidence-quote-red">"No immediate renal/bladder ultrasound"</span> for a 24mo US chart (AAP recommends RBUS for 2–24mo). <span class="evidence-text">Dosing omission:</span> Punted math: <span class="evidence-quote-red">"Retrieved sources do not provide a dose"</span> (AMBOSS); <span class="evidence-quote-red">"No dose widget available"</span> (ChatGPT).
           </td>
         </tr>
 
