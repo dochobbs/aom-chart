@@ -242,8 +242,8 @@ async function renderGraphic() {
         <!-- MODE 2 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 2: Chart Confabulation</div>
-            <div class="mode-desc">Closed-world assumption: fabricates unstated patient history to force a branch</div>
+            <div class="mode-title">Mode 2: Invented Facts</div>
+            <div class="mode-desc">Chart confabulation: fabricates unstated clinical history to force a branch</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
@@ -276,8 +276,8 @@ async function renderGraphic() {
         <!-- MODE 4 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 4: Rule & Threshold Conflation</div>
-            <div class="mode-desc">Scrambles diagnostic criteria, mutates decision thresholds, and invents clinical rules</div>
+            <div class="mode-title">Mode 4: Citation Failure</div>
+            <div class="mode-desc">Threshold conflation: scrambles diagnostic criteria with acute rescue triggers</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
@@ -310,8 +310,8 @@ async function renderGraphic() {
         <!-- MODE 6 -->
         <tr>
           <td>
-            <div class="mode-title">Mode 6: Calculation & Math Errors</div>
-            <div class="mode-desc">Dosing division errors, contradictory milligram orders, and toxic ceiling inflation</div>
+            <div class="mode-title">Mode 6: Finite-Rule Error</div>
+            <div class="mode-desc">Calculation & math: dose halving, conflicting orders, and toxic ceiling inflation</div>
           </td>
           <td>
             <span class="pill pill-active">⚠️ Observed in Audit</span>
@@ -344,7 +344,7 @@ async function renderGraphic() {
     </table>
 
     <div class="footer-box">
-      <div><strong>Key Discovery:</strong> <strong>All 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, rule/threshold conflation, obsolete 2004 guidelines, and calculation/math errors).</div>
+      <div><strong>Key Discovery:</strong> <strong>All 6 evaluated AI failure modes</strong> actively recurred across commercial CDS platforms (transnational omission, chart confabulation, emergency over-escalation, threshold conflation, obsolete 2004 guidelines, and calculation/math errors).</div>
       <div>Repository: <code>github.com/dochobbs/aom-chart</code></div>
     </div>
   </div>
