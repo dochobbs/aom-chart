@@ -307,8 +307,20 @@ Get one-keystroke access to Ask, Scribe, and Dialer — right from your menu bar
 
 Download
 Not now
----
 ```
 
 ---
 
+## Follow-Up Audit: Fresh 3-Replicate AOM Battery (September 10, 2026)
+
+In addition to the August 25 baseline runs above, a fresh 3-replicate AOM evaluation was conducted on September 10, 2026 via live session [ab7448b1-7377-415a-a611-d7a81c6c7af5](https://www.doximity.com/docs-gpt/chats/ab7448b1-7377-415a-a611-d7a81c6c7af5). 
+
+The raw traces, JSON records, and forensic analysis are archived in:
+* **Directory:** [`results/cds/doximity_aom_fresh/`](doximity_aom_fresh/)
+* **Summary & Cross-Trace Analysis:** [`results/cds/doximity_aom_fresh/README.md`](doximity_aom_fresh/README.md)
+* **Replicate Traces:** [`rep1.md`](doximity_aom_fresh/rep1.md), [`rep2.md`](doximity_aom_fresh/rep2.md), [`rep3.md`](doximity_aom_fresh/rep3.md)
+
+### Key Findings from Follow-Up Battery:
+1. **Mode 5 (Stale Guidance):** Replicate 3 resurrected the obsolete 2004 AAP guideline (*Pediatrics* 2004) to prescribe low-dose amoxicillin (45 mg/kg/day) as standard therapy, relegating high-dose (90 mg/kg/day) to severe cases.
+2. **Mode 6 (Finite-Rule Error / Math Contradiction):** Replicate 3 generated conflicting dosing orders on adjacent lines (`~560 mg PO twice daily` vs. `280 mg PO BID`). Replicate 2 inflated the maximum safe acetaminophen ceiling to **100 mg/kg/day** (AAP limit is 75 mg/kg/day).
+3. **Mode 4 (Citation Failure):** Replicate 2 scrambled RAG footnotes, citing FDA IV and rectal (PR) acetaminophen monographs for oral antibiotic failure rates and spontaneous resolution.
